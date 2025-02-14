@@ -25,6 +25,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1030;
+  width: 100%;
 }
 
 .footer {
@@ -211,11 +212,7 @@ body {
 @media (max-width: 991.98px) {
   .navbar {
     height: 80px;
-  }
-
-  .hero {
-    margin-top: -80px;
-    padding-top: 80px;
+    background: var(--brand-color) !important;
   }
 
   .navbar-brand {
@@ -256,10 +253,17 @@ body {
     padding: 1rem;
   }
 
-  .nav-link {
+  /* Corrigir cor dos links no menu mobile */
+  .navbar-collapse .nav-link {
     height: 50px;
-    color: var(--text-primary) !important;
+    color: var(--text-primary) !important; /* Cor escura para contraste */
     padding: 0.5rem 1rem !important;
+  }
+
+  /* Hover state para os links no mobile */
+  .navbar-collapse .nav-link:hover {
+    color: var(--brand-color) !important;
+    background-color: var(--bg-light);
   }
 }
 
@@ -299,27 +303,27 @@ body {
 /* Ajuste do conteúdo principal */
 main {
   position: relative;
-  z-index: 1; /* Menor que o z-index da navbar */
+  z-index: 0;
   background: var(--bg-light);
   min-height: calc(100vh - 140px);
+  overflow-x: hidden;
 }
 
 /* Ajustes específicos para diferentes tipos de página */
 .quarto-title-block {
-  margin-top: -40px; /* Compensa parte do padding do main quando há título */
-  margin-bottom: 2rem;
   position: relative;
+  margin-bottom: 2rem;
 }
 
-/* Hero section com ajuste específico */
+/* Hero section */
 .hero {
   position: relative;
-  z-index: 1;
-  padding: 5rem 0;
   background: linear-gradient(135deg, var(--brand-color) 0%, var(--brand-color-light) 100%);
+  padding: 5rem 0;
+  margin-top: -140px; /* Altura exata da navbar */
+  padding-top: 140px; /* Compensar o margin negativo */
   overflow: hidden;
-  margin-top: -140px;
-  padding-top: 140px;
+  z-index: 0;
 }
 
 .hero::before {
