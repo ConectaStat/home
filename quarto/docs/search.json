@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Bem-vindo ao Conecta Stat",
     "section": "",
-    "text": "Conectando pessoas através da estatística e ciência de dados\nConheça nossos projetos"
+    "text": "Somos um hub de conhecimento que conecta pesquisa, ensino e extensão em Estatística, formando profissionais e gerando soluções para os desafios da sociedade.\n\n\nConheça nossos projetos Entre em contato\n::: ::: ::: :::\n:::"
   },
   {
     "objectID": "index.html#destaques",
     "href": "index.html#destaques",
     "title": "Bem-vindo ao Conecta Stat",
     "section": "Destaques",
-    "text": "Destaques\n\n\nProjetos\nExplore nossos projetos de pesquisa e desenvolvimento em estatística e análise de dados.\nVer projetos →\n\n\nEventos\nParticipe de nossos seminários, workshops e encontros acadêmicos.\nVer agenda →\n\n\nEquipe\nConheça nossos professores, pesquisadores e estudantes.\nConhecer equipe →"
+    "text": "Destaques\n\n\n\n\n\nProjetos em Destaque\nExplore nossos principais projetos de pesquisa e desenvolvimento em estatística e análise de dados.\nVer projetos →\n\n\n\n\n\n\n\nPróximos Eventos\nParticipe de nossos seminários, workshops e encontros acadêmicos.\nVer agenda →\n\n\n\n\n\n\n\nÚltimas Publicações\nConfira nossas publicações mais recentes e contribuições científicas.\nVer publicações →"
   },
   {
     "objectID": "projects.html",
@@ -75,5 +75,107 @@
     "title": "Pessoas",
     "section": "",
     "text": "(Conteúdo será adicionado)"
+  },
+  {
+    "objectID": "projects.html#linhas-de-pesquisa",
+    "href": "projects.html#linhas-de-pesquisa",
+    "title": "Projetos",
+    "section": "",
+    "text": "O Departamento de Estatística desenvolve pesquisas em diversas áreas, incluindo:\n\nAnálise de Dados Espaciais\nAprendizado de Máquina\nBioestatística\nEstatística Bayesiana\nSéries Temporais",
+    "crumbs": [
+      "Projetos"
+    ]
+  },
+  {
+    "objectID": "projects.html#projetos-em-destaque",
+    "href": "projects.html#projetos-em-destaque",
+    "title": "Projetos",
+    "section": "Projetos em Destaque",
+    "text": "Projetos em Destaque\n\n\nAnálise Espacial\nDesenvolvimento de métodos estatísticos para análise de dados espaciais e suas aplicações em problemas reais.\nSaiba mais\n\n\nMachine Learning\nPesquisas em métodos de aprendizado de máquina e suas aplicações em problemas estatísticos.\nEm breve",
+    "crumbs": [
+      "Projetos"
+    ]
+  },
+  {
+    "objectID": "projects.html#todos-os-projetos",
+    "href": "projects.html#todos-os-projetos",
+    "title": "Projetos",
+    "section": "Todos os Projetos",
+    "text": "Todos os Projetos\nPara ver todos os nossos projetos e publicações, visite nossa página de posts.",
+    "crumbs": [
+      "Projetos"
+    ]
+  },
+  {
+    "objectID": "events.html#próximos-eventos",
+    "href": "events.html#próximos-eventos",
+    "title": "Eventos",
+    "section": "",
+    "text": "Data: 15 de Março de 2024\nLocal: Sala 101, Departamento de Estatística\nHorário: 14:00 - 18:00\nWorkshop hands-on sobre análise de dados utilizando R, voltado para iniciantes e intermediários.\nInscreva-se\n\n\n\nData: 20 de Março de 2024\nLocal: Auditório Principal\nHorário: 10:00 - 12:00\nApresentação de métodos avançados em estatística espacial e suas aplicações.\nMais informações",
+    "crumbs": [
+      "Eventos"
+    ]
+  },
+  {
+    "objectID": "events.html#calendário-de-eventos",
+    "href": "events.html#calendário-de-eventos",
+    "title": "Eventos",
+    "section": "Calendário de Eventos",
+    "text": "Calendário de Eventos",
+    "crumbs": [
+      "Eventos"
+    ]
+  },
+  {
+    "objectID": "events.html#eventos-anteriores",
+    "href": "events.html#eventos-anteriores",
+    "title": "Eventos",
+    "section": "Eventos Anteriores",
+    "text": "Eventos Anteriores\nPara ver o histórico de eventos realizados, clique aqui.",
+    "crumbs": [
+      "Eventos"
+    ]
+  },
+  {
+    "objectID": "index.html#transformando-dados-em-conhecimento",
+    "href": "index.html#transformando-dados-em-conhecimento",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "",
+    "text": "Conheça nossos projetos Entre em contato"
+  },
+  {
+    "objectID": "index.html#sobre-o-departamento",
+    "href": "index.html#sobre-o-departamento",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "Sobre o Departamento",
+    "text": "Sobre o Departamento\n\n\n\nMissão\nFormar profissionais e pesquisadores de excelência em Estatística e Ciência de Dados, contribuindo para o avanço científico e desenvolvimento da sociedade através da análise de dados e metodologias estatísticas inovadoras.\n\n\n\n\nVisão\nSer referência nacional em ensino, pesquisa e extensão em Estatística, promovendo inovação e impacto social através da análise de dados e formando líderes para os desafios do futuro.\n\n\n\n\nValores\n\nExcelência acadêmica e científica\nInovação e pensamento crítico\nCompromisso social e ético\nColaboração e interdisciplinaridade\nTransparência e reprodutibilidade\n\n\n\n\n\n\n\n20+\nProfessores Doutores ::: {.number-subtitle} Especialistas em diversas áreas\n\n\n\n\n\n30+\nProjetos Ativos ::: {.number-subtitle} Pesquisa e extensão"
+  },
+  {
+    "objectID": "index.html#áreas-de-atuação",
+    "href": "index.html#áreas-de-atuação",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "Áreas de Atuação",
+    "text": "Áreas de Atuação\n\n\n\nEstatística Aplicada\nMetodologias estatísticas aplicadas a problemas reais em diversas áreas do conhecimento.\n\n\n\n\nCiência de Dados\nAnálise avançada de dados, machine learning e desenvolvimento de soluções computacionais.\n\n\n\n\nBioestatística\nAplicações estatísticas em pesquisas biomédicas, epidemiologia e saúde pública.\n\n\n\n\nEstatística Espacial\nAnálise de dados georreferenciados e modelagem espacial para problemas ambientais e sociais.\n\n\n\n\n\n\nSéries Temporais\nAnálise e previsão de dados temporais para mercado financeiro e fenômenos naturais.\n\n\n\n\nAmostragem\nDesenvolvimento de planos amostrais e pesquisas estatísticas para grandes populações.\n\n\n\n\nEstatística Bayesiana\nInferência estatística utilizando métodos bayesianos em problemas complexos.\n\n\n\n\nConsultoria Estatística\nSuporte estatístico para pesquisas acadêmicas e projetos empresariais."
+  },
+  {
+    "objectID": "index.html#faça-parte-da-nossa-comunidade",
+    "href": "index.html#faça-parte-da-nossa-comunidade",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "Faça Parte da Nossa Comunidade",
+    "text": "Faça Parte da Nossa Comunidade\nVenha conhecer mais sobre nossos projetos e oportunidades de colaboração. ::: {.cta-text .mb-4} Junte-se a nós na missão de transformar dados em conhecimento e impacto social."
+  },
+  {
+    "objectID": "index.html#inovação-em-estatística-e-ciência-de-dados",
+    "href": "index.html#inovação-em-estatística-e-ciência-de-dados",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "",
+    "text": "Somos um hub de conhecimento que conecta pesquisa, ensino e extensão em Estatística, formando profissionais e gerando soluções para os desafios da sociedade.\n\n\nConheça nossos projetos Entre em contato"
+  },
+  {
+    "objectID": "index.html#últimas-novidades",
+    "href": "index.html#últimas-novidades",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "Últimas Novidades",
+    "text": "Últimas Novidades\n\n\n\nProcesso Seletivo 2024\nInscrições abertas para o programa de pós-graduação em Estatística.\nSaiba mais →\n\n\n\n\nSeminário Internacional\nWorkshop sobre Métodos Estatísticos em Ciência de Dados.\nSaiba mais →\n\n\n\n\nNova Parceria\nColaboração com instituto de pesquisa para análise de dados ambientais.\nSaiba mais →"
   }
 ]

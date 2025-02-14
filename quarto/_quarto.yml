@@ -1,42 +1,29 @@
 project:
   type: website
-  output-dir: docs # Para GitHub Pages
+  output-dir: docs
 
 website:
   title: "Conecta Stat"
   navbar:
-    background: none
-    search: false  # Removido por enquanto para simplificar
-    collapse-below: lg
     left:
-      - text: "PEOPLE"
-        href: people.qmd
-      - text: "RESEARCH AREAS"
-        href: research.qmd
-      - text: "PUBLICATIONS"
-        href: publications.qmd
-      - text: "CODES"
-        href: codes.qmd
-      - text: "NEWS"
-        href: news.qmd
-      - text: "CONTACT"
-        href: contact.qmd
-    right:
-      - icon: search
-        aria-label: search
+      - href: index.qmd
+        text: Home
+      - href: people.qmd
+        text: Pessoas
+      - href: projects.qmd
+        text: Projetos
+      - href: events.qmd
+        text: Eventos
+      - href: contact.qmd
+        text: Contato
   page-footer:
-    left: "© 2024 Conecta Stat. Todos os direitos reservados."
-    right:
-      - icon: github
-        href: https://github.com/seu-usuario/conecta-stat
+    left: "© 2024 Departamento de Estatística"
+    right: "Desenvolvido com [Quarto](https://quarto.org/)"
 
 format:
   html:
-    theme:
-      light: [cosmo, custom.scss]
+    theme: cosmo
     css: styles.css
-    lang: pt
-    mainfont: "Roboto, sans-serif"
 
 
 

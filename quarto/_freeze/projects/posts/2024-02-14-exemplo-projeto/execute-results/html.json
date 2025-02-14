@@ -1,0 +1,15 @@
+{
+  "hash": "3047910b284d16d03ce93c67685fe8ca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Análise de Dados Espaciais em R\"\ndescription: \"Um estudo sobre métodos estatísticos para análise de dados espaciais utilizando R\"\nauthor:\n  - name: João Silva\n    url: https://exemplo.com\n    affiliation: Departamento de Estatística\n    affiliation-url: https://exemplo.com\ndate: 2024-02-14\ncategories: [R, Análise Espacial, Metodologia]\nimage: https://via.placeholder.com/300x200.png\ndraft: false\n---\n\n\n\n\n## Introdução\n\nA análise de dados espaciais é uma área fundamental da estatística moderna, combinando conceitos de geoestatística com métodos computacionais avançados.\n\n## Objetivos\n\n- Desenvolver novos métodos para análise espacial\n- Implementar algoritmos eficientes em R\n- Aplicar técnicas em casos reais\n\n## Metodologia\n\nNossa abordagem combina:\n\n1. Análise exploratória de dados espaciais\n2. Modelagem geoestatística\n3. Validação cruzada espacial\n\n## Resultados Preliminares\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n## Próximos Passos\n\n- Expandir a análise para dados temporais\n- Desenvolver um pacote R\n- Publicar resultados em revista científica\n\n## Referências\n\n1. Cressie, N. (1993). Statistics for Spatial Data\n2. Bivand, R. S., Pebesma, E., & Gómez-Rubio, V. (2013). Applied Spatial Data Analysis with R ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,40 +1,250 @@
 ---
 title: "Bem-vindo ao Conecta Stat"
+page-layout: full
 ---
 
-::: {.hero}
-# Conecta Stat
+::: {.hero-section}
+::: {.hero-content}
+# Conecta Stat {.hero-title}
+## Inovação em Estatística e Ciência de Dados {.hero-subtitle}
 
-Conectando pessoas através da estatística e ciência de dados
-
-[Conheça nossos projetos](projects.qmd){.btn .btn-light .btn-lg}
+::: {.hero-text .mb-4}
+Somos um hub de conhecimento que conecta pesquisa, ensino e extensão em Estatística,
+formando profissionais e gerando soluções para os desafios da sociedade.
 :::
 
-::: {.content-section .py-5}
-## Destaques
+::: {.hero-buttons}
+[Conheça nossos projetos](projects.qmd){.btn .btn-primary .btn-lg}
+[Entre em contato](contact.qmd){.btn .btn-outline-light .btn-lg}
+:::
+:::
+:::
 
-::: {.featured-grid}
+::: {.about-section .py-5}
+::: {.container}
+## Sobre o Departamento {.section-title .text-center}
 
-::: {.grid-item}
-### Projetos
-Explore nossos projetos de pesquisa e desenvolvimento em estatística e análise de dados.
+::: {.row .mt-4}
+::: {.col-md-4}
+::: {.about-card}
+### Missão
+Formar profissionais e pesquisadores de excelência em Estatística e Ciência de Dados, contribuindo para o avanço científico e desenvolvimento da sociedade através da análise de dados e metodologias estatísticas inovadoras.
+:::
+:::
+
+::: {.col-md-4}
+::: {.about-card}
+### Visão
+Ser referência nacional em ensino, pesquisa e extensão em Estatística, promovendo inovação e impacto social através da análise de dados e formando líderes para os desafios do futuro.
+:::
+:::
+
+::: {.col-md-4}
+::: {.about-card}
+### Valores
+- Excelência acadêmica e científica
+- Inovação e pensamento crítico
+- Compromisso social e ético
+- Colaboração e interdisciplinaridade
+- Transparência e reprodutibilidade
+:::
+:::
+:::
+
+::: {.row .mt-5 .numbers-row}
+::: {.col-md-3 .text-center}
+::: {.number-card}
+#### 20+
+Professores Doutores
+::: {.number-subtitle}
+Especialistas em diversas áreas
+:::
+:::
+:::
+
+::: {.col-md-3 .text-center}
+::: {.number-card}
+#### 30+
+Projetos Ativos
+::: {.number-subtitle}
+Pesquisa e extensão
+:::
+:::
+:::
+
+::: {.col-md-3 .text-center}
+::: {.number-card}
+#### 100+
+Publicações
+::: {.number-subtitle}
+Últimos 5 anos
+:::
+:::
+:::
+
+::: {.col-md-3 .text-center}
+::: {.number-card}
+#### 500+
+Alunos Formados
+::: {.number-subtitle}
+Impactando o mercado
+:::
+:::
+:::
+:::
+:::
+:::
+
+::: {.news-section .py-5}
+::: {.container}
+## Últimas Novidades {.section-title .text-center}
+
+::: {.row .mt-4}
+::: {.col-md-4}
+::: {.news-card}
+### Processo Seletivo 2024
+Inscrições abertas para o programa de pós-graduação em Estatística.
+
+[Saiba mais →](news/processo-seletivo-2024.qmd){.btn .btn-sm .btn-primary}
+:::
+:::
+
+::: {.col-md-4}
+::: {.news-card}
+### Seminário Internacional
+Workshop sobre Métodos Estatísticos em Ciência de Dados.
+
+[Saiba mais →](events/seminario-internacional.qmd){.btn .btn-sm .btn-primary}
+:::
+:::
+
+::: {.col-md-4}
+::: {.news-card}
+### Nova Parceria
+Colaboração com instituto de pesquisa para análise de dados ambientais.
+
+[Saiba mais →](news/nova-parceria.qmd){.btn .btn-sm .btn-primary}
+:::
+:::
+:::
+:::
+:::
+
+::: {.highlights-section .py-5 .bg-light}
+::: {.container}
+## Destaques {.section-title .text-center}
+
+::: {.row .mt-4}
+::: {.col-md-4}
+::: {.highlight-card}
+![](images/projects-icon.svg){.card-icon}
+
+### Projetos em Destaque
+Explore nossos principais projetos de pesquisa e desenvolvimento em estatística e análise de dados.
 
 [Ver projetos →](projects.qmd){.btn .btn-primary}
 :::
+:::
 
-::: {.grid-item}
-### Eventos
+::: {.col-md-4}
+::: {.highlight-card}
+![](images/events-icon.svg){.card-icon}
+
+### Próximos Eventos
 Participe de nossos seminários, workshops e encontros acadêmicos.
 
 [Ver agenda →](events.qmd){.btn .btn-primary}
 :::
-
-::: {.grid-item}
-### Equipe
-Conheça nossos professores, pesquisadores e estudantes.
-
-[Conhecer equipe →](people.qmd){.btn .btn-primary}
 :::
 
+::: {.col-md-4}
+::: {.highlight-card}
+![](images/news-icon.svg){.card-icon}
+
+### Últimas Publicações
+Confira nossas publicações mais recentes e contribuições científicas.
+
+[Ver publicações →](publications.qmd){.btn .btn-primary}
+:::
+:::
+:::
+:::
+:::
+
+::: {.areas-section .py-5}
+::: {.container}
+## Áreas de Atuação {.section-title .text-center}
+
+::: {.row .mt-4 .areas-slider}
+::: {.col-md-3}
+::: {.area-card}
+### Estatística Aplicada
+Metodologias estatísticas aplicadas a problemas reais em diversas áreas do conhecimento.
+:::
+:::
+
+::: {.col-md-3}
+::: {.area-card}
+### Ciência de Dados
+Análise avançada de dados, machine learning e desenvolvimento de soluções computacionais.
+:::
+:::
+
+::: {.col-md-3}
+::: {.area-card}
+### Bioestatística
+Aplicações estatísticas em pesquisas biomédicas, epidemiologia e saúde pública.
+:::
+:::
+
+::: {.col-md-3}
+::: {.area-card}
+### Estatística Espacial
+Análise de dados georreferenciados e modelagem espacial para problemas ambientais e sociais.
+:::
+:::
+:::
+
+::: {.row .mt-4 .areas-slider}
+::: {.col-md-3}
+::: {.area-card}
+### Séries Temporais
+Análise e previsão de dados temporais para mercado financeiro e fenômenos naturais.
+:::
+:::
+
+::: {.col-md-3}
+::: {.area-card}
+### Amostragem
+Desenvolvimento de planos amostrais e pesquisas estatísticas para grandes populações.
+:::
+:::
+
+::: {.col-md-3}
+::: {.area-card}
+### Estatística Bayesiana
+Inferência estatística utilizando métodos bayesianos em problemas complexos.
+:::
+:::
+
+::: {.col-md-3}
+::: {.area-card}
+### Consultoria Estatística
+Suporte estatístico para pesquisas acadêmicas e projetos empresariais.
+:::
+:::
+:::
+:::
+:::
+
+::: {.cta-section .py-5}
+::: {.container .text-center}
+## Faça Parte da Nossa Comunidade {.cta-title}
+Venha conhecer mais sobre nossos projetos e oportunidades de colaboração.
+::: {.cta-text .mb-4}
+Junte-se a nós na missão de transformar dados em conhecimento e impacto social.
+:::
+
+[Entre em Contato](contact.qmd){.btn .btn-primary .btn-lg .mt-3}
 :::
 :::
