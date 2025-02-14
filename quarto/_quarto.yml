@@ -17,8 +17,18 @@ website:
       - href: contact.qmd
         text: Contato
   page-footer:
-    left: "© 2024 Departamento de Estatística"
-    right: "Desenvolvido com [Quarto](https://quarto.org/)"
+    left: |
+      **Conecta Stat**  
+      Hub de Inovação em Estatística
+      
+      Departamento de Estatística  
+      Universidade Federal de Lavras - UFLA
+      
+      [![Email](https://img.shields.io/badge/Email-conecta.stat.ufla@gmail.com-f7fafc?style=for-the-badge&logo=gmail&logoColor=4a5568&color=f7fafc&labelColor=f7fafc)](mailto:conecta.stat.ufla@gmail.com)
+      [![GitHub](https://img.shields.io/badge/GitHub-conecta--stat-f7fafc?style=for-the-badge&logo=github&logoColor=4a5568&color=f7fafc&labelColor=f7fafc)](https://github.com/conecta-stat)
+    right: |
+      Desenvolvido com [Quarto](https://quarto.org/){target="_blank"}  
+      © 2025 UFLA
 
 format:
   html:

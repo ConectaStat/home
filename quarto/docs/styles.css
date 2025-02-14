@@ -6,7 +6,7 @@
   --brand-color-light: #2c4c7c;
   --text-primary: #2d3748;
   --text-secondary: #4a5568;
-  --bg-light: #f7fafc;
+  --bg-light: #ffffff;
   --border-color: #e2e8f0;
 }
 
@@ -29,8 +29,83 @@ body {
 }
 
 .footer {
-  padding: 2rem 0;
-  background-color: var(--light-bg);
+  background: #ffffff;
+  color: var(--text-primary);
+  padding: 4rem 2rem;
+  position: relative;
+  margin-top: 4rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: none;
+  opacity: 0;
+}
+
+.footer > div {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.footer img {
+  margin: 0.25rem 0;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer img:hover {
+  transform: translateY(-1px);
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.8;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.footer strong {
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.footer a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Responsividade do Footer */
+@media (max-width: 991.98px) {
+  .footer {
+    padding: 3rem 1.5rem;
+  }
+
+  .footer > div {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
 }
 
 /* Estilos responsivos */
@@ -118,22 +193,6 @@ body {
   padding: 0.75rem;
   border: 1px solid #ddd;
   border-radius: 4px;
-}
-
-/* Footer personalizado */
-.footer {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 3rem 0;
-}
-
-.footer a {
-  color: rgba(255,255,255,0.8);
-}
-
-.footer a:hover {
-  color: white;
-  text-decoration: none;
 }
 
 /* Container do navbar */
@@ -315,11 +374,11 @@ body {
 main {
   position: relative;
   z-index: 0;
-  background: var(--bg-light);
+  background: #ffffff;
   min-height: calc(100vh - 140px);
   overflow-x: hidden;
-  margin-top: 0; /* Reset margin */
-  padding-top: 0; /* Reset padding */
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /* Ajustes específicos para diferentes tipos de página */
@@ -500,7 +559,7 @@ main {
 
 /* Highlights Section */
 .highlights-section {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 .highlight-card {
@@ -745,7 +804,7 @@ main {
 
 /* News Section */
 .news-section {
-    background-color: var(--bg-light);
+    background-color: #ffffff;
     padding: 4rem 0;
 }
 
@@ -872,32 +931,32 @@ main {
 
 /* Gradientes para os cards */
 .mission-card {
-    background: linear-gradient(135deg, #f8f9ff 0%, white 100%);
+    background: #ffffff;
     border: 1px solid rgba(33, 150, 243, 0.1);
 }
 
 .mission-card:hover {
-    background: linear-gradient(135deg, #f0f4ff 0%, white 100%);
+    background: #ffffff;
     border-color: rgba(33, 150, 243, 0.2);
 }
 
 .vision-card {
-    background: linear-gradient(135deg, #f8fff9 0%, white 100%);
+    background: #ffffff;
     border: 1px solid rgba(76, 175, 80, 0.1);
 }
 
 .vision-card:hover {
-    background: linear-gradient(135deg, #f0fff2 0%, white 100%);
+    background: #ffffff;
     border-color: rgba(76, 175, 80, 0.2);
 }
 
 .values-card {
-    background: linear-gradient(135deg, #fdf8ff 0%, white 100%);
+    background: #ffffff;
     border: 1px solid rgba(156, 39, 176, 0.1);
 }
 
 .values-card:hover {
-    background: linear-gradient(135deg, #f8f0ff 0%, white 100%);
+    background: #ffffff;
     border-color: rgba(156, 39, 176, 0.2);
 }
 
@@ -911,7 +970,7 @@ main {
 
 .item-card {
     padding: 1.2rem;
-    background: rgba(255, 255, 255, 0.7);
+    background: #ffffff;
     border-radius: 8px;
     transition: all 0.3s ease;
     text-align: center;
@@ -921,7 +980,7 @@ main {
 
 .item-card:hover {
     transform: translateY(-3px);
-    background: rgba(255, 255, 255, 0.9);
+    background: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
@@ -930,46 +989,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
-.mvv-icon {
-    font-size: 1.4rem;
-    height: 44px;
-    width: 44px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: rgba(0,0,0,0.03);
-    transition: all 0.3s ease;
-    margin-bottom: 0.8rem;
-}
-
-.mvv-icon i {
-    line-height: 1;
-}
-
-.mission-card .mvv-icon {
-    color: #1976D2;
-}
-
-.vision-card .mvv-icon {
-    color: #388E3C;
-}
-
-.values-card .mvv-icon {
-    color: #7B1FA2;
-}
-
-.mvv-card:hover .mvv-icon {
-    transform: scale(1.1);
-    background: rgba(0,0,0,0.05);
-}
-
 .mvv-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: var(--text-primary);
     font-weight: 600;
     margin: 0;
@@ -980,6 +1005,13 @@ main {
     line-height: 1.5;
     font-size: 0.92rem;
     text-align: center;
+}
+
+/* Removendo estilos dos ícones que não são mais necessários */
+.mission-card .mvv-icon,
+.vision-card .mvv-icon,
+.values-card .mvv-icon {
+    display: none;
 }
 
 /* Responsive Adjustments */

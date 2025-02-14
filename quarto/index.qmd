@@ -1,6 +1,7 @@
 ---
-title: "Bem-vindo ao Conecta Stat"
+title: "Bem-vind@ ao Conecta Stat"
 page-layout: full
+title-meta: "Conecta Stat"
 ---
 
 ::: {.hero-section}
@@ -28,9 +29,6 @@ Hub de inovação que integra pesquisa avançada, formação especializada e pro
 ::: {.col-md-6 .mb-4}
 ::: {.mvv-card .mission-card}
 ::: {.mvv-header}
-::: {.mvv-icon}
-<i class="fas fa-bullseye"></i>
-:::
 ### Missão {.mvv-title}
 :::
 
@@ -60,9 +58,6 @@ Projetos com impacto direto
 ::: {.col-md-6 .mb-4}
 ::: {.mvv-card .vision-card}
 ::: {.mvv-header}
-::: {.mvv-icon}
-<i class="fas fa-eye"></i>
-:::
 ### Visão {.mvv-title}
 :::
 
@@ -94,9 +89,6 @@ Soluções transformadoras
 ::: {.col-12}
 ::: {.mvv-card .values-card}
 ::: {.mvv-header}
-::: {.mvv-icon}
-<i class="fas fa-heart"></i>
-:::
 ### Valores {.mvv-title}
 :::
 
