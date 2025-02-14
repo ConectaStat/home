@@ -248,9 +248,10 @@ body {
 .navbar-nav {
   height: 140px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding-left: 2rem;
-  margin: 0; /* Reset margin */
+  padding-bottom: 0.5rem;
+  margin: 0;
 }
 
 /* Links do menu */
@@ -260,12 +261,58 @@ body {
   font-weight: 500 !important;
   letter-spacing: 1.8px;
   padding: 0 1.8rem !important;
-  height: 140px;
+  height: 50px !important;
   display: flex !important;
   align-items: center;
   border: none !important;
   position: relative;
   transition: all 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Efeito de sublinhado expandindo do centro */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--brand-color);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.nav-link:hover::after {
+  width: calc(100% - 3.6rem);
+  opacity: 1;
+}
+
+/* Ajuste para o mobile */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    height: auto;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-link {
+    height: 40px !important;
+    margin: 0;
+    width: 100%;
+  }
+
+  .nav-link::after {
+    bottom: 0;
+    left: 0;
+    transform: none;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
 }
 
 /* Ajuste do menu dropdown */
@@ -309,7 +356,7 @@ body {
     top: 80px;
     left: 0;
     right: 0;
-    z-index: 1029; /* Menor que a navbar */
+    z-index: 1029;
     border-top: 1px solid var(--border-color);
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   }
@@ -323,7 +370,7 @@ body {
   /* Corrigir cor dos links no menu mobile */
   .navbar-collapse .nav-link {
     height: 50px;
-    color: var(--text-primary) !important; /* Cor escura para contraste */
+    color: var(--text-primary) !important;
     padding: 0.5rem 1rem !important;
     width: 100%;
     margin: 0;
@@ -392,8 +439,8 @@ main {
   position: relative;
   background: linear-gradient(135deg, var(--brand-color) 0%, var(--brand-color-light) 100%);
   padding: 5rem 0;
-  margin-top: -140px; /* Altura exata da navbar */
-  padding-top: 140px; /* Compensar o margin negativo */
+  margin-top: -140px;
+  padding-top: 140px;
   overflow: hidden;
   z-index: 0;
 }
@@ -419,7 +466,7 @@ main {
 /* Mobile */
 @media (max-width: 991.98px) {
   main {
-    padding-top: 100px; /* Menor padding no mobile por causa da navbar menor */
+    padding-top: 100px;
   }
   
   .hero {
