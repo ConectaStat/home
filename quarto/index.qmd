@@ -1,0 +1,13 @@
+---
+title: "Bem-vindo ao Conecta Stat"
+---
+
+# Conecta Stat
+
+Bem-vindo ao portal do Departamento de Estatística. Aqui você encontrará informações sobre nossos projetos, eventos e membros da equipe.
+
+## Destaques
+
+- Projetos em andamento
+- Próximos eventos
+- Publicações recentes

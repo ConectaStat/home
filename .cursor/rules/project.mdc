@@ -1,0 +1,84 @@
+---
+description: general project guide
+globs: 
+---
+# Conecta Stat Project - Development Guidelines
+
+IMPORTANT: content should be writen in pt-br
+
+## Project Objective
+Modern institutional website for UFLA's Statistics Department, focused on connecting the academic community with external audiences. The project aims to present statistics and data science in an accessible and professional manner.
+
+## Technical Stack
+- Main Framework: Quarto
+- Programming Language: R
+- Styling: CSS
+- Hosting: GitHub Pages
+
+## Design Guidelines
+- Minimalist and elegant style
+- White background as base
+- Limited and consistent color palette
+- Clean and organized layout
+- Responsiveness as priority
+- No complex interactive elements in initial phase
+
+## Site Structure
+1. Home
+   - Impactful visual presentation
+   - Clear department proposal summary
+   - Projects/people highlights
+
+2. People/Team
+   - Faculty
+   - Current students
+   - Alumni highlights
+   - Card format with essential information
+
+3. Projects
+   - Technical blog format
+   - Focus on practical cases
+   - Accessible language
+   - Clear categorization
+
+4. Alumni Dashboard
+   - Alumni data visualization
+   - Employability metrics
+   - Areas of expertise
+
+5. Events
+   - Updated calendar
+   - Past events history
+   - Highlight system for upcoming events
+
+6. Contact
+   - Simple form
+   - Institutional information
+   - Social media links
+
+## Content Guidelines
+- Tone: Professional but accessible
+- Target audience: Students, professionals from other fields, general public
+- Focus on demonstrating practical applications of statistics
+- Bilingual content (future preparation for automatic translation)
+
+## Technical Requirements
+- SEO-friendly
+- Optimized performance
+- Responsive for all devices
+- Basic accessibility guaranteed
+- Preparation for future internationalization
+
+## Updates and Maintenance
+- Events: Monthly updates
+- Projects: Biweekly/monthly technical posts
+- People: Semesterly updates
+- Dashboard: Quarterly updates
+
+## Phase 1 Development
+1. Initial Quarto setup
+2. Base design implementation
+3. Main pages development
+4. Blog system for projects
+5. Responsiveness
+6. GitHub Pages deployment

@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs # Para GitHub Pages
+
+website:
+  title: "Conecta Stat"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: people.qmd
+        text: Pessoas
+      - href: projects.qmd
+        text: Projetos
+      - href: events.qmd
+        text: Eventos
+      - href: contact.qmd
+        text: Contato
+    right:
+      - icon: github
+        href: https://github.com/seu-usuario/conecta-stat
+  page-footer:
+    left: "© 2024 Conecta Stat. Todos os direitos reservados."
+    right:
+      - icon: github
+        href: https://github.com/seu-usuario/conecta-stat
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    css: styles.css
+    toc: true
+    lang: pt
+    mainfont: "Roboto, sans-serif"
+
+
+
