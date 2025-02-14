@@ -21,7 +21,7 @@ body {
   padding: 0 !important;
   border: none;
   height: 140px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* Sombra mais suave */
   position: sticky;
   top: 0;
   z-index: 1030;
@@ -191,6 +191,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 2rem;
+  margin: 0; /* Reset margin */
 }
 
 /* Links do menu */
@@ -208,62 +209,37 @@ body {
   transition: all 0.3s ease;
 }
 
+/* Ajuste do menu dropdown */
+.navbar-collapse {
+  margin: 0;
+  padding: 0;
+}
+
 /* Mobile */
 @media (max-width: 991.98px) {
-  .navbar {
-    height: 80px;
-    background: var(--brand-color) !important;
-  }
-
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar::after {
-    content: 'Conecta Stat';
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
-
-  .navbar-toggler {
-    margin-left: auto;
-    margin-right: 1rem;
-    color: white !important;
-    border: none;
-  }
-
   .navbar-collapse {
     background: white;
     position: absolute;
     top: 80px;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 1029; /* Menor que a navbar */
     border-top: 1px solid var(--border-color);
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
   }
 
   .navbar-nav {
     height: auto;
     padding: 1rem;
+    margin: 0;
   }
 
-  /* Corrigir cor dos links no menu mobile */
-  .navbar-collapse .nav-link {
+  .nav-link {
     height: 50px;
-    color: var(--text-primary) !important; /* Cor escura para contraste */
-    padding: 0.5rem 1rem !important;
-  }
-
-  /* Hover state para os links no mobile */
-  .navbar-collapse .nav-link:hover {
-    color: var(--brand-color) !important;
-    background-color: var(--bg-light);
+    margin: 0;
+    width: 100%;
   }
 }
 
@@ -287,10 +263,6 @@ body {
 }
 
 /* Ajuste do menu mobile */
-.navbar-collapse {
-  background: white;
-}
-
 .navbar-toggler {
   border: none;
   padding: 0 1rem;
@@ -307,6 +279,8 @@ main {
   background: var(--bg-light);
   min-height: calc(100vh - 140px);
   overflow-x: hidden;
+  margin-top: 0; /* Reset margin */
+  padding-top: 0; /* Reset padding */
 }
 
 /* Ajustes específicos para diferentes tipos de página */
