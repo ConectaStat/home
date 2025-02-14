@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "",
+    "text": "Conectando pessoas através da estatística e ciência de dados\nConheça nossos projetos"
+  },
+  {
+    "objectID": "index.html#destaques",
+    "href": "index.html#destaques",
+    "title": "Bem-vindo ao Conecta Stat",
+    "section": "Destaques",
+    "text": "Destaques\n\n\nProjetos\nExplore nossos projetos de pesquisa e desenvolvimento em estatística e análise de dados.\nVer projetos →\n\n\nEventos\nParticipe de nossos seminários, workshops e encontros acadêmicos.\nVer agenda →\n\n\nEquipe\nConheça nossos professores, pesquisadores e estudantes.\nConhecer equipe →"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projetos",
+    "section": "",
+    "text": "Projetos\nExplore nossos projetos de pesquisa e desenvolvimento."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "Eventos\nConfira nossos próximos eventos e atividades."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contato",
+    "section": "",
+    "text": "Departamento de Estatística\nUniversidade Federal de XXXXX\nAv. XXXXX, nº XXX\nCEP: XXXXX-XXX\nEmail: contato@conectastat.edu.br\nTelefone: (XX) XXXX-XXXX\n\n\n\n\n\n\n&lt;label for=\"name\"&gt;Nome&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"name\" required&gt;\n\n\n&lt;label for=\"email\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" class=\"form-control\" id=\"email\" required&gt;\n\n\n&lt;label for=\"subject\"&gt;Assunto&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"subject\" required&gt;\n\n\n&lt;label for=\"message\"&gt;Mensagem&lt;/label&gt;\n&lt;textarea class=\"form-control\" id=\"message\" rows=\"5\" required&gt;&lt;/textarea&gt;\n\n\nEnviar Mensagem"
+  },
+  {
+    "objectID": "contact.html#informações-de-contato",
+    "href": "contact.html#informações-de-contato",
+    "title": "Contato",
+    "section": "",
+    "text": "Departamento de Estatística\nUniversidade Federal de XXXXX\nAv. XXXXX, nº XXX\nCEP: XXXXX-XXX\nEmail: contato@conectastat.edu.br\nTelefone: (XX) XXXX-XXXX"
+  },
+  {
+    "objectID": "contact.html#formulário-de-contato",
+    "href": "contact.html#formulário-de-contato",
+    "title": "Contato",
+    "section": "",
+    "text": "&lt;label for=\"name\"&gt;Nome&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"name\" required&gt;\n\n\n&lt;label for=\"email\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" class=\"form-control\" id=\"email\" required&gt;\n\n\n&lt;label for=\"subject\"&gt;Assunto&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"subject\" required&gt;\n\n\n&lt;label for=\"message\"&gt;Mensagem&lt;/label&gt;\n&lt;textarea class=\"form-control\" id=\"message\" rows=\"5\" required&gt;&lt;/textarea&gt;\n\n\nEnviar Mensagem"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "Pessoas",
+    "section": "",
+    "text": "Conheça os membros do departamento.\n\n\n(Conteúdo será adicionado)\n\n\n\n(Conteúdo será adicionado)"
+  },
+  {
+    "objectID": "people.html#professores",
+    "href": "people.html#professores",
+    "title": "Pessoas",
+    "section": "",
+    "text": "(Conteúdo será adicionado)"
+  },
+  {
+    "objectID": "people.html#estudantes",
+    "href": "people.html#estudantes",
+    "title": "Pessoas",
+    "section": "",
+    "text": "(Conteúdo será adicionado)"
+  }
+]

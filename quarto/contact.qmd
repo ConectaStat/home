@@ -4,4 +4,52 @@ title: "Contato"
 
 # Entre em Contato
 
-Informações de contato do departamento serão adicionadas aqui. 
+::: {.row}
+::: {.col-md-6}
+## Informações de Contato
+
+**Departamento de Estatística**  
+Universidade Federal de XXXXX  
+Av. XXXXX, nº XXX  
+CEP: XXXXX-XXX  
+
+**Email:** contato@conectastat.edu.br  
+**Telefone:** (XX) XXXX-XXXX
+:::
+
+::: {.col-md-6}
+## Formulário de Contato
+
+::: {.contact-form}
+<form action="#" method="POST">
+  <div class="form-group">
+    <label for="name">Nome</label>
+    <input type="text" class="form-control" id="name" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="subject">Assunto</label>
+    <input type="text" class="form-control" id="subject" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Mensagem</label>
+    <textarea class="form-control" id="message" rows="5" required></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+</form>
+:::
+:::
+:::
+
+## Como Chegar
+
+<div class="map-container">
+  <!-- Adicione aqui o iframe do Google Maps com a localização -->
+</div> 

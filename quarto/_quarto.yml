@@ -5,22 +5,25 @@ project:
 website:
   title: "Conecta Stat"
   navbar:
-    background: primary
-    search: true
+    background: none
+    search: false  # Removido por enquanto para simplificar
+    collapse-below: lg
     left:
-      - href: index.qmd
-        text: Home
-      - href: people.qmd
-        text: Pessoas
-      - href: projects.qmd
-        text: Projetos
-      - href: events.qmd
-        text: Eventos
-      - href: contact.qmd
-        text: Contato
+      - text: "PEOPLE"
+        href: people.qmd
+      - text: "RESEARCH AREAS"
+        href: research.qmd
+      - text: "PUBLICATIONS"
+        href: publications.qmd
+      - text: "CODES"
+        href: codes.qmd
+      - text: "NEWS"
+        href: news.qmd
+      - text: "CONTACT"
+        href: contact.qmd
     right:
-      - icon: github
-        href: https://github.com/seu-usuario/conecta-stat
+      - icon: search
+        aria-label: search
   page-footer:
     left: "© 2024 Conecta Stat. Todos os direitos reservados."
     right:

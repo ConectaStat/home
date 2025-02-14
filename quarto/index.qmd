@@ -2,12 +2,39 @@
 title: "Bem-vindo ao Conecta Stat"
 ---
 
+::: {.hero}
 # Conecta Stat
 
-Bem-vindo ao portal do Departamento de Estatística. Aqui você encontrará informações sobre nossos projetos, eventos e membros da equipe.
+Conectando pessoas através da estatística e ciência de dados
 
+[Conheça nossos projetos](projects.qmd){.btn .btn-light .btn-lg}
+:::
+
+::: {.content-section .py-5}
 ## Destaques
 
-- Projetos em andamento
-- Próximos eventos
-- Publicações recentes
+::: {.featured-grid}
+
+::: {.grid-item}
+### Projetos
+Explore nossos projetos de pesquisa e desenvolvimento em estatística e análise de dados.
+
+[Ver projetos →](projects.qmd){.btn .btn-primary}
+:::
+
+::: {.grid-item}
+### Eventos
+Participe de nossos seminários, workshops e encontros acadêmicos.
+
+[Ver agenda →](events.qmd){.btn .btn-primary}
+:::
+
+::: {.grid-item}
+### Equipe
+Conheça nossos professores, pesquisadores e estudantes.
+
+[Conhecer equipe →](people.qmd){.btn .btn-primary}
+:::
+
+:::
+:::
