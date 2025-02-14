@@ -9,8 +9,7 @@ page-layout: full
 ## Inovação em Estatística e Ciência de Dados {.hero-subtitle}
 
 ::: {.hero-text .mb-4}
-Somos um hub de conhecimento que conecta pesquisa, ensino e extensão em Estatística,
-formando profissionais e gerando soluções para os desafios da sociedade.
+Hub de inovação que integra pesquisa avançada, formação especializada e projetos de impacto em Estatística e Ciência de Dados.
 :::
 
 ::: {.hero-buttons}
@@ -20,74 +19,107 @@ formando profissionais e gerando soluções para os desafios da sociedade.
 :::
 :::
 
-::: {.about-section .py-5}
+::: {.about-section .py-4}
 ::: {.container}
-## Sobre o Departamento {.section-title .text-center}
+## Nossa Essência {.section-title .text-center}
 
-::: {.row .mt-4}
-::: {.col-md-4}
-::: {.about-card}
-### Missão
-Formar profissionais e pesquisadores de excelência em Estatística e Ciência de Dados, contribuindo para o avanço científico e desenvolvimento da sociedade através da análise de dados e metodologias estatísticas inovadoras.
+::: {.mvv-container}
+::: {.row .mission-vision-row}
+::: {.col-md-6 .mb-4}
+::: {.mvv-card .mission-card}
+::: {.mvv-header}
+::: {.mvv-icon}
+<i class="fas fa-bullseye"></i>
 :::
-:::
-
-::: {.col-md-4}
-::: {.about-card}
-### Visão
-Ser referência nacional em ensino, pesquisa e extensão em Estatística, promovendo inovação e impacto social através da análise de dados e formando líderes para os desafios do futuro.
-:::
+### Missão {.mvv-title}
 :::
 
-::: {.col-md-4}
-::: {.about-card}
-### Valores
-- Excelência acadêmica e científica
-- Inovação e pensamento crítico
-- Compromisso social e ético
-- Colaboração e interdisciplinaridade
-- Transparência e reprodutibilidade
-:::
-:::
+::: {.mvv-content}
+Desenvolver soluções estatísticas inovadoras através de:
+
+::: {.items-grid}
+::: {.item-card}
+#### Pesquisa
+Métodos estatísticos avançados
 :::
 
-::: {.row .mt-5 .numbers-row}
-::: {.col-md-3 .text-center}
-::: {.number-card}
-#### 20+
-Professores Doutores
-::: {.number-subtitle}
-Especialistas em diversas áreas
+::: {.item-card}
+#### Ensino
+Formação multidisciplinar
+:::
+
+::: {.item-card}
+#### Extensão
+Projetos com impacto direto
+:::
+:::
 :::
 :::
 :::
 
-::: {.col-md-3 .text-center}
-::: {.number-card}
-#### 30+
-Projetos Ativos
-::: {.number-subtitle}
-Pesquisa e extensão
+::: {.col-md-6 .mb-4}
+::: {.mvv-card .vision-card}
+::: {.mvv-header}
+::: {.mvv-icon}
+<i class="fas fa-eye"></i>
+:::
+### Visão {.mvv-title}
+:::
+
+::: {.mvv-content}
+Consolidar-se como referência em:
+
+::: {.items-grid}
+::: {.item-card}
+#### Análise
+Métodos estatísticos robustos
+:::
+
+::: {.item-card}
+#### Talentos
+Profissionais diferenciados
+:::
+
+::: {.item-card}
+#### Inovação
+Soluções transformadoras
+:::
+:::
+:::
 :::
 :::
 :::
 
-::: {.col-md-3 .text-center}
-::: {.number-card}
-#### 100+
-Publicações
-::: {.number-subtitle}
-Últimos 5 anos
+::: {.row}
+::: {.col-12}
+::: {.mvv-card .values-card}
+::: {.mvv-header}
+::: {.mvv-icon}
+<i class="fas fa-heart"></i>
 :::
-:::
+### Valores {.mvv-title}
 :::
 
-::: {.col-md-3 .text-center}
-::: {.number-card}
-#### 500+
-Alunos Formados
-::: {.number-subtitle}
-Impactando o mercado
+::: {.mvv-content}
+Nossos princípios fundamentais:
+
+::: {.items-grid}
+::: {.item-card}
+#### Pioneirismo
+Desenvolvimento de métodos inovadores
+:::
+
+::: {.item-card}
+#### Integração
+Parcerias estratégicas
+:::
+
+::: {.item-card}
+#### Rigor
+Excelência metodológica
+:::
+:::
+:::
 :::
 :::
 :::
@@ -102,135 +134,39 @@ Impactando o mercado
 ::: {.row .mt-4}
 ::: {.col-md-4}
 ::: {.news-card}
-### Processo Seletivo 2024
-Inscrições abertas para o programa de pós-graduação em Estatística.
+::: {.news-card-image style="background-image: url('https://picsum.photos/seed/pos-grad/800/600')"}
+:::
+::: {.news-card-content}
+### Pós-Graduação 2024
+Novo programa com ênfase em Ciência de Dados e Estatística Computacional.
 
 [Saiba mais →](news/processo-seletivo-2024.qmd){.btn .btn-sm .btn-primary}
+:::
 :::
 :::
 
 ::: {.col-md-4}
 ::: {.news-card}
+::: {.news-card-image style="background-image: url('https://picsum.photos/seed/seminario/800/600')"}
+:::
+::: {.news-card-content}
 ### Seminário Internacional
 Workshop sobre Métodos Estatísticos em Ciência de Dados.
 
 [Saiba mais →](events/seminario-internacional.qmd){.btn .btn-sm .btn-primary}
 :::
 :::
+:::
 
 ::: {.col-md-4}
 ::: {.news-card}
-### Nova Parceria
-Colaboração com instituto de pesquisa para análise de dados ambientais.
+::: {.news-card-image style="background-image: url('https://picsum.photos/seed/hub/800/600')"}
+:::
+::: {.news-card-content}
+### Hub de Inovação
+Parceria com empresas para desenvolvimento de soluções estatísticas personalizadas.
 
 [Saiba mais →](news/nova-parceria.qmd){.btn .btn-sm .btn-primary}
-:::
-:::
-:::
-:::
-:::
-
-::: {.highlights-section .py-5 .bg-light}
-::: {.container}
-## Destaques {.section-title .text-center}
-
-::: {.row .mt-4}
-::: {.col-md-4}
-::: {.highlight-card}
-![](images/projects-icon.svg){.card-icon}
-
-### Projetos em Destaque
-Explore nossos principais projetos de pesquisa e desenvolvimento em estatística e análise de dados.
-
-[Ver projetos →](projects.qmd){.btn .btn-primary}
-:::
-:::
-
-::: {.col-md-4}
-::: {.highlight-card}
-![](images/events-icon.svg){.card-icon}
-
-### Próximos Eventos
-Participe de nossos seminários, workshops e encontros acadêmicos.
-
-[Ver agenda →](events.qmd){.btn .btn-primary}
-:::
-:::
-
-::: {.col-md-4}
-::: {.highlight-card}
-![](images/news-icon.svg){.card-icon}
-
-### Últimas Publicações
-Confira nossas publicações mais recentes e contribuições científicas.
-
-[Ver publicações →](publications.qmd){.btn .btn-primary}
-:::
-:::
-:::
-:::
-:::
-
-::: {.areas-section .py-5}
-::: {.container}
-## Áreas de Atuação {.section-title .text-center}
-
-::: {.row .mt-4 .areas-slider}
-::: {.col-md-3}
-::: {.area-card}
-### Estatística Aplicada
-Metodologias estatísticas aplicadas a problemas reais em diversas áreas do conhecimento.
-:::
-:::
-
-::: {.col-md-3}
-::: {.area-card}
-### Ciência de Dados
-Análise avançada de dados, machine learning e desenvolvimento de soluções computacionais.
-:::
-:::
-
-::: {.col-md-3}
-::: {.area-card}
-### Bioestatística
-Aplicações estatísticas em pesquisas biomédicas, epidemiologia e saúde pública.
-:::
-:::
-
-::: {.col-md-3}
-::: {.area-card}
-### Estatística Espacial
-Análise de dados georreferenciados e modelagem espacial para problemas ambientais e sociais.
-:::
-:::
-:::
-
-::: {.row .mt-4 .areas-slider}
-::: {.col-md-3}
-::: {.area-card}
-### Séries Temporais
-Análise e previsão de dados temporais para mercado financeiro e fenômenos naturais.
-:::
-:::
-
-::: {.col-md-3}
-::: {.area-card}
-### Amostragem
-Desenvolvimento de planos amostrais e pesquisas estatísticas para grandes populações.
-:::
-:::
-
-::: {.col-md-3}
-::: {.area-card}
-### Estatística Bayesiana
-Inferência estatística utilizando métodos bayesianos em problemas complexos.
-:::
-:::
-
-::: {.col-md-3}
-::: {.area-card}
-### Consultoria Estatística
-Suporte estatístico para pesquisas acadêmicas e projetos empresariais.
 :::
 :::
 :::
@@ -240,7 +176,7 @@ Suporte estatístico para pesquisas acadêmicas e projetos empresariais.
 ::: {.cta-section .py-5}
 ::: {.container .text-center}
 ## Faça Parte da Nossa Comunidade {.cta-title}
-Venha conhecer mais sobre nossos projetos e oportunidades de colaboração.
+Participe do desenvolvimento de soluções estatísticas inovadoras que transformam dados em resultados concretos.
 ::: {.cta-text .mb-4}
 Junte-se a nós na missão de transformar dados em conhecimento e impacto social.
 :::
