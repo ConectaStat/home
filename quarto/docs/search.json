@@ -39,14 +39,14 @@
     "href": "contact.html",
     "title": "Contato",
     "section": "",
-    "text": "Departamento de Estatística\nUniversidade Federal de XXXXX\nAv. XXXXX, nº XXX\nCEP: XXXXX-XXX\nEmail: contato@conectastat.edu.br\nTelefone: (XX) XXXX-XXXX\n\n\n\n\n\n\n&lt;label for=\"name\"&gt;Nome&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"name\" required&gt;\n\n\n&lt;label for=\"email\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" class=\"form-control\" id=\"email\" required&gt;\n\n\n&lt;label for=\"subject\"&gt;Assunto&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"subject\" required&gt;\n\n\n&lt;label for=\"message\"&gt;Mensagem&lt;/label&gt;\n&lt;textarea class=\"form-control\" id=\"message\" rows=\"5\" required&gt;&lt;/textarea&gt;\n\n\nEnviar Mensagem"
+    "text": "Estamos aqui para ajudar! Entre em contato conosco para saber mais sobre nossos projetos, parcerias e oportunidades."
   },
   {
     "objectID": "contact.html#informações-de-contato",
     "href": "contact.html#informações-de-contato",
     "title": "Contato",
-    "section": "",
-    "text": "Departamento de Estatística\nUniversidade Federal de XXXXX\nAv. XXXXX, nº XXX\nCEP: XXXXX-XXX\nEmail: contato@conectastat.edu.br\nTelefone: (XX) XXXX-XXXX"
+    "section": "Informações de Contato",
+    "text": "Informações de Contato\n\n\n Departamento de Estatística\nInstituto de Ciências Exatas e Tecnológicas\nUniversidade Federal de Lavras\nCampus Universitário\nCEP: 37200-900\nLavras - MG\n\n\n Horário de Atendimento\nSegunda a Sexta: 8h às 12h e 14h às 18h\n\n\n\n\n\n\nEmail\n\n\n\n\n\nGitHub\n\n\n Grupo no WhatsApp"
   },
   {
     "objectID": "contact.html#formulário-de-contato",
@@ -198,5 +198,33 @@
     "title": "Bem-vind@ ao Conecta Stat",
     "section": "Conecte-se Conosco",
     "text": "Conecte-se Conosco\n\nFaça parte de uma comunidade dedicada à excelência em Estatística e Ciência de Dados\n\n\n\n\n\n\n\nPara Pesquisadores\nDesenvolva pesquisas inovadoras, participe de projetos interdisciplinares e contribua com publicações de alto impacto.\n\n\n\n\n\n\n\nPara Estudantes\nAprimore suas habilidades com dados reais, participe de projetos práticos e construa uma carreira sólida em análise de dados.\n\n\n\n\n\n\n\nPara Empresas\nEstabeleça parcerias estratégicas, acesse soluções estatísticas personalizadas e impulsione a inovação em seu negócio.\n\n\n\n\n E-mail  WhatsApp"
+  },
+  {
+    "objectID": "contact.html#envie-sua-mensagem",
+    "href": "contact.html#envie-sua-mensagem",
+    "title": "Contato",
+    "section": "Envie sua Mensagem",
+    "text": "Envie sua Mensagem\n\n\n\n&lt;div class=\"col-md-6\"&gt;\n  &lt;div class=\"form-group\"&gt;\n    &lt;label for=\"name\"&gt;Nome&lt;/label&gt;\n    &lt;input type=\"text\" class=\"form-control\" id=\"name\" required&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-md-6\"&gt;\n  &lt;div class=\"form-group\"&gt;\n    &lt;label for=\"email\"&gt;Email&lt;/label&gt;\n    &lt;input type=\"email\" class=\"form-control\" id=\"email\" required&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-12\"&gt;\n  &lt;div class=\"form-group\"&gt;\n    &lt;label for=\"subject\"&gt;Assunto&lt;/label&gt;\n    &lt;input type=\"text\" class=\"form-control\" id=\"subject\" required&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-12\"&gt;\n  &lt;div class=\"form-group\"&gt;\n    &lt;label for=\"message\"&gt;Mensagem&lt;/label&gt;\n    &lt;textarea class=\"form-control\" id=\"message\" rows=\"5\" required&gt;&lt;/textarea&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-12\"&gt;\n  &lt;button type=\"submit\" class=\"btn btn-primary btn-lg w-100\"&gt;Enviar Mensagem&lt;/button&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "contact.html#como-chegar",
+    "href": "contact.html#como-chegar",
+    "title": "Contato",
+    "section": "Como Chegar",
+    "text": "Como Chegar"
+  },
+  {
+    "objectID": "contact.html#localização",
+    "href": "contact.html#localização",
+    "title": "Contato",
+    "section": "Localização",
+    "text": "Localização\n\n Departamento de Estatística\nInstituto de Ciências Exatas e Tecnológicas\nUniversidade Federal de Lavras\nCampus Universitário\nCEP: 37200-900\nLavras - MG\n\n\n Horário de Atendimento\nSegunda a Sexta: 8h às 12h e 14h às 18h"
+  },
+  {
+    "objectID": "contact.html#conecte-se",
+    "href": "contact.html#conecte-se",
+    "title": "Contato",
+    "section": "Conecte-se",
+    "text": "Conecte-se\n\n\n E-mail\n GitHub\n Grupo no WhatsApp"
   }
 ]

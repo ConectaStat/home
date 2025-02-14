@@ -1040,3 +1040,213 @@ main {
     }
 }
 
+/* Estilos da Página de Contato */
+.contact-hero-section {
+    background: linear-gradient(rgba(26, 54, 93, 0.97), rgba(26, 54, 93, 0.97));
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: -2rem;
+    position: relative;
+}
+
+.contact-hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-hero-section .hero-text {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.contact-content {
+    margin-top: -3rem;
+    position: relative;
+    z-index: 1;
+    padding: 0 1rem;
+}
+
+.contact-info-card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    height: 100%;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-card .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.contact-item {
+    margin-bottom: 1.5rem;
+    padding-left: 1.8rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.contact-item i {
+    position: absolute;
+    left: 0;
+    top: 0.4rem;
+    color: var(--brand-color);
+    font-size: 1rem;
+}
+
+.contact-item strong {
+    display: block;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.contact-buttons {
+    padding-top: 0;
+}
+
+.contact-buttons .gap-3 {
+    gap: 1rem !important;
+}
+
+.contact-buttons .btn {
+    font-size: 0.95rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    padding: 0.8rem 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.contact-buttons .btn i {
+    font-size: 1.1rem;
+}
+
+.contact-buttons .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-buttons .btn-outline-primary {
+    color: var(--brand-color);
+    border-color: var(--brand-color);
+}
+
+.contact-buttons .btn-outline-primary:hover {
+    background-color: var(--brand-color);
+    color: white;
+}
+
+.contact-buttons .btn-outline-dark {
+    color: var(--text-primary);
+    border-color: var(--text-primary);
+}
+
+.contact-buttons .btn-outline-dark:hover {
+    background-color: var(--text-primary);
+    color: white;
+}
+
+.contact-buttons .btn-success {
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.contact-buttons .btn-success:hover {
+    background-color: #22c55e;
+    border-color: #22c55e;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+}
+
+.map-section {
+    padding: 4rem 0;
+    background: var(--bg-light);
+}
+
+.map-section .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.map-container {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    display: block;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+/* Responsividade */
+@media (max-width: 991.98px) {
+    .contact-content {
+        margin-top: -2rem;
+    }
+    
+    .contact-hero-section h1 {
+        font-size: 2.2rem;
+    }
+    
+    .contact-info-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact-info-card .col-md-6:first-child {
+        margin-bottom: 2rem;
+    }
+    
+    .contact-buttons {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-hero-section {
+        padding: 3rem 1rem;
+    }
+    
+    .contact-hero-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .contact-hero-section .hero-text {
+        font-size: 1rem;
+    }
+    
+    .contact-item {
+        padding-left: 1.5rem;
+    }
+    
+    .contact-info-card .section-title {
+        font-size: 1.3rem;
+    }
+    
+    .map-section .section-title {
+        font-size: 1.5rem;
+    }
+}
+

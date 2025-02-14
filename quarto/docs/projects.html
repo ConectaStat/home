@@ -66,12 +66,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,15 +120,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#projetos" id="toc-projetos" class="nav-link active" data-scroll-target="#projetos">Projetos</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -262,6 +255,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -579,13 +577,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2024 Departamento de Estatística</p>
+<p><strong>Conecta Stat</strong><br>
+Hub de Inovação em Estatística</p>
+<p>Departamento de Estatística<br>
+Universidade Federal de Lavras - UFLA</p>
+<p><a href="mailto:conecta.stat.ufla@gmail.com"><img src="https://img.shields.io/badge/Email-conecta.stat.ufla@gmail.com-f7fafc?style=for-the-badge&amp;logo=gmail&amp;logoColor=4a5568&amp;color=f7fafc&amp;labelColor=f7fafc" class="img-fluid" alt="Email"></a> <a href="https://github.com/conecta-stat"><img src="https://img.shields.io/badge/GitHub-conecta--stat-f7fafc?style=for-the-badge&amp;logo=github&amp;logoColor=4a5568&amp;color=f7fafc&amp;labelColor=f7fafc.png" class="img-fluid" alt="GitHub"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Desenvolvido com <a href="https://quarto.org/">Quarto</a></p>
+<p>Desenvolvido com <a href="https://quarto.org/" target="_blank">Quarto</a><br>
+© 2025 UFLA</p>
 </div>
   </div>
 </footer>
