@@ -375,7 +375,7 @@ main {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hero-bg.svg');
+    background: linear-gradient(rgba(26, 54, 93, 0.97), rgba(26, 54, 93, 0.97)), url('images/hero-bg.svg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -383,11 +383,28 @@ main {
     text-align: center;
     margin-top: -2rem;
     margin-bottom: 2rem;
+    position: relative;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+                linear-gradient(-45deg, rgba(255,255,255,0.05) 25%, transparent 25%);
+    background-size: 60px 60px;
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-title {
@@ -400,15 +417,35 @@ main {
 .hero-subtitle {
     font-size: 1.8rem;
     margin-bottom: 2rem;
-    opacity: 0.9;
+    opacity: 0.95;
     animation: fadeInUp 1s ease-out;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.95;
+    margin-bottom: 2.5rem;
 }
 
 .hero-buttons {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
     animation: fadeIn 1.5s ease-out;
+}
+
+.hero-buttons .btn {
+    padding: 0.8rem 2rem;
+    font-weight: 500;
+    min-width: 200px;
+    transition: all 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+    transform: translateY(-2px);
 }
 
 /* About Section */
@@ -697,15 +734,6 @@ main {
         width: 100%;
         max-width: 300px;
     }
-}
-
-/* Hero Text */
-.hero-text {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    max-width: 700px;
-    margin: 0 auto;
-    opacity: 0.9;
 }
 
 /* Number Cards */
