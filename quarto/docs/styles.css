@@ -502,16 +502,127 @@ main {
 
 /* CTA Section */
 .cta-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cta-bg.svg');
+    background: linear-gradient(rgba(26, 54, 93, 0.97), rgba(26, 54, 93, 0.97)), url('images/hero-bg.svg');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
+    position: relative;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+                linear-gradient(-45deg, rgba(255,255,255,0.05) 25%, transparent 25%);
+    background-size: 60px 60px;
+    opacity: 0.3;
 }
 
 .cta-title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 1.5rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.cta-text {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    opacity: 0.95;
+}
+
+.audience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    position: relative;
+}
+
+.audience-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.audience-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.audience-icon {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    height: 64px;
+    width: 64px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.audience-card:hover .audience-icon {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.audience-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.audience-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.cta-buttons .btn {
+    padding: 0.8rem 2rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    border-width: 2px;
+}
+
+.cta-buttons .btn:hover {
+    transform: translateY(-2px);
+}
+
+.cta-buttons .btn-success {
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.cta-buttons .btn-success:hover {
+    background-color: #22c55e;
+    border-color: #22c55e;
 }
 
 /* Animations */
@@ -547,22 +658,44 @@ main {
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 2.5rem;
+@media (max-width: 991.98px) {
+    .audience-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        padding: 0 1rem;
     }
     
-    .hero-subtitle {
+    .audience-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cta-title {
+        font-size: 2rem;
+    }
+    
+    .cta-text {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .audience-card h4 {
         font-size: 1.2rem;
     }
     
-    .hero-buttons {
-        flex-direction: column;
-        gap: 0.5rem;
+    .audience-card p {
+        font-size: 0.9rem;
     }
     
-    .section-title {
-        font-size: 2rem;
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 300px;
     }
 }
 

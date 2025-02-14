@@ -175,12 +175,41 @@ Parceria com empresas para desenvolvimento de soluções estatísticas personali
 
 ::: {.cta-section .py-5}
 ::: {.container .text-center}
-## Faça Parte da Nossa Comunidade {.cta-title}
-Participe do desenvolvimento de soluções estatísticas inovadoras que transformam dados em resultados concretos.
+## Conecte-se Conosco {.cta-title}
+
 ::: {.cta-text .mb-4}
-Junte-se a nós na missão de transformar dados em conhecimento e impacto social.
+Faça parte de uma comunidade dedicada à excelência em Estatística e Ciência de Dados
 :::
 
-[Entre em Contato](contact.qmd){.btn .btn-primary .btn-lg .mt-3}
+::: {.audience-grid}
+::: {.audience-card}
+::: {.audience-icon}
+<i class="fas fa-microscope"></i>
+:::
+#### Para Pesquisadores
+Desenvolva pesquisas inovadoras, participe de projetos interdisciplinares e contribua com publicações de alto impacto.
+:::
+
+::: {.audience-card}
+::: {.audience-icon}
+<i class="fas fa-graduation-cap"></i>
+:::
+#### Para Estudantes
+Aprimore suas habilidades com dados reais, participe de projetos práticos e construa uma carreira sólida em análise de dados.
+:::
+
+::: {.audience-card}
+::: {.audience-icon}
+<i class="fas fa-handshake"></i>
+:::
+#### Para Empresas
+Estabeleça parcerias estratégicas, acesse soluções estatísticas personalizadas e impulsione a inovação em seu negócio.
+:::
+:::
+
+::: {.cta-buttons}
+[<i class="fas fa-envelope"></i> E-mail](mailto:conecta.stat.ufla@gmail.com){.btn .btn-primary .btn-lg .me-3}
+[<i class="fab fa-whatsapp"></i> WhatsApp](https://seu-link-do-grupo){.btn .btn-success .btn-lg}
+:::
 :::
 :::
