@@ -22,10 +22,8 @@ body {
   border: none;
   height: 140px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 1030;
 }
 
@@ -43,7 +41,7 @@ body {
 
 /* Componentes */
 .content-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .grid-item {
@@ -213,7 +211,11 @@ body {
 @media (max-width: 991.98px) {
   .navbar {
     height: 80px;
-    background: var(--brand-color) !important;
+  }
+
+  .hero {
+    margin-top: -80px;
+    padding-top: 80px;
   }
 
   .navbar-brand {
@@ -296,20 +298,28 @@ body {
 
 /* Ajuste do conteúdo principal */
 main {
-  padding-top: 140px; /* Usar padding ao invés de margin */
-  margin-top: 0;
+  position: relative;
+  z-index: 1; /* Menor que o z-index da navbar */
   background: var(--bg-light);
   min-height: calc(100vh - 140px);
-  position: relative;
-  z-index: 1;
 }
 
-/* Ajuste para o hero section não ficar muito colado ao menu */
+/* Ajustes específicos para diferentes tipos de página */
+.quarto-title-block {
+  margin-top: -40px; /* Compensa parte do padding do main quando há título */
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* Hero section com ajuste específico */
 .hero {
+  position: relative;
+  z-index: 1;
   padding: 5rem 0;
   background: linear-gradient(135deg, var(--brand-color) 0%, var(--brand-color-light) 100%);
-  position: relative;
   overflow: hidden;
+  margin-top: -140px;
+  padding-top: 140px;
 }
 
 .hero::before {
@@ -323,5 +333,26 @@ main {
               linear-gradient(-45deg, rgba(255,255,255,0.1) 25%, transparent 25%);
   background-size: 60px 60px;
   opacity: 0.1;
+}
+
+/* Ajuste para páginas com título padrão do Quarto */
+.quarto-title-meta {
+  margin-bottom: 3rem;
+}
+
+/* Mobile */
+@media (max-width: 991.98px) {
+  main {
+    padding-top: 100px; /* Menor padding no mobile por causa da navbar menor */
+  }
+  
+  .hero {
+    margin-top: -100px;
+    padding: 140px 0 3rem;
+  }
+  
+  .quarto-title-block {
+    margin-top: -20px;
+  }
 }
 
