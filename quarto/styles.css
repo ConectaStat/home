@@ -217,6 +217,33 @@ body {
 
 /* Mobile */
 @media (max-width: 991.98px) {
+  .navbar {
+    height: 80px;
+    background: var(--brand-color) !important;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar::after {
+    content: 'Conecta Stat';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+    margin-right: 1rem;
+    color: white !important;
+    border: none;
+  }
+
   .navbar-collapse {
     background: white;
     position: absolute;
@@ -226,8 +253,6 @@ body {
     z-index: 1029; /* Menor que a navbar */
     border-top: 1px solid var(--border-color);
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    padding: 0; /* Reset padding */
-    margin: 0; /* Reset margin */
   }
 
   .navbar-nav {
@@ -236,10 +261,24 @@ body {
     margin: 0;
   }
 
-  .nav-link {
+  /* Corrigir cor dos links no menu mobile */
+  .navbar-collapse .nav-link {
     height: 50px;
-    margin: 0;
+    color: var(--text-primary) !important; /* Cor escura para contraste */
+    padding: 0.5rem 1rem !important;
     width: 100%;
+    margin: 0;
+  }
+
+  /* Hover state para os links no mobile */
+  .navbar-collapse .nav-link:hover {
+    color: var(--brand-color) !important;
+    background-color: var(--bg-light);
+  }
+
+  .hero {
+    margin-top: -80px;
+    padding-top: 80px;
   }
 }
 
