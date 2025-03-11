@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Workshop hands-on sobre análise de dados utilizando R, voltado para iniciantes e intermediários">
 
-<title>Workshop: Introdução ao R para Análise de Dados – Conecta Stat</title>
+<title>roadmap – Conecta Stat</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-51278565e4f4f6ace0c1facf99b82dcc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -54,22 +53,23 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -79,34 +79,34 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Conecta Stat</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="../people.html"> 
 <span class="menu-text">Pessoas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../events.html"> 
+    <a class="nav-link" href="../events.html"> 
 <span class="menu-text">Eventos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contato</span></a>
   </li>  
 </ul>
@@ -122,76 +122,179 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Workshop: Introdução ao R para Análise de Dados</h1>
-</div>
-
-<div>
-  <div class="description">
-    Workshop hands-on sobre análise de dados utilizando R, voltado para iniciantes e intermediários
-  </div>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Data de Publicação</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">15 de março de 2024</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="sobre-o-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="sobre-o-workshop">Sobre o Workshop</h2>
-<p>Este workshop prático tem como objetivo introduzir os participantes ao R, uma das linguagens mais populares para análise de dados estatísticos.</p>
-</section>
-<section id="programação" class="level2">
-<h2 class="anchored" data-anchor-id="programação">Programação</h2>
-<ul>
-<li>14:00 - 14:30: Introdução ao R e RStudio</li>
-<li>14:30 - 15:30: Manipulação de Dados com tidyverse</li>
-<li>15:30 - 15:45: Coffee Break</li>
-<li>15:45 - 16:45: Visualização de Dados com ggplot2</li>
-<li>16:45 - 17:45: Análise Estatística Básica</li>
-<li>17:45 - 18:00: Discussão e Encerramento</li>
+<section id="conecta-stat-development-roadmap" class="level1">
+<h1>Conecta Stat Development Roadmap</h1>
+<section id="phase-1-project-setup-and-basic-structure-week-1" class="level2">
+<h2 class="anchored" data-anchor-id="phase-1-project-setup-and-basic-structure-week-1">Phase 1: Project Setup and Basic Structure (Week 1)</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">Create project guidelines</label></li>
+<li><label><input type="checkbox">Initialize Quarto project</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Configure _quarto.yml</label></li>
+<li><label><input type="checkbox">Setup basic directory structure</label></li>
+<li><label><input type="checkbox">Initialize Git repository</label></li>
+</ul></li>
+<li><label><input type="checkbox">Setup GitHub repository</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Configure GitHub Pages</label></li>
+<li><label><input type="checkbox">Setup GitHub Actions for automated deployment</label></li>
+</ul></li>
 </ul>
 </section>
-<section id="pré-requisitos" class="level2">
-<h2 class="anchored" data-anchor-id="pré-requisitos">Pré-requisitos</h2>
-<ul>
-<li>Notebook próprio</li>
-<li>R e RStudio instalados</li>
-<li>Conhecimentos básicos de estatística</li>
+<section id="phase-2-core-development-weeks-2-3" class="level2">
+<h2 class="anchored" data-anchor-id="phase-2-core-development-weeks-2-3">Phase 2: Core Development (Weeks 2-3)</h2>
+<section id="basic-layout-and-navigation" class="level3">
+<h3 class="anchored" data-anchor-id="basic-layout-and-navigation">Basic Layout and Navigation</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Develop main layout template</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Header with navigation</label></li>
+<li><label><input type="checkbox">Footer with institutional info</label></li>
+<li><label><input type="checkbox">Responsive menu</label></li>
+</ul></li>
+<li><label><input type="checkbox">Setup CSS structure</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Define color variables</label></li>
+<li><label><input type="checkbox">Create basic style components</label></li>
+<li><label><input type="checkbox">Implement responsive breakpoints</label></li>
+</ul></li>
 </ul>
 </section>
-<section id="inscrições" class="level2">
-<h2 class="anchored" data-anchor-id="inscrições">Inscrições</h2>
-<p>As inscrições são gratuitas mas as vagas são limitadas. <a href="#">Clique aqui</a> para se inscrever.</p>
+<section id="essential-pages" class="level3">
+<h3 class="anchored" data-anchor-id="essential-pages">Essential Pages</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Home page</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Hero section</label></li>
+<li><label><input type="checkbox">Department overview</label></li>
+<li><label><input type="checkbox">Featured content grid</label></li>
+</ul></li>
+<li><label><input type="checkbox">People page</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Faculty section</label></li>
+<li><label><input type="checkbox">Students section</label></li>
+<li><label><input type="checkbox">Card component design</label></li>
+</ul></li>
+<li><label><input type="checkbox">Contact page</label>
+<ul class="task-list">
+<li><label><input type="checkbox">Basic contact form</label></li>
+<li><label><input type="checkbox">Department information</label></li>
+<li><label><input type="checkbox">Location map</label></li>
+</ul></li>
+</ul>
 </section>
-<section id="instrutor" class="level2">
-<h2 class="anchored" data-anchor-id="instrutor">Instrutor</h2>
-<p><strong>Prof.&nbsp;Dr.&nbsp;João Silva</strong><br>
-Departamento de Estatística<br>
-Especialista em Análise de Dados e Estatística Computacional</p>
 </section>
-<section id="material" class="level2">
-<h2 class="anchored" data-anchor-id="material">Material</h2>
-<p>O material do workshop será disponibilizado através do GitHub após o evento.</p>
+<section id="phase-3-content-structure-weeks-4-5" class="level2">
+<h2 class="anchored" data-anchor-id="phase-3-content-structure-weeks-4-5">Phase 3: Content Structure (Weeks 4-5)</h2>
+<section id="projects-section" class="level3">
+<h3 class="anchored" data-anchor-id="projects-section">Projects Section</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Setup blog structure</label></li>
+<li><label><input type="checkbox">Create post template</label></li>
+<li><label><input type="checkbox">Implement categories/tags</label></li>
+<li><label><input type="checkbox">Design post listing page</label></li>
+<li><label><input type="checkbox">Add sample posts</label></li>
+</ul>
+</section>
+<section id="events-section" class="level3">
+<h3 class="anchored" data-anchor-id="events-section">Events Section</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Design events listing</label></li>
+<li><label><input type="checkbox">Create event detail template</label></li>
+<li><label><input type="checkbox">Implement event calendar view</label></li>
+<li><label><input type="checkbox">Add upcoming events highlight</label></li>
+</ul>
+</section>
+</section>
+<section id="phase-4-data-integration-weeks-6-7" class="level2">
+<h2 class="anchored" data-anchor-id="phase-4-data-integration-weeks-6-7">Phase 4: Data Integration (Weeks 6-7)</h2>
+<section id="alumni-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="alumni-dashboard">Alumni Dashboard</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Design dashboard layout</label></li>
+<li><label><input type="checkbox">Create R scripts for data processing</label></li>
+<li><label><input type="checkbox">Implement basic visualizations</label></li>
+<li><label><input type="checkbox">Setup data update workflow</label></li>
+</ul>
+</section>
+<section id="content-management" class="level3">
+<h3 class="anchored" data-anchor-id="content-management">Content Management</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Create documentation for content updates</label></li>
+<li><label><input type="checkbox">Setup content templates</label></li>
+<li><label><input type="checkbox">Define posting guidelines</label></li>
+<li><label><input type="checkbox">Create contribution guide</label></li>
+</ul>
+</section>
+</section>
+<section id="phase-5-polish-and-launch-week-8" class="level2">
+<h2 class="anchored" data-anchor-id="phase-5-polish-and-launch-week-8">Phase 5: Polish and Launch (Week 8)</h2>
+<section id="testing-and-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="testing-and-optimization">Testing and Optimization</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Cross-browser testing</label></li>
+<li><label><input type="checkbox">Mobile responsiveness review</label></li>
+<li><label><input type="checkbox">Performance optimization</label></li>
+<li><label><input type="checkbox">SEO implementation</label></li>
+</ul>
+</section>
+<section id="launch-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="launch-preparation">Launch Preparation</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Content review</label></li>
+<li><label><input type="checkbox">Final design adjustments</label></li>
+<li><label><input type="checkbox">Documentation completion</label></li>
+<li><label><input type="checkbox">Launch checklist review</label></li>
+</ul>
+</section>
+</section>
+<section id="future-enhancements-post-launch" class="level2">
+<h2 class="anchored" data-anchor-id="future-enhancements-post-launch">Future Enhancements (Post-Launch)</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Multilanguage support</label></li>
+<li><label><input type="checkbox">Advanced interactive visualizations</label></li>
+<li><label><input type="checkbox">Newsletter integration</label></li>
+<li><label><input type="checkbox">Social media integration</label></li>
+<li><label><input type="checkbox">Enhanced search functionality</label></li>
+</ul>
+</section>
+<section id="maintenance-plan" class="level2">
+<h2 class="anchored" data-anchor-id="maintenance-plan">Maintenance Plan</h2>
+<section id="regular-updates" class="level3">
+<h3 class="anchored" data-anchor-id="regular-updates">Regular Updates</h3>
+<ul>
+<li>Weekly: Content reviews and small fixes</li>
+<li>Monthly: New project posts and events</li>
+<li>Quarterly: Dashboard data updates</li>
+<li>Semesterly: People section updates</li>
+</ul>
+</section>
+<section id="technical-maintenance" class="level3">
+<h3 class="anchored" data-anchor-id="technical-maintenance">Technical Maintenance</h3>
+<ul>
+<li>Monthly security updates</li>
+<li>Quarterly performance review</li>
+<li>Regular backup checks</li>
+<li>Analytics review and adjustments</li>
+</ul>
+</section>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>All deadlines are flexible and can be adjusted based on team availability</li>
+<li>Each phase should include review points for stakeholder feedback</li>
+<li>Documentation should be maintained throughout development</li>
+<li>Regular testing should be performed at each stage</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -238,12 +341,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -285,7 +388,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/conecta-stat\.github\.io");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -299,6 +402,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -616,13 +724,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2024 Departamento de Estatística</p>
+<p><strong>Conecta Stat</strong><br>
+Hub de Inovação em Estatística</p>
+<p>Departamento de Estatística<br>
+Universidade Federal de Lavras - UFLA</p>
+<p><a href="mailto:conecta.stat.ufla@gmail.com"><img src="https://img.shields.io/badge/Email-conecta.stat.ufla@gmail.com-f7fafc?style=for-the-badge&amp;logo=gmail&amp;logoColor=4a5568&amp;color=f7fafc&amp;labelColor=f7fafc" class="img-fluid" alt="Email"></a> <a href="https://github.com/conecta-stat"><img src="https://img.shields.io/badge/GitHub-conecta--stat-f7fafc?style=for-the-badge&amp;logo=github&amp;logoColor=4a5568&amp;color=f7fafc&amp;labelColor=f7fafc.png" class="img-fluid" alt="GitHub"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Desenvolvido com <a href="https://quarto.org/">Quarto</a></p>
+<p>Desenvolvido com <a href="https://quarto.org/" target="_blank">Quarto</a><br>
+© 2025 UFLA</p>
 </div>
   </div>
 </footer>

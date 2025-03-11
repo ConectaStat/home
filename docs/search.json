@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projetos",
+    "section": "",
+    "text": "Projetos\nExplore nossos projetos de pesquisa e desenvolvimento."
+  },
+  {
+    "objectID": "instructions/roadmap.html",
+    "href": "instructions/roadmap.html",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Create project guidelines\nInitialize Quarto project\n\nConfigure _quarto.yml\nSetup basic directory structure\nInitialize Git repository\n\nSetup GitHub repository\n\nConfigure GitHub Pages\nSetup GitHub Actions for automated deployment\n\n\n\n\n\n\n\n\nDevelop main layout template\n\nHeader with navigation\nFooter with institutional info\nResponsive menu\n\nSetup CSS structure\n\nDefine color variables\nCreate basic style components\nImplement responsive breakpoints\n\n\n\n\n\n\nHome page\n\nHero section\nDepartment overview\nFeatured content grid\n\nPeople page\n\nFaculty section\nStudents section\nCard component design\n\nContact page\n\nBasic contact form\nDepartment information\nLocation map\n\n\n\n\n\n\n\n\n\nSetup blog structure\nCreate post template\nImplement categories/tags\nDesign post listing page\nAdd sample posts\n\n\n\n\n\nDesign events listing\nCreate event detail template\nImplement event calendar view\nAdd upcoming events highlight\n\n\n\n\n\n\n\n\nDesign dashboard layout\nCreate R scripts for data processing\nImplement basic visualizations\nSetup data update workflow\n\n\n\n\n\nCreate documentation for content updates\nSetup content templates\nDefine posting guidelines\nCreate contribution guide\n\n\n\n\n\n\n\n\nCross-browser testing\nMobile responsiveness review\nPerformance optimization\nSEO implementation\n\n\n\n\n\nContent review\nFinal design adjustments\nDocumentation completion\nLaunch checklist review\n\n\n\n\n\n\nMultilanguage support\nAdvanced interactive visualizations\nNewsletter integration\nSocial media integration\nEnhanced search functionality\n\n\n\n\n\n\n\nWeekly: Content reviews and small fixes\nMonthly: New project posts and events\nQuarterly: Dashboard data updates\nSemesterly: People section updates\n\n\n\n\n\nMonthly security updates\nQuarterly performance review\nRegular backup checks\nAnalytics review and adjustments\n\n\n\n\n\n\nAll deadlines are flexible and can be adjusted based on team availability\nEach phase should include review points for stakeholder feedback\nDocumentation should be maintained throughout development\nRegular testing should be performed at each stage"
+  },
+  {
+    "objectID": "instructions/roadmap.html#phase-1-project-setup-and-basic-structure-week-1",
+    "href": "instructions/roadmap.html#phase-1-project-setup-and-basic-structure-week-1",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Create project guidelines\nInitialize Quarto project\n\nConfigure _quarto.yml\nSetup basic directory structure\nInitialize Git repository\n\nSetup GitHub repository\n\nConfigure GitHub Pages\nSetup GitHub Actions for automated deployment"
+  },
+  {
+    "objectID": "instructions/roadmap.html#phase-2-core-development-weeks-2-3",
+    "href": "instructions/roadmap.html#phase-2-core-development-weeks-2-3",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Develop main layout template\n\nHeader with navigation\nFooter with institutional info\nResponsive menu\n\nSetup CSS structure\n\nDefine color variables\nCreate basic style components\nImplement responsive breakpoints\n\n\n\n\n\n\nHome page\n\nHero section\nDepartment overview\nFeatured content grid\n\nPeople page\n\nFaculty section\nStudents section\nCard component design\n\nContact page\n\nBasic contact form\nDepartment information\nLocation map"
+  },
+  {
+    "objectID": "instructions/roadmap.html#phase-3-content-structure-weeks-4-5",
+    "href": "instructions/roadmap.html#phase-3-content-structure-weeks-4-5",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Setup blog structure\nCreate post template\nImplement categories/tags\nDesign post listing page\nAdd sample posts\n\n\n\n\n\nDesign events listing\nCreate event detail template\nImplement event calendar view\nAdd upcoming events highlight"
+  },
+  {
+    "objectID": "instructions/roadmap.html#phase-4-data-integration-weeks-6-7",
+    "href": "instructions/roadmap.html#phase-4-data-integration-weeks-6-7",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Design dashboard layout\nCreate R scripts for data processing\nImplement basic visualizations\nSetup data update workflow\n\n\n\n\n\nCreate documentation for content updates\nSetup content templates\nDefine posting guidelines\nCreate contribution guide"
+  },
+  {
+    "objectID": "instructions/roadmap.html#phase-5-polish-and-launch-week-8",
+    "href": "instructions/roadmap.html#phase-5-polish-and-launch-week-8",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Cross-browser testing\nMobile responsiveness review\nPerformance optimization\nSEO implementation\n\n\n\n\n\nContent review\nFinal design adjustments\nDocumentation completion\nLaunch checklist review"
+  },
+  {
+    "objectID": "instructions/roadmap.html#future-enhancements-post-launch",
+    "href": "instructions/roadmap.html#future-enhancements-post-launch",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Multilanguage support\nAdvanced interactive visualizations\nNewsletter integration\nSocial media integration\nEnhanced search functionality"
+  },
+  {
+    "objectID": "instructions/roadmap.html#maintenance-plan",
+    "href": "instructions/roadmap.html#maintenance-plan",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "Weekly: Content reviews and small fixes\nMonthly: New project posts and events\nQuarterly: Dashboard data updates\nSemesterly: People section updates\n\n\n\n\n\nMonthly security updates\nQuarterly performance review\nRegular backup checks\nAnalytics review and adjustments"
+  },
+  {
+    "objectID": "instructions/roadmap.html#notes",
+    "href": "instructions/roadmap.html#notes",
+    "title": "Conecta Stat Development Roadmap",
+    "section": "",
+    "text": "All deadlines are flexible and can be adjusted based on team availability\nEach phase should include review points for stakeholder feedback\nDocumentation should be maintained throughout development\nRegular testing should be performed at each stage"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "Eventos\nConfira nossos próximos eventos e atividades."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contato",
+    "section": "",
+    "text": "Estamos aqui para ajudar! Entre em contato conosco para saber mais sobre nossos projetos, parcerias e oportunidades."
+  },
+  {
+    "objectID": "contact.html#localização",
+    "href": "contact.html#localização",
+    "title": "Contato",
+    "section": "Localização",
+    "text": "Localização\n\n Departamento de Estatística\nInstituto de Ciências Exatas e Tecnológicas\nUniversidade Federal de Lavras\nCampus Universitário\nCEP: 37200-900\nLavras - MG\n\n\n Horário de Atendimento\nSegunda a Sexta: 8h às 12h e 14h às 18h"
+  },
+  {
+    "objectID": "contact.html#conecte-se",
+    "href": "contact.html#conecte-se",
+    "title": "Contato",
+    "section": "Conecte-se",
+    "text": "Conecte-se\n\n\n E-mail\n GitHub\n Grupo no WhatsApp"
+  },
+  {
+    "objectID": "contact.html#como-chegar",
+    "href": "contact.html#como-chegar",
+    "title": "Contato",
+    "section": "Como Chegar",
+    "text": "Como Chegar"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vind@ ao Conecta Stat",
+    "section": "",
+    "text": "Hub de inovação que integra pesquisa avançada, formação especializada e projetos de impacto em Estatística e Ciência de Dados.\n\n\nConheça nossos projetos Entre em contato"
+  },
+  {
+    "objectID": "index.html#inovação-em-estatística-e-ciência-de-dados",
+    "href": "index.html#inovação-em-estatística-e-ciência-de-dados",
+    "title": "Bem-vind@ ao Conecta Stat",
+    "section": "",
+    "text": "Hub de inovação que integra pesquisa avançada, formação especializada e projetos de impacto em Estatística e Ciência de Dados.\n\n\nConheça nossos projetos Entre em contato"
+  },
+  {
+    "objectID": "index.html#nossa-essência",
+    "href": "index.html#nossa-essência",
+    "title": "Bem-vind@ ao Conecta Stat",
+    "section": "Nossa Essência",
+    "text": "Nossa Essência\n\n\n\n\n\nMissão\n\n\nDesenvolver soluções estatísticas inovadoras através de:\n\n\nPesquisa\nMétodos estatísticos avançados\n\n\nEnsino\nFormação multidisciplinar\n\n\nExtensão\nProjetos com impacto direto\n\n\n\n\n\n\n\n\nVisão\n\n\nConsolidar-se como referência em:\n\n\nAnálise\nMétodos estatísticos robustos\n\n\nTalentos\nProfissionais diferenciados\n\n\nInovação\nSoluções transformadoras\n\n\n\n\n\n\n\n\n\n\nValores\n\n\nNossos princípios fundamentais:\n\n\nPioneirismo\nDesenvolvimento de métodos inovadores\n\n\nIntegração\nParcerias estratégicas\n\n\nRigor\nExcelência metodológica"
+  },
+  {
+    "objectID": "index.html#últimas-novidades",
+    "href": "index.html#últimas-novidades",
+    "title": "Bem-vind@ ao Conecta Stat",
+    "section": "Últimas Novidades",
+    "text": "Últimas Novidades\n\n\n\n\n\n\n\nPós-Graduação 2024\nNovo programa com ênfase em Ciência de Dados e Estatística Computacional.\nSaiba mais →\n\n\n\n\n\n\n\n\n\nSeminário Internacional\nWorkshop sobre Métodos Estatísticos em Ciência de Dados.\nSaiba mais →\n\n\n\n\n\n\n\n\n\nHub de Inovação\nParceria com empresas para desenvolvimento de soluções estatísticas personalizadas.\nSaiba mais →"
+  },
+  {
+    "objectID": "index.html#conecte-se-conosco",
+    "href": "index.html#conecte-se-conosco",
+    "title": "Bem-vind@ ao Conecta Stat",
+    "section": "Conecte-se Conosco",
+    "text": "Conecte-se Conosco\n\nFaça parte de uma comunidade dedicada à excelência em Estatística e Ciência de Dados\n\n\n\n\n\n\n\nPara Pesquisadores\nDesenvolva pesquisas inovadoras, participe de projetos interdisciplinares e contribua com publicações de alto impacto.\n\n\n\n\n\n\n\nPara Estudantes\nAprimore suas habilidades com dados reais, participe de projetos práticos e construa uma carreira sólida em análise de dados.\n\n\n\n\n\n\n\nPara Empresas\nEstabeleça parcerias estratégicas, acesse soluções estatísticas personalizadas e impulsione a inovação em seu negócio.\n\n\n\n\n E-mail  WhatsApp"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "Pessoas",
+    "section": "",
+    "text": "Conheça os membros do departamento.\n\n\n(Conteúdo será adicionado)\n\n\n\n(Conteúdo será adicionado)"
+  },
+  {
+    "objectID": "people.html#professores",
+    "href": "people.html#professores",
+    "title": "Pessoas",
+    "section": "",
+    "text": "(Conteúdo será adicionado)"
+  },
+  {
+    "objectID": "people.html#estudantes",
+    "href": "people.html#estudantes",
+    "title": "Pessoas",
+    "section": "",
+    "text": "(Conteúdo será adicionado)"
+  }
+]
