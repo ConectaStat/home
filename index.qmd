@@ -67,7 +67,7 @@ Consolidar-se como referência em:
 ::: {.items-grid}
 ::: {.item-card}
 #### Análise
-Métodos estatísticos robustos
+Métodos estatísticos robustos 
 :::
 
 ::: {.item-card}
