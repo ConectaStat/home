@@ -1,0 +1,38 @@
+---
+title: "Projetos de Ensino"
+subtitle: "Iniciativas que fortalecem a formação em Estatística dentro e fora da sala de aula."
+title-block-banner: true
+body-classes: cs-banner-ogiva
+page-layout: article
+sidebar: false
+toc: false
+listing:
+  id: lista-editais
+  contents:
+    - "../../oportunidades/*.qmd"
+  sort: "date desc"
+  template: ../../cards.ejs
+---
+
+## Ensino no DES/UFLA
+
+Além das disciplinas da graduação e da pós-graduação, o Departamento de
+Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a
+permanência dos estudantes:
+
+- **Monitorias**: apoio aos estudantes nas disciplinas de Estatística
+  oferecidas para os cursos da UFLA;
+- **Docência voluntária**: participação de pós-graduandos e recém-doutores
+  em atividades de ensino supervisionadas;
+- **Cursos e oficinas**: introdução ao software R, visualização de dados e
+  ferramentas computacionais;
+- **Material didático**: produção de apostilas, tutoriais e recursos
+  abertos de apoio às disciplinas.
+
+## Editais
+
+As vagas de monitoria e docência voluntária são divulgadas em editais;
+veja abaixo os que estão abertos:
+
+::: {#lista-editais}
+:::

@@ -1,0 +1,137 @@
+---
+title: "Graduação"
+subtitle: "Bacharelado em Estatística com ênfase em Ciência de Dados."
+title-block-banner: true
+body-classes: cs-banner-dispersao
+page-layout: article
+sidebar: false
+toc: false
+aliases:
+  - /cursos/graduacao/sobre/
+listing:
+  id: projetos-rotator
+  contents:
+    - projetos-estudantes
+    - "!projetos-estudantes/index.qmd"
+    - "!projetos-estudantes/enviar.qmd"
+  sort: "date desc"
+  template: ../../cards.ejs
+---
+
+## Sobre o curso
+
+O curso de **Graduação em Estatística** da UFLA iniciou suas atividades no
+semestre 2024/1 e forma profissionais preparados para atuar com análise de
+dados, modelagem estatística e ciência de dados em empresas, instituições de
+pesquisa e órgãos públicos.
+
+A formação combina uma base sólida em **matemática, probabilidade e
+inferência** com forte componente computacional (programação, bancos de
+dados e aprendizado de máquina) e com aplicações reais em projetos,
+estágios e parcerias com a comunidade.
+
+## Matriz curricular
+
+A matriz curricular está organizada em núcleos de formação, cursados ao longo
+de 8 semestres:
+
+| Núcleo | Conteúdos principais |
+|---|---|
+| **Base matemática** | Cálculo, Álgebra Linear, Matemática Discreta |
+| **Probabilidade e Inferência** | Probabilidade, Inferência Estatística, Processos Estocásticos |
+| **Modelagem estatística** | Modelos de Regressão, Planejamento e Análise de Experimentos, Análise Multivariada, Séries Temporais |
+| **Computação e dados** | Programação, Estatística Computacional, Bancos de Dados, Aprendizado de Máquina |
+| **Formação complementar** | Amostragem, Controle de Qualidade, Estatística Espacial, disciplinas eletivas |
+| **Prática profissional** | Projetos orientados, Estágio Supervisionado, Trabalho de Conclusão de Curso |
+
+: {tbl-colwidths="[30,70]"}
+
+A matriz oficial completa, com ementas e pré-requisitos detalhados, está no
+[site do DES/UFLA](https://des.ufla.br/graduacao). Ou veja aqui, módulo a
+módulo:
+
+```{=html}
+<button class="btn-revelar" type="button" data-revela="painel-matriz"
+        aria-expanded="false" aria-controls="painel-matriz">
+  Ver matriz curricular 2026/1
+</button>
+```
+
+::: {.reveal-listing #painel-matriz}
+
+### 1º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| GES110 | Matemática para Estatística I | 8 | - |
+| GES136 | Introdução aos Planos Experimentais | 4 | - |
+| GES139 | Organização e Apresentação de Dados | 8 | - |
+| GES140 | Vivência Profissional em Estatística | 2 | - |
+
+### 2º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| GES113 | Probabilidade I | 8 | GES110 |
+| GES135 | Fundamentos de Programação | 4 | - |
+| GES137 | Matemática para Estatística II | 10 | GES110 |
+
+### 3º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| GES116 | Matemática para Estatística III | 8 | GES137 |
+| GES117 | Probabilidade II | 6 | GES113 |
+| GES134 | Estrutura de Dados | 8 | GES135 |
+| GES141 | Consultoria em Estatística I | 2 | GES136 |
+
+### 4º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| GES118 | Inferência Estatística I | 8 | GES113 |
+| GES119 | Modelos Lineares I | 8 | GES113 |
+| GES142 | Amostragem | 4 | GES113 |
+
+### 5º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| GES122 | Modelos Lineares II | 8 | GES119 |
+| GES123 | Planejamento e Análise de Experimentos | 4 | GES136 |
+| GES124 | Inferência Estatística II | 8 | GES118 |
+
+### 6º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| GES125 | Séries Temporais | 4 | GES124 |
+| GES126 | Estatística Computacional | 6 | GES135 |
+| GES127 | Consultoria em Estatística II | 4 | GES141 |
+| GES130 | Ciência de Dados e Big Data | 4 | GES134 |
+| GES138 | Técnicas Multivariadas | 4 | GES124 |
+
+### 7º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| GES128 | Modelos Lineares Generalizados | 6 | GES119 |
+| GES129 | Inferência Bayesiana | 4 | GES118 |
+| GES131 | Mineração de Dados e Aprendizagem de Máquinas | 6 | GES134 |
+
+### 8º módulo
+
+| Código | Disciplina | Créditos | Requisito |
+|---|---|:---:|:---:|
+| EES5889 | Estágio Supervisionado | 0 | - |
+
+:::
+
+## Projetos dos estudantes
+
+Trabalhos desenvolvidos pelos nossos estudantes, do mais recente ao mais
+antigo. Veja todos em [Projetos dos Estudantes](projetos-estudantes/index.qmd)
+ou [envie o seu projeto](projetos-estudantes/enviar.qmd).
+
+::: {#projetos-rotator}
+:::

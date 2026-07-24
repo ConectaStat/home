@@ -1,0 +1,25 @@
+---
+title: "GPS"
+subtitle: "Núcleo de Estudos em Geoestatística e Processos Espaciais."
+title-block-banner: true
+body-classes: cs-banner-variograma
+page-layout: article
+sidebar: false
+toc: false
+---
+
+O **GPS** dedica-se à **estatística espacial**: geoestatística, processos
+pontuais e dados de área, com aplicações em agricultura de precisão, meio
+ambiente, epidemiologia e planejamento urbano.
+
+## O que fazemos
+
+- Encontros de estudo sobre métodos de estatística espacial;
+- Análises aplicadas com dados georreferenciados;
+- Colaborações com grupos de pesquisa em agricultura de precisão.
+
+## Como participar
+
+O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
+chamadas na seção de [oportunidades](../../../index.qmd#oportunidades) ou
+[entre em contato](../../../contato.qmd).

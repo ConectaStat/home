@@ -1,7 +1,0 @@
----
-title: "Projetos"
----
-
-# Projetos
-
-Explore nossos projetos de pesquisa e desenvolvimento. 

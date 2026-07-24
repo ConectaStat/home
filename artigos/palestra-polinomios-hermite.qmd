@@ -1,0 +1,12 @@
+---
+title: "Polinômios de Hermite: definições, propriedades e aplicações"
+description: "Palestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística."
+author: "Departamento de Estatística da UFLA"
+date: "2019-12-05"
+categories: [Artigos, Palestras]
+---
+
+Palestra do Departamento de Estatística da UFLA sobre os **polinômios de
+Hermite**, suas definições, propriedades e aplicações na Estatística.
+
+[Ver no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/72-palestra-05-12-2019-polinomios-de-hermite-definicoes-propriedades-e-aplicacoes-na-estatistica)

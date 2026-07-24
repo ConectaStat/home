@@ -1,0 +1,14 @@
+---
+title: "XVII Programa de Verão DES-ICET/UFLA 2026"
+description: "Edição 2026 do tradicional Programa de Verão do Departamento de Estatística, com disciplinas e atividades de formação."
+author: "Departamento de Estatística da UFLA"
+date: "2026-01-15"
+image: "thumbnails/programa-de-verao-2026.png"
+categories: [Eventos]
+---
+
+O Programa de Verão do DES-ICET/UFLA chega à sua XVII edição, oferecendo
+disciplinas e atividades de aperfeiçoamento em Estatística durante o período
+de verão.
+
+[Saiba mais no site do DES/UFLA »](https://des.ufla.br/eventos/135-xvii-programa-de-verao-des-icet-ufla-2026)

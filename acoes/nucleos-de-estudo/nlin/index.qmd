@@ -1,0 +1,25 @@
+---
+title: "NLIN"
+subtitle: "Núcleo de Estudos em Regressão Não Linear Aplicada."
+title-block-banner: true
+body-classes: cs-banner-naolinear
+page-layout: article
+sidebar: false
+toc: false
+---
+
+O **NLIN** reúne estudantes e docentes interessados em **modelos de
+regressão não lineares** e suas aplicações, do crescimento de seres vivos
+à agronomia, passando por curvas de produção e fenômenos biológicos.
+
+## O que fazemos
+
+- Encontros periódicos de estudo e discussão de artigos;
+- Desenvolvimento de projetos de pesquisa e iniciação científica;
+- Oficinas de ajuste de modelos não lineares no software R.
+
+## Como participar
+
+O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
+chamadas na seção de [oportunidades](../../../index.qmd#oportunidades) ou
+[entre em contato](../../../contato.qmd).

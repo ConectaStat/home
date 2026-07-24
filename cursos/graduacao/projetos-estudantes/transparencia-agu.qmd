@@ -1,0 +1,41 @@
+---
+title: "Portal da Transparência da AGU: gastos do Ministério da Educação"
+description: "EDA com dados do Portal da Transparência da Advocacia-Geral da União, em um recorte de 681 observações do Ministério da Educação."
+author: "carlossouza11052007-collab"
+date: "2026-04-14"
+image: "thumbnails/transparencia-agu.png"
+categories: [Análise de dados, Dados públicos, "Portal da Transparência (AGU)"]
+toc: true
+format:
+  html:
+    grid:
+      margin-width: 250px
+---
+
+```{=html}
+<a class="btn-voltar" href="index.html"
+   onclick="if (document.referrer && new URL(document.referrer).origin === location.origin) { history.back(); return false; }">
+  <i class="bi bi-arrow-left"></i> Voltar
+</a>
+```
+
+Análise exploratória de dados extraídos do **Portal da Transparência da
+Advocacia-Geral da União (AGU)**. Do conjunto original com 65.535 observações
+e 12 variáveis, o recorte analisado reúne **681 observações do Ministério da
+Educação**, com relatório publicado em HTML.
+
+```{=html}
+<div class="report-nativo">
+  <iframe src="relatorios/transparencia-agu.html"
+          title="Relatório: Portal da Transparência da AGU (gastos do Ministério da Educação)"></iframe>
+</div>
+
+<div class="projeto-links">
+  <a href="relatorios/transparencia-agu.html" target="_blank" rel="noopener">
+    <i class="bi bi-arrows-fullscreen"></i> Relatório em tela cheia
+  </a>
+  <a href="https://github.com/carlossouza11052007-collab/EDA" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> Código-fonte no GitHub
+  </a>
+</div>
+```

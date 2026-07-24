@@ -1,0 +1,47 @@
+---
+title: "Projetos de Extensão"
+subtitle: "A Estatística a serviço da comunidade: popularização da ciência e letramento estatístico."
+title-block-banner: true
+body-classes: cs-banner-bolhas
+page-layout: article
+sidebar: false
+toc: false
+---
+
+## Extensão no DES/UFLA
+
+Os projetos de extensão levam a Estatística para além dos muros da
+universidade, promovendo o letramento estatístico e o pensamento crítico na
+sociedade:
+
+- **Conexão Estatística**: esta plataforma de popularização da ciência, com
+  notícias, artigos e eventos abertos à comunidade;
+- **Assessoria e consultoria estatística**: apoio a pesquisadores,
+  produtores, empresas e órgãos públicos
+  ([saiba mais](../../assessoria/index.qmd));
+- **Palestras e eventos abertos**: divulgação científica em escolas e
+  eventos regionais ([agenda de eventos](../../eventos/index.qmd));
+- **Cursos para a comunidade**: capacitações em análise de dados e
+  software estatístico.
+
+## Proponha uma parceria
+
+Escolas, empresas e instituições interessadas em ações conjuntas podem
+falar diretamente com o departamento pelos canais abaixo:
+
+```{=html}
+<div class="projeto-links">
+  <a href="https://des.ufla.br/" target="_blank" rel="noopener">
+    <i class="bi bi-globe2"></i> Site do DES/UFLA
+  </a>
+  <a href="https://github.com/Leocarletto/conectastat-pilot" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> GitHub do Conexão Estatística
+  </a>
+</div>
+
+<p class="contato-endereco">
+  <i class="bi bi-geo-alt-fill"></i>
+  Departamento de Estatística da UFLA · Trevo Rotatório Professor Edmir Sá
+  Santos, s/n · Campus Universitário, Lavras/MG · CEP 37203-202
+</p>
+```

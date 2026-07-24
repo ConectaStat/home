@@ -1,0 +1,107 @@
+name: "📊 Submissão de projeto: Projetos dos Estudantes"
+description: "Envie sua análise para publicação em Projetos dos Estudantes, no ConectaStat."
+title: "[Projeto] Título do seu projeto aqui"
+labels: ["projeto-estudante"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por enviar seu projeto para o **ConectaStat**! 🎉
+
+        **Formatos aceitos:** análises em **R** ou **Python** (Quarto, R Markdown ou
+        Jupyter Notebook) com relatório final em **HTML** ou **PDF**.
+        Preencha os campos abaixo; os itens marcados com asterisco são obrigatórios.
+
+  - type: input
+    id: titulo
+    attributes:
+      label: "Título do projeto"
+      placeholder: "ex.: Etanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)"
+    validations:
+      required: true
+
+  - type: input
+    id: autor
+    attributes:
+      label: "Autor(es)"
+      description: "Nome(s) ou usuário(s) do GitHub, exatamente como devem aparecer no post."
+      placeholder: "ex.: Leocarletto"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resumo
+    attributes:
+      label: "Resumo da análise"
+      description: "De 2 a 4 frases: o que foi analisado, com quais dados e quais os principais achados. Esse texto vira a descrição da publicação."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: linguagem
+    attributes:
+      label: "Linguagem de programação"
+      options:
+        - "R"
+        - "Python"
+        - "R + Python"
+        - "Outra (detalhe no resumo)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: formato
+    attributes:
+      label: "Formato do relatório"
+      options:
+        - "HTML"
+        - "PDF"
+        - "HTML + PDF"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: codigo
+    attributes:
+      label: "O código aparece no documento?"
+      description: "O relatório exibe os blocos de código junto do texto, ou mostra apenas texto, tabelas e gráficos?"
+      options:
+        - "Sim (código visível no relatório)"
+        - "Não (apenas resultados)"
+    validations:
+      required: true
+
+  - type: input
+    id: fonte
+    attributes:
+      label: "Fonte dos dados (vira tag do post)"
+      description: "Nome da base ou órgão de origem dos dados."
+      placeholder: 'ex.: PBEV (INMETRO) · Vigitel (Ministério da Saúde) · Banco Mundial'
+    validations:
+      required: true
+
+  - type: textarea
+    id: relatorio
+    attributes:
+      label: "Relatório: link no GitHub OU arquivo anexado"
+      description: "Cole o link do arquivo do relatório no GitHub **ou** anexe o arquivo aqui (arraste para dentro do campo). Relatório em HTML deve ser anexado compactado em **.zip**; PDF pode ser anexado direto."
+      placeholder: "Link do arquivo no GitHub, ou arraste o .zip/.pdf para este campo."
+    validations:
+      required: true
+
+  - type: textarea
+    id: thumbnail
+    attributes:
+      label: "Imagem para thumbnail (opcional)"
+      description: "Anexe uma imagem de capa (proporção 16:9, ideal 1200×675 px). **Se não enviar, geramos automaticamente** a partir do gráfico ou mapa mais colorido do seu relatório."
+    validations:
+      required: false
+
+  - type: input
+    id: repositorio
+    attributes:
+      label: "Repositório no GitHub (opcional)"
+      description: "Link do repositório com a análise completa e o relatório. Não é obrigatório, mas aparece como link no post."
+      placeholder: "https://github.com/usuario/meu-projeto"
+    validations:
+      required: false

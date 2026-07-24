@@ -1,0 +1,47 @@
+---
+title: "Painel dos Egressos"
+subtitle: "Para onde foram os egressos da Estatística da UFLA: setores, regiões e formação continuada."
+title-block-banner: true
+body-classes: cs-banner-barras
+page-layout: article
+sidebar: false
+toc: false
+---
+
+<!-- INTRODUÇÃO - texto provisório: substitua pelo definitivo quando fornecido -->
+
+O **Painel dos Egressos** reúne, em um dashboard interativo, a trajetória
+dos egressos da graduação e da pós-graduação em Estatística da UFLA:
+os setores em que atuam, as regiões do país e do exterior para onde foram
+e a formação continuada que seguiram após o curso.
+
+<!--
+  DASHBOARD - quando o arquivo estiver pronto:
+    1. salve-o em cursos/pos-graduacao/dashboards/egressos.html;
+    2. em _quarto.yml, acrescente em project > resources a linha:
+         - cursos/pos-graduacao/dashboards/
+    3. apague o bloco "painel-em-breve" abaixo e descomente o report-embed.
+-->
+
+```{=html}
+<div class="painel-em-breve">
+  <i class="bi bi-bar-chart-line"></i>
+  <p class="painel-em-breve-titulo">Painel interativo em construção</p>
+  <p>Em breve: o dashboard com a trajetória dos egressos da graduação e da
+     pós-graduação (setores de atuação, regiões e formação continuada).</p>
+</div>
+
+<!-- Quando o dashboard existir, descomente este bloco:
+<div class="report-embed">
+  <div class="report-embed-bar">
+    <span class="report-embed-label"><i class="bi bi-bar-chart-line"></i> Painel dos Egressos</span>
+    <a class="report-embed-fullscreen" href="../dashboards/egressos.html" target="_blank" rel="noopener">
+      <i class="bi bi-arrows-fullscreen"></i> Tela cheia
+    </a>
+  </div>
+  <iframe src="../dashboards/egressos.html"
+          title="Painel dos Egressos do Departamento de Estatística da UFLA"
+          loading="lazy"></iframe>
+</div>
+-->
+```

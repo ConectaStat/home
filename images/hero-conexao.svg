@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Paisagem ilustrada: montanhas em forma de curvas estatísticas e de histograma, campos dourados e um ipê-amarelo florido">
+  <rect x="0" y="0" width="1600" height="640" fill="#549fe3"/>
+  <g fill="#ffffff">
+    <ellipse cx="180" cy="96" rx="64" ry="26"/>
+    <ellipse cx="238" cy="82" rx="46" ry="20"/>
+    <ellipse cx="380" cy="150" rx="70" ry="38"/>
+    <ellipse cx="452" cy="126" rx="84" ry="46"/>
+    <ellipse cx="524" cy="150" rx="66" ry="34"/>
+    <ellipse cx="452" cy="164" rx="112" ry="30"/>
+    <ellipse cx="948" cy="92" rx="54" ry="22"/>
+    <ellipse cx="1000" cy="80" rx="38" ry="16"/>
+    <ellipse cx="1248" cy="142" rx="62" ry="24"/>
+    <ellipse cx="1305" cy="128" rx="44" ry="18"/>
+    <ellipse cx="1502" cy="82" rx="48" ry="18"/>
+  </g>
+  <g fill="#d7e8f6">
+    <ellipse cx="452" cy="172" rx="98" ry="14"/>
+    <ellipse cx="1248" cy="152" rx="52" ry="9"/>
+  </g>
+  <path d="M -60 520
+           C 57 520 63 330 170 330
+           C 277 330 283 520 400 520
+           C 425 520 435 520 440 516
+           C 495 468 470 270 560 270
+           C 650 270 630 468 690 512
+           C 700 519 710 520 730 520
+           C 800 520 810 310 980 310
+           C 1090 310 1100 520 1180 520
+           L 1660 520 L 1660 660 L -60 660 Z"
+        fill="#79b054" stroke="#27461f" stroke-width="3"/>
+  <path d="M -60 522
+           C 100 522 180 370 330 370
+           C 440 370 470 522 560 522
+           C 640 522 660 345 790 345
+           C 900 345 920 522 1010 522
+           C 1080 522 1080 380 1150 380
+           C 1220 380 1230 522 1290 522
+           L 1660 522 L 1660 660 L -60 660 Z"
+        fill="#4f9038" stroke="#1f3a17" stroke-width="3"/>
+  <path d="M 1130 522 L 1130 430 L 1185 430 L 1185 350 L 1240 350 L 1240 270 L 1295 270 L 1295 215 L 1350 215 L 1350 255 L 1405 255 L 1405 320 L 1460 320 L 1460 395 L 1515 395 L 1515 460 L 1600 460 L 1600 522 Z"
+        fill="#37535a" stroke="#17262b" stroke-width="3"/>
+  <path d="M -60 530
+           C 60 530 100 460 240 460
+           C 380 460 420 530 540 530
+           C 660 530 700 448 900 448
+           C 1100 448 1140 530 1260 530
+           C 1360 530 1390 476 1450 476
+           C 1510 476 1540 530 1600 530
+           L 1660 530 L 1660 660 L -60 660 Z"
+        fill="#2f6b2e"/>
+  <rect x="0" y="515" width="1600" height="125" fill="#ecd04e"/>
+  <rect x="0" y="515" width="1600" height="4" fill="#a8862a"/>
+  <rect x="0" y="519" width="1600" height="26" fill="#cfa93b"/>
+  <rect x="0" y="527" width="1600" height="2" fill="#a8862a"/>
+  <rect x="0" y="535" width="1600" height="2" fill="#a8862a"/>
+  <polygon points="860,545 1290,545 1268,578 882,578" fill="#dd8f3f"/>
+  <polygon points="0,578 420,578 398,618 0,618" fill="#f4e6a6"/>
+  <rect x="0" y="592" width="1600" height="16" fill="#8fbc5e"/>
+  <rect x="0" y="622" width="1600" height="2" fill="#b98f2e"/>
+  <g>
+    <rect x="346" y="586" width="5" height="16" fill="#46311f"/>
+    <circle cx="348" cy="580" r="15" fill="#2f6b3a"/>
+    <rect x="296" y="588" width="4" height="12" fill="#46311f"/>
+    <circle cx="298" cy="584" r="11" fill="#357542"/>
+    <rect x="1118" y="580" width="5" height="15" fill="#46311f"/>
+    <circle cx="1120" cy="574" r="14" fill="#2f6b3a"/>
+    <rect x="1418" y="592" width="4" height="13" fill="#46311f"/>
+    <circle cx="1420" cy="587" r="12" fill="#357542"/>
+    <rect x="618" y="578" width="4" height="11" fill="#46311f"/>
+    <circle cx="620" cy="574" r="9" fill="#2f6b3a"/>
+  </g>
+  <g>
+    <path d="M 796 614 C 794 574 788 556 772 540 M 800 614 C 802 576 812 558 826 542 M 798 590 C 792 574 786 568 776 562 M 800 588 C 808 572 814 566 824 560"
+          fill="none" stroke="#46311f" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="770" cy="528" r="24" fill="#f6c832"/>
+    <circle cx="800" cy="516" r="28" fill="#e3a81f"/>
+    <circle cx="830" cy="528" r="22" fill="#f6c832"/>
+    <circle cx="784" cy="544" r="18" fill="#e3a81f"/>
+    <circle cx="816" cy="542" r="18" fill="#f6c832"/>
+    <circle cx="760" cy="600" r="3" fill="#f2c230"/>
+    <circle cx="782" cy="608" r="3" fill="#f2c230"/>
+    <circle cx="812" cy="604" r="3" fill="#f2c230"/>
+    <circle cx="838" cy="598" r="3" fill="#f2c230"/>
+    <circle cx="852" cy="606" r="3" fill="#f2c230"/>
+  </g>
+</svg>

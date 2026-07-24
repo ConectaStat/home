@@ -1,0 +1,59 @@
+<script>
+// ============================================================
+//  Transições de página, camada 3: os blocos de conteúdo
+//  surgem suavemente conforme entram na tela (estilos em
+//  conectastat.scss, seção "TRANSIÇÕES DE PÁGINA").
+//  Sem JS ou com "reduzir movimento" ativo, nada é escondido.
+// ============================================================
+(function () {
+  var reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduz || !("IntersectionObserver" in window)) return;
+
+  // Só com esta classe o CSS esconde os blocos antes da revelação
+  document.documentElement.classList.add("cs-js");
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var alvos = [];
+
+    if (document.querySelector(".hero-banner")) {
+      // Home: os grandes blocos de seção (o hero já tem a própria montagem)
+      document.querySelectorAll(".intro-block, .listing-block, .map-block")
+        .forEach(function (el) { alvos.push(el); });
+    } else {
+      // Páginas internas: cada bloco de primeiro nível do documento
+      var corpo = document.getElementById("quarto-document-content");
+      if (corpo) {
+        Array.prototype.forEach.call(corpo.children, function (el) {
+          if (el.matches("script, style, #title-block-header, .quarto-listing")) return;
+          alvos.push(el);
+        });
+        // Listagens (notícias, eventos...): cartão por cartão, em cascata
+        corpo.querySelectorAll(".quarto-listing .quarto-grid-item")
+          .forEach(function (el) { alvos.push(el); });
+      }
+    }
+
+    if (!alvos.length) return;
+    alvos.forEach(function (el) { el.classList.add("cs-reveal"); });
+
+    // Blocos que entram juntos na tela revelam em cascata curta
+    var io = new IntersectionObserver(function (entradas) {
+      var atraso = 0;
+      entradas.forEach(function (entrada) {
+        if (!entrada.isIntersecting) return;
+        var el = entrada.target;
+        io.unobserve(el);
+        el.style.transitionDelay = Math.min(atraso, 420) + "ms";
+        atraso += 70;
+        el.classList.add("cs-visivel");
+        el.addEventListener("transitionend", function fim() {
+          el.style.transitionDelay = "";
+          el.removeEventListener("transitionend", fim);
+        });
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0 });
+
+    alvos.forEach(function (el) { io.observe(el); });
+  });
+})();
+</script>

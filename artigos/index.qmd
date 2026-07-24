@@ -1,0 +1,22 @@
+---
+title: "Artigos & Colunas"
+subtitle: "Textos de divulgação que aproximam a Estatística do público."
+page-layout: article
+title-block-banner: true
+body-classes: cs-banner-qq
+sidebar: false
+toc: false
+listing:
+  contents:
+    - "*.qmd"
+    - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-placeholder: ../images/post-placeholder.svg
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  fields: [image, title, description, author, date]
+---

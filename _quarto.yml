@@ -1,43 +1,109 @@
 project:
   type: website
-  output-dir: docs
+  # Antes de cada render completo: gera a capa de qualquer post sem `image:`
+  # (gráfico/mapa mais colorido do relatório, ou "foto" do topo da notícia).
+  pre-render: scripts/gerar_thumbnails.py
+  # Depois de cada render: troca o " – " dos títulos das páginas por " | "
+  post-render: scripts/ajustar_titulos.py
+  resources:
+    - images/post-placeholder.svg
+    - cursos/graduacao/projetos-estudantes/relatorios/
+    - cursos/graduacao/projetos-estudantes/thumbnails/
+    - noticias/thumbnails/
+    - oportunidades/thumbnails/
+    - eventos/thumbnails/
+
+lang: pt
 
 website:
-  title: "Conecta Stat"
+  title: "Conexão Estatística"
+  image: images/logo_ufla_transparente.png
+  favicon: images/ufla_favicon.ico
+  open-graph: true
+  site-url: https://conectastat.github.io/home/
+  repo-url: https://github.com/ConectaStat/home
+  ##
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: people.qmd
-        text: Pessoas
-      - href: projects.qmd
-        text: Projetos
-      - href: events.qmd
-        text: Eventos
-      - href: contact.qmd
-        text: Contato
+    toggle-position: right
+    background: "#0a3f66"
+    logo: images/logo-conexao.png
+    logo-alt: "Marca do Conexão Estatística"
+    title: 'Conexão Estatística<span class="nav-dot">.</span><span class="nav-tagline"><span>Ciência,</span> <span class="tag-verde">Estatística &amp;</span> <span>Conexão</span></span>'
+    collapse-below: lg
+    right:
+      - text: "Estatística"
+        href: estatistica/index.qmd
+      - text: "Nossos Cursos"
+        menu:
+          - text: "Graduação"
+            href: cursos/graduacao/index.qmd
+          - text: "› Sobre o curso"
+            href: cursos/graduacao/index.qmd
+          - text: "› Projetos dos Estudantes"
+            href: cursos/graduacao/projetos-estudantes/index.qmd
+          - text: "Pós-Graduação"
+            href: cursos/pos-graduacao/index.qmd
+          - text: "› Sobre o curso"
+            href: cursos/pos-graduacao/index.qmd
+          - text: "› Painel dos Egressos"
+            href: cursos/pos-graduacao/egressos/index.qmd
+      - text: "Assessoria e Consultoria"
+        href: assessoria/index.qmd
+      - text: "Projetos"
+        menu:
+          - text: "Pesquisa"
+            href: projetos/pesquisa/index.qmd
+          - text: "Ensino"
+            href: projetos/ensino/index.qmd
+          - text: "Extensão"
+            href: projetos/extensao/index.qmd
+      - text: "Ações"
+        menu:
+          - text: "Revista Científica"
+            href: acoes/revista-cientifica/index.qmd
+          - text: "Núcleos de Estudo"
+            href: acoes/nucleos-de-estudo/index.qmd
+          - text: "› NLIN"
+            href: acoes/nucleos-de-estudo/nlin/index.qmd
+          - text: "› GPS"
+            href: acoes/nucleos-de-estudo/gps/index.qmd
+          - text: "› ST"
+            href: acoes/nucleos-de-estudo/st/index.qmd
+  page-navigation: true
+
+  back-to-top-navigation: false
+
   page-footer:
+    background: "#0a3f66"
     left: |
-      **Conecta Stat**  
-      Hub de Inovação em Estatística
-      
-      Departamento de Estatística  
-      Universidade Federal de Lavras - UFLA
-      
-      [![Email](https://img.shields.io/badge/Email-conecta.stat.ufla@gmail.com-f7fafc?style=for-the-badge&logo=gmail&logoColor=4a5568&color=f7fafc&labelColor=f7fafc)](mailto:conecta.stat.ufla@gmail.com)
-      [![GitHub](https://img.shields.io/badge/GitHub-conecta--stat-f7fafc?style=for-the-badge&logo=github&logoColor=4a5568&color=f7fafc&labelColor=f7fafc)](https://github.com/conecta-stat)
+      Copyright &copy; 2026 **Conexão Estatística**
+
+      [Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.]{.footer-disclaimer}
+    center:
+      - href: https://github.com/ConectaStat/home
+        icon: github
+        aria-label: GitHub
+      - href: "#"
+        icon: instagram
+        aria-label: Instagram
+      - href: "#"
+        icon: linkedin
+        aria-label: LinkedIn
     right: |
-      Desenvolvido com [Quarto](https://quarto.org/){target="_blank"}  
-      © 2025 UFLA
+      <div class="footer-assinatura"><div class="footer-des"><span class="footer-des-sigla">DES</span><span class="footer-des-nome">Departamento de<br>Estatística</span></div><a href="https://ufla.br/" aria-label="Universidade Federal de Lavras"><img src="/images/ufla-oficial-negativa.png" class="footer-ufla-logo" alt="Universidade Federal de Lavras"></a></div>
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    link-external-newwindow: true
-    include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    theme: [cosmo, conectastat.scss]
+    css: conectastat.css
+    include-after-body:
+      - _includes/listing-cards.html
+      - _includes/transitions.html
+    toc: false
+    grid:
+      sidebar-width: 0px
+      body-width: 1050px
+      margin-width: 60px
 
-
-
+execute:
+  freeze: auto

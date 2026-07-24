@@ -1,0 +1,46 @@
+---
+title: "Projetos de Pesquisa"
+subtitle: "A investigação científica desenvolvida no Departamento de Estatística da UFLA."
+title-block-banner: true
+body-classes: cs-banner-densidades
+page-layout: article
+sidebar: false
+toc: false
+listing:
+  id: lista-oportunidades
+  contents:
+    - "../../oportunidades/*.qmd"
+  sort: "date desc"
+  template: ../../cards.ejs
+---
+
+## Pesquisa no DES/UFLA
+
+Os docentes e estudantes do Departamento de Estatística desenvolvem projetos
+de pesquisa em métodos estatísticos e em aplicações, com destaque para:
+
+- **Modelos de regressão não lineares** aplicados ao crescimento de seres
+  vivos e a fenômenos agronômicos;
+- **Modelos mistos e experimentação agropecuária**;
+- **Estatística bayesiana e métodos computacionais**;
+- **Séries temporais** e modelos para dados de contagem;
+- **Estatística espacial e geoestatística**;
+- **Aprendizado de máquina e ciência de dados**.
+
+Os resultados são publicados em periódicos nacionais e internacionais e
+apresentados em eventos científicos, muitos deles divulgados aqui no
+Conexão Estatística, na seção de [artigos](../../artigos/index.qmd).
+
+## Núcleos e grupos de estudo
+
+Boa parte da pesquisa se organiza em torno dos
+[núcleos de estudo (NLIN, GPS e ST)](../../acoes/nucleos-de-estudo/index.qmd), que
+reúnem docentes, pós-graduandos e graduandos.
+
+## Participe
+
+Estudantes interessados em iniciação científica podem procurar os docentes
+do departamento ou acompanhar os editais e oportunidades abaixo:
+
+::: {#lista-oportunidades}
+:::

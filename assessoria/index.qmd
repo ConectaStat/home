@@ -1,0 +1,11 @@
+---
+title: "Assessoria e Consultoria Estatística"
+title-block-banner: true
+body-classes: cs-banner-erro
+page-layout: article
+sidebar: false
+toc: false
+---
+
+<!-- Página intencionalmente vazia por enquanto; apenas o botão existe no menu.
+     O conteúdo será adicionado posteriormente. -->

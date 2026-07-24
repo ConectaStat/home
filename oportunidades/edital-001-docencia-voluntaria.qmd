@@ -1,0 +1,13 @@
+---
+title: "Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)"
+description: "Seleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026."
+author: "Departamento de Estatística da UFLA"
+date: "2026-02-01"
+image: "thumbnails/edital-001-docencia-voluntaria.png"
+categories: [Oportunidades, Editais]
+---
+
+O Departamento de Estatística da UFLA divulga o Edital Nº 001/2026 para
+seleção de docência voluntária no 1º semestre de 2026.
+
+[Ler edital no site do DES/UFLA »](https://des.ufla.br/editais/134-edital-n-001-2026-docencia-voluntaria-des-1-sem-2026)

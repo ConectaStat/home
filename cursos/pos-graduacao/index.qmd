@@ -1,0 +1,52 @@
+---
+title: "Pós-Graduação"
+subtitle: "Programa de Pós-Graduação em Estatística e Experimentação Agropecuária: mestrado e doutorado."
+title-block-banner: true
+body-classes: cs-banner-serie
+page-layout: article
+sidebar: false
+toc: false
+---
+
+O Departamento de Estatística da UFLA abriga o **Programa de Pós-Graduação em
+Estatística e Experimentação Agropecuária (PPGEEA)**, com cursos de
+**mestrado** e **doutorado**, formando pesquisadores e docentes com sólida
+base teórica e forte vocação aplicada.
+
+O programa tem tradição na interface entre a Estatística e as ciências
+agrárias, e vem ampliando sua atuação para a ciência de dados, a modelagem
+computacional e as aplicações em saúde, indústria e meio ambiente.
+
+## Áreas de concentração e linhas de pesquisa
+
+- **Métodos estatísticos**: inferência, modelos lineares e não lineares,
+  modelos mistos e estatística bayesiana;
+- **Experimentação agropecuária**: planejamento e análise de experimentos,
+  melhoramento genético e agricultura de precisão;
+- **Modelagem e computação**: estatística computacional, séries temporais,
+  estatística espacial e aprendizado de máquina.
+
+## Disciplinas
+
+Entre as disciplinas oferecidas regularmente estão:
+
+| Disciplina | Tema |
+|---|---|
+| Inferência Estatística | Estimação, testes de hipóteses e teoria assintótica |
+| Modelos Lineares | Teoria e aplicação de modelos de regressão |
+| Planejamento de Experimentos | Delineamentos experimentais e análise |
+| Estatística Computacional | Simulação, métodos de Monte Carlo e otimização |
+| Modelos Mistos | Efeitos aleatórios e dados longitudinais |
+| Estatística Bayesiana | Inferência bayesiana e métodos MCMC |
+| Séries Temporais | Modelagem e previsão de dados temporais |
+
+: {tbl-colwidths="[40,60]"}
+
+A relação completa de disciplinas, docentes e projetos está no
+[site do DES/UFLA](https://des.ufla.br/).
+
+## Painel dos Egressos
+
+A trajetória dos nossos egressos (setores de atuação, regiões e formação
+continuada) está reunida em um dashboard interativo: o
+[Painel dos Egressos](egressos/index.qmd).

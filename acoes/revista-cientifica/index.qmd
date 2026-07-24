@@ -1,0 +1,29 @@
+---
+title: "Revista Científica"
+subtitle: "Brazilian Journal of Biometrics, periódico científico ligado ao Departamento de Estatística da UFLA."
+title-block-banner: true
+body-classes: cs-banner-forest
+page-layout: article
+sidebar: false
+toc: false
+---
+
+## Brazilian Journal of Biometrics
+
+O **Brazilian Journal of Biometrics (BJB)** é um periódico científico de
+acesso aberto que publica artigos originais sobre métodos estatísticos e
+suas aplicações em biometria, agricultura, biologia, saúde e áreas afins.
+
+- **Acesso aberto**: todos os artigos disponíveis gratuitamente;
+- **Revisão por pares**: avaliação criteriosa por especialistas;
+- **Escopo**: estatística aplicada, experimentação, modelagem e métodos
+  quantitativos nas ciências da vida.
+
+::: {.button}
+[Conhecer a revista](https://www.biometria.ufla.br/index.php/BBJ){target="_blank"}
+:::
+
+## Como submeter
+
+Autores interessados encontram as normas de submissão e o sistema de envio
+no [site oficial do periódico](https://www.biometria.ufla.br/index.php/BBJ){target="_blank"}.

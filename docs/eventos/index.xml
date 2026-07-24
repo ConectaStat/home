@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Conexão Estatística</title>
+<link>https://conectastat.github.io/home/eventos/</link>
+<atom:link href="https://conectastat.github.io/home/eventos/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<image>
+<url>https://conectastat.github.io/home/images/logo_ufla_transparente.png</url>
+<title>Conexão Estatística</title>
+<link>https://conectastat.github.io/home/eventos/</link>
+<height>59</height>
+<width>144</width>
+</image>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Thu, 15 Jan 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>XVII Programa de Verão DES-ICET/UFLA 2026</title>
+  <dc:creator>Departamento de Estatística da UFLA</dc:creator>
+  <link>https://conectastat.github.io/home/eventos/programa-de-verao-2026.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>O Programa de Verão do DES-ICET/UFLA chega à sua XVII edição, oferecendo disciplinas e atividades de aperfeiçoamento em Estatística durante o período de verão.</p>
+<p><a href="https://des.ufla.br/eventos/135-xvii-programa-de-verao-des-icet-ufla-2026">Saiba mais no site do DES/UFLA »</a></p>
+
+
+
+ ]]></description>
+  <category>Eventos</category>
+  <guid>https://conectastat.github.io/home/eventos/programa-de-verao-2026.html</guid>
+  <pubDate>Thu, 15 Jan 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/home/eventos/thumbnails/programa-de-verao-2026.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>XVII Encontro Mineiro de Estatística (MGEST) 2025</title>
+  <dc:creator>Departamento de Estatística da UFLA</dc:creator>
+  <link>https://conectastat.github.io/home/eventos/xvii-encontro-mineiro-estatistica.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>O Encontro Mineiro de Estatística (MGEST) é um evento bienal que, desde 1999, reúne profissionais, docentes e estudantes para a troca de conhecimento e a divulgação de pesquisas na área de Estatística.</p>
+<p><a href="https://des.ufla.br/eventos/xvii-mgest-2025">Saiba mais no site do DES/UFLA »</a></p>
+
+
+
+ ]]></description>
+  <category>Eventos</category>
+  <guid>https://conectastat.github.io/home/eventos/xvii-encontro-mineiro-estatistica.html</guid>
+  <pubDate>Wed, 05 Nov 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/home/eventos/thumbnails/xvii-encontro-mineiro-estatistica.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>V Workshop em Data Science</title>
+  <dc:creator>Departamento de Estatística da UFLA</dc:creator>
+  <link>https://conectastat.github.io/home/eventos/v-workshop-data-science.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>O Workshop em Data Science promove discussões sobre métodos estatísticos, aprendizado de máquina e aplicações de Ciência de Dados.</p>
+<p><a href="https://des.ufla.br/eventos/v-workshop-em-data-science">Saiba mais no site do DES/UFLA »</a></p>
+
+
+
+ ]]></description>
+  <category>Eventos</category>
+  <guid>https://conectastat.github.io/home/eventos/v-workshop-data-science.html</guid>
+  <pubDate>Tue, 20 May 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/home/eventos/thumbnails/v-workshop-data-science.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Curso de Extensão: Introdução ao Software R</title>
+  <dc:creator>Departamento de Estatística da UFLA</dc:creator>
+  <link>https://conectastat.github.io/home/eventos/curso-introducao-software-r.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Curso de extensão de introdução ao <strong>R</strong>, ambiente livre e gratuito amplamente utilizado para análise estatística, modelagem e visualização de dados.</p>
+<p><a href="https://des.ufla.br/cursos-e-palestras/125-curso-de-extensao-introducao-ao-software-r">Saiba mais no site do DES/UFLA »</a></p>
+
+
+
+ ]]></description>
+  <category>Eventos</category>
+  <category>Cursos</category>
+  <guid>https://conectastat.github.io/home/eventos/curso-introducao-software-r.html</guid>
+  <pubDate>Sun, 01 Sep 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/home/eventos/thumbnails/curso-introducao-software-r.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>

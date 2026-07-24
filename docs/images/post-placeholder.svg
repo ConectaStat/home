@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="ConectaStat: projeto dos estudantes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d5488"/>
+      <stop offset="1" stop-color="#0a3f66"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- pontos de dispersão sutis (motivo estatístico) -->
+  <g fill="#ffffff" opacity="0.14">
+    <circle cx="120" cy="380" r="10"/>
+    <circle cx="210" cy="330" r="7"/>
+    <circle cx="300" cy="352" r="9"/>
+    <circle cx="392" cy="285" r="8"/>
+    <circle cx="480" cy="300" r="11"/>
+    <circle cx="570" cy="235" r="8"/>
+    <circle cx="660" cy="252" r="9"/>
+    <circle cx="720" cy="180" r="7"/>
+  </g>
+  <!-- linha de tendência -->
+  <path d="M100 400 Q 400 330 720 170" fill="none" stroke="#1a8a4c" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+  <!-- marca -->
+  <text x="400" y="130" text-anchor="middle" font-family="Verdana, sans-serif" font-size="44" font-weight="bold" fill="#ffffff">ConectaStat<tspan fill="#1a8a4c">.</tspan></text>
+</svg>

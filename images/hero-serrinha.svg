@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Ilustração da Serrinha da UFLA: casa branca histórica ao lado de um ipê-amarelo florido">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dceefb"/>
+      <stop offset="0.65" stop-color="#eef7fc"/>
+      <stop offset="1" stop-color="#f7fbf6"/>
+    </linearGradient>
+    <linearGradient id="serra-fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ad8ba"/>
+      <stop offset="1" stop-color="#7ccaa4"/>
+    </linearGradient>
+    <linearGradient id="serra-frente" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#33aa74"/>
+      <stop offset="1" stop-color="#1a8a4c"/>
+    </linearGradient>
+    <linearGradient id="gramado" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a8a4c"/>
+      <stop offset="1" stop-color="#146839"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* ==========================================================
+       Cena se montando por partes (estilo "vetor de abertura"):
+       cada camada entra rápida, com leve exagero no encaixe.
+       Total ~1,3 s - visível, mas sem atrasar a navegação.
+       ========================================================== */
+    .h-anim {
+      animation-fill-mode: both;
+      animation-timing-function: cubic-bezier(0.2, 1.3, 0.4, 1);
+      transform-box: fill-box;
+      transform-origin: 50% 100%;
+    }
+
+    @keyframes h-fade  { from { opacity: 0; } }
+    @keyframes h-sobe  { from { opacity: 0; transform: translateY(56px); } }
+    @keyframes h-pop   { from { opacity: 0; transform: scale(0.2); } }
+    @keyframes h-casa-monta {
+      from { opacity: 0; transform: translate(-80px, 14px) rotate(-3deg) scale(0.92); }
+    }
+    @keyframes h-arvore-sobe {
+      from { opacity: 0; transform: translateY(46px) rotate(2.5deg) scale(0.82); }
+    }
+    @keyframes h-nuvem-entra {
+      from { opacity: 0; transform: translateX(-48px); }
+    }
+
+    .h-ceu          { animation: h-fade 0.26s linear both; }
+    .h-serra-fundo  { animation-name: h-sobe;  animation-duration: 0.30s; animation-delay: 0.05s; }
+    .h-serra-frente { animation-name: h-sobe;  animation-duration: 0.30s; animation-delay: 0.12s; }
+    .h-gramado      { animation-name: h-sobe;  animation-duration: 0.30s; animation-delay: 0.19s; }
+    .h-casa         { animation-name: h-casa-monta; animation-duration: 0.38s; animation-delay: 0.28s; }
+    .h-caminho      { animation-name: h-fade;  animation-duration: 0.30s; animation-delay: 0.34s; }
+    .h-arbustos     { animation-name: h-pop;   animation-duration: 0.28s; animation-delay: 0.50s; }
+    .h-ipe          { animation-name: h-arvore-sobe; animation-duration: 0.38s; animation-delay: 0.50s; }
+    .h-copa1        { animation-name: h-pop;   animation-duration: 0.30s; animation-delay: 0.62s; }
+    .h-copa2        { animation-name: h-pop;   animation-duration: 0.30s; animation-delay: 0.70s; }
+    .h-copa3        { animation-name: h-pop;   animation-duration: 0.26s; animation-delay: 0.78s; }
+    .h-nuvens       { animation: h-nuvem-entra 0.5s ease-out 0.66s both; }
+    .h-petalas-chao { animation-name: h-fade;  animation-duration: 0.30s; animation-delay: 0.80s; }
+    .h-ipe-jovem    { animation-name: h-pop;   animation-duration: 0.26s; animation-delay: 0.82s; }
+    .h-petalas      { animation-name: h-fade;  animation-duration: 0.35s; animation-delay: 0.95s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .h-anim, .h-ceu, .h-nuvens { animation: none !important; }
+    }
+  </style>
+
+  <!-- céu -->
+  <rect class="h-anim h-ceu" width="1600" height="640" fill="url(#ceu)"/>
+
+  <!-- nuvens -->
+  <g class="h-anim h-nuvens" fill="#ffffff" opacity="0.85">
+    <ellipse cx="330" cy="96" rx="90" ry="22"/>
+    <ellipse cx="395" cy="82" rx="60" ry="18"/>
+    <ellipse cx="1220" cy="70" rx="80" ry="20"/>
+    <ellipse cx="1285" cy="86" rx="55" ry="16"/>
+    <ellipse cx="820" cy="58" rx="65" ry="16"/>
+  </g>
+
+  <!-- serra ao fundo -->
+  <path class="h-anim h-serra-fundo" d="M0 350 C 60 350 70 270 150 270 C 230 270 240 350 320 350 C 400 350 420 250 520 250 C 620 250 640 350 720 350 C 790 350 800 265 880 265 C 960 265 980 340 1050 340 L 1240 340 L 1240 300 L 1300 300 L 1300 262 L 1360 262 L 1360 230 L 1420 230 L 1420 268 L 1480 268 L 1480 308 L 1540 308 L 1540 340 L 1600 340 V 640 H 0 Z" fill="url(#serra-fundo)"/>
+  <!-- serra intermediária -->
+  <path class="h-anim h-serra-frente" d="M0 430 C 90 430 110 355 230 355 C 350 355 370 430 470 430 C 570 430 590 370 700 370 C 810 370 830 430 930 430 C 1030 430 1050 380 1160 380 C 1270 380 1290 430 1390 430 C 1470 430 1520 400 1600 405 V 640 H 0 Z" fill="url(#serra-frente)" opacity="0.9"/>
+  <!-- gramado -->
+  <path class="h-anim h-gramado" d="M0 470 Q 400 430 800 455 T 1600 445 V 640 H 0 Z" fill="url(#gramado)"/>
+
+  <!-- caminho -->
+  <path class="h-anim h-caminho" d="M760 640 Q 800 560 900 530 Q 960 512 1040 512 Q 1000 560 990 640 Z" fill="#d9cfb8" opacity="0.9"/>
+
+  <!-- casa histórica (Serrinha) -->
+  <g class="h-anim h-casa">
+    <!-- corpo -->
+    <rect x="240" y="300" width="440" height="200" fill="#fdfdf9"/>
+    <!-- base cinza-azulada -->
+    <rect x="240" y="460" width="440" height="40" fill="#93a3b5"/>
+    <!-- empena lateral -->
+    <path d="M680 300 L 780 340 V 500 H 680 Z" fill="#eef0ea"/>
+    <rect x="680" y="466" width="100" height="34" fill="#8798ab"/>
+    <!-- telhado -->
+    <path d="M215 305 L 460 220 L 705 305 Z" fill="#b3552f"/>
+    <path d="M460 220 L 800 330 L 780 348 L 460 240 Z" fill="#9c4726"/>
+    <!-- linhas de telha -->
+    <g stroke="#8a3e21" stroke-width="3" opacity="0.55">
+      <path d="M300 276 L 460 222"/>
+      <path d="M340 290 L 560 254"/>
+      <path d="M420 300 L 640 282"/>
+    </g>
+    <!-- beiral -->
+    <rect x="228" y="298" width="464" height="10" fill="#e8e4da"/>
+    <!-- janela com moldura azul -->
+    <g>
+      <rect x="300" y="340" width="96" height="112" fill="#0d5488"/>
+      <rect x="308" y="348" width="80" height="96" fill="#dff0fa"/>
+      <g stroke="#0d5488" stroke-width="5">
+        <path d="M348 348 V 444"/>
+        <path d="M308 380 H 388"/>
+        <path d="M308 412 H 388"/>
+      </g>
+    </g>
+    <!-- porta com moldura azul -->
+    <g>
+      <rect x="470" y="360" width="80" height="140" fill="#0d5488"/>
+      <rect x="478" y="368" width="64" height="132" fill="#eef6fb"/>
+      <path d="M510 368 V 500 M 478 420 H 542" stroke="#0d5488" stroke-width="5"/>
+    </g>
+    <!-- moldura do canto -->
+    <rect x="240" y="300" width="10" height="200" fill="#e3e0d6"/>
+  </g>
+
+  <!-- arbustos junto à casa -->
+  <g class="h-anim h-arbustos">
+    <circle cx="255" cy="490" r="34" fill="#146839"/>
+    <circle cx="300" cy="500" r="26" fill="#33aa74"/>
+    <circle cx="640" cy="498" r="30" fill="#146839"/>
+    <circle cx="690" cy="505" r="24" fill="#33aa74"/>
+    <!-- roseira -->
+    <circle cx="612" cy="470" r="8" fill="#c94f6d"/>
+    <circle cx="648" cy="480" r="6" fill="#c94f6d"/>
+    <circle cx="628" cy="452" r="6" fill="#c94f6d"/>
+  </g>
+
+  <!-- ipê-amarelo -->
+  <g class="h-anim h-ipe">
+    <!-- tronco e galhos -->
+    <path d="M1052 560 C 1048 480 1044 430 1030 380 C 1020 345 1000 320 975 300
+             M1030 380 C 1050 340 1080 315 1112 296
+             M1038 420 C 1080 390 1130 372 1178 366
+             M1044 470 C 1000 440 960 428 918 424"
+          fill="none" stroke="#6b4a2f" stroke-width="16" stroke-linecap="round"/>
+    <path d="M1052 560 C 1056 500 1062 450 1082 410" fill="none" stroke="#6b4a2f" stroke-width="12" stroke-linecap="round"/>
+    <!-- copa florida -->
+    <g class="h-anim h-copa1" fill="#f5c31d">
+      <circle cx="960" cy="280" r="58"/>
+      <circle cx="1040" cy="240" r="66"/>
+      <circle cx="1125" cy="262" r="60"/>
+      <circle cx="1195" cy="330" r="56"/>
+      <circle cx="1090" cy="330" r="62"/>
+      <circle cx="995" cy="345" r="50"/>
+      <circle cx="905" cy="395" r="42"/>
+      <circle cx="1170" cy="405" r="40"/>
+    </g>
+    <g class="h-anim h-copa2" fill="#ffd84d">
+      <circle cx="1005" cy="265" r="40"/>
+      <circle cx="1090" cy="245" r="42"/>
+      <circle cx="1155" cy="300" r="38"/>
+      <circle cx="1050" cy="320" r="36"/>
+      <circle cx="945" cy="330" r="30"/>
+      <circle cx="1200" cy="370" r="26"/>
+    </g>
+    <g class="h-anim h-copa3" fill="#e8ab00" opacity="0.8">
+      <circle cx="980" cy="310" r="14"/>
+      <circle cx="1075" cy="285" r="12"/>
+      <circle cx="1140" cy="345" r="12"/>
+      <circle cx="1025" cy="230" r="10"/>
+    </g>
+    <!-- pétalas caindo -->
+    <g class="h-anim h-petalas" fill="#ffd84d">
+      <ellipse cx="930" cy="470" rx="7" ry="4" transform="rotate(-20 930 470)"/>
+      <ellipse cx="1000" cy="505" rx="7" ry="4" transform="rotate(15 1000 505)"/>
+      <ellipse cx="1105" cy="480" rx="7" ry="4" transform="rotate(-10 1105 480)"/>
+      <ellipse cx="1180" cy="520" rx="7" ry="4" transform="rotate(25 1180 520)"/>
+      <ellipse cx="1060" cy="545" rx="8" ry="4" transform="rotate(-15 1060 545)"/>
+    </g>
+    <!-- pétalas no chão -->
+    <ellipse class="h-anim h-petalas-chao" cx="1055" cy="572" rx="120" ry="14" fill="#f5c31d" opacity="0.35"/>
+  </g>
+
+  <!-- ipê jovem ao longe, à esquerda -->
+  <g class="h-anim h-ipe-jovem">
+    <path d="M120 500 C 122 470 124 450 132 430" fill="none" stroke="#6b4a2f" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="128" cy="408" r="30" fill="#f5c31d"/>
+    <circle cx="152" cy="422" r="22" fill="#ffd84d"/>
+    <circle cx="106" cy="428" r="18" fill="#ffd84d"/>
+  </g>
+</svg>
