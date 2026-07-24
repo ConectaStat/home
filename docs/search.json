@@ -1,73 +1,17 @@
 [
   {
-    "objectID": "eventos/programa-de-verao-2026.html",
-    "href": "eventos/programa-de-verao-2026.html",
-    "title": "XVII Programa de Verão DES-ICET/UFLA 2026",
+    "objectID": "artigos/index.html",
+    "href": "artigos/index.html",
+    "title": "Artigos & Colunas",
     "section": "",
-    "text": "O Programa de Verão do DES-ICET/UFLA chega à sua XVII edição, oferecendo disciplinas e atividades de aperfeiçoamento em Estatística durante o período de verão.\nSaiba mais no site do DES/UFLA »"
+    "text": "Introdução ao crescimento de seres vivos: indivíduo ou população?\n\n\nPalestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n3 de set. de 2021\n\n\n\n\n\n\n\n\n\n\n\nModelos da classe GLARMA(p,q): séries temporais de contagem\n\n\nPalestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n16 de nov. de 2020\n\n\n\n\n\n\n\n\n\n\n\nPolinômios de Hermite: definições, propriedades e aplicações\n\n\nPalestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n5 de dez. de 2019\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "eventos/xvii-encontro-mineiro-estatistica.html",
-    "href": "eventos/xvii-encontro-mineiro-estatistica.html",
-    "title": "XVII Encontro Mineiro de Estatística (MGEST) 2025",
+    "objectID": "artigos/palestra-crescimento-seres-vivos.html",
+    "href": "artigos/palestra-crescimento-seres-vivos.html",
+    "title": "Introdução ao crescimento de seres vivos: indivíduo ou população?",
     "section": "",
-    "text": "O Encontro Mineiro de Estatística (MGEST) é um evento bienal que, desde 1999, reúne profissionais, docentes e estudantes para a troca de conhecimento e a divulgação de pesquisas na área de Estatística.\nSaiba mais no site do DES/UFLA »"
-  },
-  {
-    "objectID": "eventos/v-workshop-data-science.html",
-    "href": "eventos/v-workshop-data-science.html",
-    "title": "V Workshop em Data Science",
-    "section": "",
-    "text": "O Workshop em Data Science promove discussões sobre métodos estatísticos, aprendizado de máquina e aplicações de Ciência de Dados.\nSaiba mais no site do DES/UFLA »"
-  },
-  {
-    "objectID": "acoes/nucleos-de-estudo/st/index.html",
-    "href": "acoes/nucleos-de-estudo/st/index.html",
-    "title": "ST",
-    "section": "",
-    "text": "O ST estuda a modelagem e a previsão de dados ao longo do tempo: modelos ARIMA e GARCH, modelos para dados de contagem (como os GLARMA), séries ambientais, econômicas e epidemiológicas."
-  },
-  {
-    "objectID": "acoes/nucleos-de-estudo/st/index.html#o-que-fazemos",
-    "href": "acoes/nucleos-de-estudo/st/index.html#o-que-fazemos",
-    "title": "ST",
-    "section": "O que fazemos",
-    "text": "O que fazemos\n\nEncontros de estudo e discussão de artigos sobre séries temporais;\nProjetos aplicados de previsão e monitoramento;\nOficinas de análise de séries temporais no software R."
-  },
-  {
-    "objectID": "acoes/nucleos-de-estudo/st/index.html#como-participar",
-    "href": "acoes/nucleos-de-estudo/st/index.html#como-participar",
-    "title": "ST",
-    "section": "Como participar",
-    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
-  },
-  {
-    "objectID": "acoes/nucleos-de-estudo/nlin/index.html",
-    "href": "acoes/nucleos-de-estudo/nlin/index.html",
-    "title": "NLIN",
-    "section": "",
-    "text": "O NLIN reúne estudantes e docentes interessados em modelos de regressão não lineares e suas aplicações, do crescimento de seres vivos à agronomia, passando por curvas de produção e fenômenos biológicos."
-  },
-  {
-    "objectID": "acoes/nucleos-de-estudo/nlin/index.html#o-que-fazemos",
-    "href": "acoes/nucleos-de-estudo/nlin/index.html#o-que-fazemos",
-    "title": "NLIN",
-    "section": "O que fazemos",
-    "text": "O que fazemos\n\nEncontros periódicos de estudo e discussão de artigos;\nDesenvolvimento de projetos de pesquisa e iniciação científica;\nOficinas de ajuste de modelos não lineares no software R."
-  },
-  {
-    "objectID": "acoes/nucleos-de-estudo/nlin/index.html#como-participar",
-    "href": "acoes/nucleos-de-estudo/nlin/index.html#como-participar",
-    "title": "NLIN",
-    "section": "Como participar",
-    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
-  },
-  {
-    "objectID": "oportunidades/edital-001-docencia-voluntaria.html",
-    "href": "oportunidades/edital-001-docencia-voluntaria.html",
-    "title": "Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)",
-    "section": "",
-    "text": "O Departamento de Estatística da UFLA divulga o Edital Nº 001/2026 para seleção de docência voluntária no 1º semestre de 2026.\nLer edital no site do DES/UFLA »"
+    "text": "Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre a modelagem do crescimento de seres vivos, abordando as perspectivas do indivíduo e da população.\nVer no site do DES/UFLA »"
   },
   {
     "objectID": "oportunidades/edital-eleicoes-des.html",
@@ -77,81 +21,32 @@
     "text": "A Chefia do Departamento de Estatística (DES) do Instituto de Ciências Exatas e Tecnológicas (ICET) da UFLA convoca a comunidade para o processo de eleição de Chefe e Subchefe do departamento, referente ao período 2026-2030.\nConsulte o edital completo, prazos e procedimentos na página oficial do DES:\nLer edital no site do DES/UFLA »"
   },
   {
-    "objectID": "DEPLOY.html",
-    "href": "DEPLOY.html",
-    "title": "ConectaStat: Guia de implantação no servidor",
+    "objectID": "oportunidades/edital-003-monitores-voluntarios.html",
+    "href": "oportunidades/edital-003-monitores-voluntarios.html",
+    "title": "Edital Nº 003/2026: Seleção de monitores voluntários",
     "section": "",
-    "text": "Este documento resume o que a equipe do servidor precisa saber para hospedar o ConectaStat (site do Departamento de Estatística da UFLA, construído com Quarto).\nHá dois cenários possíveis. Na dúvida, o Cenário 1 é o recomendado: é o mais simples e o que o fluxo atual do projeto já pratica.\n\n\n\nO site é renderizado na máquina de quem edita e o resultado fica na pasta _site/: apenas HTML, CSS, JavaScript e imagens estáticos.\nRequisitos no servidor:\n\nQualquer servidor web capaz de servir arquivos estáticos (Apache, Nginx, IIS…) com HTTPS;\nNenhum software adicional: não é preciso Quarto, Python, R, Chrome ou banco de dados.\n\n\n\nO servidor não faz nenhuma chamada externa, mas as páginas carregam recursos de terceiros no navegador de quem visita. Se houver filtragem de saída ou política de domínios na rede institucional, estes são os domínios usados:\n\n\n\n\n\n\n\nDomínio\nOnde / para quê\n\n\n\n\nfonts.googleapis.com, fonts.gstatic.com\nfonte Inter (todas as páginas)\n\n\nunpkg.com\nbiblioteca Leaflet (mapa de rota da página inicial)\n\n\ntile.openstreetmap.org\nimagens (tiles) do mapa de rota\n\n\nrouter.project-osrm.org\ncálculo de rota até o DES na página inicial\n\n\nnominatim.openstreetmap.org\nbusca do endereço digitado pelo visitante\n\n\nwww.google.com/maps\nmapa institucional (My Maps) embutido na página inicial\n\n\nwww.youtube.com\nvídeo embutido na página “Estatística”\n\n\ngithub.com\nformulário “Envie seu projeto” (issues) e links de código\n\n\ndes.ufla.br, biometria.ufla.br\nlinks institucionais\n\n\n\nObservações para avaliação da TI:\n\nOSRM e Nominatim são serviços públicos de demonstração da comunidade OpenStreetMap, sem garantia de disponibilidade e com limite de uso (~1 requisição/s). Para o tráfego esperado do site é adequado; se a instituição preferir, o recurso de rota pode ser removido ou apontado para uma instância própria.\nCookies de terceiros: os embeds de YouTube e Google Maps definem cookies. Se houver exigência institucional (LGPD), o vídeo pode ser trocado para youtube-nocookie.com com ajuste mínimo.\nCDNs: se a política proibir CDNs externos, a fonte Inter e o Leaflet podem ser embutidos no próprio site (mudança pequena no código).\nEndereço final: o _quarto.yml define site-url: https://des.ufla.br/. Se o site for publicado em outro domínio ou subcaminho (ex.: des.ufla.br/conectastat/), esse valor deve ser atualizado para o sitemap e as prévias de link (Open Graph) saírem corretos.\n\n\n\n\n\n\nSó se aplica se o próprio servidor executar quarto render (por exemplo, um pipeline que renderiza a cada commit). Requisitos:\n\nQuarto instalado (versão 1.4 ou superior);\nPython 3 com os pacotes selenium e pillow, instalados no mesmo Python que o Quarto usa. Em servidores com múltiplas versões de Python, defina a variável de ambiente QUARTO_PYTHON apontando para o interpretador correto (essa divergência é a causa mais comum de falha);\nChromium/Chrome instalado, para uso headless (sem interface gráfica; não é necessário X/xvfb; o script usa --headless=new);\nSaída para a internet durante o build (na primeira execução, o Selenium baixa automaticamente o chromedriver compatível). Em servidor sem acesso externo, pré-instale o chromedriver; depois do primeiro uso, o cache local basta;\nMemória: o Chrome headless consome de 300 a 500 MB enquanto gera capas, e só é aberto quando existe post sem capa;\nEscrita no diretório de trabalho: o gerador de capas cria PNGs em &lt;seção&gt;/thumbnails/ e preenche o campo image: nos arquivos .qmd. Em CI com checkout descartável, essas mudanças não voltam ao repositório: ou o pipeline faz commit delas, ou (mais simples) as capas são geradas localmente pelo editor antes do push; nesse caso o passo automático não encontra nada a fazer e é praticamente instantâneo.\n\nO que o servidor NÃO precisa em nenhum cenário: R, Jupyter ou LaTeX. Os posts do site são markdown puro e os relatórios dos estudantes chegam como HTML pronto: nada de código é executado durante a renderização.\n\n\n\n\nO projeto tem um passo automático registrado como pre-render no _quarto.yml: a cada quarto render completo, o script scripts/gerar_thumbnails.py verifica os posts sem image: e gera a capa sozinho (o gráfico/mapa mais colorido do relatório, nos projetos dos estudantes; uma figura colorida do corpo ou a “foto do título”, nas demais seções). O recorte é 16:9 (1200×675) e o image: do post é preenchido automaticamente.\nComportamento à prova de falhas: se faltar Chrome, Python ou biblioteca, o script apenas registra um aviso no log e a renderização do site segue normalmente (o post fica sem capa até a próxima execução). A publicação nunca é bloqueada por causa das capas.\nUso manual, quando necessário:\npython scripts/gerar_thumbnails.py            # gera capas de quem não tem\npython scripts/gerar_thumbnails.py --force    # regenera todas\npython scripts/gerar_thumbnails.py &lt;slug&gt;     # apenas posts específicos\n\n\n\n\n\nEditor cria/edita posts (.qmd) na máquina local;\nquarto render (as capas que faltam são geradas automaticamente);\nCommit (incluindo _site/, os .qmd atualizados e as thumbnails);\nO servidor recebe/serve o conteúdo de _site/ como arquivos estáticos."
+    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 003/2026.\nLer edital no site do DES/UFLA »"
   },
   {
-    "objectID": "DEPLOY.html#cenário-1-o-servidor-apenas-hospeda-o-site-pronto-recomendado",
-    "href": "DEPLOY.html#cenário-1-o-servidor-apenas-hospeda-o-site-pronto-recomendado",
-    "title": "ConectaStat: Guia de implantação no servidor",
+    "objectID": "eventos/curso-introducao-software-r.html",
+    "href": "eventos/curso-introducao-software-r.html",
+    "title": "Curso de Extensão: Introdução ao Software R",
     "section": "",
-    "text": "O site é renderizado na máquina de quem edita e o resultado fica na pasta _site/: apenas HTML, CSS, JavaScript e imagens estáticos.\nRequisitos no servidor:\n\nQualquer servidor web capaz de servir arquivos estáticos (Apache, Nginx, IIS…) com HTTPS;\nNenhum software adicional: não é preciso Quarto, Python, R, Chrome ou banco de dados.\n\n\n\nO servidor não faz nenhuma chamada externa, mas as páginas carregam recursos de terceiros no navegador de quem visita. Se houver filtragem de saída ou política de domínios na rede institucional, estes são os domínios usados:\n\n\n\n\n\n\n\nDomínio\nOnde / para quê\n\n\n\n\nfonts.googleapis.com, fonts.gstatic.com\nfonte Inter (todas as páginas)\n\n\nunpkg.com\nbiblioteca Leaflet (mapa de rota da página inicial)\n\n\ntile.openstreetmap.org\nimagens (tiles) do mapa de rota\n\n\nrouter.project-osrm.org\ncálculo de rota até o DES na página inicial\n\n\nnominatim.openstreetmap.org\nbusca do endereço digitado pelo visitante\n\n\nwww.google.com/maps\nmapa institucional (My Maps) embutido na página inicial\n\n\nwww.youtube.com\nvídeo embutido na página “Estatística”\n\n\ngithub.com\nformulário “Envie seu projeto” (issues) e links de código\n\n\ndes.ufla.br, biometria.ufla.br\nlinks institucionais\n\n\n\nObservações para avaliação da TI:\n\nOSRM e Nominatim são serviços públicos de demonstração da comunidade OpenStreetMap, sem garantia de disponibilidade e com limite de uso (~1 requisição/s). Para o tráfego esperado do site é adequado; se a instituição preferir, o recurso de rota pode ser removido ou apontado para uma instância própria.\nCookies de terceiros: os embeds de YouTube e Google Maps definem cookies. Se houver exigência institucional (LGPD), o vídeo pode ser trocado para youtube-nocookie.com com ajuste mínimo.\nCDNs: se a política proibir CDNs externos, a fonte Inter e o Leaflet podem ser embutidos no próprio site (mudança pequena no código).\nEndereço final: o _quarto.yml define site-url: https://des.ufla.br/. Se o site for publicado em outro domínio ou subcaminho (ex.: des.ufla.br/conectastat/), esse valor deve ser atualizado para o sitemap e as prévias de link (Open Graph) saírem corretos."
+    "text": "Curso de extensão de introdução ao R, ambiente livre e gratuito amplamente utilizado para análise estatística, modelagem e visualização de dados.\nSaiba mais no site do DES/UFLA »"
   },
   {
-    "objectID": "DEPLOY.html#cenário-2-o-servidor-renderiza-o-site-cicd-ou-tarefa-agendada",
-    "href": "DEPLOY.html#cenário-2-o-servidor-renderiza-o-site-cicd-ou-tarefa-agendada",
-    "title": "ConectaStat: Guia de implantação no servidor",
+    "objectID": "eventos/programa-de-verao-2026.html",
+    "href": "eventos/programa-de-verao-2026.html",
+    "title": "XVII Programa de Verão DES-ICET/UFLA 2026",
     "section": "",
-    "text": "Só se aplica se o próprio servidor executar quarto render (por exemplo, um pipeline que renderiza a cada commit). Requisitos:\n\nQuarto instalado (versão 1.4 ou superior);\nPython 3 com os pacotes selenium e pillow, instalados no mesmo Python que o Quarto usa. Em servidores com múltiplas versões de Python, defina a variável de ambiente QUARTO_PYTHON apontando para o interpretador correto (essa divergência é a causa mais comum de falha);\nChromium/Chrome instalado, para uso headless (sem interface gráfica; não é necessário X/xvfb; o script usa --headless=new);\nSaída para a internet durante o build (na primeira execução, o Selenium baixa automaticamente o chromedriver compatível). Em servidor sem acesso externo, pré-instale o chromedriver; depois do primeiro uso, o cache local basta;\nMemória: o Chrome headless consome de 300 a 500 MB enquanto gera capas, e só é aberto quando existe post sem capa;\nEscrita no diretório de trabalho: o gerador de capas cria PNGs em &lt;seção&gt;/thumbnails/ e preenche o campo image: nos arquivos .qmd. Em CI com checkout descartável, essas mudanças não voltam ao repositório: ou o pipeline faz commit delas, ou (mais simples) as capas são geradas localmente pelo editor antes do push; nesse caso o passo automático não encontra nada a fazer e é praticamente instantâneo.\n\nO que o servidor NÃO precisa em nenhum cenário: R, Jupyter ou LaTeX. Os posts do site são markdown puro e os relatórios dos estudantes chegam como HTML pronto: nada de código é executado durante a renderização."
+    "text": "O Programa de Verão do DES-ICET/UFLA chega à sua XVII edição, oferecendo disciplinas e atividades de aperfeiçoamento em Estatística durante o período de verão.\nSaiba mais no site do DES/UFLA »"
   },
   {
-    "objectID": "DEPLOY.html#automação-de-capas-thumbnails",
-    "href": "DEPLOY.html#automação-de-capas-thumbnails",
-    "title": "ConectaStat: Guia de implantação no servidor",
+    "objectID": "eventos/v-workshop-data-science.html",
+    "href": "eventos/v-workshop-data-science.html",
+    "title": "V Workshop em Data Science",
     "section": "",
-    "text": "O projeto tem um passo automático registrado como pre-render no _quarto.yml: a cada quarto render completo, o script scripts/gerar_thumbnails.py verifica os posts sem image: e gera a capa sozinho (o gráfico/mapa mais colorido do relatório, nos projetos dos estudantes; uma figura colorida do corpo ou a “foto do título”, nas demais seções). O recorte é 16:9 (1200×675) e o image: do post é preenchido automaticamente.\nComportamento à prova de falhas: se faltar Chrome, Python ou biblioteca, o script apenas registra um aviso no log e a renderização do site segue normalmente (o post fica sem capa até a próxima execução). A publicação nunca é bloqueada por causa das capas.\nUso manual, quando necessário:\npython scripts/gerar_thumbnails.py            # gera capas de quem não tem\npython scripts/gerar_thumbnails.py --force    # regenera todas\npython scripts/gerar_thumbnails.py &lt;slug&gt;     # apenas posts específicos"
-  },
-  {
-    "objectID": "DEPLOY.html#fluxo-de-publicação-recomendado",
-    "href": "DEPLOY.html#fluxo-de-publicação-recomendado",
-    "title": "ConectaStat: Guia de implantação no servidor",
-    "section": "",
-    "text": "Editor cria/edita posts (.qmd) na máquina local;\nquarto render (as capas que faltam são geradas automaticamente);\nCommit (incluindo _site/, os .qmd atualizados e as thumbnails);\nO servidor recebe/serve o conteúdo de _site/ como arquivos estáticos."
-  },
-  {
-    "objectID": "projetos/extensao/index.html",
-    "href": "projetos/extensao/index.html",
-    "title": "Projetos de Extensão",
-    "section": "",
-    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConexão Estatística: esta plataforma de popularização da ciência, com notícias, artigos e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (agenda de eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico."
-  },
-  {
-    "objectID": "projetos/extensao/index.html#extensão-no-desufla",
-    "href": "projetos/extensao/index.html#extensão-no-desufla",
-    "title": "Projetos de Extensão",
-    "section": "",
-    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConexão Estatística: esta plataforma de popularização da ciência, com notícias, artigos e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (agenda de eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico."
-  },
-  {
-    "objectID": "projetos/extensao/index.html#proponha-uma-parceria",
-    "href": "projetos/extensao/index.html#proponha-uma-parceria",
-    "title": "Projetos de Extensão",
-    "section": "Proponha uma parceria",
-    "text": "Proponha uma parceria\nEscolas, empresas e instituições interessadas em ações conjuntas podem falar diretamente com o departamento pelos canais abaixo:\n\n  \n     Site do DES/UFLA\n  \n  \n     GitHub do Conexão Estatística\n  \n\n\n\n  \n  Departamento de Estatística da UFLA · Trevo Rotatório Professor Edmir Sá\n  Santos, s/n · Campus Universitário, Lavras/MG · CEP 37203-202"
-  },
-  {
-    "objectID": "noticias/conectastat-no-ar.html",
-    "href": "noticias/conectastat-no-ar.html",
-    "title": "Conexão Estatística entra no ar com novo visual",
-    "section": "",
-    "text": "O Conexão Estatística está no ar com novo visual e nova organização: seções dedicadas à área de Estatística, aos nossos cursos de graduação e pós-graduação, à assessoria e consultoria estatística e aos projetos e ações do departamento.\nNa página inicial você encontra as últimas notícias, oportunidades (editais internos e de estudo), eventos e a localização do prédio da Estatística no campus da UFLA, com rota direto para o seu GPS."
-  },
-  {
-    "objectID": "artigos/palestra-modelos-glarma.html",
-    "href": "artigos/palestra-modelos-glarma.html",
-    "title": "Modelos da classe GLARMA(p,q): séries temporais de contagem",
-    "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os modelos da classe GLARMA(p,q), uma alternativa para a modelagem de séries temporais de contagem.\nVer no site do DES/UFLA »"
-  },
-  {
-    "objectID": "artigos/palestra-polinomios-hermite.html",
-    "href": "artigos/palestra-polinomios-hermite.html",
-    "title": "Polinômios de Hermite: definições, propriedades e aplicações",
-    "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os polinômios de Hermite, suas definições, propriedades e aplicações na Estatística.\nVer no site do DES/UFLA »"
+    "text": "O Workshop em Data Science promove discussões sobre métodos estatísticos, aprendizado de máquina e aplicações de Ciência de Dados.\nSaiba mais no site do DES/UFLA »"
   },
   {
     "objectID": "estatistica/index.html",
@@ -196,158 +91,25 @@
     "text": "Estude Estatística na UFLA\nO Departamento de Estatística da UFLA oferece formação completa na área, da graduação à pós-graduação, além de assessoria e consultoria estatística para a comunidade acadêmica e a sociedade. São dois caminhos com focos complementares:\n\nGraduação: foco em Ciência de Dados\nEmbora seja um Bacharelado em Estatística, o curso de graduação da UFLA tem forte ênfase em Ciência de Dados: além da base sólida em probabilidade e inferência, o estudante aprende programação, bancos de dados e aprendizado de máquina para extrair conhecimento de grandes volumes de dados. É o caminho de quem viu, no exemplo do ENEM acima, o ponto de partida de um modelo preditivo, e quer ir muito além.\n\n\nPós-graduação: foco em Ciências Agrárias\nO Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEEA) oferece mestrado e doutorado com tradição na interface entre a Estatística e as ciências agrárias: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão. É a formação de quem transforma dados de campo, como as safras de café da região de Lavras, em decisões com rigor científico."
   },
   {
-    "objectID": "cursos/pos-graduacao/egressos/index.html",
-    "href": "cursos/pos-graduacao/egressos/index.html",
-    "title": "Painel dos Egressos",
+    "objectID": "projetos/extensao/index.html",
+    "href": "projetos/extensao/index.html",
+    "title": "Projetos de Extensão",
     "section": "",
-    "text": "O Painel dos Egressos reúne, em um dashboard interativo, a trajetória dos egressos da graduação e da pós-graduação em Estatística da UFLA: os setores em que atuam, as regiões do país e do exterior para onde foram e a formação continuada que seguiram após o curso.\n\n\n  \n  Painel interativo em construção\n  Em breve: o dashboard com a trajetória dos egressos da graduação e da\n     pós-graduação (setores de atuação, regiões e formação continuada)."
+    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConexão Estatística: esta plataforma de popularização da ciência, com notícias, artigos e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (agenda de eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico."
   },
   {
-    "objectID": "cursos/graduacao/projetos-estudantes/world-economic-outlook.html",
-    "href": "cursos/graduacao/projetos-estudantes/world-economic-outlook.html",
-    "title": "World Economic Outlook: panorama econômico mundial",
+    "objectID": "projetos/extensao/index.html#extensão-no-desufla",
+    "href": "projetos/extensao/index.html#extensão-no-desufla",
+    "title": "Projetos de Extensão",
     "section": "",
-    "text": "Voltar\n\nAnálise exploratória construída sobre dados do World Economic Outlook, com apresentação e relatório final publicados em HTML.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Código-fonte no GitHub"
+    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConexão Estatística: esta plataforma de popularização da ciência, com notícias, artigos e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (agenda de eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico."
   },
   {
-    "objectID": "cursos/graduacao/projetos-estudantes/index.html",
-    "href": "cursos/graduacao/projetos-estudantes/index.html",
-    "title": "Projetos dos Estudantes",
-    "section": "",
-    "text": "Cada card abaixo é um projeto publicado: análises de dados reais feitas pelos nossos estudantes, do dado bruto ao relatório final. Explore os trabalhos e, quando estiver pronto, envie o seu.\n\n  \n     Envie seu projeto\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEtanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)\n\n\nEDA sobre as consequências ambientais das emissões de automóveis a combustão no Brasil, comparando a eficiência e o impacto do etanol frente aos combustíveis fósseis.\n\n\n\nLeocarletto\n\n\n30 de jun. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrescimento populacional e PIB pelo mundo (2010-2025)\n\n\nEDA em R sobre o crescimento da população e o PIB de diversos países em intervalos de 5 anos, com relatório e apresentação em Quarto.\n\n\n\nPedroEu781\n\n\n22 de jun. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nVigilância de fatores de risco: microdados do Vigitel (2019 × 2023)\n\n\nAnálise exploratória dos microdados do Vigitel (Ministério da Saúde), comparando os anos de 2019 e 2023.\n\n\n\nCarolinabrito1304\n\n\n15 de jun. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Economic Outlook: panorama econômico mundial\n\n\nEDA com dados do World Economic Outlook (FMI), com apresentação e relatório final em HTML.\n\n\n\namacielp73\n\n\n20 de mai. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPortal da Transparência da AGU: gastos do Ministério da Educação\n\n\nEDA com dados do Portal da Transparência da Advocacia-Geral da União, em um recorte de 681 observações do Ministério da Educação.\n\n\n\ncarlossouza11052007-collab\n\n\n14 de abr. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "cursos/graduacao/projetos-estudantes/populacao-e-pib.html",
-    "href": "cursos/graduacao/projetos-estudantes/populacao-e-pib.html",
-    "title": "Crescimento populacional e PIB pelo mundo (2010-2025)",
-    "section": "",
-    "text": "Voltar\n\nAnálise exploratória do crescimento populacional e do PIB de vários países em intervalos de cinco anos, de 2010 a 2025. Desenvolvido em R, o projeto serve como introdução à linguagem e como modelo para análises futuras, com relatório detalhado e apresentação em HTML gerados a partir de arquivos Quarto.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Apresentação de slides\n  \n  \n     Código-fonte no GitHub"
-  },
-  {
-    "objectID": "cursos/graduacao/projetos-estudantes/transparencia-agu.html",
-    "href": "cursos/graduacao/projetos-estudantes/transparencia-agu.html",
-    "title": "Portal da Transparência da AGU: gastos do Ministério da Educação",
-    "section": "",
-    "text": "Voltar\n\nAnálise exploratória de dados extraídos do Portal da Transparência da Advocacia-Geral da União (AGU). Do conjunto original com 65.535 observações e 12 variáveis, o recorte analisado reúne 681 observações do Ministério da Educação, com relatório publicado em HTML.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Código-fonte no GitHub"
-  },
-  {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
-    "section": "",
-    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
-  },
-  {
-    "objectID": "contato.html#onde-estamos",
-    "href": "contato.html#onde-estamos",
-    "title": "Contato",
-    "section": "",
-    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
-  },
-  {
-    "objectID": "contato.html#canais",
-    "href": "contato.html#canais",
-    "title": "Contato",
-    "section": "Canais",
-    "text": "Canais\n\nSite institucional: des.ufla.br\nGitHub do projeto: github.com/Leocarletto/conectastat-pilot\n\n\nVisitar o site do DES"
-  },
-  {
-    "objectID": "cursos/graduacao/index.html",
-    "href": "cursos/graduacao/index.html",
-    "title": "Graduação",
-    "section": "",
-    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nA formação combina uma base sólida em matemática, probabilidade e inferência com forte componente computacional (programação, bancos de dados e aprendizado de máquina) e com aplicações reais em projetos, estágios e parcerias com a comunidade."
-  },
-  {
-    "objectID": "cursos/graduacao/index.html#sobre-o-curso",
-    "href": "cursos/graduacao/index.html#sobre-o-curso",
-    "title": "Graduação",
-    "section": "",
-    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nA formação combina uma base sólida em matemática, probabilidade e inferência com forte componente computacional (programação, bancos de dados e aprendizado de máquina) e com aplicações reais em projetos, estágios e parcerias com a comunidade."
-  },
-  {
-    "objectID": "cursos/graduacao/index.html#matriz-curricular",
-    "href": "cursos/graduacao/index.html#matriz-curricular",
-    "title": "Graduação",
-    "section": "Matriz curricular",
-    "text": "Matriz curricular\nA matriz curricular está organizada em núcleos de formação, cursados ao longo de 8 semestres:\n\n\n\n\n\n\n\nNúcleo\nConteúdos principais\n\n\n\n\nBase matemática\nCálculo, Álgebra Linear, Matemática Discreta\n\n\nProbabilidade e Inferência\nProbabilidade, Inferência Estatística, Processos Estocásticos\n\n\nModelagem estatística\nModelos de Regressão, Planejamento e Análise de Experimentos, Análise Multivariada, Séries Temporais\n\n\nComputação e dados\nProgramação, Estatística Computacional, Bancos de Dados, Aprendizado de Máquina\n\n\nFormação complementar\nAmostragem, Controle de Qualidade, Estatística Espacial, disciplinas eletivas\n\n\nPrática profissional\nProjetos orientados, Estágio Supervisionado, Trabalho de Conclusão de Curso\n\n\n\nA matriz oficial completa, com ementas e pré-requisitos detalhados, está no site do DES/UFLA. Ou veja aqui, módulo a módulo:\n\n  Ver matriz curricular 2026/1\n\n\n\n1º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES110\nMatemática para Estatística I\n8\n-\n\n\nGES136\nIntrodução aos Planos Experimentais\n4\n-\n\n\nGES139\nOrganização e Apresentação de Dados\n8\n-\n\n\nGES140\nVivência Profissional em Estatística\n2\n-\n\n\n\n\n\n2º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES113\nProbabilidade I\n8\nGES110\n\n\nGES135\nFundamentos de Programação\n4\n-\n\n\nGES137\nMatemática para Estatística II\n10\nGES110\n\n\n\n\n\n3º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES116\nMatemática para Estatística III\n8\nGES137\n\n\nGES117\nProbabilidade II\n6\nGES113\n\n\nGES134\nEstrutura de Dados\n8\nGES135\n\n\nGES141\nConsultoria em Estatística I\n2\nGES136\n\n\n\n\n\n4º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES118\nInferência Estatística I\n8\nGES113\n\n\nGES119\nModelos Lineares I\n8\nGES113\n\n\nGES142\nAmostragem\n4\nGES113\n\n\n\n\n\n5º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES122\nModelos Lineares II\n8\nGES119\n\n\nGES123\nPlanejamento e Análise de Experimentos\n4\nGES136\n\n\nGES124\nInferência Estatística II\n8\nGES118\n\n\n\n\n\n6º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES125\nSéries Temporais\n4\nGES124\n\n\nGES126\nEstatística Computacional\n6\nGES135\n\n\nGES127\nConsultoria em Estatística II\n4\nGES141\n\n\nGES130\nCiência de Dados e Big Data\n4\nGES134\n\n\nGES138\nTécnicas Multivariadas\n4\nGES124\n\n\n\n\n\n7º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES128\nModelos Lineares Generalizados\n6\nGES119\n\n\nGES129\nInferência Bayesiana\n4\nGES118\n\n\nGES131\nMineração de Dados e Aprendizagem de Máquinas\n6\nGES134\n\n\n\n\n\n8º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nEES5889\nEstágio Supervisionado\n0\n-"
-  },
-  {
-    "objectID": "cursos/graduacao/index.html#projetos-dos-estudantes",
-    "href": "cursos/graduacao/index.html#projetos-dos-estudantes",
-    "title": "Graduação",
-    "section": "Projetos dos estudantes",
-    "text": "Projetos dos estudantes\nTrabalhos desenvolvidos pelos nossos estudantes, do mais recente ao mais antigo. Veja todos em Projetos dos Estudantes ou envie o seu projeto.\n\n\n\n\n\n\n\n\n30 de jun. de 2026\n\n\nEtanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)\n\n\nEDA sobre as consequências ambientais das emissões de automóveis a combustão no Brasil, comparando a eficiência e o impacto do etanol frente aos combustíveis fósseis.\n\n\nLeia mais\n\n\n\n\n\n\n\n22 de jun. de 2026\n\n\nCrescimento populacional e PIB pelo mundo (2010-2025)\n\n\nEDA em R sobre o crescimento da população e o PIB de diversos países em intervalos de 5 anos, com relatório e apresentação em Quarto.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de jun. de 2026\n\n\nVigilância de fatores de risco: microdados do Vigitel (2019 × 2023)\n\n\nAnálise exploratória dos microdados do Vigitel (Ministério da Saúde), comparando os anos de 2019 e 2023.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de mai. de 2026\n\n\nWorld Economic Outlook: panorama econômico mundial\n\n\nEDA com dados do World Economic Outlook (FMI), com apresentação e relatório final em HTML.\n\n\nLeia mais\n\n\n\n\n\n\n\n14 de abr. de 2026\n\n\nPortal da Transparência da AGU: gastos do Ministério da Educação\n\n\nEDA com dados do Portal da Transparência da Advocacia-Geral da União, em um recorte de 681 observações do Ministério da Educação.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html",
-    "href": "cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html",
-    "title": "Etanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)",
-    "section": "",
-    "text": "Voltar\n\nAnálise Exploratória de Dados com base no Programa Brasileiro de Etiquetagem Veicular (PBEV 2026), mantido pelo INMETRO. O projeto investiga o impacto ambiental dos veículos a etanol frente às alternativas a gasolina e diesel: emissões de CO₂ (g/km), eficiência de consumo (km/l) e a quantidade de CO₂ potencialmente evitada por ano em cada categoria de veículo, evidenciando a vantagem ecológica do ciclo fechado de carbono do etanol.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Apresentação de slides\n  \n  \n     Código-fonte no GitHub"
-  },
-  {
-    "objectID": "cursos/graduacao/projetos-estudantes/enviar.html",
-    "href": "cursos/graduacao/projetos-estudantes/enviar.html",
-    "title": "Envie seu projeto",
-    "section": "",
-    "text": "Voltar"
-  },
-  {
-    "objectID": "cursos/graduacao/projetos-estudantes/enviar.html#como-enviar",
-    "href": "cursos/graduacao/projetos-estudantes/enviar.html#como-enviar",
-    "title": "Envie seu projeto",
-    "section": "Como enviar",
-    "text": "Como enviar\nPreencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\n\n  \n    \n      Título do projeto *\n      \n    \n    \n      Autor(es) *\n      \n    \n    \n      Resumo da análise *\n      \n    \n    \n      Linguagem *\n      \n        Selecione…\n        R\n        Python\n        R + Python\n        Outra (detalhe no resumo)\n      \n    \n    \n      Formato do relatório *\n      \n        Selecione…\n        HTML\n        PDF\n        HTML + PDF\n      \n    \n    \n      O código aparece no documento? *\n      \n        Selecione…\n        Sim (código visível no relatório)\n        Não (apenas resultados)\n      \n    \n    \n      Fonte dos dados *\n      \n    \n    \n      Link do relatório no GitHub\n      \n      Vai anexar o arquivo em vez de usar link?\n         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n    \n    \n      Repositório no GitHub\n      \n    \n  \n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: o relatório em .html ou .pdf (a saída gerada pelo Quarto/RStudio) e a imagem de capa. Basta arrastar cada um para o campo correspondente antes de clicar em Create."
-  },
-  {
-    "objectID": "cursos/graduacao/projetos-estudantes/vigitel-2019-2023.html",
-    "href": "cursos/graduacao/projetos-estudantes/vigitel-2019-2023.html",
-    "title": "Vigilância de fatores de risco: microdados do Vigitel (2019 × 2023)",
-    "section": "",
-    "text": "Voltar\n\nProjeto da disciplina Organização e Apresentação de Dados com microdados do Vigitel (Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico), do Ministério da Saúde. A análise exploratória compara os anos de 2019 e 2023, com documentos de análise em R/Quarto e relatório final em HTML.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Código-fonte no GitHub"
-  },
-  {
-    "objectID": "cursos/pos-graduacao/index.html",
-    "href": "cursos/pos-graduacao/index.html",
-    "title": "Pós-Graduação",
-    "section": "",
-    "text": "O Departamento de Estatística da UFLA abriga o Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEEA), com cursos de mestrado e doutorado, formando pesquisadores e docentes com sólida base teórica e forte vocação aplicada.\nO programa tem tradição na interface entre a Estatística e as ciências agrárias, e vem ampliando sua atuação para a ciência de dados, a modelagem computacional e as aplicações em saúde, indústria e meio ambiente."
-  },
-  {
-    "objectID": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
-    "href": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
-    "title": "Pós-Graduação",
-    "section": "Áreas de concentração e linhas de pesquisa",
-    "text": "Áreas de concentração e linhas de pesquisa\n\nMétodos estatísticos: inferência, modelos lineares e não lineares, modelos mistos e estatística bayesiana;\nExperimentação agropecuária: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão;\nModelagem e computação: estatística computacional, séries temporais, estatística espacial e aprendizado de máquina."
-  },
-  {
-    "objectID": "cursos/pos-graduacao/index.html#disciplinas",
-    "href": "cursos/pos-graduacao/index.html#disciplinas",
-    "title": "Pós-Graduação",
-    "section": "Disciplinas",
-    "text": "Disciplinas\nEntre as disciplinas oferecidas regularmente estão:\n\n\n\n\n\n\n\nDisciplina\nTema\n\n\n\n\nInferência Estatística\nEstimação, testes de hipóteses e teoria assintótica\n\n\nModelos Lineares\nTeoria e aplicação de modelos de regressão\n\n\nPlanejamento de Experimentos\nDelineamentos experimentais e análise\n\n\nEstatística Computacional\nSimulação, métodos de Monte Carlo e otimização\n\n\nModelos Mistos\nEfeitos aleatórios e dados longitudinais\n\n\nEstatística Bayesiana\nInferência bayesiana e métodos MCMC\n\n\nSéries Temporais\nModelagem e previsão de dados temporais\n\n\n\nA relação completa de disciplinas, docentes e projetos está no site do DES/UFLA."
-  },
-  {
-    "objectID": "cursos/pos-graduacao/index.html#painel-dos-egressos",
-    "href": "cursos/pos-graduacao/index.html#painel-dos-egressos",
-    "title": "Pós-Graduação",
-    "section": "Painel dos Egressos",
-    "text": "Painel dos Egressos\nA trajetória dos nossos egressos (setores de atuação, regiões e formação continuada) está reunida em um dashboard interativo: o Painel dos Egressos."
-  },
-  {
-    "objectID": "artigos/palestra-crescimento-seres-vivos.html",
-    "href": "artigos/palestra-crescimento-seres-vivos.html",
-    "title": "Introdução ao crescimento de seres vivos: indivíduo ou população?",
-    "section": "",
-    "text": "Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre a modelagem do crescimento de seres vivos, abordando as perspectivas do indivíduo e da população.\nVer no site do DES/UFLA »"
-  },
-  {
-    "objectID": "artigos/index.html",
-    "href": "artigos/index.html",
-    "title": "Artigos & Colunas",
-    "section": "",
-    "text": "Introdução ao crescimento de seres vivos: indivíduo ou população?\n\n\nPalestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n3 de set. de 2021\n\n\n\n\n\n\n\n\n\n\n\nModelos da classe GLARMA(p,q): séries temporais de contagem\n\n\nPalestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n16 de nov. de 2020\n\n\n\n\n\n\n\n\n\n\n\nPolinômios de Hermite: definições, propriedades e aplicações\n\n\nPalestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n5 de dez. de 2019\n\n\n\n\n\n\nNenhum item correspondente"
+    "objectID": "projetos/extensao/index.html#proponha-uma-parceria",
+    "href": "projetos/extensao/index.html#proponha-uma-parceria",
+    "title": "Projetos de Extensão",
+    "section": "Proponha uma parceria",
+    "text": "Proponha uma parceria\nEscolas, empresas e instituições interessadas em ações conjuntas podem falar diretamente com o departamento pelos canais abaixo:\n\n  \n     Site do DES/UFLA\n  \n  \n     GitHub do Conexão Estatística\n  \n\n\n\n  \n  Departamento de Estatística da UFLA · Trevo Rotatório Professor Edmir Sá\n  Santos, s/n · Campus Universitário, Lavras/MG · CEP 37203-202"
   },
   {
     "objectID": "projetos/pesquisa/index.html",
@@ -378,39 +140,11 @@
     "text": "Participe\nEstudantes interessados em iniciação científica podem procurar os docentes do departamento ou acompanhar os editais e oportunidades abaixo:\n\n\n\n\n\n\n\n\n1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "projetos/ensino/index.html",
-    "href": "projetos/ensino/index.html",
-    "title": "Projetos de Ensino",
+    "objectID": "acoes/nucleos-de-estudo/index.html",
+    "href": "acoes/nucleos-de-estudo/index.html",
+    "title": "Núcleos de Estudo",
     "section": "",
-    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes:\n\nMonitorias: apoio aos estudantes nas disciplinas de Estatística oferecidas para os cursos da UFLA;\nDocência voluntária: participação de pós-graduandos e recém-doutores em atividades de ensino supervisionadas;\nCursos e oficinas: introdução ao software R, visualização de dados e ferramentas computacionais;\nMaterial didático: produção de apostilas, tutoriais e recursos abertos de apoio às disciplinas."
-  },
-  {
-    "objectID": "projetos/ensino/index.html#ensino-no-desufla",
-    "href": "projetos/ensino/index.html#ensino-no-desufla",
-    "title": "Projetos de Ensino",
-    "section": "",
-    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes:\n\nMonitorias: apoio aos estudantes nas disciplinas de Estatística oferecidas para os cursos da UFLA;\nDocência voluntária: participação de pós-graduandos e recém-doutores em atividades de ensino supervisionadas;\nCursos e oficinas: introdução ao software R, visualização de dados e ferramentas computacionais;\nMaterial didático: produção de apostilas, tutoriais e recursos abertos de apoio às disciplinas."
-  },
-  {
-    "objectID": "projetos/ensino/index.html#editais",
-    "href": "projetos/ensino/index.html#editais",
-    "title": "Projetos de Ensino",
-    "section": "Editais",
-    "text": "Editais\nAs vagas de monitoria e docência voluntária são divulgadas em editais; veja abaixo os que estão abertos:\n\n\n\n\n\n\n\n\n1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "oportunidades/edital-003-monitores-voluntarios.html",
-    "href": "oportunidades/edital-003-monitores-voluntarios.html",
-    "title": "Edital Nº 003/2026: Seleção de monitores voluntários",
-    "section": "",
-    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 003/2026.\nLer edital no site do DES/UFLA »"
-  },
-  {
-    "objectID": "oportunidades/edital-002-monitores-voluntarios.html",
-    "href": "oportunidades/edital-002-monitores-voluntarios.html",
-    "title": "Edital Nº 002/2026: Seleção de monitores voluntários",
-    "section": "",
-    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 002/2026.\nLer edital no site do DES/UFLA »"
+    "text": "Os núcleos de estudo do Departamento de Estatística da UFLA reúnem graduandos, pós-graduandos e docentes em encontros periódicos de estudo, pesquisa e divulgação científica. Escolha um núcleo para conhecer:\n\n\n\n\n\n\nNLIN\nNúcleo de Estudos em Regressão Não Linear Aplicada.\nConhecer o NLIN »\n\n\n\n\n\n\n\nGPS\nNúcleo de Estudos em Geoestatística e Processos Espaciais.\nConhecer o GPS »\n\n\n\n\n\n\n\nST\nNúcleo de Estudos em Séries Temporais.\nConhecer o ST »"
   },
   {
     "objectID": "acoes/nucleos-de-estudo/gps/index.html",
@@ -434,11 +168,221 @@
     "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
   },
   {
-    "objectID": "acoes/nucleos-de-estudo/index.html",
-    "href": "acoes/nucleos-de-estudo/index.html",
-    "title": "Núcleos de Estudo",
+    "objectID": "DEPLOY.html",
+    "href": "DEPLOY.html",
+    "title": "ConectaStat: Guia de implantação no servidor",
     "section": "",
-    "text": "Os núcleos de estudo do Departamento de Estatística da UFLA reúnem graduandos, pós-graduandos e docentes em encontros periódicos de estudo, pesquisa e divulgação científica. Escolha um núcleo para conhecer:\n\n\n\n\n\n\nNLIN\nNúcleo de Estudos em Regressão Não Linear Aplicada.\nConhecer o NLIN »\n\n\n\n\n\n\n\nGPS\nNúcleo de Estudos em Geoestatística e Processos Espaciais.\nConhecer o GPS »\n\n\n\n\n\n\n\nST\nNúcleo de Estudos em Séries Temporais.\nConhecer o ST »"
+    "text": "Este documento resume o que a equipe do servidor precisa saber para hospedar o ConectaStat (site do Departamento de Estatística da UFLA, construído com Quarto).\nHá dois cenários possíveis. Na dúvida, o Cenário 1 é o recomendado: é o mais simples e o que o fluxo atual do projeto já pratica.\n\n\n\nO site é renderizado na máquina de quem edita e o resultado fica na pasta _site/: apenas HTML, CSS, JavaScript e imagens estáticos.\nRequisitos no servidor:\n\nQualquer servidor web capaz de servir arquivos estáticos (Apache, Nginx, IIS…) com HTTPS;\nNenhum software adicional: não é preciso Quarto, Python, R, Chrome ou banco de dados.\n\n\n\nO servidor não faz nenhuma chamada externa, mas as páginas carregam recursos de terceiros no navegador de quem visita. Se houver filtragem de saída ou política de domínios na rede institucional, estes são os domínios usados:\n\n\n\n\n\n\n\nDomínio\nOnde / para quê\n\n\n\n\nfonts.googleapis.com, fonts.gstatic.com\nfonte Inter (todas as páginas)\n\n\nunpkg.com\nbiblioteca Leaflet (mapa de rota da página inicial)\n\n\ntile.openstreetmap.org\nimagens (tiles) do mapa de rota\n\n\nrouter.project-osrm.org\ncálculo de rota até o DES na página inicial\n\n\nnominatim.openstreetmap.org\nbusca do endereço digitado pelo visitante\n\n\nwww.google.com/maps\nmapa institucional (My Maps) embutido na página inicial\n\n\nwww.youtube.com\nvídeo embutido na página “Estatística”\n\n\ngithub.com\nformulário “Envie seu projeto” (issues) e links de código\n\n\ndes.ufla.br, biometria.ufla.br\nlinks institucionais\n\n\n\nObservações para avaliação da TI:\n\nOSRM e Nominatim são serviços públicos de demonstração da comunidade OpenStreetMap, sem garantia de disponibilidade e com limite de uso (~1 requisição/s). Para o tráfego esperado do site é adequado; se a instituição preferir, o recurso de rota pode ser removido ou apontado para uma instância própria.\nCookies de terceiros: os embeds de YouTube e Google Maps definem cookies. Se houver exigência institucional (LGPD), o vídeo pode ser trocado para youtube-nocookie.com com ajuste mínimo.\nCDNs: se a política proibir CDNs externos, a fonte Inter e o Leaflet podem ser embutidos no próprio site (mudança pequena no código).\nEndereço final: o _quarto.yml define site-url: https://des.ufla.br/. Se o site for publicado em outro domínio ou subcaminho (ex.: des.ufla.br/conectastat/), esse valor deve ser atualizado para o sitemap e as prévias de link (Open Graph) saírem corretos.\n\n\n\n\n\n\nSó se aplica se o próprio servidor executar quarto render (por exemplo, um pipeline que renderiza a cada commit). Requisitos:\n\nQuarto instalado (versão 1.4 ou superior);\nPython 3 com os pacotes selenium e pillow, instalados no mesmo Python que o Quarto usa. Em servidores com múltiplas versões de Python, defina a variável de ambiente QUARTO_PYTHON apontando para o interpretador correto (essa divergência é a causa mais comum de falha);\nChromium/Chrome instalado, para uso headless (sem interface gráfica; não é necessário X/xvfb; o script usa --headless=new);\nSaída para a internet durante o build (na primeira execução, o Selenium baixa automaticamente o chromedriver compatível). Em servidor sem acesso externo, pré-instale o chromedriver; depois do primeiro uso, o cache local basta;\nMemória: o Chrome headless consome de 300 a 500 MB enquanto gera capas, e só é aberto quando existe post sem capa;\nEscrita no diretório de trabalho: o gerador de capas cria PNGs em &lt;seção&gt;/thumbnails/ e preenche o campo image: nos arquivos .qmd. Em CI com checkout descartável, essas mudanças não voltam ao repositório: ou o pipeline faz commit delas, ou (mais simples) as capas são geradas localmente pelo editor antes do push; nesse caso o passo automático não encontra nada a fazer e é praticamente instantâneo.\n\nO que o servidor NÃO precisa em nenhum cenário: R, Jupyter ou LaTeX. Os posts do site são markdown puro e os relatórios dos estudantes chegam como HTML pronto: nada de código é executado durante a renderização.\n\n\n\n\nO projeto tem um passo automático registrado como pre-render no _quarto.yml: a cada quarto render completo, o script scripts/gerar_thumbnails.py verifica os posts sem image: e gera a capa sozinho (o gráfico/mapa mais colorido do relatório, nos projetos dos estudantes; uma figura colorida do corpo ou a “foto do título”, nas demais seções). O recorte é 16:9 (1200×675) e o image: do post é preenchido automaticamente.\nComportamento à prova de falhas: se faltar Chrome, Python ou biblioteca, o script apenas registra um aviso no log e a renderização do site segue normalmente (o post fica sem capa até a próxima execução). A publicação nunca é bloqueada por causa das capas.\nUso manual, quando necessário:\npython scripts/gerar_thumbnails.py            # gera capas de quem não tem\npython scripts/gerar_thumbnails.py --force    # regenera todas\npython scripts/gerar_thumbnails.py &lt;slug&gt;     # apenas posts específicos\n\n\n\n\n\nEditor cria/edita posts (.qmd) na máquina local;\nquarto render (as capas que faltam são geradas automaticamente);\nCommit (incluindo _site/, os .qmd atualizados e as thumbnails);\nO servidor recebe/serve o conteúdo de _site/ como arquivos estáticos."
+  },
+  {
+    "objectID": "DEPLOY.html#cenário-1-o-servidor-apenas-hospeda-o-site-pronto-recomendado",
+    "href": "DEPLOY.html#cenário-1-o-servidor-apenas-hospeda-o-site-pronto-recomendado",
+    "title": "ConectaStat: Guia de implantação no servidor",
+    "section": "",
+    "text": "O site é renderizado na máquina de quem edita e o resultado fica na pasta _site/: apenas HTML, CSS, JavaScript e imagens estáticos.\nRequisitos no servidor:\n\nQualquer servidor web capaz de servir arquivos estáticos (Apache, Nginx, IIS…) com HTTPS;\nNenhum software adicional: não é preciso Quarto, Python, R, Chrome ou banco de dados.\n\n\n\nO servidor não faz nenhuma chamada externa, mas as páginas carregam recursos de terceiros no navegador de quem visita. Se houver filtragem de saída ou política de domínios na rede institucional, estes são os domínios usados:\n\n\n\n\n\n\n\nDomínio\nOnde / para quê\n\n\n\n\nfonts.googleapis.com, fonts.gstatic.com\nfonte Inter (todas as páginas)\n\n\nunpkg.com\nbiblioteca Leaflet (mapa de rota da página inicial)\n\n\ntile.openstreetmap.org\nimagens (tiles) do mapa de rota\n\n\nrouter.project-osrm.org\ncálculo de rota até o DES na página inicial\n\n\nnominatim.openstreetmap.org\nbusca do endereço digitado pelo visitante\n\n\nwww.google.com/maps\nmapa institucional (My Maps) embutido na página inicial\n\n\nwww.youtube.com\nvídeo embutido na página “Estatística”\n\n\ngithub.com\nformulário “Envie seu projeto” (issues) e links de código\n\n\ndes.ufla.br, biometria.ufla.br\nlinks institucionais\n\n\n\nObservações para avaliação da TI:\n\nOSRM e Nominatim são serviços públicos de demonstração da comunidade OpenStreetMap, sem garantia de disponibilidade e com limite de uso (~1 requisição/s). Para o tráfego esperado do site é adequado; se a instituição preferir, o recurso de rota pode ser removido ou apontado para uma instância própria.\nCookies de terceiros: os embeds de YouTube e Google Maps definem cookies. Se houver exigência institucional (LGPD), o vídeo pode ser trocado para youtube-nocookie.com com ajuste mínimo.\nCDNs: se a política proibir CDNs externos, a fonte Inter e o Leaflet podem ser embutidos no próprio site (mudança pequena no código).\nEndereço final: o _quarto.yml define site-url: https://des.ufla.br/. Se o site for publicado em outro domínio ou subcaminho (ex.: des.ufla.br/conectastat/), esse valor deve ser atualizado para o sitemap e as prévias de link (Open Graph) saírem corretos."
+  },
+  {
+    "objectID": "DEPLOY.html#cenário-2-o-servidor-renderiza-o-site-cicd-ou-tarefa-agendada",
+    "href": "DEPLOY.html#cenário-2-o-servidor-renderiza-o-site-cicd-ou-tarefa-agendada",
+    "title": "ConectaStat: Guia de implantação no servidor",
+    "section": "",
+    "text": "Só se aplica se o próprio servidor executar quarto render (por exemplo, um pipeline que renderiza a cada commit). Requisitos:\n\nQuarto instalado (versão 1.4 ou superior);\nPython 3 com os pacotes selenium e pillow, instalados no mesmo Python que o Quarto usa. Em servidores com múltiplas versões de Python, defina a variável de ambiente QUARTO_PYTHON apontando para o interpretador correto (essa divergência é a causa mais comum de falha);\nChromium/Chrome instalado, para uso headless (sem interface gráfica; não é necessário X/xvfb; o script usa --headless=new);\nSaída para a internet durante o build (na primeira execução, o Selenium baixa automaticamente o chromedriver compatível). Em servidor sem acesso externo, pré-instale o chromedriver; depois do primeiro uso, o cache local basta;\nMemória: o Chrome headless consome de 300 a 500 MB enquanto gera capas, e só é aberto quando existe post sem capa;\nEscrita no diretório de trabalho: o gerador de capas cria PNGs em &lt;seção&gt;/thumbnails/ e preenche o campo image: nos arquivos .qmd. Em CI com checkout descartável, essas mudanças não voltam ao repositório: ou o pipeline faz commit delas, ou (mais simples) as capas são geradas localmente pelo editor antes do push; nesse caso o passo automático não encontra nada a fazer e é praticamente instantâneo.\n\nO que o servidor NÃO precisa em nenhum cenário: R, Jupyter ou LaTeX. Os posts do site são markdown puro e os relatórios dos estudantes chegam como HTML pronto: nada de código é executado durante a renderização."
+  },
+  {
+    "objectID": "DEPLOY.html#automação-de-capas-thumbnails",
+    "href": "DEPLOY.html#automação-de-capas-thumbnails",
+    "title": "ConectaStat: Guia de implantação no servidor",
+    "section": "",
+    "text": "O projeto tem um passo automático registrado como pre-render no _quarto.yml: a cada quarto render completo, o script scripts/gerar_thumbnails.py verifica os posts sem image: e gera a capa sozinho (o gráfico/mapa mais colorido do relatório, nos projetos dos estudantes; uma figura colorida do corpo ou a “foto do título”, nas demais seções). O recorte é 16:9 (1200×675) e o image: do post é preenchido automaticamente.\nComportamento à prova de falhas: se faltar Chrome, Python ou biblioteca, o script apenas registra um aviso no log e a renderização do site segue normalmente (o post fica sem capa até a próxima execução). A publicação nunca é bloqueada por causa das capas.\nUso manual, quando necessário:\npython scripts/gerar_thumbnails.py            # gera capas de quem não tem\npython scripts/gerar_thumbnails.py --force    # regenera todas\npython scripts/gerar_thumbnails.py &lt;slug&gt;     # apenas posts específicos"
+  },
+  {
+    "objectID": "DEPLOY.html#fluxo-de-publicação-recomendado",
+    "href": "DEPLOY.html#fluxo-de-publicação-recomendado",
+    "title": "ConectaStat: Guia de implantação no servidor",
+    "section": "",
+    "text": "Editor cria/edita posts (.qmd) na máquina local;\nquarto render (as capas que faltam são geradas automaticamente);\nCommit (incluindo _site/, os .qmd atualizados e as thumbnails);\nO servidor recebe/serve o conteúdo de _site/ como arquivos estáticos."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html",
+    "href": "cursos/pos-graduacao/index.html",
+    "title": "Pós-Graduação",
+    "section": "",
+    "text": "O Departamento de Estatística da UFLA abriga o Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEEA), com cursos de mestrado e doutorado, formando pesquisadores e docentes com sólida base teórica e forte vocação aplicada.\nO programa tem tradição na interface entre a Estatística e as ciências agrárias, e vem ampliando sua atuação para a ciência de dados, a modelagem computacional e as aplicações em saúde, indústria e meio ambiente."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
+    "href": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
+    "title": "Pós-Graduação",
+    "section": "Áreas de concentração e linhas de pesquisa",
+    "text": "Áreas de concentração e linhas de pesquisa\n\nMétodos estatísticos: inferência, modelos lineares e não lineares, modelos mistos e estatística bayesiana;\nExperimentação agropecuária: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão;\nModelagem e computação: estatística computacional, séries temporais, estatística espacial e aprendizado de máquina."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html#disciplinas",
+    "href": "cursos/pos-graduacao/index.html#disciplinas",
+    "title": "Pós-Graduação",
+    "section": "Disciplinas",
+    "text": "Disciplinas\nEntre as disciplinas oferecidas regularmente estão:\n\n\n\n\n\n\n\nDisciplina\nTema\n\n\n\n\nInferência Estatística\nEstimação, testes de hipóteses e teoria assintótica\n\n\nModelos Lineares\nTeoria e aplicação de modelos de regressão\n\n\nPlanejamento de Experimentos\nDelineamentos experimentais e análise\n\n\nEstatística Computacional\nSimulação, métodos de Monte Carlo e otimização\n\n\nModelos Mistos\nEfeitos aleatórios e dados longitudinais\n\n\nEstatística Bayesiana\nInferência bayesiana e métodos MCMC\n\n\nSéries Temporais\nModelagem e previsão de dados temporais\n\n\n\nA relação completa de disciplinas, docentes e projetos está no site do DES/UFLA."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html#painel-dos-egressos",
+    "href": "cursos/pos-graduacao/index.html#painel-dos-egressos",
+    "title": "Pós-Graduação",
+    "section": "Painel dos Egressos",
+    "text": "Painel dos Egressos\nA trajetória dos nossos egressos (setores de atuação, regiões e formação continuada) está reunida em um dashboard interativo: o Painel dos Egressos."
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/enviar.html",
+    "href": "cursos/graduacao/projetos-estudantes/enviar.html",
+    "title": "Envie seu projeto",
+    "section": "",
+    "text": "Voltar"
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/enviar.html#como-enviar",
+    "href": "cursos/graduacao/projetos-estudantes/enviar.html#como-enviar",
+    "title": "Envie seu projeto",
+    "section": "Como enviar",
+    "text": "Como enviar\nPreencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\n\n  \n    \n      Título do projeto *\n      \n    \n    \n      Autor(es) *\n      \n    \n    \n      Resumo da análise *\n      \n    \n    \n      Linguagem *\n      \n        Selecione…\n        R\n        Python\n        R + Python\n        Outra (detalhe no resumo)\n      \n    \n    \n      Formato do relatório *\n      \n        Selecione…\n        HTML\n        PDF\n        HTML + PDF\n      \n    \n    \n      O código aparece no documento? *\n      \n        Selecione…\n        Sim (código visível no relatório)\n        Não (apenas resultados)\n      \n    \n    \n      Fonte dos dados *\n      \n    \n    \n      Link do relatório no GitHub\n      \n      Vai anexar o arquivo em vez de usar link?\n         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n    \n    \n      Repositório no GitHub\n      \n    \n  \n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: o relatório em .html ou .pdf (a saída gerada pelo Quarto/RStudio) e a imagem de capa. Basta arrastar cada um para o campo correspondente antes de clicar em Create."
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/transparencia-agu.html",
+    "href": "cursos/graduacao/projetos-estudantes/transparencia-agu.html",
+    "title": "Portal da Transparência da AGU: gastos do Ministério da Educação",
+    "section": "",
+    "text": "Voltar\n\nAnálise exploratória de dados extraídos do Portal da Transparência da Advocacia-Geral da União (AGU). Do conjunto original com 65.535 observações e 12 variáveis, o recorte analisado reúne 681 observações do Ministério da Educação, com relatório publicado em HTML.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Código-fonte no GitHub"
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/vigitel-2019-2023.html",
+    "href": "cursos/graduacao/projetos-estudantes/vigitel-2019-2023.html",
+    "title": "Vigilância de fatores de risco: microdados do Vigitel (2019 × 2023)",
+    "section": "",
+    "text": "Voltar\n\nProjeto da disciplina Organização e Apresentação de Dados com microdados do Vigitel (Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico), do Ministério da Saúde. A análise exploratória compara os anos de 2019 e 2023, com documentos de análise em R/Quarto e relatório final em HTML.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Código-fonte no GitHub"
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/world-economic-outlook.html",
+    "href": "cursos/graduacao/projetos-estudantes/world-economic-outlook.html",
+    "title": "World Economic Outlook: panorama econômico mundial",
+    "section": "",
+    "text": "Voltar\n\nAnálise exploratória construída sobre dados do World Economic Outlook, com apresentação e relatório final publicados em HTML.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Código-fonte no GitHub"
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
+  },
+  {
+    "objectID": "contato.html#onde-estamos",
+    "href": "contato.html#onde-estamos",
+    "title": "Contato",
+    "section": "",
+    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
+  },
+  {
+    "objectID": "contato.html#canais",
+    "href": "contato.html#canais",
+    "title": "Contato",
+    "section": "Canais",
+    "text": "Canais\n\nSite institucional: des.ufla.br\nGitHub do projeto: github.com/Leocarletto/conectastat-pilot\n\n\nVisitar o site do DES"
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html",
+    "href": "cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html",
+    "title": "Etanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)",
+    "section": "",
+    "text": "Voltar\n\nAnálise Exploratória de Dados com base no Programa Brasileiro de Etiquetagem Veicular (PBEV 2026), mantido pelo INMETRO. O projeto investiga o impacto ambiental dos veículos a etanol frente às alternativas a gasolina e diesel: emissões de CO₂ (g/km), eficiência de consumo (km/l) e a quantidade de CO₂ potencialmente evitada por ano em cada categoria de veículo, evidenciando a vantagem ecológica do ciclo fechado de carbono do etanol.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Apresentação de slides\n  \n  \n     Código-fonte no GitHub"
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/index.html",
+    "href": "cursos/graduacao/projetos-estudantes/index.html",
+    "title": "Projetos dos Estudantes",
+    "section": "",
+    "text": "Cada card abaixo é um projeto publicado: análises de dados reais feitas pelos nossos estudantes, do dado bruto ao relatório final. Explore os trabalhos e, quando estiver pronto, envie o seu.\n\n  \n     Envie seu projeto\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEtanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)\n\n\nEDA sobre as consequências ambientais das emissões de automóveis a combustão no Brasil, comparando a eficiência e o impacto do etanol frente aos combustíveis fósseis.\n\n\n\nLeocarletto\n\n\n30 de jun. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrescimento populacional e PIB pelo mundo (2010-2025)\n\n\nEDA em R sobre o crescimento da população e o PIB de diversos países em intervalos de 5 anos, com relatório e apresentação em Quarto.\n\n\n\nPedroEu781\n\n\n22 de jun. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nVigilância de fatores de risco: microdados do Vigitel (2019 × 2023)\n\n\nAnálise exploratória dos microdados do Vigitel (Ministério da Saúde), comparando os anos de 2019 e 2023.\n\n\n\nCarolinabrito1304\n\n\n15 de jun. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Economic Outlook: panorama econômico mundial\n\n\nEDA com dados do World Economic Outlook (FMI), com apresentação e relatório final em HTML.\n\n\n\namacielp73\n\n\n20 de mai. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPortal da Transparência da AGU: gastos do Ministério da Educação\n\n\nEDA com dados do Portal da Transparência da Advocacia-Geral da União, em um recorte de 681 observações do Ministério da Educação.\n\n\n\ncarlossouza11052007-collab\n\n\n14 de abr. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "cursos/graduacao/projetos-estudantes/populacao-e-pib.html",
+    "href": "cursos/graduacao/projetos-estudantes/populacao-e-pib.html",
+    "title": "Crescimento populacional e PIB pelo mundo (2010-2025)",
+    "section": "",
+    "text": "Voltar\n\nAnálise exploratória do crescimento populacional e do PIB de vários países em intervalos de cinco anos, de 2010 a 2025. Desenvolvido em R, o projeto serve como introdução à linguagem e como modelo para análises futuras, com relatório detalhado e apresentação em HTML gerados a partir de arquivos Quarto.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Apresentação de slides\n  \n  \n     Código-fonte no GitHub"
+  },
+  {
+    "objectID": "cursos/graduacao/index.html",
+    "href": "cursos/graduacao/index.html",
+    "title": "Graduação",
+    "section": "",
+    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nA formação combina uma base sólida em matemática, probabilidade e inferência com forte componente computacional (programação, bancos de dados e aprendizado de máquina) e com aplicações reais em projetos, estágios e parcerias com a comunidade."
+  },
+  {
+    "objectID": "cursos/graduacao/index.html#sobre-o-curso",
+    "href": "cursos/graduacao/index.html#sobre-o-curso",
+    "title": "Graduação",
+    "section": "",
+    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nA formação combina uma base sólida em matemática, probabilidade e inferência com forte componente computacional (programação, bancos de dados e aprendizado de máquina) e com aplicações reais em projetos, estágios e parcerias com a comunidade."
+  },
+  {
+    "objectID": "cursos/graduacao/index.html#matriz-curricular",
+    "href": "cursos/graduacao/index.html#matriz-curricular",
+    "title": "Graduação",
+    "section": "Matriz curricular",
+    "text": "Matriz curricular\nA matriz curricular está organizada em núcleos de formação, cursados ao longo de 8 semestres:\n\n\n\n\n\n\n\nNúcleo\nConteúdos principais\n\n\n\n\nBase matemática\nCálculo, Álgebra Linear, Matemática Discreta\n\n\nProbabilidade e Inferência\nProbabilidade, Inferência Estatística, Processos Estocásticos\n\n\nModelagem estatística\nModelos de Regressão, Planejamento e Análise de Experimentos, Análise Multivariada, Séries Temporais\n\n\nComputação e dados\nProgramação, Estatística Computacional, Bancos de Dados, Aprendizado de Máquina\n\n\nFormação complementar\nAmostragem, Controle de Qualidade, Estatística Espacial, disciplinas eletivas\n\n\nPrática profissional\nProjetos orientados, Estágio Supervisionado, Trabalho de Conclusão de Curso\n\n\n\nA matriz oficial completa, com ementas e pré-requisitos detalhados, está no site do DES/UFLA. Ou veja aqui, módulo a módulo:\n\n  Ver matriz curricular 2026/1\n\n\n\n1º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES110\nMatemática para Estatística I\n8\n-\n\n\nGES136\nIntrodução aos Planos Experimentais\n4\n-\n\n\nGES139\nOrganização e Apresentação de Dados\n8\n-\n\n\nGES140\nVivência Profissional em Estatística\n2\n-\n\n\n\n\n\n2º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES113\nProbabilidade I\n8\nGES110\n\n\nGES135\nFundamentos de Programação\n4\n-\n\n\nGES137\nMatemática para Estatística II\n10\nGES110\n\n\n\n\n\n3º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES116\nMatemática para Estatística III\n8\nGES137\n\n\nGES117\nProbabilidade II\n6\nGES113\n\n\nGES134\nEstrutura de Dados\n8\nGES135\n\n\nGES141\nConsultoria em Estatística I\n2\nGES136\n\n\n\n\n\n4º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES118\nInferência Estatística I\n8\nGES113\n\n\nGES119\nModelos Lineares I\n8\nGES113\n\n\nGES142\nAmostragem\n4\nGES113\n\n\n\n\n\n5º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES122\nModelos Lineares II\n8\nGES119\n\n\nGES123\nPlanejamento e Análise de Experimentos\n4\nGES136\n\n\nGES124\nInferência Estatística II\n8\nGES118\n\n\n\n\n\n6º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES125\nSéries Temporais\n4\nGES124\n\n\nGES126\nEstatística Computacional\n6\nGES135\n\n\nGES127\nConsultoria em Estatística II\n4\nGES141\n\n\nGES130\nCiência de Dados e Big Data\n4\nGES134\n\n\nGES138\nTécnicas Multivariadas\n4\nGES124\n\n\n\n\n\n7º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES128\nModelos Lineares Generalizados\n6\nGES119\n\n\nGES129\nInferência Bayesiana\n4\nGES118\n\n\nGES131\nMineração de Dados e Aprendizagem de Máquinas\n6\nGES134\n\n\n\n\n\n8º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nEES5889\nEstágio Supervisionado\n0\n-"
+  },
+  {
+    "objectID": "cursos/graduacao/index.html#projetos-dos-estudantes",
+    "href": "cursos/graduacao/index.html#projetos-dos-estudantes",
+    "title": "Graduação",
+    "section": "Projetos dos estudantes",
+    "text": "Projetos dos estudantes\nTrabalhos desenvolvidos pelos nossos estudantes, do mais recente ao mais antigo. Veja todos em Projetos dos Estudantes ou envie o seu projeto.\n\n\n\n\n\n\n\n\n30 de jun. de 2026\n\n\nEtanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)\n\n\nEDA sobre as consequências ambientais das emissões de automóveis a combustão no Brasil, comparando a eficiência e o impacto do etanol frente aos combustíveis fósseis.\n\n\nLeia mais\n\n\n\n\n\n\n\n22 de jun. de 2026\n\n\nCrescimento populacional e PIB pelo mundo (2010-2025)\n\n\nEDA em R sobre o crescimento da população e o PIB de diversos países em intervalos de 5 anos, com relatório e apresentação em Quarto.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de jun. de 2026\n\n\nVigilância de fatores de risco: microdados do Vigitel (2019 × 2023)\n\n\nAnálise exploratória dos microdados do Vigitel (Ministério da Saúde), comparando os anos de 2019 e 2023.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de mai. de 2026\n\n\nWorld Economic Outlook: panorama econômico mundial\n\n\nEDA com dados do World Economic Outlook (FMI), com apresentação e relatório final em HTML.\n\n\nLeia mais\n\n\n\n\n\n\n\n14 de abr. de 2026\n\n\nPortal da Transparência da AGU: gastos do Ministério da Educação\n\n\nEDA com dados do Portal da Transparência da Advocacia-Geral da União, em um recorte de 681 observações do Ministério da Educação.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "cursos/pos-graduacao/egressos/index.html",
+    "href": "cursos/pos-graduacao/egressos/index.html",
+    "title": "Painel dos Egressos",
+    "section": "",
+    "text": "O Painel dos Egressos reúne, em um dashboard interativo, a trajetória dos egressos da graduação e da pós-graduação em Estatística da UFLA: os setores em que atuam, as regiões do país e do exterior para onde foram e a formação continuada que seguiram após o curso.\n\n\n  \n  Painel interativo em construção\n  Em breve: o dashboard com a trajetória dos egressos da graduação e da\n     pós-graduação (setores de atuação, regiões e formação continuada)."
+  },
+  {
+    "objectID": "acoes/nucleos-de-estudo/st/index.html",
+    "href": "acoes/nucleos-de-estudo/st/index.html",
+    "title": "ST",
+    "section": "",
+    "text": "O ST estuda a modelagem e a previsão de dados ao longo do tempo: modelos ARIMA e GARCH, modelos para dados de contagem (como os GLARMA), séries ambientais, econômicas e epidemiológicas."
+  },
+  {
+    "objectID": "acoes/nucleos-de-estudo/st/index.html#o-que-fazemos",
+    "href": "acoes/nucleos-de-estudo/st/index.html#o-que-fazemos",
+    "title": "ST",
+    "section": "O que fazemos",
+    "text": "O que fazemos\n\nEncontros de estudo e discussão de artigos sobre séries temporais;\nProjetos aplicados de previsão e monitoramento;\nOficinas de análise de séries temporais no software R."
+  },
+  {
+    "objectID": "acoes/nucleos-de-estudo/st/index.html#como-participar",
+    "href": "acoes/nucleos-de-estudo/st/index.html#como-participar",
+    "title": "ST",
+    "section": "Como participar",
+    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
+  },
+  {
+    "objectID": "acoes/nucleos-de-estudo/nlin/index.html",
+    "href": "acoes/nucleos-de-estudo/nlin/index.html",
+    "title": "NLIN",
+    "section": "",
+    "text": "O NLIN reúne estudantes e docentes interessados em modelos de regressão não lineares e suas aplicações, do crescimento de seres vivos à agronomia, passando por curvas de produção e fenômenos biológicos."
+  },
+  {
+    "objectID": "acoes/nucleos-de-estudo/nlin/index.html#o-que-fazemos",
+    "href": "acoes/nucleos-de-estudo/nlin/index.html#o-que-fazemos",
+    "title": "NLIN",
+    "section": "O que fazemos",
+    "text": "O que fazemos\n\nEncontros periódicos de estudo e discussão de artigos;\nDesenvolvimento de projetos de pesquisa e iniciação científica;\nOficinas de ajuste de modelos não lineares no software R."
+  },
+  {
+    "objectID": "acoes/nucleos-de-estudo/nlin/index.html#como-participar",
+    "href": "acoes/nucleos-de-estudo/nlin/index.html#como-participar",
+    "title": "NLIN",
+    "section": "Como participar",
+    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
   },
   {
     "objectID": "acoes/revista-cientifica/index.html",
@@ -462,6 +406,41 @@
     "text": "Como submeter\nAutores interessados encontram as normas de submissão e o sistema de envio no site oficial do periódico."
   },
   {
+    "objectID": "projetos/ensino/index.html",
+    "href": "projetos/ensino/index.html",
+    "title": "Projetos de Ensino",
+    "section": "",
+    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes:\n\nMonitorias: apoio aos estudantes nas disciplinas de Estatística oferecidas para os cursos da UFLA;\nDocência voluntária: participação de pós-graduandos e recém-doutores em atividades de ensino supervisionadas;\nCursos e oficinas: introdução ao software R, visualização de dados e ferramentas computacionais;\nMaterial didático: produção de apostilas, tutoriais e recursos abertos de apoio às disciplinas."
+  },
+  {
+    "objectID": "projetos/ensino/index.html#ensino-no-desufla",
+    "href": "projetos/ensino/index.html#ensino-no-desufla",
+    "title": "Projetos de Ensino",
+    "section": "",
+    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes:\n\nMonitorias: apoio aos estudantes nas disciplinas de Estatística oferecidas para os cursos da UFLA;\nDocência voluntária: participação de pós-graduandos e recém-doutores em atividades de ensino supervisionadas;\nCursos e oficinas: introdução ao software R, visualização de dados e ferramentas computacionais;\nMaterial didático: produção de apostilas, tutoriais e recursos abertos de apoio às disciplinas."
+  },
+  {
+    "objectID": "projetos/ensino/index.html#editais",
+    "href": "projetos/ensino/index.html#editais",
+    "title": "Projetos de Ensino",
+    "section": "Editais",
+    "text": "Editais\nAs vagas de monitoria e docência voluntária são divulgadas em editais; veja abaixo os que estão abertos:\n\n\n\n\n\n\n\n\n1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "noticias/conectastat-no-ar.html",
+    "href": "noticias/conectastat-no-ar.html",
+    "title": "Conexão Estatística entra no ar com novo visual",
+    "section": "",
+    "text": "O Conexão Estatística está no ar com novo visual e nova organização: seções dedicadas à área de Estatística, aos nossos cursos de graduação e pós-graduação, à assessoria e consultoria estatística e aos projetos e ações do departamento.\nNa página inicial você encontra as últimas notícias, oportunidades (editais internos e de estudo), eventos e a localização do prédio da Estatística no campus da UFLA, com rota direto para o seu GPS."
+  },
+  {
+    "objectID": "eventos/xvii-encontro-mineiro-estatistica.html",
+    "href": "eventos/xvii-encontro-mineiro-estatistica.html",
+    "title": "XVII Encontro Mineiro de Estatística (MGEST) 2025",
+    "section": "",
+    "text": "O Encontro Mineiro de Estatística (MGEST) é um evento bienal que, desde 1999, reúne profissionais, docentes e estudantes para a troca de conhecimento e a divulgação de pesquisas na área de Estatística.\nSaiba mais no site do DES/UFLA »"
+  },
+  {
     "objectID": "eventos/index.html",
     "href": "eventos/index.html",
     "title": "Eventos",
@@ -469,10 +448,31 @@
     "text": "XVII Programa de Verão DES-ICET/UFLA 2026\n\n\nEdição 2026 do tradicional Programa de Verão do Departamento de Estatística, com disciplinas e atividades de formação.\n\n\n\n15 de jan. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nXVII Encontro Mineiro de Estatística (MGEST) 2025\n\n\nEvento bienal que, desde 1999, reúne profissionais, docentes e estudantes da área de Estatística de Minas Gerais e do Brasil.\n\n\n\n5 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nV Workshop em Data Science\n\n\nWorkshop voltado à Ciência de Dados, com palestras e atividades sobre métodos estatísticos e aplicações.\n\n\n\n20 de mai. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de Extensão: Introdução ao Software R\n\n\nCurso de extensão de introdução ao R, ambiente livre para análise estatística e visualização de dados.\n\n\n\n1 de set. de 2024\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "eventos/curso-introducao-software-r.html",
-    "href": "eventos/curso-introducao-software-r.html",
-    "title": "Curso de Extensão: Introdução ao Software R",
+    "objectID": "oportunidades/edital-002-monitores-voluntarios.html",
+    "href": "oportunidades/edital-002-monitores-voluntarios.html",
+    "title": "Edital Nº 002/2026: Seleção de monitores voluntários",
     "section": "",
-    "text": "Curso de extensão de introdução ao R, ambiente livre e gratuito amplamente utilizado para análise estatística, modelagem e visualização de dados.\nSaiba mais no site do DES/UFLA »"
+    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 002/2026.\nLer edital no site do DES/UFLA »"
+  },
+  {
+    "objectID": "oportunidades/edital-001-docencia-voluntaria.html",
+    "href": "oportunidades/edital-001-docencia-voluntaria.html",
+    "title": "Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)",
+    "section": "",
+    "text": "O Departamento de Estatística da UFLA divulga o Edital Nº 001/2026 para seleção de docência voluntária no 1º semestre de 2026.\nLer edital no site do DES/UFLA »"
+  },
+  {
+    "objectID": "artigos/palestra-modelos-glarma.html",
+    "href": "artigos/palestra-modelos-glarma.html",
+    "title": "Modelos da classe GLARMA(p,q): séries temporais de contagem",
+    "section": "",
+    "text": "Palestra do Departamento de Estatística da UFLA sobre os modelos da classe GLARMA(p,q), uma alternativa para a modelagem de séries temporais de contagem.\nVer no site do DES/UFLA »"
+  },
+  {
+    "objectID": "artigos/palestra-polinomios-hermite.html",
+    "href": "artigos/palestra-polinomios-hermite.html",
+    "title": "Polinômios de Hermite: definições, propriedades e aplicações",
+    "section": "",
+    "text": "Palestra do Departamento de Estatística da UFLA sobre os polinômios de Hermite, suas definições, propriedades e aplicações na Estatística.\nVer no site do DES/UFLA »"
   }
 ]

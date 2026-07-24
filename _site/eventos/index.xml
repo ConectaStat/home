@@ -16,8 +16,8 @@
 <height>59</height>
 <width>144</width>
 </image>
-<generator>quarto-1.9.36</generator>
-<lastBuildDate>Thu, 15 Jan 2026 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Thu, 15 Jan 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>XVII Programa de Verão DES-ICET/UFLA 2026</title>
   <dc:creator>Departamento de Estatística da UFLA</dc:creator>
@@ -35,7 +35,7 @@
  ]]></description>
   <category>Eventos</category>
   <guid>https://conectastat.github.io/home/eventos/programa-de-verao-2026.html</guid>
-  <pubDate>Thu, 15 Jan 2026 03:00:00 GMT</pubDate>
+  <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/home/eventos/thumbnails/programa-de-verao-2026.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -55,7 +55,7 @@
  ]]></description>
   <category>Eventos</category>
   <guid>https://conectastat.github.io/home/eventos/xvii-encontro-mineiro-estatistica.html</guid>
-  <pubDate>Wed, 05 Nov 2025 03:00:00 GMT</pubDate>
+  <pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/home/eventos/thumbnails/xvii-encontro-mineiro-estatistica.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -75,7 +75,7 @@
  ]]></description>
   <category>Eventos</category>
   <guid>https://conectastat.github.io/home/eventos/v-workshop-data-science.html</guid>
-  <pubDate>Tue, 20 May 2025 03:00:00 GMT</pubDate>
+  <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/home/eventos/thumbnails/v-workshop-data-science.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -96,7 +96,7 @@
   <category>Eventos</category>
   <category>Cursos</category>
   <guid>https://conectastat.github.io/home/eventos/curso-introducao-software-r.html</guid>
-  <pubDate>Sun, 01 Sep 2024 03:00:00 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/home/eventos/thumbnails/curso-introducao-software-r.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>

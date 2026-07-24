@@ -1,5 +1,22 @@
 [
   {
+    "listing": "/artigos/index.html",
+    "items": [
+      "/artigos/palestra-crescimento-seres-vivos.html",
+      "/artigos/palestra-modelos-glarma.html",
+      "/artigos/palestra-polinomios-hermite.html"
+    ]
+  },
+  {
+    "listing": "/projetos/pesquisa/index.html",
+    "items": [
+      "/oportunidades/edital-eleicoes-des.html",
+      "/oportunidades/edital-003-monitores-voluntarios.html",
+      "/oportunidades/edital-002-monitores-voluntarios.html",
+      "/oportunidades/edital-001-docencia-voluntaria.html"
+    ]
+  },
+  {
     "listing": "/cursos/graduacao/projetos-estudantes/index.html",
     "items": [
       "/cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html",
@@ -20,11 +37,12 @@
     ]
   },
   {
-    "listing": "/artigos/index.html",
+    "listing": "/projetos/ensino/index.html",
     "items": [
-      "/artigos/palestra-crescimento-seres-vivos.html",
-      "/artigos/palestra-modelos-glarma.html",
-      "/artigos/palestra-polinomios-hermite.html"
+      "/oportunidades/edital-eleicoes-des.html",
+      "/oportunidades/edital-003-monitores-voluntarios.html",
+      "/oportunidades/edital-002-monitores-voluntarios.html",
+      "/oportunidades/edital-001-docencia-voluntaria.html"
     ]
   },
   {
@@ -39,24 +57,6 @@
       "/eventos/xvii-encontro-mineiro-estatistica.html",
       "/eventos/v-workshop-data-science.html",
       "/eventos/curso-introducao-software-r.html"
-    ]
-  },
-  {
-    "listing": "/projetos/pesquisa/index.html",
-    "items": [
-      "/oportunidades/edital-eleicoes-des.html",
-      "/oportunidades/edital-003-monitores-voluntarios.html",
-      "/oportunidades/edital-002-monitores-voluntarios.html",
-      "/oportunidades/edital-001-docencia-voluntaria.html"
-    ]
-  },
-  {
-    "listing": "/projetos/ensino/index.html",
-    "items": [
-      "/oportunidades/edital-eleicoes-des.html",
-      "/oportunidades/edital-003-monitores-voluntarios.html",
-      "/oportunidades/edital-002-monitores-voluntarios.html",
-      "/oportunidades/edital-001-docencia-voluntaria.html"
     ]
   },
   {
