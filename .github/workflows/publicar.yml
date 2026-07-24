@@ -1,0 +1,41 @@
+name: Publicar site no GitHub Pages
+
+# A cada push na master (exceto mudanças só em docs/), renderiza o Quarto
+# e atualiza docs/, a pasta que o GitHub Pages serve. O push feito pelo
+# robô usa o GITHUB_TOKEN, que não redispara o workflow - sem loop.
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - "docs/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render-e-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixa o repositório
+        uses: actions/checkout@v4
+
+      - name: Instala o Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Dependências do gerador de thumbnails
+        run: pip install selenium pillow
+
+      - name: Renderiza o site
+        run: quarto render
+
+      - name: Atualiza docs/ e publica
+        run: |
+          rm -rf docs
+          cp -r _site docs
+          touch docs/.nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Atualiza site publicado (render automático)"
+          git push
