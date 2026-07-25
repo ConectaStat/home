@@ -1,0 +1,37 @@
+---
+title: "World Economic Outlook: panorama econômico mundial"
+description: "EDA com dados do World Economic Outlook (FMI), com apresentação e relatório final em HTML."
+author: "amacielp73"
+date: "2026-05-20"
+image: "thumbnail.png"
+categories: [Análise de dados, Economia, "WEO (FMI)"]
+aliases:
+  - /cursos/graduacao/projetos-estudantes/world-economic-outlook.html
+  - /projetos/ensino/organizacao-e-apresentacao-de-dados/world-economic-outlook.html
+---
+
+```{=html}
+<a class="btn-voltar" href="../../index.html"
+   onclick="if (document.referrer && new URL(document.referrer).origin === location.origin) { history.back(); return false; }">
+  <i class="bi bi-arrow-left"></i> Voltar
+</a>
+```
+
+Análise exploratória construída sobre dados do **World Economic Outlook**,
+com apresentação e relatório final publicados em HTML.
+
+```{=html}
+<div class="report-nativo">
+  <iframe src="relatorios/relatorio.html"
+          title="Relatório: World Economic Outlook (panorama econômico mundial)"></iframe>
+</div>
+
+<div class="projeto-links">
+  <a href="relatorios/relatorio.html" target="_blank" rel="noopener">
+    <i class="bi bi-arrows-fullscreen"></i> Relatório em tela cheia
+  </a>
+  <a href="https://github.com/amacielp73/World_Economic_Outlook_UFLA" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> Código-fonte no GitHub
+  </a>
+</div>
+```

@@ -2,26 +2,29 @@
 """
 Gera thumbnails/capas automáticas para os posts do site.
 
-Seções cobertas e como a capa é obtida quando o post NÃO tem `image:`:
+Cada post é um "page bundle": <seção>/posts/AAAA-MM-DD-slug/index.qmd, com a
+capa e os anexos na mesma pasta. Seções cobertas e como a capa é obtida
+quando o post NÃO tem `image:`:
 
-  • Projetos dos Estudantes (modo "relatorio")
+  • Organização e Apresentação de Dados (modo "relatorio")
       Abre o relatório HTML embutido no post (iframe de relatorios/...) e
       fotografa o elemento mais colorido (gráfico, mapa, figura).
 
   • Notícias, Oportunidades e Eventos (modo "pagina")
-      Abre a página já renderizada em _site/ (rode `quarto render` antes),
+      Abre a página já renderizada em docs/ (rode `quarto render` antes),
       esconde navbar/rodapé e:
         - se houver figura/gráfico colorido no corpo, fotografa o melhor;
         - senão, fotografa o topo da própria notícia (banner do título +
           primeiras linhas) — a "foto da notícia".
 
-Em todos os casos o recorte é 16:9 (1200×675), salvo em <seção>/thumbnails/,
-e o `image:` é preenchido no front matter do post automaticamente.
+Em todos os casos o recorte é 16:9 (1200×675), salvo como thumbnail.png na
+pasta do próprio post, e o `image:` é preenchido no front matter
+automaticamente.
 
 Uso:
     python scripts/gerar_thumbnails.py                  # todos os posts sem capa
     python scripts/gerar_thumbnails.py --force          # regenera tudo
-    python scripts/gerar_thumbnails.py vigitel-2019-2023 conectastat-no-ar
+    python scripts/gerar_thumbnails.py vigitel-2019-2023 2026-07-06-conexao-estatistica-no-ar
 
 Automático: este script está registrado como `pre-render` no _quarto.yml —
 a cada `quarto render` (completo) ele roda sozinho e gera a capa de qualquer
@@ -55,11 +58,14 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 RAIZ = Path(__file__).resolve().parents[1]
-SITE = RAIZ / "_site"
+# Pasta de saída: o Quarto informa a dele; fora do render, vale o output-dir.
+SITE = Path(os.environ.get("QUARTO_PROJECT_OUTPUT_DIR") or (RAIZ / "docs"))
+if not SITE.is_absolute():
+    SITE = RAIZ / SITE
 
-# Seções do site que ganham capa automática
+# Seções do site que ganham capa automática (os posts ficam em <pasta>/posts/)
 SECOES = [
-    {"pasta": "cursos/graduacao/projetos-estudantes", "modo": "relatorio"},
+    {"pasta": "projetos/ensino/organizacao-e-apresentacao-de-dados", "modo": "relatorio"},
     {"pasta": "noticias",       "modo": "pagina"},
     {"pasta": "oportunidades",  "modo": "pagina"},
     {"pasta": "eventos",        "modo": "pagina"},
@@ -94,12 +100,13 @@ def renderiza_pagina_nova(post: Path) -> bool:
         return False
 
 
-def acha_relatorio(texto_qmd: str, pasta_posts: Path, slug: str) -> Path | None:
-    """Descobre qual HTML de relatorios/ o post embute."""
+def acha_relatorio(texto_qmd: str, bundle: Path) -> Path | None:
+    """Descobre qual HTML de relatorios/ o post embute (dentro do bundle)."""
     m = re.search(r'iframe\s+src="(relatorios/[^"]+\.html)"', texto_qmd)
     if m:
-        return pasta_posts / m.group(1)
-    candidato = pasta_posts / "relatorios" / f"{slug}.html"
+        candidato = bundle / m.group(1)
+        return candidato if candidato.exists() else None
+    candidato = bundle / "relatorios" / "relatorio.html"
     return candidato if candidato.exists() else None
 
 
@@ -298,62 +305,61 @@ def gera_capas(args, modo_auto: bool) -> int:
     gerados, pulados = 0, 0
 
     for secao in SECOES:
-        pasta_posts = RAIZ / secao["pasta"]
-        pasta_thumbs = pasta_posts / "thumbnails"
-        posts = sorted(
-            p for p in pasta_posts.glob("*.qmd")
-            if p.stem not in ("index", "enviar") and not p.stem.startswith("_")
-        )
+        # Um post = uma pasta: <seção>/posts/AAAA-MM-DD-slug/index.qmd
+        posts = sorted((RAIZ / secao["pasta"] / "posts").glob("*/index.qmd"))
         if args.slugs:
-            posts = [p for p in posts if p.stem in args.slugs]
+            posts = [p for p in posts
+                     if p.parent.name in args.slugs
+                     or any(p.parent.name.endswith(f"-{s}") for s in args.slugs)]
         if not posts:
             continue
 
         for post in posts:
+            bundle = post.parent
+            nome = bundle.name                      # AAAA-MM-DD-slug
             texto = post.read_text(encoding="utf-8")
             if not args.force and re.search(r"(?m)^image:", texto):
                 if not modo_auto:
-                    print(f"[ok] {post.stem}: já tem capa (image: no front matter)")
+                    print(f"[ok] {nome}: já tem capa (image: no front matter)")
                 pulados += 1
                 continue
 
             if secao["modo"] == "relatorio":
-                origem = acha_relatorio(texto, pasta_posts, post.stem)
-                if origem is None or not origem.exists():
-                    print(f"[!!] {post.stem}: relatório HTML não encontrado — "
-                          f"envie uma thumbnail manualmente")
+                origem = acha_relatorio(texto, bundle)
+                if origem is None:
+                    print(f"[!!] {nome}: relatório HTML não encontrado em "
+                          f"{bundle.name}/relatorios/ — envie uma thumbnail manualmente")
                     continue
             else:
-                origem = SITE / secao["pasta"] / f"{post.stem}.html"
+                origem = SITE / secao["pasta"] / "posts" / nome / "index.html"
                 if not origem.exists() and modo_auto:
                     # post novo, nunca renderizado: renderiza só ele para a capa
-                    print(f"[..] {post.stem}: primeira renderização da página "
+                    print(f"[..] {nome}: primeira renderização da página "
                           f"(para a foto da capa)...")
                     renderiza_pagina_nova(post)
                 if not origem.exists():
-                    print(f"[!!] {post.stem}: página não encontrada em _site/ — "
-                          f"rode `quarto render` antes deste script")
+                    print(f"[!!] {nome}: página não encontrada em "
+                          f"{SITE.name}/ — rode `quarto render` antes deste script")
                     continue
 
             if driver is None:
                 print("Abrindo o Chrome headless...")
                 driver = abre_chrome()
 
-            print(f"[..] {post.stem}: analisando {origem.name} ({secao['modo']})...")
+            print(f"[..] {nome}: analisando {origem.name} ({secao['modo']})...")
             if secao["modo"] == "relatorio":
                 im = capa_relatorio(driver, origem)
             else:
                 im = capa_pagina(driver, origem)
             if im is None:
-                print(f"[!!] {post.stem}: nenhum visual aproveitável — "
+                print(f"[!!] {nome}: nenhum visual aproveitável — "
                       f"envie uma thumbnail manualmente")
                 continue
 
-            pasta_thumbs.mkdir(exist_ok=True)
-            destino = pasta_thumbs / f"{post.stem}.png"
+            destino = bundle / "thumbnail.png"
             recorta_16x9(im).save(destino, optimize=True)
-            insere_image_no_front_matter(post, f"thumbnails/{post.stem}.png")
-            print(f"[ok] {post.stem}: capa gerada em {destino.relative_to(RAIZ)}")
+            insere_image_no_front_matter(post, "thumbnail.png")
+            print(f"[ok] {nome}: capa gerada em {destino.relative_to(RAIZ)}")
             gerados += 1
 
     if driver is not None:

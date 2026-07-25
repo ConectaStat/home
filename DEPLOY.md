@@ -1,7 +1,7 @@
-# ConectaStat: Guia de implantação no servidor
+# Conexão Estatística: guia de implantação no servidor
 
 Este documento resume o que a equipe do servidor precisa saber para hospedar
-o **ConectaStat** (site do Departamento de Estatística da UFLA, construído
+o **Conexão Estatística** (site do Departamento de Estatística da UFLA, construído
 com [Quarto](https://quarto.org)).
 
 Há dois cenários possíveis. Na dúvida, o **Cenário 1** é o recomendado:
@@ -12,7 +12,8 @@ Há dois cenários possíveis. Na dúvida, o **Cenário 1** é o recomendado:
 ## Cenário 1: o servidor apenas hospeda o site pronto (recomendado)
 
 O site é renderizado na máquina de quem edita e o resultado fica na pasta
-**`_site/`**: apenas HTML, CSS, JavaScript e imagens **estáticos**.
+**`docs/`** (definida em `output-dir`, no `_quarto.yml`): apenas HTML, CSS,
+JavaScript e imagens **estáticos**.
 
 **Requisitos no servidor:**
 
@@ -76,8 +77,9 @@ pipeline que renderiza a cada commit). Requisitos:
    o cache local basta;
 5. **Memória**: o Chrome headless consome de 300 a 500 MB enquanto gera capas,
    e só é aberto quando existe post sem capa;
-6. **Escrita no diretório de trabalho**: o gerador de capas cria PNGs em
-   `<seção>/thumbnails/` e preenche o campo `image:` nos arquivos `.qmd`.
+6. **Escrita no diretório de trabalho**: o gerador de capas cria o
+   `thumbnail.png` dentro da pasta de cada post e preenche o campo `image:`
+   no `.qmd` correspondente.
    Em CI com checkout descartável, essas mudanças não voltam ao repositório:
    ou o pipeline faz commit delas, ou (mais simples) as capas são geradas
    localmente pelo editor antes do push; nesse caso o passo automático não
@@ -118,5 +120,5 @@ python scripts/gerar_thumbnails.py <slug>     # apenas posts específicos
 
 1. Editor cria/edita posts (`.qmd`) na máquina local;
 2. `quarto render` (as capas que faltam são geradas automaticamente);
-3. Commit (incluindo `_site/`, os `.qmd` atualizados e as thumbnails);
-4. O servidor recebe/serve o conteúdo de `_site/` como arquivos estáticos.
+3. Commit (incluindo `docs/`, os `.qmd` atualizados e as thumbnails);
+4. O servidor recebe/serve o conteúdo de `docs/` como arquivos estáticos.

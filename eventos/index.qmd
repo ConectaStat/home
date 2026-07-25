@@ -1,15 +1,9 @@
 ---
 title: "Eventos"
 subtitle: "Seminários, palestras, minicursos e defesas."
-page-layout: article
 title-block-banner: true
-body-classes: cs-banner-lollipop
-sidebar: false
-toc: false
 listing:
-  contents:
-    - "*.qmd"
-    - "!index.qmd"
+  contents: posts
   sort: "date desc"
   type: grid
   grid-columns: 3

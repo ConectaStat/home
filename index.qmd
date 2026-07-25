@@ -11,45 +11,48 @@ description: |
 image: images/logo_ufla_transparente.png
 listing:
   - id: noticias
-    contents:
-    - /noticias
+    contents: /noticias/posts
     sort: "date desc"
-    template: cards.ejs
+    template: _assets/cards.ejs
 
   - id: oportunidades
-    contents:
-    - /oportunidades
+    contents: /oportunidades/posts
     sort: "date desc"
-    template: cards.ejs
+    template: _assets/cards.ejs
 
   - id: eventos
-    contents:
-    - /eventos
-    - "!index.qmd"
+    contents: /eventos/posts
     sort: "date desc"
-    template: cards.ejs
+    template: _assets/cards.ejs
 
 toc: false
 ---
 
 <!-- ============================================================= -->
-<!--  HERO - tipografia display + momentos do campus (vídeo)       -->
+<!--  HERO - só a ilustração + tagline em fonte mono (estilo       -->
+<!--  prompt: Ciência/ Estatística/ Conexão, com cursor piscando)  -->
 <!-- ============================================================= -->
 ```{=html}
 <div class="hero-banner">
-  <div class="content-container hero-grid">
-    <div class="hero-text">
-      <h1>Conexão Estatística<span class="hero-dot">.</span></h1>
-      <p class="hero-tagline">
-        <span>Ciência,</span>
-        <span class="tag-verde">Estatística &amp;</span>
-        <span>Conexão</span>
-      </p>
+  <div class="content-container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="hero-tagline">
+          <span>Ciência<span class="tag-barra">/</span></span>
+          <span class="tag-verde">Estatística<span class="tag-barra">/</span></span>
+          <span>Conexão<span class="hero-cursor" aria-hidden="true"></span></span>
+        </p>
+      </div>
+      <div class="hero-media">
+        <img src="images/hero-serrinha.svg"
+             alt="Ilustração da Serrinha da UFLA: casa histórica ao lado de um ipê-amarelo florido" />
+      </div>
     </div>
-    <div class="hero-media">
-      <img src="images/hero-serrinha.svg"
-           alt="Ilustração da Serrinha da UFLA: casa histórica ao lado de um ipê-amarelo florido" />
-    </div>
+    <!-- Disclaimer provisório: será substituído pelo texto definitivo -->
+    <p class="hero-disclaimer">
+      Site de projeto vinculado ao Departamento de Estatística da UFLA.
+      Este não é um site institucional da Universidade.
+    </p>
   </div>
 </div>
 ```

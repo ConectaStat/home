@@ -1,0 +1,6 @@
+# Padrões dos posts de oportunidades/editais. A seção não tem página de
+# listagem própria: os editais aparecem na home e nas páginas
+# projetos/<área>/editais/. Cada post só declara título, data e afins.
+page-layout: article
+sidebar: false
+toc: false

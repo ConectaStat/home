@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 315" role="img" aria-label="Função de autocorrelação">
+  <rect width="560" height="315" fill="#f7f9f8"/>
+  <g transform="translate(0,52)" fill="none" stroke="#0d5488" stroke-width="2">
+    <line x1='40' y1='112' x2='540' y2='112' stroke-opacity='.55'/><line x1='40' y1='88' x2='540' y2='88' stroke-dasharray='5 5' stroke-opacity='.35'/><line x1='40' y1='136' x2='540' y2='136' stroke-dasharray='5 5' stroke-opacity='.35'/><path stroke='#1a8a4c' stroke-width='3' stroke-opacity='.75' d='M70,112V48M110,112V152M150,112V82M190,112V132M230,112V96M270,112V122M310,112V104M350,112V118M390,112V107M430,112V116M470,112V109M510,112V114'/>
+  </g>
+</svg>

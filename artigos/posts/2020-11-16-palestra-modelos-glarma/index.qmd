@@ -1,0 +1,15 @@
+---
+title: "Modelos da classe GLARMA(p,q): séries temporais de contagem"
+description: "Palestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem."
+author: "Departamento de Estatística da UFLA"
+date: "2020-11-16"
+categories: [Artigos, Palestras]
+aliases:
+  - /artigos/palestra-modelos-glarma.html
+---
+
+Palestra do Departamento de Estatística da UFLA sobre os modelos da classe
+**GLARMA(p,q)**, uma alternativa para a modelagem de séries temporais de
+contagem.
+
+[Ver no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/81-palestra-16-11-2020-modelos-da-classe-glarma-p-q-uma-alternativa-para-series-temporais-de-contagem)

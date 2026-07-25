@@ -1,0 +1,4 @@
+# Padrões dos projetos publicados: cada post exibe o índice do próprio
+# relatório na margem. O restante (título, autor, data, categorias, capa)
+# fica no front matter de cada posts/AAAA-MM-DD-slug/index.qmd.
+toc: true

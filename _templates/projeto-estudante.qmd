@@ -1,0 +1,79 @@
+---
+title: "TÍTULO DO PROJETO"
+description: "RESUMO DA ANÁLISE: 2 a 4 frases enviadas pelo aluno; vira a descrição do card."
+author: "USUARIO-DO-ALUNO"
+date: "AAAA-MM-DD"
+image: "thumbnails/SLUG-DO-PROJETO.png"
+categories: [Análise de dados, R, "FONTE DOS DADOS (SIGLA)"]
+toc: true
+format:
+  html:
+    grid:
+      margin-width: 250px
+---
+
+<!--
+  MODELO DE POST - Organização e Apresentação de Dados (projetos dos estudantes)
+  ==============================================================================
+  Uso (mantenedores do site):
+    1. Copie este arquivo para <slug-do-projeto>.qmd nesta mesma pasta
+       (o prefixo "_" faz o Quarto ignorar este modelo na renderização).
+    2. Coloque o relatório do aluno em relatorios/<slug-do-projeto>.html
+       (ou .pdf) e, se houver, a apresentação em relatorios/<slug>-apresentacao.html.
+    3. Thumbnail:
+       - Se o aluno enviou imagem: salve em thumbnails/<slug>.png (16:9) e
+         mantenha a linha `image:` do cabeçalho.
+       - Se NÃO enviou: apague a linha `image:` e rode
+         `python scripts/gerar_thumbnails.py`: o script fotografa a parte
+         mais colorida do relatório HTML e preenche o `image:` sozinho.
+    4. Preencha as categorias: linguagem (R e/ou Python), tema e a FONTE dos
+       dados como tag. Ex.: "PBEV (INMETRO)", "Vigitel (Ministério da Saúde)".
+    5. Se o relatório NÃO mostra o código, mencione no texto de introdução
+       (ex.: "relatório sem código, focado nos resultados").
+-->
+
+```{=html}
+<a class="btn-voltar" href="index.html"
+   onclick="if (document.referrer && new URL(document.referrer).origin === location.origin) { history.back(); return false; }">
+  <i class="bi bi-arrow-left"></i> Voltar
+</a>
+```
+
+Parágrafo de introdução: o que o projeto analisa, com quais dados
+(**fonte**), em qual linguagem (**R/Python**) e o que o leitor vai encontrar
+no relatório.
+
+<!-- RELATÓRIO EM HTML (padrão) -->
+```{=html}
+<div class="report-nativo">
+  <iframe src="relatorios/SLUG-DO-PROJETO.html"
+          title="Relatório: TÍTULO DO PROJETO"></iframe>
+</div>
+
+<!-- RELATÓRIO EM PDF: troque o bloco acima por este
+<div class="report-embed">
+  <div class="report-embed-bar">
+    <span class="report-embed-label"><i class="bi bi-file-earmark-pdf"></i> Relatório em PDF</span>
+    <a class="report-embed-fullscreen" href="relatorios/SLUG-DO-PROJETO.pdf" target="_blank" rel="noopener">
+      <i class="bi bi-arrows-fullscreen"></i> Tela cheia
+    </a>
+  </div>
+  <iframe src="relatorios/SLUG-DO-PROJETO.pdf"
+          title="Relatório: TÍTULO DO PROJETO"
+          loading="lazy"></iframe>
+</div>
+-->
+
+<div class="projeto-links">
+  <a href="relatorios/SLUG-DO-PROJETO.html" target="_blank" rel="noopener">
+    <i class="bi bi-arrows-fullscreen"></i> Relatório em tela cheia
+  </a>
+  <!-- Apague os links que não se aplicarem -->
+  <a href="relatorios/SLUG-DO-PROJETO-apresentacao.html" target="_blank" rel="noopener">
+    <i class="bi bi-easel"></i> Apresentação de slides
+  </a>
+  <a href="https://github.com/USUARIO/REPOSITORIO" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> Código-fonte no GitHub
+  </a>
+</div>
+```

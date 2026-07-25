@@ -1,71 +1,98 @@
 [
   {
-    "listing": "/artigos/index.html",
+    "listing": "/projetos/pesquisa/nucleos/index.html",
     "items": [
-      "/artigos/palestra-crescimento-seres-vivos.html",
-      "/artigos/palestra-modelos-glarma.html",
-      "/artigos/palestra-polinomios-hermite.html"
+      "/projetos/pesquisa/nucleos/nlin/index.html",
+      "/projetos/pesquisa/nucleos/gps/index.html",
+      "/projetos/pesquisa/nucleos/st/index.html"
     ]
   },
   {
     "listing": "/projetos/pesquisa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projetos/extensao/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projetos/ensino/softwares/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projetos/ensino/organizacao-e-apresentacao-de-dados/index.html",
     "items": [
-      "/oportunidades/edital-eleicoes-des.html",
-      "/oportunidades/edital-003-monitores-voluntarios.html",
-      "/oportunidades/edital-002-monitores-voluntarios.html",
-      "/oportunidades/edital-001-docencia-voluntaria.html"
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-30-inmetro-pbev-2026/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-22-populacao-e-pib/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-15-vigitel-2019-2023/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-05-20-world-economic-outlook/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-04-14-transparencia-agu/index.html"
     ]
   },
   {
-    "listing": "/cursos/graduacao/projetos-estudantes/index.html",
-    "items": [
-      "/cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html",
-      "/cursos/graduacao/projetos-estudantes/populacao-e-pib.html",
-      "/cursos/graduacao/projetos-estudantes/vigitel-2019-2023.html",
-      "/cursos/graduacao/projetos-estudantes/world-economic-outlook.html",
-      "/cursos/graduacao/projetos-estudantes/transparencia-agu.html"
-    ]
+    "listing": "/projetos/ensino/materiais/index.html",
+    "items": []
   },
   {
-    "listing": "/cursos/graduacao/index.html",
+    "listing": "/projetos/ensino/editais/index.html",
     "items": [
-      "/cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html",
-      "/cursos/graduacao/projetos-estudantes/populacao-e-pib.html",
-      "/cursos/graduacao/projetos-estudantes/vigitel-2019-2023.html",
-      "/cursos/graduacao/projetos-estudantes/world-economic-outlook.html",
-      "/cursos/graduacao/projetos-estudantes/transparencia-agu.html"
-    ]
-  },
-  {
-    "listing": "/projetos/ensino/index.html",
-    "items": [
-      "/oportunidades/edital-eleicoes-des.html",
-      "/oportunidades/edital-003-monitores-voluntarios.html",
-      "/oportunidades/edital-002-monitores-voluntarios.html",
-      "/oportunidades/edital-001-docencia-voluntaria.html"
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/noticias/conectastat-no-ar.html",
-      "/oportunidades/edital-eleicoes-des.html",
-      "/oportunidades/edital-003-monitores-voluntarios.html",
-      "/oportunidades/edital-002-monitores-voluntarios.html",
-      "/oportunidades/edital-001-docencia-voluntaria.html",
-      "/eventos/programa-de-verao-2026.html",
-      "/eventos/xvii-encontro-mineiro-estatistica.html",
-      "/eventos/v-workshop-data-science.html",
-      "/eventos/curso-introducao-software-r.html"
+      "/noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html",
+      "/eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
+      "/eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
+      "/eventos/posts/2025-05-20-v-workshop-data-science/index.html",
+      "/eventos/posts/2024-09-01-curso-introducao-software-r/index.html"
+    ]
+  },
+  {
+    "listing": "/artigos/index.html",
+    "items": [
+      "/artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
+      "/artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
+      "/artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html"
     ]
   },
   {
     "listing": "/eventos/index.html",
     "items": [
-      "/eventos/programa-de-verao-2026.html",
-      "/eventos/xvii-encontro-mineiro-estatistica.html",
-      "/eventos/v-workshop-data-science.html",
-      "/eventos/curso-introducao-software-r.html"
+      "/eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
+      "/eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
+      "/eventos/posts/2025-05-20-v-workshop-data-science/index.html",
+      "/eventos/posts/2024-09-01-curso-introducao-software-r/index.html"
+    ]
+  },
+  {
+    "listing": "/projetos/ensino/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projetos/extensao/editais/index.html",
+    "items": [
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
+    ]
+  },
+  {
+    "listing": "/projetos/pesquisa/editais/index.html",
+    "items": [
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
     ]
   }
 ]

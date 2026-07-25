@@ -18,7 +18,7 @@ CEP 37203-202 · Caixa Postal 3037
 ## Canais
 
 - Site institucional: [des.ufla.br](https://des.ufla.br/)
-- GitHub do projeto: [github.com/Leocarletto/conectastat-pilot](https://github.com/Leocarletto/conectastat-pilot)
+- GitHub do projeto: [github.com/ConectaStat/home](https://github.com/ConectaStat/home)
 
 ::: {.button}
 [Visitar o site do DES](https://des.ufla.br/)

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="ConectaStat: projeto dos estudantes">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Conexão Estatística">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d5488"/>
@@ -19,6 +19,10 @@
   </g>
   <!-- linha de tendência -->
   <path d="M100 400 Q 400 330 720 170" fill="none" stroke="#1a8a4c" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
-  <!-- marca -->
-  <text x="400" y="130" text-anchor="middle" font-family="Verdana, sans-serif" font-size="44" font-weight="bold" fill="#ffffff">ConectaStat<tspan fill="#1a8a4c">.</tspan></text>
+  <!-- marca: mesmo "prompt" do hero (Ciência/ Estatística/ Conexão) -->
+  <g font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="40" font-weight="600">
+    <text x="400" y="110" text-anchor="middle" fill="#ffffff">Ciência<tspan fill="#9fb6c6">/</tspan></text>
+    <text x="400" y="160" text-anchor="middle" fill="#1a8a4c">Estatística<tspan fill="#9fb6c6">/</tspan></text>
+    <text x="400" y="210" text-anchor="middle" fill="#ffffff">Conexão</text>
+  </g>
 </svg>

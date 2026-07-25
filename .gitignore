@@ -1,7 +1,17 @@
-.Rproj.user
+# --- R / RStudio -------------------------------------------------------------
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
 
+# --- Quarto ------------------------------------------------------------------
 /.quarto/
 **/*.quarto_ipynb
+# Saída de build: o site é renderizado direto em docs/ (output-dir do
+# _quarto.yml), que é a pasta publicada. _site/ só surge em renders
+# parciais de uma página e nunca vai para o git.
+/_site/
+
+# --- Sistema operacional -----------------------------------------------------
+.DS_Store
+Thumbs.db

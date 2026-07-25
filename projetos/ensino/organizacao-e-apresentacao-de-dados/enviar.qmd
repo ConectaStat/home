@@ -1,0 +1,138 @@
+---
+title: "Envie seu projeto"
+subtitle: "Publique sua análise em Organização e Apresentação de Dados."
+title-block-banner: true
+body-classes: cs-banner-boxplot
+page-layout: article
+sidebar: false
+toc: false
+aliases:
+  - /cursos/graduacao/projetos-estudantes/enviar.html
+---
+
+```{=html}
+<a class="btn-voltar" href="index.html"
+   onclick="if (document.referrer && new URL(document.referrer).origin === location.origin) { history.back(); return false; }">
+  <i class="bi bi-arrow-left"></i> Voltar
+</a>
+```
+
+## Como enviar
+
+Preencha o formulário abaixo **sem sair do site**. Ao enviar, o GitHub abre
+em outra aba com a submissão **já preenchida**: é só revisar, anexar os
+arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).
+
+```{=html}
+<form class="form-submissao" id="form-submissao">
+  <div class="form-grid">
+    <div class="form-campo">
+      <label for="sub-titulo">Título do projeto <span class="req">*</span></label>
+      <input type="text" id="sub-titulo" required
+             placeholder="ex.: Etanol × combustíveis fósseis: emissões veiculares no PBEV 2026" />
+    </div>
+    <div class="form-campo">
+      <label for="sub-autor">Autor(es) <span class="req">*</span></label>
+      <input type="text" id="sub-autor" required
+             placeholder="Nome(s) ou usuário(s) do GitHub, como devem aparecer no post" />
+    </div>
+    <div class="form-campo campo-inteiro">
+      <label for="sub-resumo">Resumo da análise <span class="req">*</span></label>
+      <textarea id="sub-resumo" required
+                placeholder="De 2 a 4 frases: o que foi analisado, com quais dados e quais os principais achados. Esse texto vira a descrição da publicação."></textarea>
+    </div>
+    <div class="form-campo">
+      <label for="sub-linguagem">Linguagem <span class="req">*</span></label>
+      <select id="sub-linguagem" required>
+        <option value="" disabled selected>Selecione…</option>
+        <option>R</option>
+        <option>Python</option>
+        <option>R + Python</option>
+        <option>Outra (detalhe no resumo)</option>
+      </select>
+    </div>
+    <div class="form-campo">
+      <label for="sub-formato">Formato do relatório <span class="req">*</span></label>
+      <select id="sub-formato" required>
+        <option value="" disabled selected>Selecione…</option>
+        <option>HTML</option>
+        <option>PDF</option>
+        <option>HTML + PDF</option>
+      </select>
+    </div>
+    <div class="form-campo">
+      <label for="sub-codigo">O código aparece no documento? <span class="req">*</span></label>
+      <select id="sub-codigo" required>
+        <option value="" disabled selected>Selecione…</option>
+        <option>Sim (código visível no relatório)</option>
+        <option>Não (apenas resultados)</option>
+      </select>
+    </div>
+    <div class="form-campo">
+      <label for="sub-fonte">Fonte dos dados <span class="req">*</span></label>
+      <input type="text" id="sub-fonte" required
+             placeholder="ex.: PBEV (INMETRO) · Vigitel (Ministério da Saúde)" />
+    </div>
+    <div class="form-campo campo-inteiro">
+      <label for="sub-relatorio">Link do relatório no GitHub</label>
+      <input type="url" id="sub-relatorio"
+             placeholder="https://github.com/usuario/projeto/blob/main/relatorio.html" />
+      <p class="form-dica">Vai <strong>anexar o arquivo</strong> em vez de usar link?
+         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.</p>
+    </div>
+    <div class="form-campo campo-inteiro">
+      <label for="sub-repositorio">Repositório no GitHub</label>
+      <input type="url" id="sub-repositorio"
+             placeholder="https://github.com/usuario/meu-projeto" />
+    </div>
+  </div>
+  <div class="form-acoes">
+    <button type="submit" class="btn-enviar-github">
+      <i class="bi bi-github"></i> Revisar e enviar no GitHub
+    </button>
+    <span class="form-legenda">* obrigatório</span>
+  </div>
+  <p class="form-status" id="form-submissao-status" role="status"></p>
+</form>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var form = document.getElementById("form-submissao");
+  if (!form) return;
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var v = function (id) { return document.getElementById(id).value.trim(); };
+    var p = new URLSearchParams();
+    p.set("template", "submissao-projeto.yml");
+    p.set("title", "[Projeto] " + v("sub-titulo"));
+    p.set("titulo", v("sub-titulo"));
+    p.set("autor", v("sub-autor"));
+    p.set("resumo", v("sub-resumo"));
+    p.set("linguagem", v("sub-linguagem"));
+    p.set("formato", v("sub-formato"));
+    p.set("codigo", v("sub-codigo"));
+    p.set("fonte", v("sub-fonte"));
+    if (v("sub-relatorio")) p.set("relatorio", v("sub-relatorio"));
+    if (v("sub-repositorio")) p.set("repositorio", v("sub-repositorio"));
+    var url = "https://github.com/Leocarletto/conectastat-pilot/issues/new?" + p.toString();
+
+    var a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+
+    var st = document.getElementById("form-submissao-status");
+    st.innerHTML = 'Abrimos o GitHub em outra aba com sua submissão preenchida: revise, ' +
+      'anexe o arquivo do relatório (e a capa, se tiver) e clique em <em>Create</em>. ' +
+      'Não abriu? <a href="' + url + '" target="_blank" rel="noopener">Clique aqui</a>.';
+  });
+});
+</script>
+```
+
+Os **arquivos** são anexados na tela do GitHub que abre: o relatório em
+`.html` ou `.pdf` (a saída gerada pelo Quarto/RStudio) e a imagem de capa.
+Basta arrastar cada um para o campo correspondente antes de clicar em *Create*.

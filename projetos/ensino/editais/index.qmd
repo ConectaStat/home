@@ -1,0 +1,31 @@
+---
+title: "Editais de Projetos de Ensino"
+subtitle: "Monitorias, docência voluntária e demais chamadas dos projetos de ensino."
+title-block-banner: true
+body-classes: cs-banner-ogiva
+page-layout: article
+sidebar: false
+toc: false
+listing:
+  id: listagem-editais
+  contents:
+    - "../../../oportunidades/posts/*/index.qmd"
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: "172px"
+  image-placeholder: ../../../images/post-placeholder.svg
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [image, title, description, date]
+---
+
+<!-- TODO (ver ROADMAP.md): imagem/selo "aberto" vs. "encerrado" nos cards
+     e filtragem por tipo de edital quando houver categorização. -->
+
+Editais e chamadas ligados aos projetos de ensino, do mais recente ao mais
+antigo.
+
+::: {#listagem-editais}
+:::

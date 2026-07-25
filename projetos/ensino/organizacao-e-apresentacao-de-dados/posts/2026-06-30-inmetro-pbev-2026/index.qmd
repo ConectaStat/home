@@ -1,0 +1,44 @@
+---
+title: "Etanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)"
+description: "EDA sobre as consequências ambientais das emissões de automóveis a combustão no Brasil, comparando a eficiência e o impacto do etanol frente aos combustíveis fósseis."
+author: "Leocarletto"
+date: "2026-06-30"
+image: "thumbnail.png"
+categories: [Análise de dados, R, Meio ambiente, "PBEV (INMETRO)"]
+aliases:
+  - /cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html
+  - /projetos/ensino/organizacao-e-apresentacao-de-dados/inmetro-pbev-2026.html
+---
+
+```{=html}
+<a class="btn-voltar" href="../../index.html"
+   onclick="if (document.referrer && new URL(document.referrer).origin === location.origin) { history.back(); return false; }">
+  <i class="bi bi-arrow-left"></i> Voltar
+</a>
+```
+
+Análise Exploratória de Dados com base no **Programa Brasileiro de Etiquetagem
+Veicular (PBEV 2026)**, mantido pelo INMETRO. O projeto investiga o impacto
+ambiental dos veículos a etanol frente às alternativas a gasolina e diesel:
+emissões de CO₂ (g/km), eficiência de consumo (km/l) e a quantidade de CO₂
+potencialmente evitada por ano em cada categoria de veículo, evidenciando a
+vantagem ecológica do ciclo fechado de carbono do etanol.
+
+```{=html}
+<div class="report-nativo">
+  <iframe src="relatorios/relatorio.html"
+          title="Relatório: Etanol × combustíveis fósseis (emissões veiculares no PBEV 2026)"></iframe>
+</div>
+
+<div class="projeto-links">
+  <a href="relatorios/relatorio.html" target="_blank" rel="noopener">
+    <i class="bi bi-arrows-fullscreen"></i> Relatório em tela cheia
+  </a>
+  <a href="relatorios/apresentacao.html" target="_blank" rel="noopener">
+    <i class="bi bi-easel"></i> Apresentação de slides
+  </a>
+  <a href="https://github.com/Leocarletto/INMETRO_PBEV2026_eda" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> Código-fonte no GitHub
+  </a>
+</div>
+```

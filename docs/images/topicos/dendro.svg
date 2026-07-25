@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 315" role="img" aria-label="Dendrograma de agrupamento">
+  <rect width="560" height="315" fill="#f7f9f8"/>
+  <g transform="translate(0,52)" fill="none" stroke="#0d5488" stroke-width="2">
+    <g stroke-opacity='.5'><circle cx='80' cy='170' r='4'/><circle cx='160' cy='170' r='4'/><circle cx='240' cy='170' r='4'/><circle cx='320' cy='170' r='4'/><circle cx='400' cy='170' r='4'/><circle cx='480' cy='170' r='4'/></g><path stroke='#1a8a4c' stroke-width='2.8' stroke-opacity='.7' d='M80,166V140H160V166M240,166V120H320V166M400,166V130H480V166M120,140V85H280V120M200,85V50H440V130'/>
+  </g>
+</svg>

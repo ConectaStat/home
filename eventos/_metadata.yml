@@ -1,0 +1,6 @@
+# Padrões desta seção: valem para a página de listagem e para todos os posts
+# de eventos/posts/. Cada post só precisa declarar título, data e afins.
+page-layout: article
+sidebar: false
+toc: false
+body-classes: cs-banner-lollipop   # assinatura gráfica da seção (linha do tempo)

@@ -1,0 +1,15 @@
+---
+title: "V Workshop em Data Science"
+description: "Workshop voltado à Ciência de Dados, com palestras e atividades sobre métodos estatísticos e aplicações."
+author: "Departamento de Estatística da UFLA"
+date: "2025-05-20"
+image: "thumbnail.png"
+categories: [Eventos]
+aliases:
+  - /eventos/v-workshop-data-science.html
+---
+
+O Workshop em Data Science promove discussões sobre métodos estatísticos,
+aprendizado de máquina e aplicações de Ciência de Dados.
+
+[Saiba mais no site do DES/UFLA »](https://des.ufla.br/eventos/v-workshop-em-data-science)

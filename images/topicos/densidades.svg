@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 315" role="img" aria-label="Densidades comparadas">
+  <rect width="560" height="315" fill="#f7f9f8"/>
+  <g transform="translate(0,52)" fill="none" stroke="#0d5488" stroke-width="2">
+    <line x1='30' y1='176' x2='545' y2='176' stroke-opacity='.55'/><path stroke='#1a8a4c' stroke-width='3' stroke-opacity='.85' d='M40,174 C120,171 160,150 190,102 C212,66 220,50 236,50 C252,50 262,72 286,118 C314,166 360,172 430,174'/><path stroke-width='3' stroke-opacity='.55' stroke-dasharray='7 6' d='M140,174 C220,171 258,148 288,100 C310,64 320,46 336,46 C352,46 362,70 388,118 C416,166 462,172 532,174'/>
+  </g>
+</svg>

@@ -1,8 +1,9 @@
 name: Publicar site no GitHub Pages
 
 # A cada push na master (exceto mudanças só em docs/), renderiza o Quarto
-# e atualiza docs/, a pasta que o GitHub Pages serve. O push feito pelo
-# robô usa o GITHUB_TOKEN, que não redispara o workflow - sem loop.
+# direto em docs/ (output-dir do _quarto.yml), a pasta que o GitHub Pages
+# serve, e commita o resultado. O push feito pelo robô usa o GITHUB_TOKEN,
+# que não redispara o workflow - sem loop.
 on:
   push:
     branches: [master]
@@ -26,13 +27,11 @@ jobs:
       - name: Dependências do gerador de thumbnails
         run: pip install selenium pillow
 
-      - name: Renderiza o site
+      - name: Renderiza o site (sai direto em docs/)
         run: quarto render
 
-      - name: Atualiza docs/ e publica
+      - name: Publica docs/
         run: |
-          rm -rf docs
-          cp -r _site docs
           touch docs/.nojekyll
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

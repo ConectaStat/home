@@ -1,0 +1,10 @@
+# Padrões desta seção: valem para a listagem, para a página "envie seu
+# projeto" e para todos os projetos em posts/.
+page-layout: article
+sidebar: false
+toc: false
+body-classes: cs-banner-boxplot   # assinatura gráfica da seção (boxplots)
+format:
+  html:
+    grid:
+      margin-width: 250px         # margem que abriga a busca e o índice do relatório

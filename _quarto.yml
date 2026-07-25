@@ -1,17 +1,22 @@
 project:
   type: website
+  # O site é renderizado direto na pasta publicada (GitHub Pages serve docs/).
+  # Não existe mais _site/ versionado: build é artefato, não fonte.
+  output-dir: docs
+  # Só arquivos .qmd viram página. Assim README.md, DEPLOY.md, ROADMAP.md e
+  # CONTRIBUTING.md ficam como documentação do repositório, sem virar página
+  # pública do site.
+  render:
+    - "**/*.qmd"
   # Antes de cada render completo: gera a capa de qualquer post sem `image:`
   # (gráfico/mapa mais colorido do relatório, ou "foto" do topo da notícia).
   pre-render: scripts/gerar_thumbnails.py
   # Depois de cada render: troca o " – " dos títulos das páginas por " | "
   post-render: scripts/ajustar_titulos.py
+  # As capas e os relatórios moram dentro da pasta de cada post (page bundle),
+  # então o Quarto já os copia junto; aqui ficam só os recursos de site.
   resources:
-    - images/post-placeholder.svg
-    - cursos/graduacao/projetos-estudantes/relatorios/
-    - cursos/graduacao/projetos-estudantes/thumbnails/
-    - noticias/thumbnails/
-    - oportunidades/thumbnails/
-    - eventos/thumbnails/
+    - images/
 
 lang: pt
 
@@ -26,9 +31,9 @@ website:
   navbar:
     toggle-position: right
     background: "#0a3f66"
-    logo: images/logo-conexao.png
-    logo-alt: "Marca do Conexão Estatística"
-    title: 'Conexão Estatística<span class="nav-dot">.</span><span class="nav-tagline"><span>Ciência,</span> <span class="tag-verde">Estatística &amp;</span> <span>Conexão</span></span>'
+    # Sem o nome do site: só o slogan no topo esquerdo, no mesmo estilo
+    # "prompt" da hero (Ciência/ Estatística/ Conexão em fonte mono)
+    title: '<span class="nav-tagline"><span>Ciência<span class="tag-barra">/</span></span> <span class="tag-verde">Estatística<span class="tag-barra">/</span></span> <span>Conexão</span></span>'
     collapse-below: lg
     right:
       - text: "Estatística"
@@ -37,18 +42,8 @@ website:
         menu:
           - text: "Graduação"
             href: cursos/graduacao/index.qmd
-          - text: "› Sobre o curso"
-            href: cursos/graduacao/index.qmd
-          - text: "› Projetos dos Estudantes"
-            href: cursos/graduacao/projetos-estudantes/index.qmd
           - text: "Pós-Graduação"
             href: cursos/pos-graduacao/index.qmd
-          - text: "› Sobre o curso"
-            href: cursos/pos-graduacao/index.qmd
-          - text: "› Painel dos Egressos"
-            href: cursos/pos-graduacao/egressos/index.qmd
-      - text: "Assessoria e Consultoria"
-        href: assessoria/index.qmd
       - text: "Projetos"
         menu:
           - text: "Pesquisa"
@@ -61,14 +56,10 @@ website:
         menu:
           - text: "Revista Científica"
             href: acoes/revista-cientifica/index.qmd
-          - text: "Núcleos de Estudo"
-            href: acoes/nucleos-de-estudo/index.qmd
-          - text: "› NLIN"
-            href: acoes/nucleos-de-estudo/nlin/index.qmd
-          - text: "› GPS"
-            href: acoes/nucleos-de-estudo/gps/index.qmd
-          - text: "› ST"
-            href: acoes/nucleos-de-estudo/st/index.qmd
+          - text: "Assessoria e Consultoria Estatística"
+            href: assessoria/index.qmd
+          - text: "Eventos"
+            href: eventos/index.qmd
   page-navigation: true
 
   back-to-top-navigation: false
@@ -76,8 +67,6 @@ website:
   page-footer:
     background: "#0a3f66"
     left: |
-      Copyright &copy; 2026 **Conexão Estatística**
-
       [Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.]{.footer-disclaimer}
     center:
       - href: https://github.com/ConectaStat/home
@@ -94,8 +83,8 @@ website:
 
 format:
   html:
-    theme: [cosmo, conectastat.scss]
-    css: conectastat.css
+    theme: [cosmo, _assets/conexao-estatistica.scss]
+    css: _assets/conexao-estatistica.css
     include-after-body:
       - _includes/listing-cards.html
       - _includes/transitions.html

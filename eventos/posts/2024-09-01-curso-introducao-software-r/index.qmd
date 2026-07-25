@@ -1,0 +1,15 @@
+---
+title: "Curso de Extensão: Introdução ao Software R"
+description: "Curso de extensão de introdução ao R, ambiente livre para análise estatística e visualização de dados."
+author: "Departamento de Estatística da UFLA"
+date: "2024-09-01"
+image: "thumbnail.png"
+categories: [Eventos, Cursos]
+aliases:
+  - /eventos/curso-introducao-software-r.html
+---
+
+Curso de extensão de introdução ao **R**, ambiente livre e gratuito amplamente
+utilizado para análise estatística, modelagem e visualização de dados.
+
+[Saiba mais no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/125-curso-de-extensao-introducao-ao-software-r)

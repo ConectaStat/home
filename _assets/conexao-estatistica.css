@@ -1,0 +1,38 @@
+/* Conexao Estatistica - ajustes finais de CSS puro
+   (complementa _assets/conexao-estatistica.scss).
+   Coloque aqui pequenos overrides que não dependam de variáveis SCSS. */
+
+/* Remove a margem extra que o Quarto adiciona ao conteúdo custom */
+#quarto-content > * {
+  padding-top: 0;
+}
+
+/* Espaço sob o cabeçalho fixo para o conteúdo não ficar escondido */
+body.nav-fixed {
+  padding-top: 0;
+}
+
+/* Imagens dos cards de listagem sobre fundo branco */
+.quarto-grid-item img {
+  background-color: #ffffff;
+}
+
+/* ============================================================= */
+/* O PROJETO - bloco de texto na home                           */
+/* ============================================================= */
+.intro-block {
+  /* Linhas sutis de contorno (como visto no print) */
+  border-bottom: 1px solid #EAEAEA; 
+  /* border: 1px solid #EAEAEA; /* Descomente esta linha e apague a de cima se quiser o contorno fechado em formato de caixa */
+  /* border-radius: 8px; /* Descomente para arredondar os cantos da caixa */
+
+  /* Centraliza o bloco e limita a largura para ficar igual ao seu print */
+  max-width: 900px;
+  margin: 60px auto; 
+  padding: 0 20px 40px 20px;
+
+  /* Estilo do texto */
+  color: #555555;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}

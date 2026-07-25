@@ -1,12 +1,12 @@
 name: "📊 Submissão de projeto: Projetos dos Estudantes"
-description: "Envie sua análise para publicação em Projetos dos Estudantes, no ConectaStat."
+description: "Envie sua análise para publicação em Organização e Apresentação de Dados, no Conexão Estatística."
 title: "[Projeto] Título do seu projeto aqui"
 labels: ["projeto-estudante"]
 body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por enviar seu projeto para o **ConectaStat**! 🎉
+        Obrigado por enviar seu projeto para o **Conexão Estatística**! 🎉
 
         **Formatos aceitos:** análises em **R** ou **Python** (Quarto, R Markdown ou
         Jupyter Notebook) com relatório final em **HTML** ou **PDF**.

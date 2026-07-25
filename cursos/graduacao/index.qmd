@@ -8,14 +8,6 @@ sidebar: false
 toc: false
 aliases:
   - /cursos/graduacao/sobre/
-listing:
-  id: projetos-rotator
-  contents:
-    - projetos-estudantes
-    - "!projetos-estudantes/index.qmd"
-    - "!projetos-estudantes/enviar.qmd"
-  sort: "date desc"
-  template: ../../cards.ejs
 ---
 
 ## Sobre o curso
@@ -28,7 +20,10 @@ pesquisa e órgãos públicos.
 A formação combina uma base sólida em **matemática, probabilidade e
 inferência** com forte componente computacional (programação, bancos de
 dados e aprendizado de máquina) e com aplicações reais em projetos,
-estágios e parcerias com a comunidade.
+estágios e parcerias com a comunidade. Aqui se aprende a programar desde o
+primeiro período: os projetos de **Organização e Apresentação de Dados**
+feitos pelos estudantes de primeiro período podem ser consultados
+[aqui](../../projetos/ensino/organizacao-e-apresentacao-de-dados/index.qmd).
 
 ## Matriz curricular
 
@@ -125,13 +120,4 @@ módulo:
 |---|---|:---:|:---:|
 | EES5889 | Estágio Supervisionado | 0 | - |
 
-:::
-
-## Projetos dos estudantes
-
-Trabalhos desenvolvidos pelos nossos estudantes, do mais recente ao mais
-antigo. Veja todos em [Projetos dos Estudantes](projetos-estudantes/index.qmd)
-ou [envie o seu projeto](projetos-estudantes/enviar.qmd).
-
-::: {#projetos-rotator}
 :::
