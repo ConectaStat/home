@@ -78,6 +78,31 @@
       "symbol": "📈",
       "description": "Conteúdo publicado no site",
       "link": "https://conectastat.github.io/"
+    },
+    "code": {
+      "symbol": "💻",
+      "description": "Código",
+      "link": "https://github.com/ConectaStat/conectastat.github.io/commits?author=[[login]]"
+    },
+    "bug": {
+      "symbol": "🐛",
+      "description": "Correção de erro",
+      "link": "https://github.com/ConectaStat/conectastat.github.io/issues?q=author%3A[[login]]"
+    },
+    "ideas": {
+      "symbol": "💡",
+      "description": "Ideias e sugestões",
+      "link": "https://github.com/ConectaStat/conectastat.github.io/issues?q=author%3A[[login]]"
+    },
+    "design": {
+      "symbol": "🎨",
+      "description": "Design",
+      "link": "https://github.com/[[login]]"
+    },
+    "translation": {
+      "symbol": "🌍",
+      "description": "Tradução",
+      "link": "https://github.com/[[login]]"
     }
   }
 }

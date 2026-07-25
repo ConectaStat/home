@@ -33,7 +33,7 @@ O Conexão Estatística é conduzido no Departamento de Estatística da UFLA. A 
 
 ## Contribuidores
 
-Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publicadas, código, documentação, ideias e correções. A lista não é fechada nem hierárquica, e cresce a cada contribuição aceita ([legenda dos emojis](https://allcontributors.org/docs/en/emoji-key)).
+Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publicadas, código, ideias e correções. A lista não é fechada, e cresce a cada contribuição aceita. O significado de cada marca está em [como funciona o crédito](#como-funciona-o-crédito).
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -41,12 +41,12 @@ Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publica
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Leocarletto"><img src="https://avatars.githubusercontent.com/u/290053745?v=4?s=100" width="100px;" alt="Leonardo Carletto"/><br /><sub><b>Leonardo Carletto</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=Leocarletto" title="Code">💻</a> <a href="#content-Leocarletto" title="Content">🖋</a> <a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=Leocarletto" title="Documentation">📖</a> <a href="#maintenance-Leocarletto" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/uaipedro"><img src="https://avatars.githubusercontent.com/u/44395968?v=4?s=100" width="100px;" alt="Pedro Mambelli Fernandes"/><br /><sub><b>Pedro Mambelli Fernandes</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=uaipedro" title="Code">💻</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/PedroEu781"><img src="https://avatars.githubusercontent.com/u/153462117?v=4?s=100" width="100px;" alt="Pedro"/><br /><sub><b>Pedro</b></sub></a><br /><a href="#content-PedroEu781" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Carolinabrito1304"><img src="https://avatars.githubusercontent.com/u/290053524?v=4?s=100" width="100px;" alt="Carolina Brito"/><br /><sub><b>Carolina Brito</b></sub></a><br /><a href="#content-Carolinabrito1304" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/amacielp73"><img src="https://avatars.githubusercontent.com/u/288349650?v=4?s=100" width="100px;" alt="André Maciel"/><br /><sub><b>André Maciel</b></sub></a><br /><a href="#content-amacielp73" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/carlossouza11052007-collab"><img src="https://avatars.githubusercontent.com/u/290053234?v=4?s=100" width="100px;" alt="Carlos Eduardo Silva Sousa"/><br /><sub><b>Carlos Eduardo Silva Sousa</b></sub></a><br /><a href="#content-carlossouza11052007-collab" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Leocarletto"><img src="https://avatars.githubusercontent.com/u/290053745?v=4?s=100" width="100px;" alt="Leonardo Carletto"/><br /><sub><b>Leonardo Carletto</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=[[login]]" title="Código">💻</a> <a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/uaipedro"><img src="https://avatars.githubusercontent.com/u/44395968?v=4?s=100" width="100px;" alt="Pedro Mambelli Fernandes"/><br /><sub><b>Pedro Mambelli Fernandes</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=[[login]]" title="Código">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/PedroEu781"><img src="https://avatars.githubusercontent.com/u/153462117?v=4?s=100" width="100px;" alt="Pedro"/><br /><sub><b>Pedro</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Carolinabrito1304"><img src="https://avatars.githubusercontent.com/u/290053524?v=4?s=100" width="100px;" alt="Carolina Brito"/><br /><sub><b>Carolina Brito</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/amacielp73"><img src="https://avatars.githubusercontent.com/u/288349650?v=4?s=100" width="100px;" alt="André Maciel"/><br /><sub><b>André Maciel</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/carlossouza11052007-collab"><img src="https://avatars.githubusercontent.com/u/290053234?v=4?s=100" width="100px;" alt="Carlos Eduardo Silva Sousa"/><br /><sub><b>Carlos Eduardo Silva Sousa</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
     </tr>
   </tbody>
 </table>
@@ -64,7 +64,7 @@ A lista acima se mantém sozinha. Para incluir alguém, basta comentar em qualqu
 @all-contributors please add @usuario for content
 ```
 
-Troque `content` pelo tipo de contribuição (`code`, `doc`, `ideas`, `bug`, `design`, `review`). O robô abre um pull request atualizando a tabela e o arquivo `.all-contributorsrc`.
+Troque `content` pelo tipo de contribuição: `coordenacao`, `code`, `bug`, `ideas`, `design` ou `translation`. O robô abre um pull request atualizando a tabela e o arquivo `.all-contributorsrc`.
 
 ## Seja um contribuidor
 
@@ -94,7 +94,7 @@ Cada pessoa carrega uma ou mais marcas na lista, e elas se acumulam: ninguém pe
 | 📈 | `content` | Conteúdo publicado no site |
 | 💻 | `code` | Código |
 | 🐛 | `bug` | Correção de erro |
-| 🤔 | `ideas` | Ideias e sugestões |
+| 💡 | `ideas` | Ideias e sugestões |
 | 🎨 | `design` | Design |
 | 🌍 | `translation` | Tradução |
 
