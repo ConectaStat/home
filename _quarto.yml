@@ -3,16 +3,19 @@ project:
   # O site é renderizado direto na pasta publicada (GitHub Pages serve docs/).
   # Não existe mais _site/ versionado: build é artefato, não fonte.
   output-dir: docs
-  # Só arquivos .qmd viram página. Assim README.md, DEPLOY.md, ROADMAP.md e
-  # CONTRIBUTING.md ficam como documentação do repositório, sem virar página
-  # pública do site.
+  # Só arquivos .qmd viram página. Assim o README.md e o TEXTOS.md ficam
+  # como documentação do repositório, sem virar página pública do site.
   render:
     - "**/*.qmd"
   # Antes de cada render completo: gera a capa de qualquer post sem `image:`
   # (gráfico/mapa mais colorido do relatório, ou "foto" do topo da notícia).
   pre-render: scripts/gerar_thumbnails.py
-  # Depois de cada render: troca o " – " dos títulos das páginas por " | "
-  post-render: scripts/ajustar_titulos.py
+  # Depois de cada render:
+  #  1) troca o " – " dos títulos das páginas por " | ";
+  #  2) refaz o TEXTOS.md, o mapa de textos do site usado na revisão editorial.
+  post-render:
+    - scripts/ajustar_titulos.py
+    - scripts/gerar_textos.py
   # As capas e os relatórios moram dentro da pasta de cada post (page bundle),
   # então o Quarto já os copia junto; aqui ficam só os recursos de site.
   resources:

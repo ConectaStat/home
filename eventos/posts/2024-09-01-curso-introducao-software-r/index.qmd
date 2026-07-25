@@ -5,8 +5,6 @@ author: "Departamento de Estatística da UFLA"
 date: "2024-09-01"
 image: "thumbnail.png"
 categories: [Eventos, Cursos]
-aliases:
-  - /eventos/curso-introducao-software-r.html
 ---
 
 Curso de extensão de introdução ao **R**, ambiente livre e gratuito amplamente

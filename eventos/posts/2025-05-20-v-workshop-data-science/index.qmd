@@ -5,8 +5,6 @@ author: "Departamento de Estatística da UFLA"
 date: "2025-05-20"
 image: "thumbnail.png"
 categories: [Eventos]
-aliases:
-  - /eventos/v-workshop-data-science.html
 ---
 
 O Workshop em Data Science promove discussões sobre métodos estatísticos,

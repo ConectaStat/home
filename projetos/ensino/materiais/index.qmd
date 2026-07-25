@@ -21,7 +21,7 @@ listing:
 ---
 
 <!-- Para publicar, crie a pasta posts/AAAA-MM-DD-slug/ com um index.qmd
-     (veja CONTRIBUTING.md) - ele entra sozinho na grade abaixo, do mais
+     (veja README.md) - ele entra sozinho na grade abaixo, do mais
      novo ao mais velho. -->
 
 Materiais didáticos produzidos nos projetos de ensino do departamento.

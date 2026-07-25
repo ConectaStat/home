@@ -76,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-lista-eventos .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-lang','listing-website','listing-format','listing-execute','listing-engines','listing-language','listing-page-layout','listing-sidebar','listing-toc','listing-body-classes','listing-title','listing-description','listing-author','listing-date','listing-image','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-lang","listing-website","listing-format","listing-execute","listing-engines","listing-language","listing-page-layout","listing-sidebar","listing-toc","listing-body-classes","listing-title","listing-description","listing-author","listing-date","listing-image","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-lista-eventos'] = new List('listing-lista-eventos', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -138,6 +138,7 @@ window.Quarto = {
 <meta property="og:description" content="Seminários, palestras, minicursos e defesas.">
 <meta property="og:image" content="https://conectastat.github.io/home/eventos/posts/2026-01-15-programa-de-verao-2026/thumbnail.png">
 <meta property="og:site_name" content="Conexão Estatística">
+<meta property="og:image:alt" content="">
 <meta property="og:image:height" content="675">
 <meta property="og:image:width" content="1200">
 </head>
@@ -252,99 +253,86 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RXZlbnRvcw==" data-listing-date-sort="1768446000000" data-listing-file-modified-sort="1784929450773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<a href="../eventos/posts/2026-01-15-programa-de-verao-2026/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../eventos/posts/2026-01-15-programa-de-verao-2026/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-XVII Programa de Verão DES-ICET/UFLA 2026
-</h5>
-<div class="card-text listing-description delink">
-<p>Edição 2026 do tradicional Programa de Verão do Departamento de Estatística, com disciplinas e atividades de formação.</p>
+<div id="listing-lista-eventos" class="quarto-listing quarto-listing-container-custom">
+<div class="cs-rotator">
+<div class="cs-cards">
+<div class="cs-card">
+<div class="cs-card-thumb">
+<img src="../eventos/posts/2026-01-15-programa-de-verao-2026/thumbnail.png" alt="" loading="lazy">
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
+<p class="cs-card-date">
 15 de jan. de 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RXZlbnRvcw==" data-listing-date-sort="1762311600000" data-listing-file-modified-sort="1784929450775" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
-<a href="../eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-XVII Encontro Mineiro de Estatística (MGEST) 2025
-</h5>
-<div class="card-text listing-description delink">
-<p>Evento bienal que, desde 1999, reúne profissionais, docentes e estudantes da área de Estatística de Minas Gerais e do Brasil.</p>
+<h3 class="cs-card-title anchored">
+XVII Programa de Verão DES-ICET/UFLA 2026
+</h3>
+<p class="cs-card-desc">
+Edição 2026 do tradicional Programa de Verão do Departamento de Estatística, com disciplinas e atividades de formação.
+</p>
+<p class="cs-card-action">
+<a class="cs-card-btn" href="../eventos\posts\2026-01-15-programa-de-verao-2026\index.html">Leia mais</a>
+</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
+<div class="cs-card">
+<div class="cs-card-thumb">
+<img src="../eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/thumbnail.png" alt="" loading="lazy">
+</div>
+<p class="cs-card-date">
 5 de nov. de 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RXZlbnRvcw==" data-listing-date-sort="1747710000000" data-listing-file-modified-sort="1784929450774" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<a href="../eventos/posts/2025-05-20-v-workshop-data-science/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../eventos/posts/2025-05-20-v-workshop-data-science/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-V Workshop em Data Science
-</h5>
-<div class="card-text listing-description delink">
-<p>Workshop voltado à Ciência de Dados, com palestras e atividades sobre métodos estatísticos e aplicações.</p>
+<h3 class="cs-card-title anchored">
+XVII Encontro Mineiro de Estatística (MGEST) 2025
+</h3>
+<p class="cs-card-desc">
+Evento bienal que, desde 1999, reúne profissionais, docentes e estudantes da área de Estatística de Minas Gerais e do Brasil.
+</p>
+<p class="cs-card-action">
+<a class="cs-card-btn" href="../eventos\posts\2025-11-05-xvii-encontro-mineiro-estatistica\index.html">Leia mais</a>
+</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
+<div class="cs-card">
+<div class="cs-card-thumb">
+<img src="../eventos/posts/2025-05-20-v-workshop-data-science/thumbnail.png" alt="" loading="lazy">
+</div>
+<p class="cs-card-date">
 20 de mai. de 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="RXZlbnRvcyUyQ0N1cnNvcw==" data-listing-date-sort="1725159600000" data-listing-file-modified-sort="1784929450772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<a href="../eventos/posts/2024-09-01-curso-introducao-software-r/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../eventos/posts/2024-09-01-curso-introducao-software-r/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Curso de Extensão: Introdução ao Software R
-</h5>
-<div class="card-text listing-description delink">
-<p>Curso de extensão de introdução ao R, ambiente livre para análise estatística e visualização de dados.</p>
+<h3 class="cs-card-title anchored">
+V Workshop em Data Science
+</h3>
+<p class="cs-card-desc">
+Workshop voltado à Ciência de Dados, com palestras e atividades sobre métodos estatísticos e aplicações.
+</p>
+<p class="cs-card-action">
+<a class="cs-card-btn" href="../eventos\posts\2025-05-20-v-workshop-data-science\index.html">Leia mais</a>
+</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
+<div class="cs-card">
+<div class="cs-card-thumb">
+<img src="../eventos/posts/2024-09-01-curso-introducao-software-r/thumbnail.png" alt="" loading="lazy">
+</div>
+<p class="cs-card-date">
 1 de set. de 2024
+</p>
+<h3 class="cs-card-title anchored">
+Curso de Extensão: Introdução ao Software R
+</h3>
+<p class="cs-card-desc">
+Curso de extensão de introdução ao R, ambiente livre para análise estatística e visualização de dados.
+</p>
+<p class="cs-card-action">
+<a class="cs-card-btn" href="../eventos\posts\2024-09-01-curso-introducao-software-r\index.html">Leia mais</a>
+</p>
 </div>
-</div>
-</div>
-</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">Nenhum item correspondente</div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script>
 
 // ============================================================

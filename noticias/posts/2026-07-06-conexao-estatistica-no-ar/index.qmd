@@ -5,8 +5,6 @@ author: "Departamento de Estatística da UFLA"
 date: "2026-07-06"
 image: "thumbnail.png"
 categories: [Notícias]
-aliases:
-  - /noticias/conectastat-no-ar.html
 ---
 
 O **Conexão Estatística** está no ar com novo visual e nova organização: seções

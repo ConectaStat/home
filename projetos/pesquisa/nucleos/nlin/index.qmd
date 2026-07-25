@@ -8,8 +8,6 @@ body-classes: cs-banner-naolinear
 page-layout: article
 sidebar: false
 toc: false
-aliases:
-  - /acoes/nucleos-de-estudo/nlin/
 ---
 
 O **NLIN** reúne estudantes e docentes interessados em **modelos de

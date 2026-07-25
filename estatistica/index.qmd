@@ -17,7 +17,7 @@ fundamental da Ciência de Dados e está presente em praticamente todas as
 políticas públicas e inteligência artificial.
 
 <!-- O app "Probabilidade na prática" foi ocultado temporariamente:
-     conteúdo preservado em _probabilidade-na-pratica.qmd (ver ROADMAP.md). -->
+     conteúdo preservado em _probabilidade-na-pratica.qmd (ver README.md). -->
 
 ## Onde atua o estatístico?
 

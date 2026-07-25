@@ -5,9 +5,6 @@ author: "Carolinabrito1304"
 date: "2026-06-15"
 image: "thumbnail.png"
 categories: [Análise de dados, R, Saúde, "Vigitel (Ministério da Saúde)"]
-aliases:
-  - /cursos/graduacao/projetos-estudantes/vigitel-2019-2023.html
-  - /projetos/ensino/organizacao-e-apresentacao-de-dados/vigitel-2019-2023.html
 ---
 
 ```{=html}

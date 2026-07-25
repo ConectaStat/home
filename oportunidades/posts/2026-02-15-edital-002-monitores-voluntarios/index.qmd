@@ -5,8 +5,6 @@ author: "Departamento de Estatística da UFLA"
 date: "2026-02-15"
 image: "thumbnail.png"
 categories: [Oportunidades, Editais]
-aliases:
-  - /oportunidades/edital-002-monitores-voluntarios.html
 ---
 
 O Departamento de Estatística da UFLA abre processo seletivo para monitores

@@ -5,9 +5,6 @@ author: "Leocarletto"
 date: "2026-06-30"
 image: "thumbnail.png"
 categories: [Análise de dados, R, Meio ambiente, "PBEV (INMETRO)"]
-aliases:
-  - /cursos/graduacao/projetos-estudantes/inmetro-pbev-2026.html
-  - /projetos/ensino/organizacao-e-apresentacao-de-dados/inmetro-pbev-2026.html
 ---
 
 ```{=html}

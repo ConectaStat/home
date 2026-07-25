@@ -5,8 +5,6 @@ author: "Departamento de Estatística da UFLA"
 date: "2026-04-01"
 image: "thumbnail.png"
 categories: [Oportunidades, Editais]
-aliases:
-  - /oportunidades/edital-eleicoes-des.html
 ---
 
 A Chefia do Departamento de Estatística (DES) do Instituto de Ciências Exatas

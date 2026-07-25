@@ -6,8 +6,6 @@ body-classes: cs-banner-boxplot
 page-layout: article
 sidebar: false
 toc: false
-aliases:
-  - /cursos/graduacao/projetos-estudantes/enviar.html
 ---
 
 ```{=html}

@@ -21,7 +21,7 @@ listing:
   fields: [image, title, description, date]
 ---
 
-<!-- TODO (ver ROADMAP.md): imagem/selo "aberto" vs. "encerrado" nos cards
+<!-- TODO (ver README.md): imagem/selo "aberto" vs. "encerrado" nos cards
      e filtragem por tipo de edital quando houver categorização. -->
 
 Editais e chamadas ligados aos projetos de pesquisa, do mais recente ao mais

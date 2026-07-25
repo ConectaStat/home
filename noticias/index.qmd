@@ -1,9 +1,9 @@
 ---
-title: "Eventos"
-subtitle: "Seminários, palestras, minicursos e defesas."
+title: "Notícias"
+subtitle: "Manchetes e novidades do Departamento de Estatística."
 title-block-banner: true
 listing:
-  id: lista-eventos
+  id: lista-noticias
   contents: posts
   sort: "date desc"
   template: ../_assets/cards.ejs
@@ -11,5 +11,5 @@ listing:
   feed: true
 ---
 
-::: {#lista-eventos}
+::: {#lista-noticias}
 :::

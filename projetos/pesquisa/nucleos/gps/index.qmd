@@ -8,8 +8,6 @@ body-classes: cs-banner-variograma
 page-layout: article
 sidebar: false
 toc: false
-aliases:
-  - /acoes/nucleos-de-estudo/gps/
 ---
 
 O **GPS** dedica-se à **estatística espacial**: geoestatística, processos

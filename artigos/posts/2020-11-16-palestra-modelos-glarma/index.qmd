@@ -4,8 +4,6 @@ description: "Palestra sobre os modelos GLARMA(p,q) como alternativa para a aná
 author: "Departamento de Estatística da UFLA"
 date: "2020-11-16"
 categories: [Artigos, Palestras]
-aliases:
-  - /artigos/palestra-modelos-glarma.html
 ---
 
 Palestra do Departamento de Estatística da UFLA sobre os modelos da classe

@@ -4,8 +4,6 @@ description: "Palestra do ciclo do DES/UFLA sobre modelagem do crescimento de se
 author: "Departamento de Estatística da UFLA"
 date: "2021-09-03"
 categories: [Artigos, Palestras]
-aliases:
-  - /artigos/palestra-crescimento-seres-vivos.html
 ---
 
 Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre

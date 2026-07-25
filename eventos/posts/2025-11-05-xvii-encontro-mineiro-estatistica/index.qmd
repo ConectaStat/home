@@ -5,8 +5,6 @@ author: "Departamento de Estatística da UFLA"
 date: "2025-11-05"
 image: "thumbnail.png"
 categories: [Eventos]
-aliases:
-  - /eventos/xvii-encontro-mineiro-estatistica.html
 ---
 
 O Encontro Mineiro de Estatística (MGEST) é um evento bienal que, desde 1999,

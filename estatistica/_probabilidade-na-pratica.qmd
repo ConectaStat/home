@@ -3,7 +3,7 @@
   Arquivos com prefixo "_" não são renderizados pelo Quarto como página.
   Para reativar, basta incluir de volta em estatistica/index.qmd a linha:
       {{< include _probabilidade-na-pratica.qmd >}}
-  Registro e contexto: ver ROADMAP.md na raiz do projeto.
+  Registro e contexto: ver README.md na raiz do projeto.
 -->
 
 ## Probabilidade na prática

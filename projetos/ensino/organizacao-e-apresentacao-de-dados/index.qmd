@@ -15,8 +15,6 @@ listing:
   filter-ui: false
   feed: true
   fields: [image, title, description, author, date]
-aliases:
-  - /cursos/graduacao/projetos-estudantes/
 ---
 
 <!-- INTRODUÇÃO - texto provisório: substitua pelo definitivo quando fornecido -->

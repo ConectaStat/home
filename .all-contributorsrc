@@ -1,0 +1,74 @@
+{
+  "projectName": "conectastat.github.io",
+  "projectOwner": "ConectaStat",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributorsSortAlphabetically": false,
+  "contributorsPerLine": 6,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contribuidores-)",
+  "contributors": [
+    {
+      "login": "Leocarletto",
+      "name": "Leonardo Carletto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290053745?v=4",
+      "profile": "https://github.com/Leocarletto",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "uaipedro",
+      "name": "Pedro Mambelli Fernandes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44395968?v=4",
+      "profile": "https://github.com/uaipedro",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "PedroEu781",
+      "name": "Pedro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153462117?v=4",
+      "profile": "https://github.com/PedroEu781",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Carolinabrito1304",
+      "name": "Carolina Brito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290053524?v=4",
+      "profile": "https://github.com/Carolinabrito1304",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "amacielp73",
+      "name": "André Maciel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/288349650?v=4",
+      "profile": "https://github.com/amacielp73",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "carlossouza11052007-collab",
+      "name": "Carlos Eduardo Silva Sousa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290053234?v=4",
+      "profile": "https://github.com/carlossouza11052007-collab",
+      "contributions": [
+        "content"
+      ]
+    }
+  ]
+}

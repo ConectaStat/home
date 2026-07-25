@@ -1,5 +1,6 @@
-# Padrões dos posts de notícias (a seção não tem página de listagem própria:
-# as manchetes aparecem na home). Cada post só declara título, data e afins.
+# Padrões desta seção: valem para a página de listagem e para todos os posts
+# de noticias/posts/. Cada post só precisa declarar título, data e afins.
 page-layout: article
 sidebar: false
 toc: false
+body-classes: cs-banner-normal   # assinatura gráfica da seção (curva normal)

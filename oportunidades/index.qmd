@@ -1,9 +1,9 @@
 ---
-title: "Eventos"
-subtitle: "Seminários, palestras, minicursos e defesas."
+title: "Oportunidades"
+subtitle: "Editais internos e oportunidades de estudo."
 title-block-banner: true
 listing:
-  id: lista-eventos
+  id: lista-oportunidades
   contents: posts
   sort: "date desc"
   template: ../_assets/cards.ejs
@@ -11,5 +11,5 @@ listing:
   feed: true
 ---
 
-::: {#lista-eventos}
+::: {#lista-oportunidades}
 :::

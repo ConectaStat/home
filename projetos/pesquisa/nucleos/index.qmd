@@ -6,8 +6,6 @@ body-classes: cs-banner-dendro
 page-layout: article
 sidebar: false
 toc: false
-aliases:
-  - /acoes/nucleos-de-estudo/
 # Cada card da grade é um núcleo; clique para conhecer a fundo. Para criar
 # um novo núcleo, crie a pasta projetos/pesquisa/nucleos/<sigla>/index.qmd
 # (use nlin/, gps/ ou st/ como modelo) e adicione o caminho na listagem.

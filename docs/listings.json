@@ -74,6 +74,21 @@
     ]
   },
   {
+    "listing": "/noticias/index.html",
+    "items": [
+      "/noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html"
+    ]
+  },
+  {
+    "listing": "/oportunidades/index.html",
+    "items": [
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
+    ]
+  },
+  {
     "listing": "/projetos/ensino/index.html",
     "items": []
   },

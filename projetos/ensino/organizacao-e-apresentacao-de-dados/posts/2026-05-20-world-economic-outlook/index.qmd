@@ -5,9 +5,6 @@ author: "amacielp73"
 date: "2026-05-20"
 image: "thumbnail.png"
 categories: [Análise de dados, Economia, "WEO (FMI)"]
-aliases:
-  - /cursos/graduacao/projetos-estudantes/world-economic-outlook.html
-  - /projetos/ensino/organizacao-e-apresentacao-de-dados/world-economic-outlook.html
 ---
 
 ```{=html}

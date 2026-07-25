@@ -5,9 +5,6 @@ author: "carlossouza11052007-collab"
 date: "2026-04-14"
 image: "thumbnail.png"
 categories: [Análise de dados, Dados públicos, "Portal da Transparência (AGU)"]
-aliases:
-  - /cursos/graduacao/projetos-estudantes/transparencia-agu.html
-  - /projetos/ensino/organizacao-e-apresentacao-de-dados/transparencia-agu.html
 ---
 
 ```{=html}

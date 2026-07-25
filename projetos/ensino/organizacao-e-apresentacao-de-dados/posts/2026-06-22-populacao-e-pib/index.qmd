@@ -5,9 +5,6 @@ author: "PedroEu781"
 date: "2026-06-22"
 image: "thumbnail.png"
 categories: [Análise de dados, R, Economia, "Banco Mundial"]
-aliases:
-  - /cursos/graduacao/projetos-estudantes/populacao-e-pib.html
-  - /projetos/ensino/organizacao-e-apresentacao-de-dados/populacao-e-pib.html
 ---
 
 ```{=html}
