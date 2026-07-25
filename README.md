@@ -7,21 +7,38 @@ O site é construído com [Quarto](https://quarto.org) e publicado pelo GitHub P
 > Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.
 
 ## Índice
-1. [Contribuidores](#contribuidores-)
-2. [Seja um contribuidor](#seja-um-contribuidor)
-3. [Estrutura do site e do repositório](#estrutura-do-site-e-do-repositório)
-4. [A regra única para publicar](#a-regra-única-para-publicar)
-5. [Publicar em cada área](#publicar-em-cada-área)
-6. [Páginas que não são posts](#páginas-que-não-são-posts)
-7. [Rodar e publicar o site](#rodar-e-publicar-o-site)
-8. [Pendências](#pendências)
+1. [Coordenação](#coordenação)
+2. [Contribuidores](#contribuidores-)
+3. [Seja um contribuidor](#seja-um-contribuidor)
+4. [Estrutura do site e do repositório](#estrutura-do-site-e-do-repositório)
+5. [A regra única para publicar](#a-regra-única-para-publicar)
+6. [Publicar em cada área](#publicar-em-cada-área)
+7. [Páginas que não são posts](#páginas-que-não-são-posts)
+8. [Rodar e publicar o site](#rodar-e-publicar-o-site)
+9. [Pendências](#pendências)
+
+## Coordenação
+
+O Conexão Estatística é conduzido no Departamento de Estatística da UFLA. A coordenação responde pelo rumo do projeto, pela orientação acadêmica e pela revisão do que é publicado.
+
+<!--
+  Esta tabela é mantida à mão. O robô do all-contributors só altera a
+  tabela da seção seguinte, entre os marcadores ALL-CONTRIBUTORS-LIST,
+  então nada aqui é sobrescrito.
+  Para incluir alguém, acrescente uma linha: nome, função e um link
+  (Lattes, página do DES ou GitHub).
+-->
+
+| Nome | Função |
+|---|---|
+| _a preencher_ | Coordenação acadêmica |
 
 ## Contribuidores ✨
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg)](#contribuidores-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Nosso agradecimento a estas pessoas por tudo que trouxeram ao Conexão Estatística: análises publicadas, código, documentação, ideias e correções ([legenda dos emojis](https://allcontributors.org/docs/en/emoji-key)).
+Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publicadas, código, documentação, ideias e correções. A lista não é fechada nem hierárquica, e cresce a cada contribuição aceita ([legenda dos emojis](https://allcontributors.org/docs/en/emoji-key)).
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -58,7 +75,7 @@ Troque `content` pelo tipo de contribuição (`code`, `doc`, `ideas`, `bug`, `de
 
 Há várias formas de participar, e nenhuma delas exige experiência com Git.
 
-**Publicou uma análise na disciplina?** Os projetos de Organização e Apresentação de Dados são publicados no site com crédito ao autor e link para o seu repositório. Use o formulário em [Envie seu projeto](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.html).
+**Publicou uma análise na disciplina?** Os projetos de Organização e Apresentação de Dados são publicados no site com crédito ao autor e link para o seu repositório. Use o formulário em [Envie seu projeto](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.html), que abre a submissão pronta como uma issue aqui no repositório. O caminho completo, da submissão à publicação, está em [Organização e Apresentação de Dados](#organização-e-apresentação-de-dados).
 
 **Tem uma pauta, notícia ou evento?** [Abra uma issue](https://github.com/ConectaStat/conectastat.github.io/issues/new) contando o que é. Alguém da equipe ajuda a publicar.
 
@@ -273,6 +290,53 @@ Os artigos publicados até aqui não têm capa própria: sem a linha `image:`, o
 
 ### Organização e Apresentação de Dados
 
+É por aqui que chega a maior parte das contribuições de fora, e o caminho tem duas pontas: o estudante envia pelo formulário do site, e alguém da equipe publica.
+
+#### O que o estudante faz
+
+Ele preenche o formulário em [Envie seu projeto](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.html), sem sair do site. Ao enviar, o GitHub abre em outra aba com uma issue **já preenchida** a partir do modelo `.github/ISSUE_TEMPLATE/submissao-projeto.yml`. Ele revisa, anexa os arquivos e confirma. Só precisa estar logado no GitHub, e a conta é gratuita.
+
+A submissão chega com estes campos:
+
+| Campo | Vira o quê na publicação |
+|---|---|
+| Título do projeto | `title` |
+| Autor(es) | `author` |
+| Resumo da análise | `description`, o texto do card |
+| Linguagem de programação | categoria (`R`, `Python`) |
+| Fonte dos dados | categoria entre aspas, como `"Vigitel (Ministério da Saúde)"` |
+| Formato do relatório e se o código aparece | orientam a revisão, não vão para o post |
+| Relatório (link ou anexo) | `relatorios/relatorio.html` |
+| Imagem para thumbnail (opcional) | `thumbnail.png` |
+| Repositório no GitHub (opcional) | link no rodapé do post |
+
+#### O que a equipe faz
+
+Basta **colocar a etiqueta `aprovado` na issue**. O resto acontece sozinho:
+
+```
+estudante envia pelo formulário
+        ↓
+issue chega com todos os campos preenchidos
+        ↓
+você revisa e coloca a etiqueta "aprovado"
+        ↓
+o robô monta a pasta do post, baixa o relatório,
+credita quem enviou e abre um pull request
+        ↓
+você confere e mescla
+        ↓
+a página entra no ar e o crédito aparece na lista
+```
+
+O workflow `.github/workflows/publicar-projeto.yml` lê os campos da issue, gera o `index.qmd` com título, resumo, autoria e categorias, baixa o relatório do link ou do anexo (aceita `.html`, `.pdf` e `.zip`, e dentro do zip separa o relatório da apresentação), salva a capa se houver, e acrescenta quem enviou na lista de contribuidores. Tudo isso vai no mesmo pull request, então publicar e creditar acontecem juntos, no momento em que você mescla.
+
+Nada entra no ar sozinho. São duas decisões suas: a etiqueta e a mesclagem. Se algo der errado, por exemplo o link do relatório estar inacessível, o robô comenta na própria issue explicando.
+
+Depois de mesclar, feche a issue com o link da página publicada.
+
+#### Como fica a pasta
+
 Esta é a única área com anexos pesados. A pasta fica assim:
 
 ```
@@ -392,6 +456,16 @@ O `_quarto.yml` registra três scripts Python que rodam sozinhos a cada `quarto 
 | depois | `scripts/gerar_textos.py` | refaz o `TEXTOS.md`, o mapa de textos usado na revisão editorial |
 
 Só o primeiro tem requisitos extras (Chrome e as bibliotecas Python). Os outros dois usam apenas a biblioteca padrão.
+
+Além desses, três workflows cuidam do repositório sozinhos:
+
+| Arquivo | Quando roda | O que faz |
+|---|---|---|
+| `.github/workflows/publicar.yml` | a cada envio para a `master` | renderiza o site e atualiza a pasta publicada |
+| `.github/workflows/publicar-projeto.yml` | ao etiquetar uma issue como `aprovado` | monta o post do projeto de estudante e abre o pull request |
+| `.github/workflows/contribuidores.yml` | ao mesclar um pull request | credita quem teve a contribuição aceita |
+
+O script `scripts/publicar_projeto.py` é chamado pelo segundo e faz o trabalho pesado: interpretar a issue, montar a pasta e baixar os arquivos.
 
 Uso manual do gerador de capas, quando necessário:
 
