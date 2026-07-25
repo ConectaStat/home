@@ -185,7 +185,14 @@ def main() -> int:
     if not re.match(r"^\d{4}-\d{2}-\d{2}$", data or ""):
         data = (issue.get("created_at") or "")[:10] or date.today().isoformat()
 
-    pasta = RAIZ / pasta_area / f"{data}-{slug(titulo)}"
+    # Se já existir pasta com esse nome (mesmo título na mesma data), o número
+    # da issue desempata: sem isso a branch colidiria com a de outra submissão.
+    base = RAIZ / pasta_area / f"{data}-{slug(titulo)}"
+    pasta = base
+    if pasta.exists():
+        numero = issue.get("number")
+        pasta = base.with_name(f"{base.name}-{numero}" if numero else f"{base.name}-2")
+        print(f"[..] já havia {base.name}: usando {pasta.name}")
     pasta.mkdir(parents=True, exist_ok=True)
 
     # anexos
