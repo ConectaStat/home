@@ -1,0 +1,11 @@
+---
+title: "a"
+description: "https://github.com/Leocarletto/Dinofinance"
+author: "s"
+date: "2026-07-15"
+categories: [Eventos, saude]
+---
+
+https://github.com/Leocarletto/Dinofinance
+
+[Saiba mais e inscreva-se »](https://github.com/Leocarletto/Dinofinance)
