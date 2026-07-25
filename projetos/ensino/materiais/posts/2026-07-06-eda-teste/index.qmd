@@ -1,0 +1,25 @@
+---
+title: "eda teste"
+description: "eda 2"
+author: "Leonardo"
+date: "2026-07-06"
+categories: [Materiais, Saude]
+---
+
+eda 1111
+
+```{=html}
+<div class="projeto-links">
+  <a href="https://github.com/Leocarletto/INMETRO_PBEV2026_eda/blob/main/relatorio.html" target="_blank" rel="noopener">
+    <i class="bi bi-file-earmark-text"></i> Acessar o material
+  </a>
+</div>
+```
+
+```{=html}
+<div class="projeto-links">
+  <a href="https://github.com/Leocarletto/INMETRO_PBEV2026_eda" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> Código no GitHub
+  </a>
+</div>
+```
