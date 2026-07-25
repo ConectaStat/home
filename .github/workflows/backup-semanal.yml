@@ -1,0 +1,67 @@
+name: Backup semanal
+
+# Toda segunda-feira cria uma etiqueta de versão apontando para a master,
+# no formato backup-AAAA-MM-DD. Cada etiqueta é um instantâneo do repositório
+# inteiro, e o GitHub oferece o download em zip de cada uma em
+# https://github.com/ConectaStat/conectastat.github.io/tags
+#
+# Serve de rede contra os dois acidentes que o histórico do git não desfaz
+# sozinho: reescrever a master com force push ou apagá-la.
+#
+# Também dá para rodar na mão, pelo botão "Run workflow" na aba Actions.
+
+on:
+  schedule:
+    # 06:00 UTC de segunda = 03:00 em Brasília
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  etiquetar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixa o repositório
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Cria a etiqueta do dia
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          hoje=$(date -u +%Y-%m-%d)
+          etiqueta="backup-$hoje"
+
+          if git ls-remote --tags origin | grep -q "refs/tags/$etiqueta$"; then
+            echo "A etiqueta $etiqueta já existe: nada a fazer."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$etiqueta" -m "Instantâneo semanal de $hoje"
+          git push origin "$etiqueta"
+          echo "Etiqueta $etiqueta criada."
+
+      - name: Mantém as 12 mais recentes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Guarda cerca de três meses de instantâneos; as mais antigas saem,
+          # para a lista de etiquetas não crescer sem fim.
+          antigas=$(git ls-remote --tags origin \
+            | sed -n 's#.*refs/tags/\(backup-[0-9-]*\)$#\1#p' \
+            | sort -r | tail -n +13)
+
+          if [ -z "$antigas" ]; then
+            echo "Nada a remover: 12 ou menos instantâneos."
+            exit 0
+          fi
+
+          for velha in $antigas; do
+            git push --delete origin "$velha" && echo "Removida: $velha"
+          done
