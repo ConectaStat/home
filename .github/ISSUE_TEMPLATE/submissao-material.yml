@@ -1,0 +1,84 @@
+name: "📚 Submissão de material didático"
+description: "Envie apostila, tutorial, slides ou outro recurso didático aberto."
+title: "[Material] Título do material aqui"
+labels: ["submissao", "material"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Materiais didáticos abertos produzidos no departamento são publicados em
+        **Projetos › Ensino › Materiais**.
+
+  - type: input
+    id: titulo
+    attributes:
+      label: "Título do material"
+      placeholder: "ex.: Introdução ao R para análise de dados"
+    validations:
+      required: true
+
+  - type: input
+    id: autor
+    attributes:
+      label: "Autoria"
+      description: "Nome(s) ou usuário(s) do GitHub, como devem aparecer na publicação."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: vinculo
+    attributes:
+      label: "Seu vínculo com o DES/UFLA"
+      description: "Define como você aparece na lista de contribuidores do projeto."
+      options:
+        - "Docente"
+        - "Discente"
+        - "Técnico administrativo"
+        - "Externo ao DES"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resumo
+    attributes:
+      label: "Do que se trata"
+      description: "De 2 a 4 frases: assunto, público e como o material pode ser usado."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: formato
+    attributes:
+      label: "Formato"
+      options:
+        - "HTML (Quarto, R Markdown ou similar)"
+        - "PDF"
+        - "Slides"
+        - "Vídeo"
+        - "Outro (detalhe acima)"
+    validations:
+      required: true
+
+  - type: input
+    id: disciplina
+    attributes:
+      label: "Disciplina ou tema (opcional)"
+      placeholder: "ex.: GES113 Probabilidade I"
+    validations:
+      required: false
+
+  - type: textarea
+    id: material
+    attributes:
+      label: "Material: link OU arquivo anexado"
+      description: "Cole o endereço do material **ou** arraste o arquivo para este campo. HTML deve vir compactado em .zip."
+    validations:
+      required: true
+
+  - type: textarea
+    id: thumbnail
+    attributes:
+      label: "Imagem de capa (opcional)"
+      description: "Arraste uma imagem 16:9 (ideal 1200×675 px)."
+    validations:
+      required: false

@@ -1,0 +1,92 @@
+name: "💾 Submissão de software ou pacote"
+description: "Divulgue um programa, pacote ou aplicativo desenvolvido no DES/UFLA."
+title: "[Software] Nome do software aqui"
+labels: ["submissao", "software"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Software feito no departamento, seja pacote de R, biblioteca em Python,
+        aplicativo web ou programa de mesa, tem lugar em
+        **Projetos › Ensino › Softwares**.
+
+        Preencha os campos abaixo. Os obrigatórios estão marcados.
+
+  - type: input
+    id: titulo
+    attributes:
+      label: "Nome do software"
+      placeholder: "ex.: Sisvar"
+    validations:
+      required: true
+
+  - type: input
+    id: autor
+    attributes:
+      label: "Autoria"
+      description: "Nome(s) ou usuário(s) do GitHub, como devem aparecer na publicação."
+      placeholder: "ex.: Daniel Furtado Ferreira"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: vinculo
+    attributes:
+      label: "Seu vínculo com o DES/UFLA"
+      description: "Define como você aparece na lista de contribuidores do projeto."
+      options:
+        - "Docente"
+        - "Discente"
+        - "Técnico administrativo"
+        - "Externo ao DES"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resumo
+    attributes:
+      label: "O que o software faz"
+      description: "De 2 a 4 frases: para que serve, quem usa e o que ele resolve. Esse texto vira a descrição da publicação."
+    validations:
+      required: true
+
+  - type: input
+    id: linguagem
+    attributes:
+      label: "Linguagem ou plataforma"
+      placeholder: "ex.: R · Python · Fortran · aplicativo web"
+    validations:
+      required: true
+
+  - type: input
+    id: onde
+    attributes:
+      label: "Onde obter"
+      description: "Endereço para download, instalação ou uso online."
+      placeholder: "https://"
+    validations:
+      required: true
+
+  - type: input
+    id: repositorio
+    attributes:
+      label: "Repositório do código (opcional)"
+      placeholder: "https://github.com/usuario/projeto"
+    validations:
+      required: false
+
+  - type: input
+    id: citacao
+    attributes:
+      label: "Artigo ou forma de citação (opcional)"
+      description: "Se houver publicação associada, cole a referência ou o DOI."
+    validations:
+      required: false
+
+  - type: textarea
+    id: thumbnail
+    attributes:
+      label: "Imagem de capa (opcional)"
+      description: "Arraste uma imagem 16:9 (ideal 1200×675 px). Sem ela, usamos a capa padrão do site."
+    validations:
+      required: false

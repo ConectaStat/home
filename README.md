@@ -8,7 +8,7 @@ O site é construído com [Quarto](https://quarto.org) e publicado pelo GitHub P
 
 ## Índice
 1. [Coordenação](#coordenação)
-2. [Contribuidores](#contribuidores-)
+2. [Contribuidores](#contribuidores)
 3. [Seja um contribuidor](#seja-um-contribuidor)
 4. [Estrutura do site e do repositório](#estrutura-do-site-e-do-repositório)
 5. [A regra única para publicar](#a-regra-única-para-publicar)
@@ -21,22 +21,17 @@ O site é construído com [Quarto](https://quarto.org) e publicado pelo GitHub P
 
 O Conexão Estatística é conduzido no Departamento de Estatística da UFLA. A coordenação responde pelo rumo do projeto, pela orientação acadêmica e pela revisão do que é publicado.
 
-<!--
-  Esta tabela é mantida à mão. O robô do all-contributors só altera a
-  tabela da seção seguinte, entre os marcadores ALL-CONTRIBUTORS-LIST,
-  então nada aqui é sobrescrito.
-  Para incluir alguém, acrescente uma linha: nome, função e um link
-  (Lattes, página do DES ou GitHub).
--->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/USUARIO"><img src="https://github.com/USUARIO.png?size=100" width="100px;" alt="Nome do docente"/><br /><sub><b>Nome do docente</b></sub></a><br /><sub>Coordenação</sub></td>
+    </tr>
+  </tbody>
+</table>
 
-| Nome | Função |
-|---|---|
-| _a preencher_ | Coordenação acadêmica |
+> Tabela a preencher: troque `USUARIO` pelo usuário do GitHub de cada docente e o nome exibido. Enquanto estiver assim, a foto aparece quebrada.
 
-## Contribuidores ✨
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg)](#contribuidores-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+## Contribuidores
 
 Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publicadas, código, documentação, ideias e correções. A lista não é fechada nem hierárquica, e cresce a cada contribuição aceita ([legenda dos emojis](https://allcontributors.org/docs/en/emoji-key)).
 
@@ -73,15 +68,37 @@ Troque `content` pelo tipo de contribuição (`code`, `doc`, `ideas`, `bug`, `de
 
 ## Seja um contribuidor
 
-Há várias formas de participar, e nenhuma delas exige experiência com Git.
+Quase toda seção do site aceita contribuição de fora, e nenhuma delas exige experiência com Git. O caminho é sempre o mesmo: escolher o formulário certo em [Nova issue](https://github.com/ConectaStat/conectastat.github.io/issues/new/choose), preencher e enviar. A equipe revisa e publica.
 
-**Publicou uma análise na disciplina?** Os projetos de Organização e Apresentação de Dados são publicados no site com crédito ao autor e link para o seu repositório. Use o formulário em [Envie seu projeto](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.html), que abre a submissão pronta como uma issue aqui no repositório. O caminho completo, da submissão à publicação, está em [Organização e Apresentação de Dados](#organização-e-apresentação-de-dados).
+| O que você tem | Formulário | Vai parar em |
+|---|---|---|
+| Uma análise de dados feita na graduação | 📊 Submissão de projeto | [Organização e Apresentação de Dados](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/) |
+| Um programa, pacote ou aplicativo | 💾 Submissão de software | [Softwares](https://conectastat.github.io/projetos/ensino/softwares/) |
+| Uma apostila, tutorial ou slides | 📚 Submissão de material didático | [Materiais](https://conectastat.github.io/projetos/ensino/materiais/) |
+| Uma manchete, um evento ou um edital | 📰 Notícia, evento ou edital | [Notícias](https://conectastat.github.io/noticias/), [Eventos](https://conectastat.github.io/eventos/) ou [Oportunidades](https://conectastat.github.io/oportunidades/) |
+| Um erro de digitação ou link quebrado | issue em branco | a página onde está o erro |
 
-**Tem uma pauta, notícia ou evento?** [Abra uma issue](https://github.com/ConectaStat/conectastat.github.io/issues/new) contando o que é. Alguém da equipe ajuda a publicar.
+Todo formulário pergunta o seu **vínculo com o DES**, e é isso que define como você aparece na lista de contribuidores.
 
-**Achou um erro no site?** Erro de digitação, link quebrado, informação desatualizada: abra uma issue descrevendo onde está.
+**Quer propor a alteração você mesmo?** Edite o arquivo direto pelo GitHub, pelo lápis no canto da página, e envie a sugestão. Se ela for aceita, você entra na lista automaticamente. O passo a passo de cada área está nas seções seguintes.
 
-**Quer escrever direto no repositório?** Siga o passo a passo das seções seguintes. Toda publicação é um arquivo de texto em uma pasta nova.
+**Núcleos de pesquisa e projetos de extensão** ainda não têm formulário próprio, porque envolvem texto de página e não conteúdo datado. Abra uma issue em branco descrevendo a proposta.
+
+### Como funciona o crédito
+
+Cada pessoa carrega uma ou mais marcas na lista, e elas se acumulam: ninguém perde uma marca antiga ao ganhar outra.
+
+| | | |
+|---|---|---|
+| 📊 | `coordenacao` | Coordenação do projeto |
+| 📈 | `content` | Conteúdo publicado no site |
+| 💻 | `code` | Código |
+| 🐛 | `bug` | Correção de erro |
+| 🤔 | `ideas` | Ideias e sugestões |
+| 🎨 | `design` | Design |
+| 🌍 | `translation` | Tradução |
+
+A marca 📊 é atribuída a quem se identifica como **docente** ao enviar uma contribuição, e é ela que ordena a lista: quem coordena aparece no topo. Um docente que publica um material fica com 📊 📈; um estudante que publica uma análise fica com 📈.
 
 ## Estrutura do site e do repositório
 
@@ -463,9 +480,18 @@ Além desses, três workflows cuidam do repositório sozinhos:
 |---|---|---|
 | `.github/workflows/publicar.yml` | a cada envio para a `master` | renderiza o site e atualiza a pasta publicada |
 | `.github/workflows/publicar-projeto.yml` | ao etiquetar uma issue como `aprovado` | monta o post do projeto de estudante e abre o pull request |
+| `.github/workflows/creditar-submissao.yml` | ao etiquetar uma issue como `publicado` | credita quem enviou software, material, notícia, evento ou edital |
 | `.github/workflows/contribuidores.yml` | ao mesclar um pull request | credita quem teve a contribuição aceita |
 
-O script `scripts/publicar_projeto.py` é chamado pelo segundo e faz o trabalho pesado: interpretar a issue, montar a pasta e baixar os arquivos.
+Três scripts dão apoio a esses workflows:
+
+| Script | O que faz |
+|---|---|
+| `scripts/publicar_projeto.py` | interpreta a issue, monta a pasta do post e baixa os arquivos |
+| `scripts/creditar_submissao.py` | deduz os tipos de contribuição a partir do vínculo e da área |
+| `scripts/ordenar_contribuidores.py` | coloca os docentes no topo da lista antes de regenerar a tabela |
+
+Para o robô conseguir etiquetar e publicar, o repositório precisa ter as etiquetas **`aprovado`** (projetos de estudante) e **`publicado`** (demais submissões), criadas em Issues › Labels.
 
 Uso manual do gerador de capas, quando necessário:
 

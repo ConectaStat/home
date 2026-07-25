@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "✏️ Corrigir um erro no site"
+    url: https://github.com/ConectaStat/conectastat.github.io/issues/new
+    about: "Erro de digitação, link quebrado ou informação desatualizada: abra uma issue em branco dizendo em qual página está."
+  - name: "📖 Como publicar em cada área"
+    url: https://github.com/ConectaStat/conectastat.github.io#seja-um-contribuidor
+    about: "Guia completo de contribuição, com o passo a passo de cada seção do site."
+  - name: "🌐 Conexão Estatística"
+    url: https://conectastat.github.io/
+    about: "O site publicado."

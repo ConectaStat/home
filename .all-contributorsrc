@@ -11,7 +11,6 @@
   "commitConvention": "angular",
   "contributorsSortAlphabetically": false,
   "contributorsPerLine": 6,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contribuidores-)",
   "contributors": [
     {
       "login": "Leocarletto",
@@ -20,9 +19,7 @@
       "profile": "https://github.com/Leocarletto",
       "contributions": [
         "code",
-        "content",
-        "doc",
-        "maintenance"
+        "content"
       ]
     },
     {
@@ -70,5 +67,17 @@
         "content"
       ]
     }
-  ]
+  ],
+  "types": {
+    "coordenacao": {
+      "symbol": "📊",
+      "description": "Coordenação do projeto",
+      "link": "https://github.com/[[login]]"
+    },
+    "content": {
+      "symbol": "📈",
+      "description": "Conteúdo publicado no site",
+      "link": "https://conectastat.github.io/"
+    }
+  }
 }

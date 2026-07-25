@@ -40,11 +40,22 @@ jobs:
         id: montagem
         run: python scripts/publicar_projeto.py issue.json
 
+      - name: Descobre os tipos de contribuição
+        id: tipos
+        run: python scripts/creditar_submissao.py issue.json
+
       - name: Credita quem enviou
         env:
           PRIVATE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTOR: ${{ github.event.issue.user.login }}
-        run: npx --yes all-contributors-cli add "$AUTOR" content || true
+          TIPOS: ${{ steps.tipos.outputs.tipos }}
+        run: |
+          IFS=',' read -ra lista <<< "$TIPOS"
+          for tipo in "${lista[@]}"; do
+            npx --yes all-contributors-cli add "$AUTOR" "$tipo" || true
+          done
+          python scripts/ordenar_contribuidores.py
+          npx --yes all-contributors-cli generate
 
       - name: Abre o pull request
         id: pr
