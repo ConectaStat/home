@@ -64,10 +64,7 @@ jobs:
           AUTOR: ${{ github.event.issue.user.login }}
           TIPOS: ${{ steps.tipos.outputs.tipos }}
         run: |
-          IFS=',' read -ra lista <<< "$TIPOS"
-          for tipo in "${lista[@]}"; do
-            npx --yes all-contributors-cli add "$AUTOR" "$tipo" || true
-          done
+          python scripts/creditar_contribuidor.py "$AUTOR" "$TIPOS"
           python scripts/ordenar_contribuidores.py
           npx --yes all-contributors-cli generate
 

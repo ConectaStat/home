@@ -56,7 +56,7 @@ jobs:
           AUTOR: ${{ github.event.pull_request.user.login }}
           TIPO: ${{ steps.tipo.outputs.tipo }}
         run: |
-          npx --yes all-contributors-cli add "$AUTOR" "$TIPO"
+          python scripts/creditar_contribuidor.py "$AUTOR" "$TIPO"
           python scripts/ordenar_contribuidores.py
           npx --yes all-contributors-cli generate
 

@@ -11,20 +11,17 @@ body:
 
         Você recebe um comentário aqui com o resultado em poucos minutos.
 
-  - type: dropdown
+  - type: input
     id: area
     attributes:
       label: "Onde isso deve ser publicado?"
-      description: "Define em qual seção do site a página será criada."
-      options:
-        - "Notícia"
-        - "Evento"
-        - "Edital ou oportunidade"
-        - "Artigo ou coluna"
-        - "Software"
-        - "Material didático"
-        - "Ação de extensão"
-        - "Projeto de estudante (Organização e Apresentação de Dados)"
+      description: |
+        Vem preenchido quando você usa o formulário do site. Preenchendo aqui,
+        escreva exatamente uma destas seções: **Notícia**, **Evento**,
+        **Edital ou oportunidade**, **Artigo ou coluna**, **Software**,
+        **Material didático**, **Ação de extensão** ou
+        **Projeto de estudante**.
+      placeholder: "ex.: Notícia"
     validations:
       required: true
 
@@ -45,16 +42,15 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+  - type: input
     id: vinculo
     attributes:
       label: "Seu vínculo com o DES/UFLA"
-      description: "Define como você aparece na lista de contribuidores do projeto."
-      options:
-        - "Discente"
-        - "Docente"
-        - "Técnico administrativo"
-        - "Externo ao DES"
+      description: |
+        Define como você aparece na lista de contribuidores. Escreva
+        **Discente**, **Docente**, **Técnico administrativo** ou
+        **Externo ao DES**.
+      placeholder: "ex.: Discente"
     validations:
       required: true
 
