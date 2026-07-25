@@ -17,8 +17,9 @@ permissions:
 
 jobs:
   creditar:
+    # aceita a etiqueta escrita de qualquer jeito: publicado, Publicado, PUBLICADO
     if: >
-      github.event.label.name == 'publicado' &&
+      contains(fromJSON('["publicado","Publicado","PUBLICADO"]'), github.event.label.name) &&
       !contains(github.event.issue.labels.*.name, 'projeto-estudante')
     runs-on: ubuntu-latest
     steps:

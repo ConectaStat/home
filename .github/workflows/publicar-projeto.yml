@@ -18,7 +18,8 @@ permissions:
 
 jobs:
   publicar:
-    if: github.event.label.name == 'aprovado'
+    # aceita a etiqueta escrita de qualquer jeito: aprovado, Aprovado, APROVADO
+    if: contains(fromJSON('["aprovado","Aprovado","APROVADO"]'), github.event.label.name)
     runs-on: ubuntu-latest
     steps:
       - name: Baixa o repositório
