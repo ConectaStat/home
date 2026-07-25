@@ -1109,4 +1109,14 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 
 
+### Materiais — posts publicados (1)
+
+
+#### eda teste
+`projetos/ensino/materiais/posts/2026-07-06-eda-teste/index.qmd`
+
+**Resumo (aparece no card):** eda 2
+
+> eda 1111
+
 

@@ -84,53 +84,214 @@
     "text": "Voltar\n\nAnálise exploratória de dados extraídos do Portal da Transparência da Advocacia-Geral da União (AGU). Do conjunto original com 65.535 observações e 12 variáveis, o recorte analisado reúne 681 observações do Ministério da Educação, com relatório publicado em HTML.\n\n  \n\n\n\n  \n     Relatório em tela cheia\n  \n  \n     Código-fonte no GitHub"
   },
   {
-    "objectID": "projetos/ensino/materiais/index.html",
-    "href": "projetos/ensino/materiais/index.html",
-    "title": "Materiais",
+    "objectID": "projetos/ensino/materiais/posts/2026-07-06-eda-teste/index.html",
+    "href": "projetos/ensino/materiais/posts/2026-07-06-eda-teste/index.html",
+    "title": "eda teste",
     "section": "",
-    "text": "Materiais didáticos produzidos nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n     Envie um material\n  \n  \n    \n    \n  \n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "eda 1111\n\n  \n     Acessar o material\n  \n\n\n  \n     Código no GitHub"
   },
   {
-    "objectID": "projetos/ensino/editais/index.html",
-    "href": "projetos/ensino/editais/index.html",
-    "title": "Editais de Projetos de Ensino",
+    "objectID": "projetos/ensino/index.html",
+    "href": "projetos/ensino/index.html",
+    "title": "Projetos de Ensino",
     "section": "",
-    "text": "Editais e chamadas ligados aos projetos de ensino, do mais recente ao mais antigo.\n\n  \n     Envie um edital\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nVagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-    "href": "oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-    "title": "Edital Nº 003/2026: Seleção de monitores voluntários",
+    "objectID": "projetos/ensino/index.html#ensino-no-desufla",
+    "href": "projetos/ensino/index.html#ensino-no-desufla",
+    "title": "Projetos de Ensino",
     "section": "",
-    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 003/2026.\nLer edital no site do DES/UFLA »"
+    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nVagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html",
-    "href": "oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html",
-    "title": "Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)",
+    "objectID": "oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+    "href": "oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+    "title": "Edital: Eleições para Chefe e Subchefe do DES (2026-2030)",
     "section": "",
-    "text": "O Departamento de Estatística da UFLA divulga o Edital Nº 001/2026 para seleção de docência voluntária no 1º semestre de 2026.\nLer edital no site do DES/UFLA »"
+    "text": "A Chefia do Departamento de Estatística (DES) do Instituto de Ciências Exatas e Tecnológicas (ICET) da UFLA convoca a comunidade para o processo de eleição de Chefe e Subchefe do departamento, referente ao período 2026-2030.\nConsulte o edital completo, prazos e procedimentos na página oficial do DES:\nLer edital no site do DES/UFLA »"
   },
   {
-    "objectID": "noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
-    "href": "noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
-    "title": "Conexão Estatística entra no ar com novo visual",
+    "objectID": "oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+    "href": "oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+    "title": "Edital Nº 002/2026: Seleção de monitores voluntários",
     "section": "",
-    "text": "O Conexão Estatística está no ar com novo visual e nova organização: seções dedicadas à área de Estatística, aos nossos cursos de graduação e pós-graduação, à assessoria e consultoria estatística e aos projetos e ações do departamento.\nNa página inicial você encontra as últimas notícias, oportunidades (editais internos e de estudo), eventos e a localização do prédio da Estatística no campus da UFLA, com rota direto para o seu GPS."
+    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 002/2026.\nLer edital no site do DES/UFLA »"
   },
   {
-    "objectID": "eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
-    "href": "eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
-    "title": "XVII Encontro Mineiro de Estatística (MGEST) 2025",
+    "objectID": "oportunidades/index.html",
+    "href": "oportunidades/index.html",
+    "title": "Oportunidades",
     "section": "",
-    "text": "O Encontro Mineiro de Estatística (MGEST) é um evento bienal que, desde 1999, reúne profissionais, docentes e estudantes para a troca de conhecimento e a divulgação de pesquisas na área de Estatística.\nSaiba mais no site do DES/UFLA »"
+    "text": "1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "eventos/posts/2024-09-01-curso-introducao-software-r/index.html",
-    "href": "eventos/posts/2024-09-01-curso-introducao-software-r/index.html",
-    "title": "Curso de Extensão: Introdução ao Software R",
+    "objectID": "noticias/index.html",
+    "href": "noticias/index.html",
+    "title": "Notícias",
     "section": "",
-    "text": "Curso de extensão de introdução ao R, ambiente livre e gratuito amplamente utilizado para análise estatística, modelagem e visualização de dados.\nSaiba mais no site do DES/UFLA »"
+    "text": "6 de jul. de 2026\n\n\nConexão Estatística entra no ar com novo visual\n\n\nA plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Conexão.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
+    "href": "eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
+    "title": "XVII Programa de Verão DES-ICET/UFLA 2026",
+    "section": "",
+    "text": "O Programa de Verão do DES-ICET/UFLA chega à sua XVII edição, oferecendo disciplinas e atividades de aperfeiçoamento em Estatística durante o período de verão.\nSaiba mais no site do DES/UFLA »"
+  },
+  {
+    "objectID": "eventos/posts/2025-05-20-v-workshop-data-science/index.html",
+    "href": "eventos/posts/2025-05-20-v-workshop-data-science/index.html",
+    "title": "V Workshop em Data Science",
+    "section": "",
+    "text": "O Workshop em Data Science promove discussões sobre métodos estatísticos, aprendizado de máquina e aplicações de Ciência de Dados.\nSaiba mais no site do DES/UFLA »"
+  },
+  {
+    "objectID": "eventos/index.html",
+    "href": "eventos/index.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "15 de jan. de 2026\n\n\nXVII Programa de Verão DES-ICET/UFLA 2026\n\n\nEdição 2026 do tradicional Programa de Verão do Departamento de Estatística, com disciplinas e atividades de formação.\n\n\nLeia mais\n\n\n\n\n\n\n\n5 de nov. de 2025\n\n\nXVII Encontro Mineiro de Estatística (MGEST) 2025\n\n\nEvento bienal que, desde 1999, reúne profissionais, docentes e estudantes da área de Estatística de Minas Gerais e do Brasil.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de mai. de 2025\n\n\nV Workshop em Data Science\n\n\nWorkshop voltado à Ciência de Dados, com palestras e atividades sobre métodos estatísticos e aplicações.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de set. de 2024\n\n\nCurso de Extensão: Introdução ao Software R\n\n\nCurso de extensão de introdução ao R, ambiente livre para análise estatística e visualização de dados.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "enviar.html",
+    "href": "enviar.html",
+    "title": "Enviar conteúdo",
+    "section": "",
+    "text": "Preencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n      Onde isso deve ser publicado? *\n      \n        Selecione a seção…\n        Notícia\n        Evento\n        Edital ou oportunidade\n        Artigo ou coluna\n        Software\n        Material didático\n        Ação de extensão\n        Projeto de estudante (Organização e Apresentação de Dados)\n      \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      Para evento, a data em que ele acontece. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Link do relatório no GitHub\n      \n      Vai anexar o arquivo em vez de usar link?\n         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e, no caso dos projetos de estudante, o relatório em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create."
+  },
+  {
+    "objectID": "enviar.html#como-funciona",
+    "href": "enviar.html#como-funciona",
+    "title": "Enviar conteúdo",
+    "section": "",
+    "text": "Preencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n      Onde isso deve ser publicado? *\n      \n        Selecione a seção…\n        Notícia\n        Evento\n        Edital ou oportunidade\n        Artigo ou coluna\n        Software\n        Material didático\n        Ação de extensão\n        Projeto de estudante (Organização e Apresentação de Dados)\n      \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      Para evento, a data em que ele acontece. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Link do relatório no GitHub\n      \n      Vai anexar o arquivo em vez de usar link?\n         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e, no caso dos projetos de estudante, o relatório em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/egressos/index.html",
+    "href": "cursos/pos-graduacao/egressos/index.html",
+    "title": "Painel dos Egressos",
+    "section": "",
+    "text": "O Painel dos Egressos reúne, em um dashboard interativo, a trajetória dos egressos da graduação e da pós-graduação em Estatística da UFLA: os setores em que atuam, as regiões do país e do exterior para onde foram e a formação continuada que seguiram após o curso.\n\n\n  \n  Painel interativo em construção\n  Em breve: o dashboard com a trajetória dos egressos da graduação e da\n     pós-graduação (setores de atuação, regiões e formação continuada)."
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
+  },
+  {
+    "objectID": "contato.html#onde-estamos",
+    "href": "contato.html#onde-estamos",
+    "title": "Contato",
+    "section": "",
+    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
+  },
+  {
+    "objectID": "contato.html#canais",
+    "href": "contato.html#canais",
+    "title": "Contato",
+    "section": "Canais",
+    "text": "Canais\n\nSite institucional: des.ufla.br\nGitHub do projeto: github.com/ConectaStat/home\n\n\nVisitar o site do DES"
+  },
+  {
+    "objectID": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
+    "href": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
+    "title": "Introdução ao crescimento de seres vivos: indivíduo ou população?",
+    "section": "",
+    "text": "Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre a modelagem do crescimento de seres vivos, abordando as perspectivas do indivíduo e da população.\nVer no site do DES/UFLA »"
+  },
+  {
+    "objectID": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
+    "href": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
+    "title": "Polinômios de Hermite: definições, propriedades e aplicações",
+    "section": "",
+    "text": "Palestra do Departamento de Estatística da UFLA sobre os polinômios de Hermite, suas definições, propriedades e aplicações na Estatística.\nVer no site do DES/UFLA »"
+  },
+  {
+    "objectID": "acoes/revista-cientifica/index.html",
+    "href": "acoes/revista-cientifica/index.html",
+    "title": "Revista Científica",
+    "section": "",
+    "text": "O Brazilian Journal of Biometrics (BJB) é um periódico científico de acesso aberto que publica artigos originais sobre métodos estatísticos e suas aplicações em biometria, agricultura, biologia, saúde e áreas afins.\n\nAcesso aberto: todos os artigos disponíveis gratuitamente;\nRevisão por pares: avaliação criteriosa por especialistas;\nEscopo: estatística aplicada, experimentação, modelagem e métodos quantitativos nas ciências da vida.\n\n\nConhecer a revista"
+  },
+  {
+    "objectID": "acoes/revista-cientifica/index.html#brazilian-journal-of-biometrics",
+    "href": "acoes/revista-cientifica/index.html#brazilian-journal-of-biometrics",
+    "title": "Revista Científica",
+    "section": "",
+    "text": "O Brazilian Journal of Biometrics (BJB) é um periódico científico de acesso aberto que publica artigos originais sobre métodos estatísticos e suas aplicações em biometria, agricultura, biologia, saúde e áreas afins.\n\nAcesso aberto: todos os artigos disponíveis gratuitamente;\nRevisão por pares: avaliação criteriosa por especialistas;\nEscopo: estatística aplicada, experimentação, modelagem e métodos quantitativos nas ciências da vida.\n\n\nConhecer a revista"
+  },
+  {
+    "objectID": "acoes/revista-cientifica/index.html#como-submeter",
+    "href": "acoes/revista-cientifica/index.html#como-submeter",
+    "title": "Revista Científica",
+    "section": "Como submeter",
+    "text": "Como submeter\nAutores interessados encontram as normas de submissão e o sistema de envio no site oficial do periódico."
+  },
+  {
+    "objectID": "artigos/index.html",
+    "href": "artigos/index.html",
+    "title": "Artigos & Colunas",
+    "section": "",
+    "text": "Introdução ao crescimento de seres vivos: indivíduo ou população?\n\n\nPalestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n3 de set. de 2021\n\n\n\n\n\n\n\n\n\n\n\nModelos da classe GLARMA(p,q): séries temporais de contagem\n\n\nPalestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n16 de nov. de 2020\n\n\n\n\n\n\n\n\n\n\n\nPolinômios de Hermite: definições, propriedades e aplicações\n\n\nPalestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n5 de dez. de 2019\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
+    "href": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
+    "title": "Modelos da classe GLARMA(p,q): séries temporais de contagem",
+    "section": "",
+    "text": "Palestra do Departamento de Estatística da UFLA sobre os modelos da classe GLARMA(p,q), uma alternativa para a modelagem de séries temporais de contagem.\nVer no site do DES/UFLA »"
+  },
+  {
+    "objectID": "cursos/graduacao/index.html",
+    "href": "cursos/graduacao/index.html",
+    "title": "Graduação",
+    "section": "",
+    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nCom uma ampla formação os alunos são expostos aos mais variados tipos de situações, alguns exemplos são os projetos de Organização e Apresentação de Dados em que cada aluno escolhe uma base de dados publica para desenvolver uma analise exploratória e desenvolver um relatório do assunto, isso tudo desde o primeiro período! Esses projetos podem ser visualizados aqui."
+  },
+  {
+    "objectID": "cursos/graduacao/index.html#sobre-o-curso",
+    "href": "cursos/graduacao/index.html#sobre-o-curso",
+    "title": "Graduação",
+    "section": "",
+    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nCom uma ampla formação os alunos são expostos aos mais variados tipos de situações, alguns exemplos são os projetos de Organização e Apresentação de Dados em que cada aluno escolhe uma base de dados publica para desenvolver uma analise exploratória e desenvolver um relatório do assunto, isso tudo desde o primeiro período! Esses projetos podem ser visualizados aqui."
+  },
+  {
+    "objectID": "cursos/graduacao/index.html#matriz-curricular",
+    "href": "cursos/graduacao/index.html#matriz-curricular",
+    "title": "Graduação",
+    "section": "Matriz curricular",
+    "text": "Matriz curricular\nA matriz curricular está organizada em núcleos de formação, cursados ao longo de 8 semestres:\n\n\n\n\n\n\n\nNúcleo\nConteúdos principais\n\n\n\n\nBase matemática\nCálculo, Álgebra Linear, Matemática Discreta\n\n\nProbabilidade e Inferência\nProbabilidade, Inferência Estatística, Processos Estocásticos\n\n\nModelagem estatística\nModelos de Regressão, Planejamento e Análise de Experimentos, Análise Multivariada, Séries Temporais\n\n\nComputação e dados\nProgramação, Estatística Computacional, Bancos de Dados, Aprendizado de Máquina\n\n\nFormação complementar\nAmostragem, Controle de Qualidade, Estatística Espacial, disciplinas eletivas\n\n\nPrática profissional\nProjetos orientados, Estágio Supervisionado, Trabalho de Conclusão de Curso\n\n\n\nA matriz oficial completa, com ementas e pré-requisitos detalhados, está no site do DES/UFLA. Ou veja aqui, módulo a módulo:\n\n  Ver matriz curricular 2026/1\n\n\n\n1º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES110\nMatemática para Estatística I\n8\n-\n\n\nGES136\nIntrodução aos Planos Experimentais\n4\n-\n\n\nGES139\nOrganização e Apresentação de Dados\n8\n-\n\n\nGES140\nVivência Profissional em Estatística\n2\n-\n\n\n\n\n\n2º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES113\nProbabilidade I\n8\nGES110\n\n\nGES135\nFundamentos de Programação\n4\n-\n\n\nGES137\nMatemática para Estatística II\n10\nGES110\n\n\n\n\n\n3º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES116\nMatemática para Estatística III\n8\nGES137\n\n\nGES117\nProbabilidade II\n6\nGES113\n\n\nGES134\nEstrutura de Dados\n8\nGES135\n\n\nGES141\nConsultoria em Estatística I\n2\nGES136\n\n\n\n\n\n4º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES118\nInferência Estatística I\n8\nGES113\n\n\nGES119\nModelos Lineares I\n8\nGES113\n\n\nGES142\nAmostragem\n4\nGES113\n\n\n\n\n\n5º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES122\nModelos Lineares II\n8\nGES119\n\n\nGES123\nPlanejamento e Análise de Experimentos\n4\nGES136\n\n\nGES124\nInferência Estatística II\n8\nGES118\n\n\n\n\n\n6º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES125\nSéries Temporais\n4\nGES124\n\n\nGES126\nEstatística Computacional\n6\nGES135\n\n\nGES127\nConsultoria em Estatística II\n4\nGES141\n\n\nGES130\nCiência de Dados e Big Data\n4\nGES134\n\n\nGES138\nTécnicas Multivariadas\n4\nGES124\n\n\n\n\n\n7º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES128\nModelos Lineares Generalizados\n6\nGES119\n\n\nGES129\nInferência Bayesiana\n4\nGES118\n\n\nGES131\nMineração de Dados e Aprendizagem de Máquinas\n6\nGES134\n\n\n\n\n\n8º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nEES5889\nEstágio Supervisionado\n0\n-"
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html",
+    "href": "cursos/pos-graduacao/index.html",
+    "title": "Pós-Graduação",
+    "section": "",
+    "text": "O Departamento de Estatística da UFLA abriga o Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEEA), com cursos de mestrado e doutorado, formando pesquisadores e docentes com sólida base teórica e forte vocação aplicada.\nO programa tem tradição na interface entre a Estatística e as ciências agrárias, e vem ampliando sua atuação para a ciência de dados, a modelagem computacional e as aplicações em saúde, indústria e meio ambiente."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
+    "href": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
+    "title": "Pós-Graduação",
+    "section": "Áreas de concentração e linhas de pesquisa",
+    "text": "Áreas de concentração e linhas de pesquisa\n\nMétodos estatísticos: inferência, modelos lineares e não lineares, modelos mistos e estatística bayesiana;\nExperimentação agropecuária: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão;\nModelagem e computação: estatística computacional, séries temporais, estatística espacial e aprendizado de máquina."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html#disciplinas",
+    "href": "cursos/pos-graduacao/index.html#disciplinas",
+    "title": "Pós-Graduação",
+    "section": "Disciplinas",
+    "text": "Disciplinas\nEntre as disciplinas oferecidas regularmente estão:\n\n\n\n\n\n\n\nDisciplina\nTema\n\n\n\n\nInferência Estatística\nEstimação, testes de hipóteses e teoria assintótica\n\n\nModelos Lineares\nTeoria e aplicação de modelos de regressão\n\n\nPlanejamento de Experimentos\nDelineamentos experimentais e análise\n\n\nEstatística Computacional\nSimulação, métodos de Monte Carlo e otimização\n\n\nModelos Mistos\nEfeitos aleatórios e dados longitudinais\n\n\nEstatística Bayesiana\nInferência bayesiana e métodos MCMC\n\n\nSéries Temporais\nModelagem e previsão de dados temporais\n\n\n\nA relação completa de disciplinas, docentes e projetos está no site do DES/UFLA."
+  },
+  {
+    "objectID": "cursos/pos-graduacao/index.html#painel-dos-egressos",
+    "href": "cursos/pos-graduacao/index.html#painel-dos-egressos",
+    "title": "Pós-Graduação",
+    "section": "Painel dos Egressos",
+    "text": "Painel dos Egressos\nA trajetória dos nossos egressos (setores de atuação, regiões e formação continuada) está reunida em um dashboard interativo: o Painel dos Egressos."
   },
   {
     "objectID": "estatistica/index.html",
@@ -168,207 +329,53 @@
     "text": "Estude Estatística na UFLA\nO Departamento de Estatística da UFLA oferece formação completa na área, da graduação à pós-graduação, além de assessoria e consultoria estatística para a comunidade acadêmica e a sociedade. São dois caminhos com focos complementares:\n\nGraduação: foco em Ciência de Dados\nEmbora seja um Bacharelado em Estatística, o curso de graduação da UFLA tem forte ênfase em Ciência de Dados: além da base sólida em probabilidade e inferência, o estudante aprende programação, bancos de dados e aprendizado de máquina para extrair conhecimento de grandes volumes de dados. É o caminho de quem quer partir de dados reais, chegar a modelos preditivos e ir muito além.\n\n\nPós-graduação: foco em Ciências Agrárias\nO Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEEA) oferece mestrado e doutorado com tradição na interface entre a Estatística e as ciências agrárias: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão. É a formação de quem transforma dados de campo, como as safras de café da região de Lavras, em decisões com rigor científico."
   },
   {
-    "objectID": "cursos/pos-graduacao/index.html",
-    "href": "cursos/pos-graduacao/index.html",
-    "title": "Pós-Graduação",
+    "objectID": "eventos/posts/2024-09-01-curso-introducao-software-r/index.html",
+    "href": "eventos/posts/2024-09-01-curso-introducao-software-r/index.html",
+    "title": "Curso de Extensão: Introdução ao Software R",
     "section": "",
-    "text": "O Departamento de Estatística da UFLA abriga o Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEEA), com cursos de mestrado e doutorado, formando pesquisadores e docentes com sólida base teórica e forte vocação aplicada.\nO programa tem tradição na interface entre a Estatística e as ciências agrárias, e vem ampliando sua atuação para a ciência de dados, a modelagem computacional e as aplicações em saúde, indústria e meio ambiente."
+    "text": "Curso de extensão de introdução ao R, ambiente livre e gratuito amplamente utilizado para análise estatística, modelagem e visualização de dados.\nSaiba mais no site do DES/UFLA »"
   },
   {
-    "objectID": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
-    "href": "cursos/pos-graduacao/index.html#áreas-de-concentração-e-linhas-de-pesquisa",
-    "title": "Pós-Graduação",
-    "section": "Áreas de concentração e linhas de pesquisa",
-    "text": "Áreas de concentração e linhas de pesquisa\n\nMétodos estatísticos: inferência, modelos lineares e não lineares, modelos mistos e estatística bayesiana;\nExperimentação agropecuária: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão;\nModelagem e computação: estatística computacional, séries temporais, estatística espacial e aprendizado de máquina."
-  },
-  {
-    "objectID": "cursos/pos-graduacao/index.html#disciplinas",
-    "href": "cursos/pos-graduacao/index.html#disciplinas",
-    "title": "Pós-Graduação",
-    "section": "Disciplinas",
-    "text": "Disciplinas\nEntre as disciplinas oferecidas regularmente estão:\n\n\n\n\n\n\n\nDisciplina\nTema\n\n\n\n\nInferência Estatística\nEstimação, testes de hipóteses e teoria assintótica\n\n\nModelos Lineares\nTeoria e aplicação de modelos de regressão\n\n\nPlanejamento de Experimentos\nDelineamentos experimentais e análise\n\n\nEstatística Computacional\nSimulação, métodos de Monte Carlo e otimização\n\n\nModelos Mistos\nEfeitos aleatórios e dados longitudinais\n\n\nEstatística Bayesiana\nInferência bayesiana e métodos MCMC\n\n\nSéries Temporais\nModelagem e previsão de dados temporais\n\n\n\nA relação completa de disciplinas, docentes e projetos está no site do DES/UFLA."
-  },
-  {
-    "objectID": "cursos/pos-graduacao/index.html#painel-dos-egressos",
-    "href": "cursos/pos-graduacao/index.html#painel-dos-egressos",
-    "title": "Pós-Graduação",
-    "section": "Painel dos Egressos",
-    "text": "Painel dos Egressos\nA trajetória dos nossos egressos (setores de atuação, regiões e formação continuada) está reunida em um dashboard interativo: o Painel dos Egressos."
-  },
-  {
-    "objectID": "cursos/graduacao/index.html",
-    "href": "cursos/graduacao/index.html",
-    "title": "Graduação",
+    "objectID": "eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
+    "href": "eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
+    "title": "XVII Encontro Mineiro de Estatística (MGEST) 2025",
     "section": "",
-    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nCom uma ampla formação os alunos são expostos aos mais variados tipos de situações, alguns exemplos são os projetos de Organização e Apresentação de Dados em que cada aluno escolhe uma base de dados publica para desenvolver uma analise exploratória e desenvolver um relatório do assunto, isso tudo desde o primeiro período! Esses projetos podem ser visualizados aqui."
+    "text": "O Encontro Mineiro de Estatística (MGEST) é um evento bienal que, desde 1999, reúne profissionais, docentes e estudantes para a troca de conhecimento e a divulgação de pesquisas na área de Estatística.\nSaiba mais no site do DES/UFLA »"
   },
   {
-    "objectID": "cursos/graduacao/index.html#sobre-o-curso",
-    "href": "cursos/graduacao/index.html#sobre-o-curso",
-    "title": "Graduação",
+    "objectID": "noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
+    "href": "noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
+    "title": "Conexão Estatística entra no ar com novo visual",
     "section": "",
-    "text": "O curso de Graduação em Estatística da UFLA iniciou suas atividades no semestre 2024/1 e forma profissionais preparados para atuar com análise de dados, modelagem estatística e ciência de dados em empresas, instituições de pesquisa e órgãos públicos.\nCom uma ampla formação os alunos são expostos aos mais variados tipos de situações, alguns exemplos são os projetos de Organização e Apresentação de Dados em que cada aluno escolhe uma base de dados publica para desenvolver uma analise exploratória e desenvolver um relatório do assunto, isso tudo desde o primeiro período! Esses projetos podem ser visualizados aqui."
+    "text": "O Conexão Estatística está no ar com novo visual e nova organização: seções dedicadas à área de Estatística, aos nossos cursos de graduação e pós-graduação, à assessoria e consultoria estatística e aos projetos e ações do departamento.\nNa página inicial você encontra as últimas notícias, oportunidades (editais internos e de estudo), eventos e a localização do prédio da Estatística no campus da UFLA, com rota direto para o seu GPS."
   },
   {
-    "objectID": "cursos/graduacao/index.html#matriz-curricular",
-    "href": "cursos/graduacao/index.html#matriz-curricular",
-    "title": "Graduação",
-    "section": "Matriz curricular",
-    "text": "Matriz curricular\nA matriz curricular está organizada em núcleos de formação, cursados ao longo de 8 semestres:\n\n\n\n\n\n\n\nNúcleo\nConteúdos principais\n\n\n\n\nBase matemática\nCálculo, Álgebra Linear, Matemática Discreta\n\n\nProbabilidade e Inferência\nProbabilidade, Inferência Estatística, Processos Estocásticos\n\n\nModelagem estatística\nModelos de Regressão, Planejamento e Análise de Experimentos, Análise Multivariada, Séries Temporais\n\n\nComputação e dados\nProgramação, Estatística Computacional, Bancos de Dados, Aprendizado de Máquina\n\n\nFormação complementar\nAmostragem, Controle de Qualidade, Estatística Espacial, disciplinas eletivas\n\n\nPrática profissional\nProjetos orientados, Estágio Supervisionado, Trabalho de Conclusão de Curso\n\n\n\nA matriz oficial completa, com ementas e pré-requisitos detalhados, está no site do DES/UFLA. Ou veja aqui, módulo a módulo:\n\n  Ver matriz curricular 2026/1\n\n\n\n1º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES110\nMatemática para Estatística I\n8\n-\n\n\nGES136\nIntrodução aos Planos Experimentais\n4\n-\n\n\nGES139\nOrganização e Apresentação de Dados\n8\n-\n\n\nGES140\nVivência Profissional em Estatística\n2\n-\n\n\n\n\n\n2º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES113\nProbabilidade I\n8\nGES110\n\n\nGES135\nFundamentos de Programação\n4\n-\n\n\nGES137\nMatemática para Estatística II\n10\nGES110\n\n\n\n\n\n3º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES116\nMatemática para Estatística III\n8\nGES137\n\n\nGES117\nProbabilidade II\n6\nGES113\n\n\nGES134\nEstrutura de Dados\n8\nGES135\n\n\nGES141\nConsultoria em Estatística I\n2\nGES136\n\n\n\n\n\n4º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES118\nInferência Estatística I\n8\nGES113\n\n\nGES119\nModelos Lineares I\n8\nGES113\n\n\nGES142\nAmostragem\n4\nGES113\n\n\n\n\n\n5º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES122\nModelos Lineares II\n8\nGES119\n\n\nGES123\nPlanejamento e Análise de Experimentos\n4\nGES136\n\n\nGES124\nInferência Estatística II\n8\nGES118\n\n\n\n\n\n6º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES125\nSéries Temporais\n4\nGES124\n\n\nGES126\nEstatística Computacional\n6\nGES135\n\n\nGES127\nConsultoria em Estatística II\n4\nGES141\n\n\nGES130\nCiência de Dados e Big Data\n4\nGES134\n\n\nGES138\nTécnicas Multivariadas\n4\nGES124\n\n\n\n\n\n7º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nGES128\nModelos Lineares Generalizados\n6\nGES119\n\n\nGES129\nInferência Bayesiana\n4\nGES118\n\n\nGES131\nMineração de Dados e Aprendizagem de Máquinas\n6\nGES134\n\n\n\n\n\n8º módulo\n\n\n\nCódigo\nDisciplina\nCréditos\nRequisito\n\n\n\n\nEES5889\nEstágio Supervisionado\n0\n-"
-  },
-  {
-    "objectID": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
-    "href": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
-    "title": "Modelos da classe GLARMA(p,q): séries temporais de contagem",
+    "objectID": "oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html",
+    "href": "oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html",
+    "title": "Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)",
     "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os modelos da classe GLARMA(p,q), uma alternativa para a modelagem de séries temporais de contagem.\nVer no site do DES/UFLA »"
+    "text": "O Departamento de Estatística da UFLA divulga o Edital Nº 001/2026 para seleção de docência voluntária no 1º semestre de 2026.\nLer edital no site do DES/UFLA »"
   },
   {
-    "objectID": "artigos/index.html",
-    "href": "artigos/index.html",
-    "title": "Artigos & Colunas",
+    "objectID": "oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+    "href": "oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+    "title": "Edital Nº 003/2026: Seleção de monitores voluntários",
     "section": "",
-    "text": "Introdução ao crescimento de seres vivos: indivíduo ou população?\n\n\nPalestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n3 de set. de 2021\n\n\n\n\n\n\n\n\n\n\n\nModelos da classe GLARMA(p,q): séries temporais de contagem\n\n\nPalestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n16 de nov. de 2020\n\n\n\n\n\n\n\n\n\n\n\nPolinômios de Hermite: definições, propriedades e aplicações\n\n\nPalestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n5 de dez. de 2019\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 003/2026.\nLer edital no site do DES/UFLA »"
   },
   {
-    "objectID": "acoes/revista-cientifica/index.html",
-    "href": "acoes/revista-cientifica/index.html",
-    "title": "Revista Científica",
+    "objectID": "projetos/ensino/editais/index.html",
+    "href": "projetos/ensino/editais/index.html",
+    "title": "Editais de Projetos de Ensino",
     "section": "",
-    "text": "O Brazilian Journal of Biometrics (BJB) é um periódico científico de acesso aberto que publica artigos originais sobre métodos estatísticos e suas aplicações em biometria, agricultura, biologia, saúde e áreas afins.\n\nAcesso aberto: todos os artigos disponíveis gratuitamente;\nRevisão por pares: avaliação criteriosa por especialistas;\nEscopo: estatística aplicada, experimentação, modelagem e métodos quantitativos nas ciências da vida.\n\n\nConhecer a revista"
+    "text": "Editais e chamadas ligados aos projetos de ensino, do mais recente ao mais antigo.\n\n  \n     Envie um edital\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "acoes/revista-cientifica/index.html#brazilian-journal-of-biometrics",
-    "href": "acoes/revista-cientifica/index.html#brazilian-journal-of-biometrics",
-    "title": "Revista Científica",
+    "objectID": "projetos/ensino/materiais/index.html",
+    "href": "projetos/ensino/materiais/index.html",
+    "title": "Materiais",
     "section": "",
-    "text": "O Brazilian Journal of Biometrics (BJB) é um periódico científico de acesso aberto que publica artigos originais sobre métodos estatísticos e suas aplicações em biometria, agricultura, biologia, saúde e áreas afins.\n\nAcesso aberto: todos os artigos disponíveis gratuitamente;\nRevisão por pares: avaliação criteriosa por especialistas;\nEscopo: estatística aplicada, experimentação, modelagem e métodos quantitativos nas ciências da vida.\n\n\nConhecer a revista"
-  },
-  {
-    "objectID": "acoes/revista-cientifica/index.html#como-submeter",
-    "href": "acoes/revista-cientifica/index.html#como-submeter",
-    "title": "Revista Científica",
-    "section": "Como submeter",
-    "text": "Como submeter\nAutores interessados encontram as normas de submissão e o sistema de envio no site oficial do periódico."
-  },
-  {
-    "objectID": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
-    "href": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
-    "title": "Polinômios de Hermite: definições, propriedades e aplicações",
-    "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os polinômios de Hermite, suas definições, propriedades e aplicações na Estatística.\nVer no site do DES/UFLA »"
-  },
-  {
-    "objectID": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
-    "href": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
-    "title": "Introdução ao crescimento de seres vivos: indivíduo ou população?",
-    "section": "",
-    "text": "Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre a modelagem do crescimento de seres vivos, abordando as perspectivas do indivíduo e da população.\nVer no site do DES/UFLA »"
-  },
-  {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
-    "section": "",
-    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
-  },
-  {
-    "objectID": "contato.html#onde-estamos",
-    "href": "contato.html#onde-estamos",
-    "title": "Contato",
-    "section": "",
-    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
-  },
-  {
-    "objectID": "contato.html#canais",
-    "href": "contato.html#canais",
-    "title": "Contato",
-    "section": "Canais",
-    "text": "Canais\n\nSite institucional: des.ufla.br\nGitHub do projeto: github.com/ConectaStat/home\n\n\nVisitar o site do DES"
-  },
-  {
-    "objectID": "cursos/pos-graduacao/egressos/index.html",
-    "href": "cursos/pos-graduacao/egressos/index.html",
-    "title": "Painel dos Egressos",
-    "section": "",
-    "text": "O Painel dos Egressos reúne, em um dashboard interativo, a trajetória dos egressos da graduação e da pós-graduação em Estatística da UFLA: os setores em que atuam, as regiões do país e do exterior para onde foram e a formação continuada que seguiram após o curso.\n\n\n  \n  Painel interativo em construção\n  Em breve: o dashboard com a trajetória dos egressos da graduação e da\n     pós-graduação (setores de atuação, regiões e formação continuada)."
-  },
-  {
-    "objectID": "enviar.html",
-    "href": "enviar.html",
-    "title": "Enviar conteúdo",
-    "section": "",
-    "text": "Preencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n      Onde isso deve ser publicado? *\n      \n        Selecione a seção…\n        Notícia\n        Evento\n        Edital ou oportunidade\n        Artigo ou coluna\n        Software\n        Material didático\n        Ação de extensão\n        Projeto de estudante (Organização e Apresentação de Dados)\n      \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      Para evento, a data em que ele acontece. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Link do relatório no GitHub\n      \n      Vai anexar o arquivo em vez de usar link?\n         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e, no caso dos projetos de estudante, o relatório em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create."
-  },
-  {
-    "objectID": "enviar.html#como-funciona",
-    "href": "enviar.html#como-funciona",
-    "title": "Enviar conteúdo",
-    "section": "",
-    "text": "Preencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n      Onde isso deve ser publicado? *\n      \n        Selecione a seção…\n        Notícia\n        Evento\n        Edital ou oportunidade\n        Artigo ou coluna\n        Software\n        Material didático\n        Ação de extensão\n        Projeto de estudante (Organização e Apresentação de Dados)\n      \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      Para evento, a data em que ele acontece. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Link do relatório no GitHub\n      \n      Vai anexar o arquivo em vez de usar link?\n         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e, no caso dos projetos de estudante, o relatório em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create."
-  },
-  {
-    "objectID": "eventos/index.html",
-    "href": "eventos/index.html",
-    "title": "Eventos",
-    "section": "",
-    "text": "15 de jan. de 2026\n\n\nXVII Programa de Verão DES-ICET/UFLA 2026\n\n\nEdição 2026 do tradicional Programa de Verão do Departamento de Estatística, com disciplinas e atividades de formação.\n\n\nLeia mais\n\n\n\n\n\n\n\n5 de nov. de 2025\n\n\nXVII Encontro Mineiro de Estatística (MGEST) 2025\n\n\nEvento bienal que, desde 1999, reúne profissionais, docentes e estudantes da área de Estatística de Minas Gerais e do Brasil.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de mai. de 2025\n\n\nV Workshop em Data Science\n\n\nWorkshop voltado à Ciência de Dados, com palestras e atividades sobre métodos estatísticos e aplicações.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de set. de 2024\n\n\nCurso de Extensão: Introdução ao Software R\n\n\nCurso de extensão de introdução ao R, ambiente livre para análise estatística e visualização de dados.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "eventos/posts/2025-05-20-v-workshop-data-science/index.html",
-    "href": "eventos/posts/2025-05-20-v-workshop-data-science/index.html",
-    "title": "V Workshop em Data Science",
-    "section": "",
-    "text": "O Workshop em Data Science promove discussões sobre métodos estatísticos, aprendizado de máquina e aplicações de Ciência de Dados.\nSaiba mais no site do DES/UFLA »"
-  },
-  {
-    "objectID": "eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
-    "href": "eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
-    "title": "XVII Programa de Verão DES-ICET/UFLA 2026",
-    "section": "",
-    "text": "O Programa de Verão do DES-ICET/UFLA chega à sua XVII edição, oferecendo disciplinas e atividades de aperfeiçoamento em Estatística durante o período de verão.\nSaiba mais no site do DES/UFLA »"
-  },
-  {
-    "objectID": "noticias/index.html",
-    "href": "noticias/index.html",
-    "title": "Notícias",
-    "section": "",
-    "text": "6 de jul. de 2026\n\n\nConexão Estatística entra no ar com novo visual\n\n\nA plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Conexão.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "oportunidades/index.html",
-    "href": "oportunidades/index.html",
-    "title": "Oportunidades",
-    "section": "",
-    "text": "1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-    "href": "oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-    "title": "Edital Nº 002/2026: Seleção de monitores voluntários",
-    "section": "",
-    "text": "O Departamento de Estatística da UFLA abre processo seletivo para monitores voluntários, conforme o Edital Nº 002/2026.\nLer edital no site do DES/UFLA »"
-  },
-  {
-    "objectID": "oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-    "href": "oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-    "title": "Edital: Eleições para Chefe e Subchefe do DES (2026-2030)",
-    "section": "",
-    "text": "A Chefia do Departamento de Estatística (DES) do Instituto de Ciências Exatas e Tecnológicas (ICET) da UFLA convoca a comunidade para o processo de eleição de Chefe e Subchefe do departamento, referente ao período 2026-2030.\nConsulte o edital completo, prazos e procedimentos na página oficial do DES:\nLer edital no site do DES/UFLA »"
-  },
-  {
-    "objectID": "projetos/ensino/index.html",
-    "href": "projetos/ensino/index.html",
-    "title": "Projetos de Ensino",
-    "section": "",
-    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nVagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "projetos/ensino/index.html#ensino-no-desufla",
-    "href": "projetos/ensino/index.html#ensino-no-desufla",
-    "title": "Projetos de Ensino",
-    "section": "",
-    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nVagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+    "text": "Materiais didáticos produzidos nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n     Envie um material\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\neda teste\n\n\neda 2\n\n\n\n6 de jul. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/ensino/organizacao-e-apresentacao-de-dados/index.html",
