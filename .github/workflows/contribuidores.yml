@@ -1,0 +1,32 @@
+name: Mescla automaticamente as adições de contribuidores
+
+# O app all-contributors responde ao comando escrito em qualquer issue ou
+# pull request:
+#
+#     @all-contributors please add @usuario for content
+#
+# e abre um pull request atualizando o README.md e o .all-contributorsrc.
+# Este workflow mescla esse pull request sozinho, de modo que a pessoa
+# apareça na lista sem ninguém precisar clicar em nada.
+#
+# Só mescla o que vem do próprio robô: qualquer outro pull request segue
+# o caminho normal de revisão.
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  mesclar:
+    if: github.event.pull_request.user.login == 'allcontributors[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mescla o pull request do robô
+        run: gh pr merge --squash --delete-branch "$PR"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.html_url }}
