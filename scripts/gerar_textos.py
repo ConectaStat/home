@@ -117,7 +117,6 @@ ORDEM = [
     ("Nossos Cursos › Pós-Graduação › Painel dos Egressos", "cursos/pos-graduacao/egressos/index.qmd", []),
     ("Projetos › Ensino", "projetos/ensino/index.qmd", ["topicos-ensino"]),
     ("Projetos › Ensino › Organização e Apresentação de Dados", "projetos/ensino/organizacao-e-apresentacao-de-dados/index.qmd", []),
-    ("Projetos › Ensino › Organização… › Envie seu projeto", "projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.qmd", []),
     ("Projetos › Ensino › Softwares", "projetos/ensino/softwares/index.qmd", []),
     ("Projetos › Ensino › Materiais", "projetos/ensino/materiais/index.qmd", []),
     ("Projetos › Ensino › Editais", "projetos/ensino/editais/index.qmd", []),
@@ -128,6 +127,7 @@ ORDEM = [
     ("Projetos › Pesquisa › Núcleos › ST", "projetos/pesquisa/nucleos/st/index.qmd", []),
     ("Projetos › Pesquisa › Editais", "projetos/pesquisa/editais/index.qmd", []),
     ("Projetos › Extensão", "projetos/extensao/index.qmd", ["topicos-extensao"]),
+    ("Projetos › Extensão › Ações de Extensão", "projetos/extensao/acoes/index.qmd", []),
     ("Projetos › Extensão › Editais", "projetos/extensao/editais/index.qmd", []),
     ("Ações › Revista Científica", "acoes/revista-cientifica/index.qmd", []),
     ("Ações › Assessoria e Consultoria Estatística", "assessoria/index.qmd", []),
@@ -136,6 +136,7 @@ ORDEM = [
     ("Oportunidades (arquivo)", "oportunidades/index.qmd", []),
     ("Artigos & Colunas (arquivo)", "artigos/index.qmd", []),
     ("Contato", "contato.qmd", []),
+    ("Enviar conteúdo (formulário do site)", "enviar.qmd", []),
 ]
 
 def cards_do_frontmatter(fm):
@@ -306,6 +307,9 @@ for rotulo, pasta in [
     ("Eventos", "eventos/posts"),
     ("Artigos & Colunas", "artigos/posts"),
     ("Organização e Apresentação de Dados", "projetos/ensino/organizacao-e-apresentacao-de-dados/posts"),
+    ("Softwares", "projetos/ensino/softwares/posts"),
+    ("Materiais", "projetos/ensino/materiais/posts"),
+    ("Ações de Extensão", "projetos/extensao/acoes/posts"),
 ]:
     L.append(bloco_posts(rotulo, pasta))
 

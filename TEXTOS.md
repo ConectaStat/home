@@ -497,11 +497,6 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > trabalhos e, quando estiver pronto, envie o seu.
 
 
-### Projetos › Ensino › Organização… › Envie seu projeto
-
-*(arquivo não encontrado: projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.qmd)*
-
-
 ### Projetos › Ensino › Softwares
 `projetos/ensino/softwares/index.qmd`
 
@@ -736,6 +731,21 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 >
 
 
+### Projetos › Extensão › Ações de Extensão
+`projetos/extensao/acoes/index.qmd`
+
+**Título (aparece no banner):** Ações de Extensão
+
+**Subtítulo:** Cursos, palestras, parcerias e atividades levadas à comunidade.  
+*(hoje oculto no site; fica só no código)*
+
+**Texto da página:**
+
+> Atividades de extensão do Departamento de Estatística: cursos abertos,
+> palestras em escolas, parcerias com instituições e ações de divulgação
+> científica. As primeiras serão publicadas em breve.
+
+
 ### Projetos › Extensão › Editais
 `projetos/extensao/editais/index.qmd`
 
@@ -864,6 +874,31 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > - GitHub do projeto: [github.com/ConectaStat/home](https://github.com/ConectaStat/home)
 >
 > [Visitar o site do DES](https://des.ufla.br/)
+
+
+### Enviar conteúdo (formulário do site)
+`enviar.qmd`
+
+**Título (aparece no banner):** Enviar conteúdo
+
+**Subtítulo:** Publique no Conexão Estatística: notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante.  
+*(hoje oculto no site; fica só no código)*
+
+**Texto da página:**
+
+> ## Como funciona
+>
+> Preencha o formulário abaixo **sem sair do site**. Ao enviar, o GitHub abre em
+> outra aba com a submissão **já preenchida**: é só revisar, anexar os arquivos
+> e confirmar. Basta estar logado no GitHub (a conta é gratuita).
+>
+> A partir daí o robô monta a página sozinho e a equipe do departamento revisa
+> antes de publicar. Você recebe a resposta na própria submissão.
+>
+> Os **arquivos** são anexados na tela do GitHub que abre: a imagem de capa e,
+> no caso dos projetos de estudante, o relatório em `.html` (compactado em
+> `.zip`) ou `.pdf`. Basta arrastar cada um para o campo correspondente antes de
+> clicar em *Create*.
 
 
 ---
@@ -1071,4 +1106,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > Advocacia-Geral da União (AGU)**. Do conjunto original com 65.535 observações
 > e 12 variáveis, o recorte analisado reúne **681 observações do Ministério da
 > Educação**, com relatório publicado em HTML.
+
+
+
 

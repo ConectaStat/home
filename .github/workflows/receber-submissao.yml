@@ -21,7 +21,13 @@ permissions:
 
 jobs:
   montar:
-    if: contains(github.event.issue.labels.*.name, 'submissao')
+    # Reconhece a submissão pelo próprio conteúdo da issue, e não por etiqueta:
+    # etiqueta depende de alguém ter criado antes, e o GitHub descarta em
+    # silêncio a que não existe. O formulário sempre gera este cabeçalho.
+    if: >
+      github.event.issue.pull_request == null &&
+      (contains(github.event.issue.body, 'Onde isso deve ser publicado') ||
+       startsWith(github.event.issue.title, '[Envio]'))
     runs-on: ubuntu-latest
     steps:
       - name: Baixa o repositório

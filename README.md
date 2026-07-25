@@ -68,21 +68,28 @@ Troque `content` pelo tipo de contribuição: `coordenacao`, `code`, `bug`, `ide
 
 ## Seja um contribuidor
 
-Quase toda seção do site aceita contribuição de fora, e nenhuma delas exige experiência com Git. O caminho é sempre o mesmo: escolher o formulário certo em [Nova issue](https://github.com/ConectaStat/conectastat.github.io/issues/new/choose), preencher e enviar. A equipe revisa e publica.
+Quase toda seção do site aceita contribuição de fora, e nenhuma delas exige experiência com Git. O caminho é sempre o mesmo: preencher o [formulário de envio](https://conectastat.github.io/enviar.html) no próprio site.
 
-| O que você tem | Formulário | Vai parar em |
-|---|---|---|
-| Uma análise de dados feita na graduação | 📊 Submissão de projeto | [Organização e Apresentação de Dados](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/) |
-| Um programa, pacote ou aplicativo | 💾 Submissão de software | [Softwares](https://conectastat.github.io/projetos/ensino/softwares/) |
-| Uma apostila, tutorial ou slides | 📚 Submissão de material didático | [Materiais](https://conectastat.github.io/projetos/ensino/materiais/) |
-| Uma manchete, um evento ou um edital | 📰 Notícia, evento ou edital | [Notícias](https://conectastat.github.io/noticias/), [Eventos](https://conectastat.github.io/eventos/) ou [Oportunidades](https://conectastat.github.io/oportunidades/) |
-| Um erro de digitação ou link quebrado | issue em branco | a página onde está o erro |
+Ao enviar, o GitHub abre com a submissão pronta. Assim que você confirma, o robô monta a página e abre um pedido de publicação para a equipe revisar. Você recebe a resposta na própria submissão.
 
-Todo formulário pergunta o seu **vínculo com o DES**, e é isso que define como você aparece na lista de contribuidores.
+| O que você tem | Vai parar em |
+|---|---|
+| Uma notícia ou aviso | [Notícias](https://conectastat.github.io/noticias/) |
+| Um evento, curso ou palestra | [Eventos](https://conectastat.github.io/eventos/) |
+| Um edital ou oportunidade | [Oportunidades](https://conectastat.github.io/oportunidades/) |
+| Um texto de divulgação | [Artigos & Colunas](https://conectastat.github.io/artigos/) |
+| Um programa, pacote ou aplicativo | [Softwares](https://conectastat.github.io/projetos/ensino/softwares/) |
+| Uma apostila, tutorial ou slides | [Materiais](https://conectastat.github.io/projetos/ensino/materiais/) |
+| Uma ação de extensão | [Ações de Extensão](https://conectastat.github.io/projetos/extensao/acoes/) |
+| Uma análise feita na graduação | [Organização e Apresentação de Dados](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/) |
 
-**Quer propor a alteração você mesmo?** Edite o arquivo direto pelo GitHub, pelo lápis no canto da página, e envie a sugestão. Se ela for aceita, você entra na lista automaticamente. O passo a passo de cada área está nas seções seguintes.
+Cada uma dessas páginas tem o próprio botão de envio, que abre o formulário com a seção já escolhida.
 
-**Núcleos de pesquisa e projetos de extensão** ainda não têm formulário próprio, porque envolvem texto de página e não conteúdo datado. Abra uma issue em branco descrevendo a proposta.
+O formulário pergunta o seu **vínculo com o DES**, e é isso que define como você aparece na lista de contribuidores.
+
+**Erro de digitação ou link quebrado?** [Abra uma issue](https://github.com/ConectaStat/conectastat.github.io/issues/new) dizendo em qual página está, ou edite o arquivo direto pelo GitHub e envie a sugestão. Se ela for aceita, você entra na lista automaticamente.
+
+**Núcleos de pesquisa e páginas de texto** não passam pelo formulário, porque não são conteúdo datado. Abra uma issue descrevendo a proposta.
 
 ### Como funciona o crédito
 
@@ -311,46 +318,26 @@ Os artigos publicados até aqui não têm capa própria: sem a linha `image:`, o
 
 #### O que o estudante faz
 
-Ele preenche o formulário em [Envie seu projeto](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.html), sem sair do site. Ao enviar, o GitHub abre em outra aba com uma issue **já preenchida** a partir do modelo `.github/ISSUE_TEMPLATE/submissao-projeto.yml`. Ele revisa, anexa os arquivos e confirma. Só precisa estar logado no GitHub, e a conta é gratuita.
-
-A submissão chega com estes campos:
-
-| Campo | Vira o quê na publicação |
-|---|---|
-| Título do projeto | `title` |
-| Autor(es) | `author` |
-| Resumo da análise | `description`, o texto do card |
-| Linguagem de programação | categoria (`R`, `Python`) |
-| Fonte dos dados | categoria entre aspas, como `"Vigitel (Ministério da Saúde)"` |
-| Formato do relatório e se o código aparece | orientam a revisão, não vão para o post |
-| Relatório (link ou anexo) | `relatorios/relatorio.html` |
-| Imagem para thumbnail (opcional) | `thumbnail.png` |
-| Repositório no GitHub (opcional) | link no rodapé do post |
+Preenche o [formulário de envio](https://conectastat.github.io/enviar.html?area=projeto), escolhendo a seção "Projeto de estudante". Ao enviar, o GitHub abre com a issue pronta: ele revisa, anexa o relatório e confirma. Só precisa estar logado no GitHub, e a conta é gratuita.
 
 #### O que a equipe faz
 
-Basta **colocar a etiqueta `aprovado` na issue**. O resto acontece sozinho:
+Nada até o pull request aparecer. O robô monta tudo sozinho assim que a submissão chega:
 
 ```
-estudante envia pelo formulário
+pessoa preenche o formulário no site
         ↓
-issue chega com todos os campos preenchidos
+issue criada, com todos os campos
         ↓
-você revisa e coloca a etiqueta "aprovado"
+o robô monta a página, baixa o relatório e credita quem enviou
         ↓
-o robô monta a pasta do post, baixa o relatório,
-credita quem enviou e abre um pull request
+abre um pull request e avisa na issue
         ↓
-você confere e mescla
-        ↓
-a página entra no ar e o crédito aparece na lista
+VOCÊ decide na aba Pull requests
+   Merge = publica     Close = recusa
 ```
 
-O workflow `.github/workflows/publicar-projeto.yml` lê os campos da issue, gera o `index.qmd` com título, resumo, autoria e categorias, baixa o relatório do link ou do anexo (aceita `.html`, `.pdf` e `.zip`, e dentro do zip separa o relatório da apresentação), salva a capa se houver, e acrescenta quem enviou na lista de contribuidores. Tudo isso vai no mesmo pull request, então publicar e creditar acontecem juntos, no momento em que você mescla.
-
-Nada entra no ar sozinho. São duas decisões suas: a etiqueta e a mesclagem. Se algo der errado, por exemplo o link do relatório estar inacessível, o robô comenta na própria issue explicando.
-
-Depois de mesclar, feche a issue com o link da página publicada.
+A sua decisão é um clique. Ao mesclar, o site republica sozinho e o crédito entra junto.
 
 #### Como fica a pasta
 
@@ -365,7 +352,7 @@ projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-08-12-nome-do-pro
     └── apresentacao.html    opcional (slides)
 ```
 
-Comece copiando `_templates/projeto-estudante.qmd`, que já vem com tudo explicado. O essencial do cabeçalho:
+O robô monta o cabeçalho a partir do modelo `_templates/areas/projeto-estudante.qmd`. Publicando à mão, o essencial é:
 
 ```yaml
 ---
@@ -479,27 +466,20 @@ Além desses, três workflows cuidam do repositório sozinhos:
 | Arquivo | Quando roda | O que faz |
 |---|---|---|
 | `.github/workflows/publicar.yml` | a cada envio para a `master` | renderiza o site e atualiza a pasta publicada |
-| `.github/workflows/publicar-projeto.yml` | ao etiquetar uma issue como `aprovado` | monta o post do projeto de estudante e abre o pull request |
-| `.github/workflows/creditar-submissao.yml` | ao etiquetar uma issue como `publicado` | credita quem enviou software, material, notícia, evento ou edital |
+| `.github/workflows/receber-submissao.yml` | quando chega uma submissão | monta a página na seção escolhida, credita quem enviou e abre o pull request |
 | `.github/workflows/contribuidores.yml` | ao mesclar um pull request | credita quem teve a contribuição aceita |
 
 Três scripts dão apoio a esses workflows:
 
 | Script | O que faz |
 |---|---|
-| `scripts/publicar_projeto.py` | interpreta a issue, monta a pasta do post e baixa os arquivos |
-| `scripts/creditar_submissao.py` | deduz os tipos de contribuição a partir do vínculo e da área |
-| `scripts/ordenar_contribuidores.py` | coloca os docentes no topo da lista antes de regenerar a tabela |
+| `scripts/publicar_submissao.py` | lê a submissão, escolhe o modelo da área e monta a pasta do post |
+| `scripts/creditar_submissao.py` | deduz os tipos de contribuição a partir do vínculo declarado |
+| `scripts/ordenar_contribuidores.py` | coloca a coordenação no topo da lista antes de regenerar a tabela |
 
-Para o robô conseguir etiquetar e publicar, o repositório precisa ter as etiquetas **`aprovado`** (projetos de estudante) e **`publicado`** (demais submissões), criadas em Issues › Labels.
+Os modelos de página de cada área ficam em `_templates/areas/`, um `.qmd` por seção. Neles, `{{campo}}` é substituído pelo dado do formulário e os trechos entre `<!--se:campo-->` e `<!--/se-->` somem quando o campo vem vazio. Para mudar como uma seção é publicada, basta editar o modelo dela.
 
-Uso manual do gerador de capas, quando necessário:
-
-```bash
-python scripts/gerar_thumbnails.py            # gera capas de quem não tem
-python scripts/gerar_thumbnails.py --force    # regenera todas
-python scripts/gerar_thumbnails.py <slug>     # apenas posts específicos
-```
+Para tudo isso funcionar, o repositório precisa da etiqueta **`submissao`** (aplicada pelo formulário) e, em **Settings › Actions › General**, da opção *Allow GitHub Actions to create and approve pull requests* marcada.
 
 ### Serviços externos
 
