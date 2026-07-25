@@ -1,32 +1,74 @@
-name: Mescla automaticamente as adições de contribuidores
+name: Credita quem teve a contribuição aceita
 
-# O app all-contributors responde ao comando escrito em qualquer issue ou
-# pull request:
+# Quando um pull request é MESCLADO, ou seja, quando a sugestão foi aceita,
+# quem propôs entra sozinho na lista de contribuidores do README, com foto e
+# tipo de contribuição. Quem apenas abriu o pull request e não teve a
+# proposta aceita não é creditado.
+#
+# Para creditar alguém que contribuiu por fora (por exemplo o estudante que
+# manda a análise pelo formulário, sem abrir pull request), use o comando do
+# robô em qualquer issue:
 #
 #     @all-contributors please add @usuario for content
-#
-# e abre um pull request atualizando o README.md e o .all-contributorsrc.
-# Este workflow mescla esse pull request sozinho, de modo que a pessoa
-# apareça na lista sem ninguém precisar clicar em nada.
-#
-# Só mescla o que vem do próprio robô: qualquer outro pull request segue
-# o caminho normal de revisão.
 
 on:
   pull_request_target:
-    types: [opened, reopened, synchronize]
+    types: [closed]
 
 permissions:
   contents: write
-  pull-requests: write
+  pull-requests: read
 
 jobs:
-  mesclar:
-    if: github.event.pull_request.user.login == 'allcontributors[bot]'
+  creditar:
+    # só o que foi realmente mesclado, e nunca os pull requests dos robôs
+    if: >
+      github.event.pull_request.merged == true &&
+      !endsWith(github.event.pull_request.user.login, '[bot]')
     runs-on: ubuntu-latest
     steps:
-      - name: Mescla o pull request do robô
-        run: gh pr merge --squash --delete-branch "$PR"
+      - name: Baixa o repositório
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Prepara o Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Descobre o tipo de contribuição pelos arquivos alterados
+        id: tipo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR: ${{ github.event.pull_request.html_url }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          arquivos=$(gh pr diff "$PR" --name-only)
+          if echo "$arquivos" | grep -qE '^(_assets/|_includes/|scripts/|_quarto\.yml|\.github/)'; then
+            echo "tipo=code" >> "$GITHUB_OUTPUT"
+          elif echo "$arquivos" | grep -qE '^(README\.md|TEXTOS\.md)$'; then
+            echo "tipo=doc" >> "$GITHUB_OUTPUT"
+          else
+            echo "tipo=content" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Acrescenta na lista de contribuidores
+        env:
+          PRIVATE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOR: ${{ github.event.pull_request.user.login }}
+          TIPO: ${{ steps.tipo.outputs.tipo }}
+        run: npx --yes all-contributors-cli add "$AUTOR" "$TIPO"
+
+      - name: Publica a atualização
+        env:
+          AUTOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          if git diff --quiet; then
+            echo "Nada a fazer: a pessoa já constava na lista com esse tipo."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .all-contributorsrc
+          git commit -m "Credita @$AUTOR na lista de contribuidores"
+          git push
