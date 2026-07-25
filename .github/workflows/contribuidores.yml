@@ -46,8 +46,6 @@ jobs:
           arquivos=$(gh pr diff "$PR" --name-only)
           if echo "$arquivos" | grep -qE '^(_assets/|_includes/|scripts/|_quarto\.yml|\.github/)'; then
             echo "tipo=code" >> "$GITHUB_OUTPUT"
-          elif echo "$arquivos" | grep -qE '^(README\.md|TEXTOS\.md)$'; then
-            echo "tipo=doc" >> "$GITHUB_OUTPUT"
           else
             echo "tipo=content" >> "$GITHUB_OUTPUT"
           fi
@@ -57,7 +55,10 @@ jobs:
           PRIVATE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTOR: ${{ github.event.pull_request.user.login }}
           TIPO: ${{ steps.tipo.outputs.tipo }}
-        run: npx --yes all-contributors-cli add "$AUTOR" "$TIPO"
+        run: |
+          npx --yes all-contributors-cli add "$AUTOR" "$TIPO"
+          python scripts/ordenar_contribuidores.py
+          npx --yes all-contributors-cli generate
 
       - name: Publica a atualização
         env:
