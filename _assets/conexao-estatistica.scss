@@ -527,6 +527,14 @@ body { -webkit-font-smoothing: antialiased; }
   transition: transform 0.65s ease;
 }
 
+// Variante em grade (cards-grid.ejs): mostra todos os itens de uma vez,
+// quebrando linha, sem carrossel nem limite de três por vista.
+.cs-cards-grid {
+  flex-wrap: wrap;
+  row-gap: 1.25rem;
+  transition: none;
+}
+
 .cs-card {
   position: relative;               // âncora do link "esticado"
   flex: 0 0 calc((100% - 2.5rem) / 3);   // 3 por vista (desktop)

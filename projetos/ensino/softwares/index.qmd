@@ -2,6 +2,10 @@
 title: "Softwares"
 subtitle: "Aplicativos, pacotes e ferramentas computacionais de apoio ao ensino de Estatística."
 title-block-banner: true
+format:
+  html:
+    grid:
+      margin-width: 250px
 body-classes: cs-banner-qq
 page-layout: article
 sidebar: false
@@ -14,7 +18,7 @@ listing:
   grid-columns: 3
   image-height: "172px"
   image-placeholder: ../../../images/post-placeholder.svg
-  categories: false
+  categories: true
   sort-ui: false
   filter-ui: false
   fields: [image, title, description, date]
@@ -27,5 +31,21 @@ listing:
 Ferramentas computacionais desenvolvidas nos projetos de ensino do
 departamento. Os primeiros itens serão publicados em breve.
 
+```{=html}
+<div class="projetos-acoes" id="projetos-acoes">
+  <a class="btn-enviar-projeto" href="../../../enviar.html?area=software">
+    <i class="bi bi-send"></i> Envie um software
+  </a>
+  <div class="busca-projetos">
+    <i class="bi bi-search"></i>
+    <input type="search" id="busca-projetos-input"
+           placeholder="Pesquisar softwares..."
+           aria-label="Pesquisar por título, autor, tema ou fonte" />
+  </div>
+</div>
+```
+
+::: {.projetos-estudantes}
 ::: {#listagem-softwares}
+:::
 :::

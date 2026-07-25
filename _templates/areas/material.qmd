@@ -1,0 +1,29 @@
+---
+title: "{{titulo}}"
+description: "{{resumo}}"
+author: "{{autor}}"
+date: "{{data}}"
+<!--se:thumbnail-->image: "thumbnail.png"
+<!--/se-->categories: [{{categorias}}]
+---
+
+{{texto}}
+
+<!--se:link-->
+```{=html}
+<div class="projeto-links">
+  <a href="{{link}}" target="_blank" rel="noopener">
+    <i class="bi bi-file-earmark-text"></i> Acessar o material
+  </a>
+</div>
+```
+<!--/se-->
+<!--se:repositorio-->
+```{=html}
+<div class="projeto-links">
+  <a href="{{repositorio}}" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> Código no GitHub
+  </a>
+</div>
+```
+<!--/se-->

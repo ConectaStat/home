@@ -1,0 +1,126 @@
+name: "📤 Enviar conteúdo para o site"
+description: "Notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante."
+title: "[Envio] Título aqui"
+labels: ["submissao"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Preencha os campos abaixo. Ao enviar, o robô **monta a página
+        automaticamente** e abre um pedido de publicação para a equipe revisar.
+
+        Você recebe um comentário aqui com o resultado em poucos minutos.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Onde isso deve ser publicado?"
+      description: "Define em qual seção do site a página será criada."
+      options:
+        - "Notícia"
+        - "Evento"
+        - "Edital ou oportunidade"
+        - "Artigo ou coluna"
+        - "Software"
+        - "Material didático"
+        - "Ação de extensão"
+        - "Projeto de estudante (Organização e Apresentação de Dados)"
+    validations:
+      required: true
+
+  - type: input
+    id: titulo
+    attributes:
+      label: "Título"
+      description: "Como deve aparecer na página e no card."
+    validations:
+      required: true
+
+  - type: input
+    id: autor
+    attributes:
+      label: "Autoria"
+      description: "Nome(s) ou usuário(s) do GitHub, como devem aparecer na publicação."
+      placeholder: "ex.: Departamento de Estatística da UFLA"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: vinculo
+    attributes:
+      label: "Seu vínculo com o DES/UFLA"
+      description: "Define como você aparece na lista de contribuidores do projeto."
+      options:
+        - "Discente"
+        - "Docente"
+        - "Técnico administrativo"
+        - "Externo ao DES"
+    validations:
+      required: true
+
+  - type: input
+    id: data
+    attributes:
+      label: "Data"
+      description: "Para evento, a data em que ele acontece. Nos demais casos, a data de publicação. Deixe em branco para usar a data de hoje."
+      placeholder: "AAAA-MM-DD"
+    validations:
+      required: false
+
+  - type: textarea
+    id: resumo
+    attributes:
+      label: "Resumo"
+      description: "De 1 a 4 frases. É o texto que aparece no card da listagem."
+    validations:
+      required: true
+
+  - type: textarea
+    id: texto
+    attributes:
+      label: "Texto da publicação"
+      description: "O conteúdo em si. Pode ser curto: o costume do site é um resumo seguido do link para a fonte oficial."
+    validations:
+      required: true
+
+  - type: input
+    id: categorias
+    attributes:
+      label: "Categorias (opcional)"
+      description: "Separadas por vírgula. Viram as etiquetas de filtro da seção."
+      placeholder: "ex.: R, Saúde, Vigitel (Ministério da Saúde)"
+    validations:
+      required: false
+
+  - type: input
+    id: link
+    attributes:
+      label: "Link principal (opcional)"
+      description: "Página oficial, inscrição, edital completo, download do software ou acesso ao material."
+      placeholder: "https://"
+    validations:
+      required: false
+
+  - type: input
+    id: repositorio
+    attributes:
+      label: "Repositório no GitHub (opcional)"
+      placeholder: "https://github.com/usuario/projeto"
+    validations:
+      required: false
+
+  - type: textarea
+    id: relatorio
+    attributes:
+      label: "Relatório ou anexo (só para projeto de estudante)"
+      description: "Cole o link do arquivo no GitHub **ou** arraste o arquivo aqui. HTML deve vir compactado em .zip; PDF pode vir direto."
+    validations:
+      required: false
+
+  - type: textarea
+    id: thumbnail
+    attributes:
+      label: "Imagem de capa (opcional)"
+      description: "Arraste uma imagem 16:9 (ideal 1200×675 px). Sem ela, o site gera uma automaticamente."
+    validations:
+      required: false

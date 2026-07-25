@@ -498,24 +498,8 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 
 ### Projetos › Ensino › Organização… › Envie seu projeto
-`projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.qmd`
 
-**Título (aparece no banner):** Envie seu projeto
-
-**Subtítulo:** Publique sua análise em Organização e Apresentação de Dados.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> ## Como enviar
->
-> Preencha o formulário abaixo **sem sair do site**. Ao enviar, o GitHub abre
-> em outra aba com a submissão **já preenchida**: é só revisar, anexar os
-> arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).
->
-> Os **arquivos** são anexados na tela do GitHub que abre: o relatório em
-> `.html` ou `.pdf` (a saída gerada pelo Quarto/RStudio) e a imagem de capa.
-> Basta arrastar cada um para o campo correspondente antes de clicar em *Create*.
+*(arquivo não encontrado: projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.qmd)*
 
 
 ### Projetos › Ensino › Softwares
@@ -744,6 +728,9 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 **Cards de tópico desta página:**
 
+> **Ações de Extensão**  
+> Cursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade.
+>
 > **Editais de Projetos de Extensão**  
 > Chamadas e editais ligados aos projetos de extensão, da mais recente à mais antiga.
 >

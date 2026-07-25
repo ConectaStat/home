@@ -13,9 +13,13 @@ toc: false
 # (use editais/ ou projetos/ensino/softwares/ como modelo).
 listing:
   id: topicos-extensao
-  template: ../../_assets/cards.ejs
+  template: ../../_assets/cards-grid.ejs
   sort: false
   contents:
+    - title: "Ações de Extensão"
+      description: "Cursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade."
+      path: acoes/index.html
+      image: ../../images/topicos/naolinear.svg
     - title: "Editais de Projetos de Extensão"
       description: "Chamadas e editais ligados aos projetos de extensão, da mais recente à mais antiga."
       path: editais/index.html

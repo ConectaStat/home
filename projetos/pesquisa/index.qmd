@@ -13,7 +13,7 @@ toc: false
 # (use nucleos/ como modelo).
 listing:
   id: topicos-pesquisa
-  template: ../../_assets/cards.ejs
+  template: ../../_assets/cards-grid.ejs
   sort: false
   contents:
     - title: "Núcleos de Pesquisa"

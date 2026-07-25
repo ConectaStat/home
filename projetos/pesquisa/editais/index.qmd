@@ -2,6 +2,10 @@
 title: "Editais de Projetos de Pesquisa"
 subtitle: "Iniciação científica e demais chamadas ligadas à pesquisa."
 title-block-banner: true
+format:
+  html:
+    grid:
+      margin-width: 250px
 body-classes: cs-banner-densidades
 page-layout: article
 sidebar: false
@@ -15,7 +19,7 @@ listing:
   grid-columns: 3
   image-height: "172px"
   image-placeholder: ../../../images/post-placeholder.svg
-  categories: false
+  categories: true
   sort-ui: false
   filter-ui: false
   fields: [image, title, description, date]
@@ -27,5 +31,21 @@ listing:
 Editais e chamadas ligados aos projetos de pesquisa, do mais recente ao mais
 antigo.
 
+```{=html}
+<div class="projetos-acoes" id="projetos-acoes">
+  <a class="btn-enviar-projeto" href="../../../enviar.html?area=edital">
+    <i class="bi bi-send"></i> Envie um edital
+  </a>
+  <div class="busca-projetos">
+    <i class="bi bi-search"></i>
+    <input type="search" id="busca-projetos-input"
+           placeholder="Pesquisar editais..."
+           aria-label="Pesquisar por título, autor, tema ou fonte" />
+  </div>
+</div>
+```
+
+::: {.projetos-estudantes}
 ::: {#listagem-editais}
+:::
 :::

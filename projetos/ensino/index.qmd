@@ -13,7 +13,7 @@ toc: false
 # (use softwares/ ou materiais/ como modelo).
 listing:
   id: topicos-ensino
-  template: ../../_assets/cards.ejs
+  template: ../../_assets/cards-grid.ejs
   sort: false
   contents:
     - title: "Organização e Apresentação de Dados"

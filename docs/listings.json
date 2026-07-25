@@ -16,18 +16,8 @@
     "items": []
   },
   {
-    "listing": "/projetos/ensino/softwares/index.html",
+    "listing": "/projetos/extensao/acoes/index.html",
     "items": []
-  },
-  {
-    "listing": "/projetos/ensino/organizacao-e-apresentacao-de-dados/index.html",
-    "items": [
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-30-inmetro-pbev-2026/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-22-populacao-e-pib/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-15-vigitel-2019-2023/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-05-20-world-economic-outlook/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-04-14-transparencia-agu/index.html"
-    ]
   },
   {
     "listing": "/projetos/ensino/materiais/index.html",
@@ -90,6 +80,20 @@
   },
   {
     "listing": "/projetos/ensino/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projetos/ensino/organizacao-e-apresentacao-de-dados/index.html",
+    "items": [
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-30-inmetro-pbev-2026/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-22-populacao-e-pib/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-15-vigitel-2019-2023/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-05-20-world-economic-outlook/index.html",
+      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-04-14-transparencia-agu/index.html"
+    ]
+  },
+  {
+    "listing": "/projetos/ensino/softwares/index.html",
     "items": []
   },
   {

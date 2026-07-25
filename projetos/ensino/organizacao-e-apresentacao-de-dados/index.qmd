@@ -25,7 +25,7 @@ trabalhos e, quando estiver pronto, envie o seu.
 
 ```{=html}
 <div class="projetos-acoes" id="projetos-acoes">
-  <a class="btn-enviar-projeto" href="enviar.html">
+  <a class="btn-enviar-projeto" href="../../../enviar.html?area=projeto">
     <i class="bi bi-send"></i> Envie seu projeto
   </a>
   <div class="busca-projetos">

@@ -1,0 +1,199 @@
+---
+title: "Enviar conteúdo"
+subtitle: "Publique no Conexão Estatística: notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante."
+title-block-banner: true
+body-classes: cs-banner-rede
+page-layout: article
+sidebar: false
+toc: false
+aliases:
+  - /projetos/ensino/organizacao-e-apresentacao-de-dados/enviar.html
+---
+
+## Como funciona
+
+Preencha o formulário abaixo **sem sair do site**. Ao enviar, o GitHub abre em
+outra aba com a submissão **já preenchida**: é só revisar, anexar os arquivos
+e confirmar. Basta estar logado no GitHub (a conta é gratuita).
+
+A partir daí o robô monta a página sozinho e a equipe do departamento revisa
+antes de publicar. Você recebe a resposta na própria submissão.
+
+```{=html}
+<form class="form-submissao" id="form-submissao">
+  <div class="form-grid">
+    <div class="form-campo campo-inteiro">
+      <label for="sub-area">Onde isso deve ser publicado? <span class="req">*</span></label>
+      <select id="sub-area" required>
+        <option value="" disabled selected>Selecione a seção…</option>
+        <option>Notícia</option>
+        <option>Evento</option>
+        <option>Edital ou oportunidade</option>
+        <option>Artigo ou coluna</option>
+        <option>Software</option>
+        <option>Material didático</option>
+        <option>Ação de extensão</option>
+        <option>Projeto de estudante (Organização e Apresentação de Dados)</option>
+      </select>
+    </div>
+
+    <div class="form-campo">
+      <label for="sub-titulo">Título <span class="req">*</span></label>
+      <input type="text" id="sub-titulo" required
+             placeholder="Como deve aparecer na página e no card" />
+    </div>
+
+    <div class="form-campo">
+      <label for="sub-autor">Autoria <span class="req">*</span></label>
+      <input type="text" id="sub-autor" required
+             placeholder="Nome(s) ou usuário(s) do GitHub, como devem aparecer" />
+    </div>
+
+    <div class="form-campo">
+      <label for="sub-vinculo">Seu vínculo com o DES/UFLA <span class="req">*</span></label>
+      <select id="sub-vinculo" required>
+        <option value="" disabled selected>Selecione…</option>
+        <option>Discente</option>
+        <option>Docente</option>
+        <option>Técnico administrativo</option>
+        <option>Externo ao DES</option>
+      </select>
+    </div>
+
+    <div class="form-campo">
+      <label for="sub-data">Data</label>
+      <input type="date" id="sub-data" />
+      <p class="form-dica">Para evento, a data em que ele acontece. Em branco, usamos a de hoje.</p>
+    </div>
+
+    <div class="form-campo campo-inteiro">
+      <label for="sub-resumo">Resumo <span class="req">*</span></label>
+      <textarea id="sub-resumo" required
+                placeholder="De 1 a 4 frases. É o texto que aparece no card da listagem."></textarea>
+    </div>
+
+    <div class="form-campo campo-inteiro">
+      <label for="sub-texto">Texto da publicação <span class="req">*</span></label>
+      <textarea id="sub-texto" required
+                placeholder="O conteúdo em si. Pode ser curto: o costume do site é um resumo seguido do link para a fonte oficial."></textarea>
+    </div>
+
+    <div class="form-campo">
+      <label for="sub-categorias">Categorias</label>
+      <input type="text" id="sub-categorias"
+             placeholder="Separadas por vírgula. Ex.: R, Saúde" />
+    </div>
+
+    <div class="form-campo">
+      <label for="sub-link" id="rotulo-link">Link principal</label>
+      <input type="url" id="sub-link" placeholder="https://" />
+    </div>
+
+    <div class="form-campo campo-inteiro">
+      <label for="sub-repositorio">Repositório no GitHub</label>
+      <input type="url" id="sub-repositorio" placeholder="https://github.com/usuario/projeto" />
+    </div>
+
+    <div class="form-campo campo-inteiro" id="campo-relatorio" hidden>
+      <label for="sub-relatorio">Link do relatório no GitHub</label>
+      <input type="url" id="sub-relatorio"
+             placeholder="https://github.com/usuario/projeto/blob/main/relatorio.html" />
+      <p class="form-dica">Vai <strong>anexar o arquivo</strong> em vez de usar link?
+         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.
+         HTML deve ir compactado em <code>.zip</code>; PDF pode ir direto.</p>
+    </div>
+  </div>
+
+  <div class="form-acoes">
+    <button type="submit" class="btn-enviar-github">
+      <i class="bi bi-github"></i> Revisar e enviar no GitHub
+    </button>
+    <span class="form-legenda">* obrigatório</span>
+  </div>
+  <p class="form-status" id="form-submissao-status" role="status"></p>
+</form>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var form = document.getElementById("form-submissao");
+  if (!form) return;
+
+  var area = document.getElementById("sub-area");
+
+  // A área pode vir escolhida pelo botão da seção: /enviar.html?area=software
+  var ATALHOS = {
+    noticia: "Notícia",
+    evento: "Evento",
+    edital: "Edital ou oportunidade",
+    artigo: "Artigo ou coluna",
+    software: "Software",
+    material: "Material didático",
+    extensao: "Ação de extensão",
+    projeto: "Projeto de estudante (Organização e Apresentação de Dados)"
+  };
+  var pedida = new URLSearchParams(location.search).get("area");
+  if (pedida && ATALHOS[pedida]) area.value = ATALHOS[pedida];
+
+  // Campos e rótulos que mudam conforme a seção escolhida
+  var ROTULO_LINK = {
+    "Software": "Link para download ou uso",
+    "Material didático": "Link para acessar o material",
+    "Edital ou oportunidade": "Link do edital completo",
+    "Evento": "Link de inscrição ou informações"
+  };
+
+  function ajusta() {
+    var ehProjeto = area.value.indexOf("Projeto de estudante") === 0;
+    document.getElementById("campo-relatorio").hidden = !ehProjeto;
+    document.getElementById("sub-relatorio").required = false;
+    document.getElementById("rotulo-link").textContent =
+      ROTULO_LINK[area.value] || "Link principal";
+  }
+  area.addEventListener("change", ajusta);
+  ajusta();
+
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var v = function (id) {
+      var el = document.getElementById(id);
+      return el ? el.value.trim() : "";
+    };
+
+    var p = new URLSearchParams();
+    p.set("template", "submissao.yml");
+    p.set("title", "[Envio] " + v("sub-titulo"));
+    p.set("area", v("sub-area"));
+    p.set("titulo", v("sub-titulo"));
+    p.set("autor", v("sub-autor"));
+    p.set("vinculo", v("sub-vinculo"));
+    p.set("resumo", v("sub-resumo"));
+    p.set("texto", v("sub-texto"));
+    if (v("sub-data"))        p.set("data", v("sub-data"));
+    if (v("sub-categorias"))  p.set("categorias", v("sub-categorias"));
+    if (v("sub-link"))        p.set("link", v("sub-link"));
+    if (v("sub-repositorio")) p.set("repositorio", v("sub-repositorio"));
+    if (v("sub-relatorio"))   p.set("relatorio", v("sub-relatorio"));
+
+    var url = "https://github.com/ConectaStat/conectastat.github.io/issues/new?" + p.toString();
+
+    var a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+
+    document.getElementById("form-submissao-status").innerHTML =
+      'Abrimos o GitHub em outra aba com sua submissão preenchida: revise, ' +
+      'anexe os arquivos (relatório e capa, se houver) e clique em <em>Create</em>. ' +
+      'Não abriu? <a href="' + url + '" target="_blank" rel="noopener">Clique aqui</a>.';
+  });
+});
+</script>
+```
+
+Os **arquivos** são anexados na tela do GitHub que abre: a imagem de capa e,
+no caso dos projetos de estudante, o relatório em `.html` (compactado em
+`.zip`) ou `.pdf`. Basta arrastar cada um para o campo correspondente antes de
+clicar em *Create*.

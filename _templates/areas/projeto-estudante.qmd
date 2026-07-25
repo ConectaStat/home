@@ -1,0 +1,36 @@
+---
+title: "{{titulo}}"
+description: "{{resumo}}"
+author: "{{autor}}"
+date: "{{data}}"
+<!--se:thumbnail-->image: "thumbnail.png"
+<!--/se-->categories: [{{categorias}}]
+---
+
+```{=html}
+<a class="btn-voltar" href="../../index.html"
+   onclick="if (document.referrer && new URL(document.referrer).origin === location.origin) { history.back(); return false; }">
+  <i class="bi bi-arrow-left"></i> Voltar
+</a>
+```
+
+{{texto}}
+
+```{=html}
+<div class="report-nativo">
+  <iframe src="relatorios/relatorio.html"
+          title="Relatório: {{titulo}}"></iframe>
+</div>
+
+<div class="projeto-links">
+  <a href="relatorios/relatorio.html" target="_blank" rel="noopener">
+    <i class="bi bi-arrows-fullscreen"></i> Relatório em tela cheia
+  </a>
+<!--se:apresentacao-->  <a href="relatorios/apresentacao.html" target="_blank" rel="noopener">
+    <i class="bi bi-easel"></i> Apresentação de slides
+  </a>
+<!--/se--><!--se:repositorio-->  <a href="{{repositorio}}" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i> Código-fonte no GitHub
+  </a>
+<!--/se--></div>
+```

@@ -1,0 +1,13 @@
+---
+title: "{{titulo}}"
+description: "{{resumo}}"
+author: "{{autor}}"
+date: "{{data}}"
+<!--se:thumbnail-->image: "thumbnail.png"
+<!--/se-->categories: [{{categorias}}]
+---
+
+{{texto}}
+
+<!--se:link-->[Ler o edital completo »]({{link}})
+<!--/se-->
