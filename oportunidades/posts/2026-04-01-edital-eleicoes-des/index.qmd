@@ -3,7 +3,6 @@ title: "Edital: Eleições para Chefe e Subchefe do DES (2026-2030)"
 description: "Convocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA."
 author: "Departamento de Estatística da UFLA"
 date: "2026-04-01"
-image: "thumbnail.png"
 categories: [Oportunidades, Editais]
 ---
 

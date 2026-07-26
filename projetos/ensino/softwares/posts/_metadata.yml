@@ -1,0 +1,3 @@
+# Capa padrão dos posts de Softwares que não trazem imagem própria.
+# O `image:` do front matter de um post vence esta linha.
+image: /images/capa-padrao.png

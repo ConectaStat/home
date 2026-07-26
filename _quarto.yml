@@ -25,17 +25,21 @@ lang: pt
 
 website:
   title: "Conexão Estatística"
-  image: images/logo_ufla_transparente.png
+  # Prévia dos links compartilhados (WhatsApp, LinkedIn, Telegram). Precisa ser
+  # PNG ou JPEG: as redes não leem SVG. O fonte editável é o capa-social.svg.
+  # A barra inicial é obrigatória: sem ela o caminho é resolvido a partir da
+  # pasta de cada página e vira /artigos/images/..., que não existe.
+  image: /images/capa-social.png
   favicon: images/ufla_favicon.ico
   open-graph: true
-  site-url: https://conectastat.github.io/home/
-  repo-url: https://github.com/ConectaStat/home
+  site-url: https://conectastat.github.io
+  repo-url: https://github.com/ConectaStat/conectastat.github.io
   ##
   navbar:
     toggle-position: right
     background: "#0a3f66"
-    # Sem o nome do site: só o slogan no topo esquerdo, no mesmo estilo
-    # "prompt" da hero (Ciência/ Estatística/ Conexão em fonte mono)
+    # Sem o nome do site: só o slogan no topo esquerdo, no mesmo desenho da
+    # hero (Ciência/ Estatística/ Conexão empilhados, em Inter semibold)
     title: '<span class="nav-tagline"><span>Ciência<span class="tag-barra">/</span></span> <span class="tag-verde">Estatística<span class="tag-barra">/</span></span> <span>Conexão</span></span>'
     collapse-below: lg
     right:
@@ -72,7 +76,7 @@ website:
     left: |
       [Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.]{.footer-disclaimer}
     center:
-      - href: https://github.com/ConectaStat/home
+      - href: https://github.com/ConectaStat/conectastat.github.io
         icon: github
         aria-label: GitHub
       - href: "#"

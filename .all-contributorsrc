@@ -73,7 +73,7 @@
     "coordenacao": {
       "symbol": "📊",
       "description": "Coordenação do projeto",
-      "link": "https://github.com/[[login]]"
+      "link": "https://github.com/<%= contributor.login %>"
     },
     "content": {
       "symbol": "📈",
@@ -83,27 +83,27 @@
     "code": {
       "symbol": "💻",
       "description": "Código",
-      "link": "https://github.com/ConectaStat/conectastat.github.io/commits?author=[[login]]"
+      "link": "https://github.com/ConectaStat/conectastat.github.io/commits?author=<%= contributor.login %>"
     },
     "bug": {
       "symbol": "🐛",
       "description": "Correção de erro",
-      "link": "https://github.com/ConectaStat/conectastat.github.io/issues?q=author%3A[[login]]"
+      "link": "https://github.com/ConectaStat/conectastat.github.io/issues?q=author%3A<%= contributor.login %>"
     },
     "ideas": {
       "symbol": "💡",
       "description": "Ideias e sugestões",
-      "link": "https://github.com/ConectaStat/conectastat.github.io/issues?q=author%3A[[login]]"
+      "link": "https://github.com/ConectaStat/conectastat.github.io/issues?q=author%3A<%= contributor.login %>"
     },
     "design": {
       "symbol": "🎨",
       "description": "Design",
-      "link": "https://github.com/[[login]]"
+      "link": "https://github.com/<%= contributor.login %>"
     },
     "translation": {
       "symbol": "🌍",
       "description": "Tradução",
-      "link": "https://github.com/[[login]]"
+      "link": "https://github.com/<%= contributor.login %>"
     }
   }
 }

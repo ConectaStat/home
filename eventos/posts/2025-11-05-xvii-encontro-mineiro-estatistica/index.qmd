@@ -3,7 +3,6 @@ title: "XVII Encontro Mineiro de Estatística (MGEST) 2025"
 description: "Evento bienal que, desde 1999, reúne profissionais, docentes e estudantes da área de Estatística de Minas Gerais e do Brasil."
 author: "Departamento de Estatística da UFLA"
 date: "2025-11-05"
-image: "thumbnail.png"
 categories: [Eventos]
 ---
 

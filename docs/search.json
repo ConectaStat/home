@@ -18,7 +18,7 @@
     "href": "projetos/pesquisa/nucleos/st/index.html#como-participar",
     "title": "ST",
     "section": "Como participar",
-    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
+    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou procure a coordenação pelo site do DES."
   },
   {
     "objectID": "projetos/pesquisa/nucleos/index.html",
@@ -175,39 +175,18 @@
     "text": "O Painel dos Egressos reúne, em um dashboard interativo, a trajetória dos egressos da graduação e da pós-graduação em Estatística da UFLA: os setores em que atuam, as regiões do país e do exterior para onde foram e a formação continuada que seguiram após o curso.\n\n\n  \n  Painel interativo em construção\n  Em breve: o dashboard com a trajetória dos egressos da graduação e da\n     pós-graduação (setores de atuação, regiões e formação continuada)."
   },
   {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
+    "objectID": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
+    "href": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
+    "title": "Modelos da classe GLARMA(p,q): séries temporais de contagem",
     "section": "",
-    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
+    "text": "Palestra do Departamento de Estatística da UFLA sobre os modelos da classe GLARMA(p,q), uma alternativa para a modelagem de séries temporais de contagem.\nVer no site do DES/UFLA »"
   },
   {
-    "objectID": "contato.html#onde-estamos",
-    "href": "contato.html#onde-estamos",
-    "title": "Contato",
+    "objectID": "artigos/index.html",
+    "href": "artigos/index.html",
+    "title": "Artigos & Colunas",
     "section": "",
-    "text": "Departamento de Estatística da UFLA Trevo Rotatório Professor Edmir Sá Santos, s/n Campus Universitário, Lavras/MG CEP 37203-202 · Caixa Postal 3037"
-  },
-  {
-    "objectID": "contato.html#canais",
-    "href": "contato.html#canais",
-    "title": "Contato",
-    "section": "Canais",
-    "text": "Canais\n\nSite institucional: des.ufla.br\nGitHub do projeto: github.com/ConectaStat/home\n\n\nVisitar o site do DES"
-  },
-  {
-    "objectID": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
-    "href": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
-    "title": "Introdução ao crescimento de seres vivos: indivíduo ou população?",
-    "section": "",
-    "text": "Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre a modelagem do crescimento de seres vivos, abordando as perspectivas do indivíduo e da população.\nVer no site do DES/UFLA »"
-  },
-  {
-    "objectID": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
-    "href": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
-    "title": "Polinômios de Hermite: definições, propriedades e aplicações",
-    "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os polinômios de Hermite, suas definições, propriedades e aplicações na Estatística.\nVer no site do DES/UFLA »"
+    "text": "Introdução ao crescimento de seres vivos: indivíduo ou população?\n\n\nPalestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n3 de set. de 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelos da classe GLARMA(p,q): séries temporais de contagem\n\n\nPalestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n16 de nov. de 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolinômios de Hermite: definições, propriedades e aplicações\n\n\nPalestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n5 de dez. de 2019\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "acoes/revista-cientifica/index.html",
@@ -231,18 +210,18 @@
     "text": "Como submeter\nAutores interessados encontram as normas de submissão e o sistema de envio no site oficial do periódico."
   },
   {
-    "objectID": "artigos/index.html",
-    "href": "artigos/index.html",
-    "title": "Artigos & Colunas",
+    "objectID": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
+    "href": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
+    "title": "Polinômios de Hermite: definições, propriedades e aplicações",
     "section": "",
-    "text": "Introdução ao crescimento de seres vivos: indivíduo ou população?\n\n\nPalestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n3 de set. de 2021\n\n\n\n\n\n\n\n\n\n\n\nModelos da classe GLARMA(p,q): séries temporais de contagem\n\n\nPalestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n16 de nov. de 2020\n\n\n\n\n\n\n\n\n\n\n\nPolinômios de Hermite: definições, propriedades e aplicações\n\n\nPalestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n5 de dez. de 2019\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Palestra do Departamento de Estatística da UFLA sobre os polinômios de Hermite, suas definições, propriedades e aplicações na Estatística.\nVer no site do DES/UFLA »"
   },
   {
-    "objectID": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
-    "href": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
-    "title": "Modelos da classe GLARMA(p,q): séries temporais de contagem",
+    "objectID": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
+    "href": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
+    "title": "Introdução ao crescimento de seres vivos: indivíduo ou população?",
     "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os modelos da classe GLARMA(p,q), uma alternativa para a modelagem de séries temporais de contagem.\nVer no site do DES/UFLA »"
+    "text": "Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre a modelagem do crescimento de seres vivos, abordando as perspectivas do indivíduo e da população.\nVer no site do DES/UFLA »"
   },
   {
     "objectID": "cursos/graduacao/index.html",
@@ -375,7 +354,7 @@
     "href": "projetos/ensino/materiais/index.html",
     "title": "Materiais",
     "section": "",
-    "text": "Materiais didáticos produzidos nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n     Envie um material\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\neda teste\n\n\neda 2\n\n\n\n6 de jul. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Materiais didáticos produzidos nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n     Envie um material\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\neda teste\n\n\neda 2\n\n\n\n6 de jul. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/ensino/organizacao-e-apresentacao-de-dados/index.html",
@@ -438,7 +417,7 @@
     "href": "projetos/pesquisa/nucleos/gps/index.html#como-participar",
     "title": "GPS",
     "section": "Como participar",
-    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
+    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou procure a coordenação pelo site do DES."
   },
   {
     "objectID": "projetos/pesquisa/nucleos/nlin/index.html",
@@ -459,6 +438,6 @@
     "href": "projetos/pesquisa/nucleos/nlin/index.html#como-participar",
     "title": "NLIN",
     "section": "Como participar",
-    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou entre em contato."
+    "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou procure a coordenação pelo site do DES."
   }
 ]

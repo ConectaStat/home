@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img"
+     aria-label="Conexão Estatística: histograma com a curva normal ajustada">
+  <!-- Imagem de compartilhamento do site (campo `image:` do _quarto.yml): é o
+       que aparece na prévia quando alguém cola um endereço do site no WhatsApp,
+       no LinkedIn ou no Telegram. Mesmo desenho da capa-padrao.svg, em negativo
+       sobre o $cs-blue-dark #0a3f66 da barra do topo e do rodapé.
+       1200x630 é a proporção que as redes esperam (1,91:1); fora dela a imagem
+       aparece cortada. As redes não leem SVG: quem vai publicado é o
+       capa-social.png, gerado deste arquivo. Para refazer o PNG, veja o
+       README (seção de imagens). -->
+  <rect width="1200" height="630" fill="#0a3f66"/>
+
+  <g fill="none" stroke="#ffffff">
+    <line x1="120" y1="523" x2="1080" y2="523" stroke-width="3" stroke-opacity=".45"/>
+    <g stroke-width="3" stroke-opacity=".35">
+      <rect x="200" y="467" width="100" height="56"/>
+      <rect x="308" y="383" width="100" height="140"/>
+      <rect x="416" y="252" width="100" height="271"/>
+      <rect x="524" y="168" width="100" height="355"/>
+      <rect x="632" y="243" width="100" height="280"/>
+      <rect x="740" y="373" width="100" height="150"/>
+      <rect x="848" y="457" width="100" height="66"/>
+    </g>
+    <path stroke="#1a8a4c" stroke-width="5" stroke-linecap="round"
+          d="M150,515 C330,509 400,439 480,280 C530,182 560,142 574,142
+             C590,142 620,189 670,285 C750,439 830,509 1050,515"/>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="40"
+     font-weight="800" letter-spacing="-1.4">
+    <text x="120" y="114" fill="#ffffff">Ciência<tspan fill="#ffffff" fill-opacity=".55">/</tspan></text>
+    <text x="120" y="157" fill="#1a8a4c">Estatística<tspan fill="#ffffff" fill-opacity=".55">/</tspan></text>
+    <text x="120" y="200" fill="#ffffff">Conexão</text>
+  </g>
+</svg>

@@ -41,8 +41,8 @@ Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publica
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Leocarletto"><img src="https://avatars.githubusercontent.com/u/290053745?v=4?s=100" width="100px;" alt="Leonardo Carletto"/><br /><sub><b>Leonardo Carletto</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=[[login]]" title="Código">💻</a> <a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a> <a href="https://github.com/[[login]]" title="Coordenação do projeto">📊</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/uaipedro"><img src="https://avatars.githubusercontent.com/u/44395968?v=4?s=100" width="100px;" alt="Pedro Mambelli Fernandes"/><br /><sub><b>Pedro Mambelli Fernandes</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=[[login]]" title="Código">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Leocarletto"><img src="https://avatars.githubusercontent.com/u/290053745?v=4?s=100" width="100px;" alt="Leonardo Carletto"/><br /><sub><b>Leonardo Carletto</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=Leocarletto" title="Código">💻</a> <a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a> <a href="https://github.com/Leocarletto" title="Coordenação do projeto">📊</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/uaipedro"><img src="https://avatars.githubusercontent.com/u/44395968?v=4?s=100" width="100px;" alt="Pedro Mambelli Fernandes"/><br /><sub><b>Pedro Mambelli Fernandes</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=uaipedro" title="Código">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/PedroEu781"><img src="https://avatars.githubusercontent.com/u/153462117?v=4?s=100" width="100px;" alt="Pedro"/><br /><sub><b>Pedro</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Carolinabrito1304"><img src="https://avatars.githubusercontent.com/u/290053524?v=4?s=100" width="100px;" alt="Carolina Brito"/><br /><sub><b>Carolina Brito</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/amacielp73"><img src="https://avatars.githubusercontent.com/u/288349650?v=4?s=100" width="100px;" alt="André Maciel"/><br /><sub><b>André Maciel</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
@@ -115,7 +115,7 @@ A marca 📊 é atribuída a quem se identifica como **docente** ao enviar uma c
 conectastat.github.io/
 ├── _quarto.yml                 configuração do site e menu
 ├── index.qmd                   página inicial
-├── contato.qmd
+├── enviar.qmd                  formulário de envio de conteúdo
 ├── _assets/                    tema (.scss e .css) e template de cards
 ├── _includes/                  HTML injetado em todas as páginas
 ├── _templates/                 modelos para começar um post
@@ -181,6 +181,9 @@ As seções com conteúdo datado (Notícias, Oportunidades, Eventos e Artigos) t
 | `_includes/` | JavaScript das listagens e transições entre páginas |
 | `_templates/` | modelos para começar um post novo |
 | `images/topicos/` | capas dos cards de tópico da área de Projetos |
+| `images/capa-padrao.svg` e `.png` | capa dos posts sem imagem própria, fundo branco |
+| `images/capa-padrao-azul.svg` e `.png` | a mesma em fundo azul, para Notícias, Oportunidades e Eventos |
+| `images/capa-social.svg` e `.png` | prévia dos links compartilhados em redes e mensageiros |
 | `scripts/` | automações do build, descritas mais abaixo |
 | `TEXTOS.md` | mapa de todos os textos do site, para revisão editorial |
 | `docs/` | saída do build, gerada automaticamente e nunca editada à mão |
@@ -217,7 +220,32 @@ Nada além disso. Você nunca precisa editar o menu nem cadastrar o conteúdo em
 
 Salve como `thumbnail.png` dentro da pasta do post, em formato paisagem 16:9 (por exemplo 1200 por 675), e mantenha a linha `image: "thumbnail.png"` no cabeçalho.
 
-Se não houver capa, apague a linha `image:`. O site usa a capa padrão e, no próximo render completo, o gerador automático tenta criar uma a partir da própria página ou do relatório. Evite arquivos grandes: acima de 500 KB, reduza antes de subir.
+Se não houver capa, apague a linha `image:`: o site usa a capa padrão da seção. Evite arquivos grandes: acima de 500 KB, reduza antes de subir.
+
+São duas capas padrão, as duas com o mesmo desenho (histograma com a curva normal ajustada, na linguagem dos gráficos que aparecem ao fundo dos banners de seção):
+
+| Capa | Onde vale |
+|---|---|
+| `images/capa-padrao-azul.png` | Notícias, Oportunidades e Eventos |
+| `images/capa-padrao.png` | Artigos, Projetos e todo o resto |
+
+Cada uma está declarada em um `posts/_metadata.yml`, que o Quarto aplica a todos os posts da pasta. A capa passa a pertencer ao post, e não à página: por isso um mesmo edital aparece com a capa azul tanto em Oportunidades quanto nas três páginas de Editais dentro de Projetos, que listam os mesmos arquivos.
+
+Para trocar o desenho de uma seção inteira, edite o `image:` do `_metadata.yml` dela. Para trocar em todas, refaça o PNG.
+
+Não use `image-placeholder:` nas listagens: o Quarto só o aplica nos templates nativos de grade, e as listagens de manchete deste site usam o `_assets/cards.ejs`, que não recebe as opções da listagem.
+
+Uma exceção: em Organização e Apresentação de Dados, um post sem `image:` ganha capa automática no próximo render completo, recortada de um gráfico do próprio relatório. Ali o desenho de verdade vale mais que a capa genérica. As demais seções não têm geração automática.
+
+De cada capa existem duas versões: o `.svg`, que é o desenho editável, e o `.png` gerado a partir dele, que é o publicado. O PNG é obrigatório porque a mesma imagem serve de prévia quando alguém cola o link do post no WhatsApp, no LinkedIn ou no Telegram, e essas redes não leem SVG.
+
+Depois de editar um SVG, refaça o PNG correspondente:
+
+```
+chrome --headless --screenshot=images/capa-padrao.png --window-size=1200,675 images/capa-padrao.svg
+```
+
+As duas capas de post são 1200 por 675, a mesma proporção dos cards. O `images/capa-social.svg`, que é a prévia dos endereços do site em si e não de um post, é 1200 por 630: essa é a proporção que as redes esperam, e fora dela a imagem aparece cortada.
 
 ### Conferindo antes de publicar
 
@@ -404,7 +432,7 @@ Enquanto estiverem vazias, o `quarto render` avisa que a listagem não encontrou
 
 Estas mudam com pouca frequência e são editadas direto no arquivo, sem criar pasta nova.
 
-**Páginas de texto.** Estatística, Assessoria e Consultoria, Revista Científica, Contato, Graduação, Pós-Graduação e Painel dos Egressos: abra o `index.qmd` da pasta correspondente e edite o texto.
+**Páginas de texto.** Estatística, Assessoria e Consultoria, Revista Científica, Graduação, Pós-Graduação e Painel dos Egressos: abra o `index.qmd` da pasta correspondente e edite o texto.
 
 **Núcleo de pesquisa novo.** Crie `projetos/pesquisa/nucleos/<sigla>/index.qmd` copiando `nlin/`, `gps/` ou `st/`, e acrescente uma linha na listagem de `projetos/pesquisa/nucleos/index.qmd`:
 
@@ -523,4 +551,4 @@ Decisões em aberto e trabalhos que ainda serão feitos. Ao concluir um item, re
 
 **Disclaimer.** O texto provisório abaixo da hero será substituído pelo definitivo.
 
-**Endereço e nome.** O endereço público e o nome do repositório ainda trazem a marca antiga do projeto. Ao renomear a organização no GitHub, atualizar `site-url` e `repo-url` no `_quarto.yml` e o link em `contato.qmd`.
+**Endereço e nome.** O endereço público e o nome do repositório ainda trazem a marca antiga do projeto. Ao renomear a organização no GitHub, atualizar `site-url` e `repo-url` no `_quarto.yml` e o link do GitHub no rodapé.

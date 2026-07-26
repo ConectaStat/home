@@ -6,17 +6,15 @@
       version="2.0">
 <channel>
 <title>Conexão Estatística</title>
-<link>https://conectastat.github.io/home/projetos/extensao/acoes/</link>
-<atom:link href="https://conectastat.github.io/home/projetos/extensao/acoes/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://conectastat.github.io/projetos/extensao/acoes/</link>
+<atom:link href="https://conectastat.github.io/projetos/extensao/acoes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://conectastat.github.io/home/images/logo_ufla_transparente.png</url>
+<url>https://conectastat.github.io/images/capa-social.png</url>
 <title>Conexão Estatística</title>
-<link>https://conectastat.github.io/home/projetos/extensao/acoes/</link>
-<height>59</height>
-<width>144</width>
+<link>https://conectastat.github.io/projetos/extensao/acoes/</link>
 </image>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 25 Jul 2026 23:22:50 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sun, 26 Jul 2026 02:23:10 GMT</lastBuildDate>
 </channel>
 </rss>

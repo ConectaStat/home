@@ -135,7 +135,6 @@ ORDEM = [
     ("Notícias (arquivo)", "noticias/index.qmd", []),
     ("Oportunidades (arquivo)", "oportunidades/index.qmd", []),
     ("Artigos & Colunas (arquivo)", "artigos/index.qmd", []),
-    ("Contato", "contato.qmd", []),
     ("Enviar conteúdo (formulário do site)", "enviar.qmd", []),
 ]
 
@@ -253,7 +252,7 @@ home/
 ├── eventos/        │    index.qmd ── página de arquivo ......... §4
 ├── artigos/        ┘    posts/ ───── conteúdo datado ........... §5
 │
-└── contato.qmd ───────────────── Contato
+└── enviar.qmd ────────────────── Formulário de envio
 ```
 
 ---

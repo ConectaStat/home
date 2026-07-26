@@ -7,7 +7,6 @@ listing:
   contents: posts
   sort: "date desc"
   template: ../_assets/cards.ejs
-  image-placeholder: ../images/post-placeholder.svg
   feed: true
 ---
 

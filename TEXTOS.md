@@ -68,7 +68,7 @@ home/
 ├── eventos/        │    index.qmd ── página de arquivo ......... §4
 ├── artigos/        ┘    posts/ ───── conteúdo datado ........... §5
 │
-└── contato.qmd ───────────────── Contato
+└── enviar.qmd ────────────────── Formulário de envio
 ```
 
 ---
@@ -93,7 +93,6 @@ index.qmd
 >
 >   Ciência/
 >   Estatística/
->   Conexão
 
 
 ### Disclaimer abaixo da hero
@@ -618,7 +617,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 >
 > O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
 > chamadas na seção de [oportunidades](../../../../index.qmd#oportunidades) ou
-> [entre em contato](../../../../contato.qmd).
+> procure a coordenação pelo [site do DES](https://des.ufla.br/).
 
 
 ### Projetos › Pesquisa › Núcleos › GPS
@@ -647,7 +646,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 >
 > O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
 > chamadas na seção de [oportunidades](../../../../index.qmd#oportunidades) ou
-> [entre em contato](../../../../contato.qmd).
+> procure a coordenação pelo [site do DES](https://des.ufla.br/).
 
 
 ### Projetos › Pesquisa › Núcleos › ST
@@ -676,7 +675,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 >
 > O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
 > chamadas na seção de [oportunidades](../../../../index.qmd#oportunidades) ou
-> [entre em contato](../../../../contato.qmd).
+> procure a coordenação pelo [site do DES](https://des.ufla.br/).
 
 
 ### Projetos › Pesquisa › Editais
@@ -849,31 +848,6 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 **Texto da página:**
 
 > *(sem texto próprio — a página só exibe a listagem)*
-
-
-### Contato
-`contato.qmd`
-
-**Título (aparece no banner):** Contato
-
-**Subtítulo:** Fale com o Departamento de Estatística da UFLA.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> ## Onde estamos
->
-> **Departamento de Estatística da UFLA**
-> Trevo Rotatório Professor Edmir Sá Santos, s/n
-> Campus Universitário, Lavras/MG
-> CEP 37203-202 · Caixa Postal 3037
->
-> ## Canais
->
-> - Site institucional: [des.ufla.br](https://des.ufla.br/)
-> - GitHub do projeto: [github.com/ConectaStat/home](https://github.com/ConectaStat/home)
->
-> [Visitar o site do DES](https://des.ufla.br/)
 
 
 ### Enviar conteúdo (formulário do site)

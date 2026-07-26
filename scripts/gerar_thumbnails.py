@@ -3,23 +3,24 @@
 Gera thumbnails/capas automáticas para os posts do site.
 
 Cada post é um "page bundle": <seção>/posts/AAAA-MM-DD-slug/index.qmd, com a
-capa e os anexos na mesma pasta. Seções cobertas e como a capa é obtida
-quando o post NÃO tem `image:`:
+capa e os anexos na mesma pasta. Quem manda é a lista SECOES, mais abaixo;
+hoje só uma seção entra, e o resto do site usa capa padrão fixa.
 
   • Organização e Apresentação de Dados (modo "relatorio")
       Abre o relatório HTML embutido no post (iframe de relatorios/...) e
       fotografa o elemento mais colorido (gráfico, mapa, figura).
 
-  • Notícias, Oportunidades e Eventos (modo "pagina")
-      Abre a página já renderizada em docs/ (rode `quarto render` antes),
-      esconde navbar/rodapé e:
-        - se houver figura/gráfico colorido no corpo, fotografa o melhor;
-        - senão, fotografa o topo da própria notícia (banner do título +
-          primeiras linhas) — a "foto da notícia".
+O modo "pagina" continua implementado e disponível: ele abre a página já
+renderizada em docs/, esconde navbar/rodapé e fotografa a melhor figura do
+corpo ou, na falta dela, o topo do texto. Nenhuma seção usa esse modo hoje,
+porque para posts curtos ele produzia o retrato do próprio texto. Para voltar
+a usá-lo, basta acrescentar a seção em SECOES.
 
-Em todos os casos o recorte é 16:9 (1200×675), salvo como thumbnail.png na
-pasta do próprio post, e o `image:` é preenchido no front matter
-automaticamente.
+O recorte é 16:9 (1200×675), salvo como thumbnail.png na pasta do próprio
+post, e o `image:` é preenchido no front matter automaticamente.
+
+Posts sem capa própria e fora de SECOES ficam com a capa padrão da seção,
+declarada como `image-placeholder:` no cabeçalho de cada listagem.
 
 Uso:
     python scripts/gerar_thumbnails.py                  # todos os posts sem capa
@@ -64,11 +65,15 @@ if not SITE.is_absolute():
     SITE = RAIZ / SITE
 
 # Seções do site que ganham capa automática (os posts ficam em <pasta>/posts/)
+#
+# Só a área de análises: ali a capa sai de um gráfico de verdade, feito pelo
+# estudante, e vale mais que qualquer desenho genérico. Notícias, Oportunidades
+# e Eventos saíram daqui: para elas o "melhor visual" era o retrato do próprio
+# texto da página, com o título repetido dentro da imagem e meio quadro em
+# branco. Essas três usam a capa padrão azul (images/capa-padrao-azul.svg),
+# declarada como image-placeholder nas listagens.
 SECOES = [
     {"pasta": "projetos/ensino/organizacao-e-apresentacao-de-dados", "modo": "relatorio"},
-    {"pasta": "noticias",       "modo": "pagina"},
-    {"pasta": "oportunidades",  "modo": "pagina"},
-    {"pasta": "eventos",        "modo": "pagina"},
 ]
 
 LARGURA_THUMB, ALTURA_THUMB = 1200, 675          # 16:9, mesmo dos cards

@@ -6,22 +6,20 @@
       version="2.0">
 <channel>
 <title>Conexão Estatística</title>
-<link>https://conectastat.github.io/home/oportunidades/</link>
-<atom:link href="https://conectastat.github.io/home/oportunidades/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://conectastat.github.io/oportunidades/</link>
+<atom:link href="https://conectastat.github.io/oportunidades/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://conectastat.github.io/home/images/logo_ufla_transparente.png</url>
+<url>https://conectastat.github.io/images/capa-social.png</url>
 <title>Conexão Estatística</title>
-<link>https://conectastat.github.io/home/oportunidades/</link>
-<height>59</height>
-<width>144</width>
+<link>https://conectastat.github.io/oportunidades/</link>
 </image>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 01 Apr 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Wed, 01 Apr 2026 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Edital: Eleições para Chefe e Subchefe do DES (2026-2030)</title>
   <dc:creator>Departamento de Estatística da UFLA</dc:creator>
-  <link>https://conectastat.github.io/home/oportunidades/posts/2026-04-01-edital-eleicoes-des/</link>
+  <link>https://conectastat.github.io/oportunidades/posts/2026-04-01-edital-eleicoes-des/</link>
   <description><![CDATA[ 
 
 
@@ -36,14 +34,14 @@
  ]]></description>
   <category>Oportunidades</category>
   <category>Editais</category>
-  <guid>https://conectastat.github.io/home/oportunidades/posts/2026-04-01-edital-eleicoes-des/</guid>
-  <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://conectastat.github.io/home/oportunidades/posts/2026-04-01-edital-eleicoes-des/thumbnail.png" medium="image" type="image/png" height="81" width="144"/>
+  <guid>https://conectastat.github.io/oportunidades/posts/2026-04-01-edital-eleicoes-des/</guid>
+  <pubDate>Wed, 01 Apr 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Edital Nº 003/2026: Seleção de monitores voluntários</title>
   <dc:creator>Departamento de Estatística da UFLA</dc:creator>
-  <link>https://conectastat.github.io/home/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/</link>
+  <link>https://conectastat.github.io/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/</link>
   <description><![CDATA[ 
 
 
@@ -57,14 +55,14 @@
  ]]></description>
   <category>Oportunidades</category>
   <category>Editais</category>
-  <guid>https://conectastat.github.io/home/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/</guid>
-  <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://conectastat.github.io/home/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/thumbnail.png" medium="image" type="image/png" height="81" width="144"/>
+  <guid>https://conectastat.github.io/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/</guid>
+  <pubDate>Fri, 20 Feb 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Edital Nº 002/2026: Seleção de monitores voluntários</title>
   <dc:creator>Departamento de Estatística da UFLA</dc:creator>
-  <link>https://conectastat.github.io/home/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/</link>
+  <link>https://conectastat.github.io/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/</link>
   <description><![CDATA[ 
 
 
@@ -78,14 +76,14 @@
  ]]></description>
   <category>Oportunidades</category>
   <category>Editais</category>
-  <guid>https://conectastat.github.io/home/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/</guid>
-  <pubDate>Sun, 15 Feb 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://conectastat.github.io/home/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/thumbnail.png" medium="image" type="image/png" height="81" width="144"/>
+  <guid>https://conectastat.github.io/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/</guid>
+  <pubDate>Sun, 15 Feb 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)</title>
   <dc:creator>Departamento de Estatística da UFLA</dc:creator>
-  <link>https://conectastat.github.io/home/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/</link>
+  <link>https://conectastat.github.io/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/</link>
   <description><![CDATA[ 
 
 
@@ -99,9 +97,9 @@
  ]]></description>
   <category>Oportunidades</category>
   <category>Editais</category>
-  <guid>https://conectastat.github.io/home/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/</guid>
-  <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://conectastat.github.io/home/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/thumbnail.png" medium="image" type="image/png" height="81" width="144"/>
+  <guid>https://conectastat.github.io/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/</guid>
+  <pubDate>Sun, 01 Feb 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>

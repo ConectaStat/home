@@ -9,7 +9,6 @@ listing:
   type: grid
   grid-columns: 3
   image-height: "172px"
-  image-placeholder: ../../../images/post-placeholder.svg
   categories: true
   sort-ui: false
   filter-ui: false

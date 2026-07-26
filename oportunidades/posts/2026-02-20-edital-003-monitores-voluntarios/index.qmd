@@ -3,7 +3,6 @@ title: "Edital Nº 003/2026: Seleção de monitores voluntários"
 description: "Processo seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026."
 author: "Departamento de Estatística da UFLA"
 date: "2026-02-20"
-image: "thumbnail.png"
 categories: [Oportunidades, Editais]
 ---
 

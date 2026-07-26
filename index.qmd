@@ -8,7 +8,7 @@ search: false
 repo-actions: false
 description: |
   Conexão Estatística - Ciência, Estatística e Conexão. Departamento de Estatística da UFLA.
-image: images/logo_ufla_transparente.png
+image: /images/capa-social.png
 listing:
   - id: noticias
     contents: /noticias/posts
@@ -29,8 +29,8 @@ toc: false
 ---
 
 <!-- ============================================================= -->
-<!--  HERO - só a ilustração + tagline em fonte mono (estilo       -->
-<!--  prompt: Ciência/ Estatística/ Conexão, com cursor piscando)  -->
+<!--  HERO - só a ilustração + o slogan ao lado, em três linhas    -->
+<!--  (Ciência/ Estatística/ Conexão), alternando azul e verde     -->
 <!-- ============================================================= -->
 ```{=html}
 <div class="hero-banner">
@@ -40,7 +40,7 @@ toc: false
         <p class="hero-tagline">
           <span>Ciência<span class="tag-barra">/</span></span>
           <span class="tag-verde">Estatística<span class="tag-barra">/</span></span>
-          <span>Conexão<span class="hero-cursor" aria-hidden="true"></span></span>
+          <span>Conexão</span>
         </p>
       </div>
       <div class="hero-media">
