@@ -9,5 +9,32 @@ date: "{{data}}"
 
 {{texto}}
 
+<!--se:relatorio_html-->
+```{=html}
+<div class="report-nativo">
+  <iframe src="{{relatorio}}" title="{{titulo}}"></iframe>
+</div>
+```
+<!--/se-->
+<!--se:relatorio_pdf-->
+```{=html}
+<div class="report-nativo report-pdf">
+  <object data="{{relatorio}}" type="application/pdf" aria-label="{{titulo}}">
+    <p>Seu navegador não exibe PDF dentro da página.
+       <a href="{{relatorio}}" target="_blank" rel="noopener">Abra o documento em outra aba</a>.</p>
+  </object>
+</div>
+```
+<!--/se-->
+<!--se:relatorio-->
+```{=html}
+<div class="projeto-links">
+  <a href="{{relatorio}}" target="_blank" rel="noopener">
+    <i class="bi bi-arrows-fullscreen"></i> Abrir em tela cheia
+  </a>
+</div>
+```
+<!--/se-->
+
 <!--se:link-->[Leia mais no site do DES/UFLA »]({{link}})
 <!--/se-->

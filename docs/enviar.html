@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c85c4b233f5bfb0bf090caa9b1a502da.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5512f1c793fa3bcde4a955682dfb8208.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -265,11 +265,14 @@ ul.task-list li input[type="checkbox"] {
       <input type="url" id="sub-repositorio" placeholder="https://github.com/usuario/projeto">
     </div>
 
-    <div class="form-campo campo-inteiro" id="campo-relatorio" hidden="">
-      <label for="sub-relatorio">Link do relatório no GitHub</label>
+    <div class="form-campo campo-inteiro" id="campo-relatorio">
+      <label for="sub-relatorio">Documento para exibir na página
+        <span class="req" id="marca-relatorio" hidden="">*</span></label>
       <input type="url" id="sub-relatorio" placeholder="https://github.com/usuario/projeto/blob/main/relatorio.html">
-      <p class="form-dica">Vai <strong>anexar o arquivo</strong> em vez de usar link?
-         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.
+      <p class="form-dica">Relatório, apostila, slides, tutorial: o arquivo
+         aparece <strong>dentro da página</strong>, e não como um link para sair
+         dela. Vai <strong>anexar o arquivo</strong> em vez de usar link? Deixe
+         em branco: o anexo é arrastado na tela do GitHub que vai abrir.
          HTML deve ir compactado em <code>.zip</code>; PDF pode ir direto.</p>
     </div>
   </div>
@@ -313,9 +316,11 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   function ajusta() {
+    // O documento vale para qualquer área: quando vem, a página o exibe
+    // embutido. Só em projeto de estudante ele é obrigatório.
     var ehProjeto = area.value.indexOf("Projeto de estudante") === 0;
-    document.getElementById("campo-relatorio").hidden = !ehProjeto;
-    document.getElementById("sub-relatorio").required = false;
+    document.getElementById("sub-relatorio").required = ehProjeto;
+    document.getElementById("marca-relatorio").hidden = !ehProjeto;
     document.getElementById("rotulo-link").textContent =
       ROTULO_LINK[area.value] || "Link principal";
   }
@@ -361,7 +366,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
-<p>Os <strong>arquivos</strong> são anexados na tela do GitHub que abre: a imagem de capa e, no caso dos projetos de estudante, o relatório em <code>.html</code> (compactado em <code>.zip</code>) ou <code>.pdf</code>. Basta arrastar cada um para o campo correspondente antes de clicar em <em>Create</em>.</p>
+<p>Os <strong>arquivos</strong> são anexados na tela do GitHub que abre: a imagem de capa e o documento, em <code>.html</code> (compactado em <code>.zip</code>) ou <code>.pdf</code>. Basta arrastar cada um para o campo correspondente antes de clicar em <em>Create</em>. Qualquer seção aceita um documento, e quando ele vem a página o exibe inteiro, em vez de mostrar só um link. Havendo escolha, prefira <code>.html</code>: ele se integra à página, com índice na lateral, enquanto o <code>.pdf</code> fica dentro de uma moldura e não abre embutido em boa parte dos celulares.</p>
 
 
 </section>
@@ -623,7 +628,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // ============================================================
 
-  document.querySelectorAll(".report-nativo iframe").forEach(function (fr) {
+  // Só documentos HTML entram aqui. PDF é desenhado pelo visualizador do
+
+  // navegador: não dá para ler o conteúdo nem medir a altura real, e tentar
+
+  // encolhia a moldura para uns 450px. PDF fica com a altura fixa do CSS.
+
+  document.querySelectorAll(".report-nativo:not(.report-pdf) iframe").forEach(function (fr) {
 
     var pronto = false;
 

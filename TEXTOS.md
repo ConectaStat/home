@@ -869,10 +869,13 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > A partir daí o robô monta a página sozinho e a equipe do departamento revisa
 > antes de publicar. Você recebe a resposta na própria submissão.
 >
-> Os **arquivos** são anexados na tela do GitHub que abre: a imagem de capa e,
-> no caso dos projetos de estudante, o relatório em `.html` (compactado em
-> `.zip`) ou `.pdf`. Basta arrastar cada um para o campo correspondente antes de
-> clicar em *Create*.
+> Os **arquivos** são anexados na tela do GitHub que abre: a imagem de capa e o
+> documento, em `.html` (compactado em `.zip`) ou `.pdf`. Basta arrastar cada um
+> para o campo correspondente antes de clicar em *Create*. Qualquer seção aceita
+> um documento, e quando ele vem a página o exibe inteiro, em vez de mostrar só
+> um link. Havendo escolha, prefira `.html`: ele se integra à página, com índice
+> na lateral, enquanto o `.pdf` fica dentro de uma moldura e não abre embutido em
+> boa parte dos celulares.
 
 
 ---

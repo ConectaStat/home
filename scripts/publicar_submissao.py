@@ -9,9 +9,12 @@ de _templates/areas/ e escreve:
     <area>/posts/AAAA-MM-DD-slug/
     ├── index.qmd
     ├── thumbnail.png          (se a pessoa anexou)
-    └── relatorios/            (so em projeto de estudante)
+    └── relatorios/            (se a pessoa mandou um documento)
         ├── relatorio.html
         └── apresentacao.html
+
+O documento vale para qualquer area: quando existe, a pagina o exibe embutido
+em vez de so apontar um link. Em projeto de estudante ele e obrigatorio.
 
 Nos modelos, {{campo}} e substituido pelo valor e os trechos entre
 <!--se:campo--> e <!--/se--> somem quando o campo vem vazio.
@@ -195,13 +198,12 @@ def main() -> int:
         print(f"[..] já havia {base.name}: usando {pasta.name}")
     pasta.mkdir(parents=True, exist_ok=True)
 
-    # anexos
-    gravados = []
-    if nome_area == "projeto de estudante":
-        gravados = guarda_relatorios(campo(blocos, "relatório"), pasta / "relatorios")
-        if not gravados:
-            print("[!!] projeto de estudante sem relatório: confira o link ou o anexo")
-            return 1
+    # anexos: qualquer área pode mandar um documento para ficar embutido na
+    # página. Só projeto de estudante exige um: sem relatório não há projeto.
+    gravados = guarda_relatorios(campo(blocos, "documento"), pasta / "relatorios")
+    if nome_area == "projeto de estudante" and not gravados:
+        print("[!!] projeto de estudante sem relatório: confira o link ou o anexo")
+        return 1
     tem_capa = guarda_capa(campo(blocos, "imagem de capa"), pasta)
 
     # categorias: as fixas da área mais as que a pessoa escreveu
@@ -219,6 +221,13 @@ def main() -> int:
         "link": (urls_em(campo(blocos, "link principal")) or [""])[0],
         "repositorio": (urls_em(campo(blocos, "repositório")) or [""])[0],
         "thumbnail": "sim" if tem_capa else "",
+        # Documento embutido. HTML e PDF sao exibidos de formas diferentes: o
+        # HTML entra num <iframe>, que o JS mede e indexa; o PDF depende do
+        # visualizador do navegador, que falha em boa parte dos celulares,
+        # entao vai num <object> com link de saida no lugar quando falha.
+        "relatorio": f"relatorios/{gravados[0]}" if gravados else "",
+        "relatorio_html": "sim" if gravados and gravados[0].endswith((".html", ".htm")) else "",
+        "relatorio_pdf": "sim" if gravados and gravados[0].endswith(".pdf") else "",
         "apresentacao": "sim" if "apresentacao.html" in gravados else "",
     }
 

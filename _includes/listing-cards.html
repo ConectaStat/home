@@ -126,7 +126,10 @@ document.addEventListener("DOMContentLoaded", function () {
   //  título interno duplicado e com índice "Nesta página"
   //  construído na margem a partir das seções do relatório
   // ============================================================
-  document.querySelectorAll(".report-nativo iframe").forEach(function (fr) {
+  // Só documentos HTML entram aqui. PDF é desenhado pelo visualizador do
+  // navegador: não dá para ler o conteúdo nem medir a altura real, e tentar
+  // encolhia a moldura para uns 450px. PDF fica com a altura fixa do CSS.
+  document.querySelectorAll(".report-nativo:not(.report-pdf) iframe").forEach(function (fr) {
     var pronto = false;
 
     function textoLimpo(h) {

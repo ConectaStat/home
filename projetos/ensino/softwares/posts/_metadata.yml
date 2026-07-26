@@ -1,3 +1,12 @@
 # Capa padrão dos posts de Softwares que não trazem imagem própria.
 # O `image:` do front matter de um post vence esta linha.
 image: /images/capa-padrao.png
+
+# Margem larga com índice: o `toc: true` é o que faz o Quarto criar a
+# margem, e é nela que o índice "Nesta página" é montado, a partir das
+# seções do documento embutido (JS em _includes/listing-cards.html).
+toc: true
+format:
+  html:
+    grid:
+      margin-width: 250px

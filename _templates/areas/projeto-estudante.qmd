@@ -16,14 +16,28 @@ date: "{{data}}"
 
 {{texto}}
 
+<!--se:relatorio_html-->
 ```{=html}
 <div class="report-nativo">
-  <iframe src="relatorios/relatorio.html"
+  <iframe src="{{relatorio}}"
           title="Relatório: {{titulo}}"></iframe>
 </div>
-
+```
+<!--/se-->
+<!--se:relatorio_pdf-->
+```{=html}
+<div class="report-nativo report-pdf">
+  <object data="{{relatorio}}" type="application/pdf"
+          aria-label="Relatório: {{titulo}}">
+    <p>Seu navegador não exibe PDF dentro da página.
+       <a href="{{relatorio}}" target="_blank" rel="noopener">Abra o relatório em outra aba</a>.</p>
+  </object>
+</div>
+```
+<!--/se-->
+```{=html}
 <div class="projeto-links">
-  <a href="relatorios/relatorio.html" target="_blank" rel="noopener">
+  <a href="{{relatorio}}" target="_blank" rel="noopener">
     <i class="bi bi-arrows-fullscreen"></i> Relatório em tela cheia
   </a>
 <!--se:apresentacao-->  <a href="relatorios/apresentacao.html" target="_blank" rel="noopener">

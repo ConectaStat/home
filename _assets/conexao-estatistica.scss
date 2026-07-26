@@ -1063,6 +1063,26 @@ body { -webkit-font-smoothing: antialiased; }
     border: 0;
     height: 75vh;   // provisória - o JS ajusta à altura real do conteúdo
   }
+
+  // PDF: quem desenha é o visualizador do navegador, que rola por dentro da
+  // moldura. Não há altura de conteúdo para medir, então esta é a definitiva.
+  // O <object> mostra o parágrafo de dentro quando o navegador não sabe
+  // exibir PDF embutido, o que é comum no celular.
+  &.report-pdf object {
+    display: block;
+    width: 100%;
+    height: min(88vh, 1000px);
+    min-height: 480px;
+    border: 1px solid $hairline;
+    border-radius: 8px;
+
+    p {
+      padding: 2rem 1.5rem;
+      margin: 0;
+      color: $muted;
+      text-align: center;
+    }
+  }
 }
 
 // Índice "Nesta página" das páginas de projeto (gerado a partir do relatório)

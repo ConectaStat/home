@@ -94,12 +94,15 @@ antes de publicar. Você recebe a resposta na própria submissão.
       <input type="url" id="sub-repositorio" placeholder="https://github.com/usuario/projeto" />
     </div>
 
-    <div class="form-campo campo-inteiro" id="campo-relatorio" hidden>
-      <label for="sub-relatorio">Link do relatório no GitHub</label>
+    <div class="form-campo campo-inteiro" id="campo-relatorio">
+      <label for="sub-relatorio">Documento para exibir na página
+        <span class="req" id="marca-relatorio" hidden>*</span></label>
       <input type="url" id="sub-relatorio"
              placeholder="https://github.com/usuario/projeto/blob/main/relatorio.html" />
-      <p class="form-dica">Vai <strong>anexar o arquivo</strong> em vez de usar link?
-         Deixe em branco: o anexo é arrastado na tela do GitHub que vai abrir.
+      <p class="form-dica">Relatório, apostila, slides, tutorial: o arquivo
+         aparece <strong>dentro da página</strong>, e não como um link para sair
+         dela. Vai <strong>anexar o arquivo</strong> em vez de usar link? Deixe
+         em branco: o anexo é arrastado na tela do GitHub que vai abrir.
          HTML deve ir compactado em <code>.zip</code>; PDF pode ir direto.</p>
     </div>
   </div>
@@ -143,9 +146,11 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   function ajusta() {
+    // O documento vale para qualquer área: quando vem, a página o exibe
+    // embutido. Só em projeto de estudante ele é obrigatório.
     var ehProjeto = area.value.indexOf("Projeto de estudante") === 0;
-    document.getElementById("campo-relatorio").hidden = !ehProjeto;
-    document.getElementById("sub-relatorio").required = false;
+    document.getElementById("sub-relatorio").required = ehProjeto;
+    document.getElementById("marca-relatorio").hidden = !ehProjeto;
     document.getElementById("rotulo-link").textContent =
       ROTULO_LINK[area.value] || "Link principal";
   }
@@ -193,7 +198,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 ```
 
-Os **arquivos** são anexados na tela do GitHub que abre: a imagem de capa e,
-no caso dos projetos de estudante, o relatório em `.html` (compactado em
-`.zip`) ou `.pdf`. Basta arrastar cada um para o campo correspondente antes de
-clicar em *Create*.
+Os **arquivos** são anexados na tela do GitHub que abre: a imagem de capa e o
+documento, em `.html` (compactado em `.zip`) ou `.pdf`. Basta arrastar cada um
+para o campo correspondente antes de clicar em *Create*. Qualquer seção aceita
+um documento, e quando ele vem a página o exibe inteiro, em vez de mostrar só
+um link. Havendo escolha, prefira `.html`: ele se integra à página, com índice
+na lateral, enquanto o `.pdf` fica dentro de uma moldura e não abre embutido em
+boa parte dos celulares.

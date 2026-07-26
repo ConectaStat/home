@@ -108,8 +108,12 @@ body:
   - type: textarea
     id: relatorio
     attributes:
-      label: "Relatório ou anexo (só para projeto de estudante)"
-      description: "Cole o link do arquivo no GitHub **ou** arraste o arquivo aqui. HTML deve vir compactado em .zip; PDF pode vir direto."
+      label: "Documento para exibir na página (opcional)"
+      description: |
+        Relatório, apostila, slides, tutorial: o arquivo aparece **dentro da
+        página**, e não como um link para sair dela. Cole o link do arquivo no
+        GitHub **ou** arraste o arquivo aqui. HTML deve vir compactado em .zip;
+        PDF pode vir direto. Obrigatório em projeto de estudante.
     validations:
       required: false
 

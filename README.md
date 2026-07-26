@@ -247,6 +247,20 @@ chrome --headless --screenshot=images/capa-padrao.png --window-size=1200,675 ima
 
 As duas capas de post são 1200 por 675, a mesma proporção dos cards. O `images/capa-social.svg`, que é a prévia dos endereços do site em si e não de um post, é 1200 por 630: essa é a proporção que as redes esperam, e fora dela a imagem aparece cortada.
 
+### Documento embutido na página
+
+Qualquer área aceita um documento: relatório, apostila, slides, tutorial. Quando a submissão traz um, a página **exibe o arquivo inteiro**, em vez de mostrar um botão que leva o leitor para fora do site. É o campo "Documento para exibir na página" do formulário, e ele aceita tanto um link de arquivo no GitHub quanto o arquivo arrastado direto na issue.
+
+O robô baixa o arquivo para `relatorios/` dentro da pasta do post. HTML precisa vir compactado em `.zip`; PDF pode vir direto. Em Organização e Apresentação de Dados o documento é obrigatório: sem relatório não há projeto. Nas demais áreas é opcional, e sem ele a página fica só com o texto e os links.
+
+**HTML e PDF são exibidos de formas diferentes**, e o modelo escolhe sozinho pela extensão do arquivo.
+
+O HTML entra num `<iframe>`. A página esconde o título e o índice internos do documento, que ela já mostra por conta própria, mede a altura real do conteúdo e deixa o documento rolar junto com o resto da página, sem barra de rolagem interna. As seções dele viram o índice "Nesta página" na margem direita. Esse índice depende de duas linhas no `posts/_metadata.yml` da seção, `toc: true` e `margin-width: 250px`: sem elas o Quarto não cria a margem e o índice não aparece.
+
+O PDF entra num `<object>` de altura fixa, porque quem o desenha é o visualizador do próprio navegador. Não há conteúdo para medir nem seções para indexar, e o documento rola por dentro da moldura. Boa parte dos navegadores de celular não exibe PDF embutido: nesses casos aparece, no lugar da moldura, um parágrafo com o link para abrir o arquivo em outra aba. Por isso, **quando houver escolha, prefira HTML**: só ele se integra à página de verdade.
+
+Se um dia o PDF voltar a aparecer espremido numa faixa de uns 450 px, é porque alguém tirou o `:not(.report-pdf)` do seletor em `_includes/listing-cards.html`. Aquele ajuste automático de altura serve só ao HTML; aplicado a PDF, ele lê um valor sem sentido do visualizador e encolhe a moldura.
+
 ### Conferindo antes de publicar
 
 Quem tem o Quarto instalado:
@@ -483,7 +497,7 @@ O `_quarto.yml` registra três scripts Python que rodam sozinhos a cada `quarto 
 
 | Quando | Script | O que faz |
 |---|---|---|
-| antes | `scripts/gerar_thumbnails.py` | gera a capa dos posts que estão sem `image:` |
+| antes | `scripts/gerar_thumbnails.py` | recorta a capa de um gráfico do relatório, só em Organização e Apresentação de Dados |
 | depois | `scripts/ajustar_titulos.py` | ajusta o separador dos títulos e normaliza os redirecionamentos |
 | depois | `scripts/gerar_textos.py` | refaz o `TEXTOS.md`, o mapa de textos usado na revisão editorial |
 
@@ -497,17 +511,20 @@ Além desses, três workflows cuidam do repositório sozinhos:
 | `.github/workflows/receber-submissao.yml` | quando chega uma submissão | monta a página na seção escolhida, credita quem enviou e abre o pull request |
 | `.github/workflows/contribuidores.yml` | ao mesclar um pull request | credita quem teve a contribuição aceita |
 
-Três scripts dão apoio a esses workflows:
+Quatro scripts dão apoio a esses workflows:
 
 | Script | O que faz |
 |---|---|
 | `scripts/publicar_submissao.py` | lê a submissão, escolhe o modelo da área e monta a pasta do post |
 | `scripts/creditar_submissao.py` | deduz os tipos de contribuição a partir do vínculo declarado |
+| `scripts/creditar_contribuidor.py` | soma o novo tipo aos que a pessoa já tinha, em vez de substituir |
 | `scripts/ordenar_contribuidores.py` | coloca a coordenação no topo da lista antes de regenerar a tabela |
 
 Os modelos de página de cada área ficam em `_templates/areas/`, um `.qmd` por seção. Neles, `{{campo}}` é substituído pelo dado do formulário e os trechos entre `<!--se:campo-->` e `<!--/se-->` somem quando o campo vem vazio. Para mudar como uma seção é publicada, basta editar o modelo dela.
 
-Para tudo isso funcionar, o repositório precisa da etiqueta **`submissao`** (aplicada pelo formulário) e, em **Settings › Actions › General**, da opção *Allow GitHub Actions to create and approve pull requests* marcada.
+Para tudo isso funcionar, o repositório precisa, em **Settings › Actions › General**, da opção *Allow GitHub Actions to create and approve pull requests* marcada. Sem ela o robô monta a página mas não consegue abrir o pedido de publicação.
+
+O workflow reconhece uma submissão pelo corpo da issue, e não por etiqueta: ele procura a pergunta "Onde isso deve ser publicado" ou um título começando com `[Envio]`. Foi feito assim porque o GitHub descarta em silêncio uma etiqueta declarada no formulário que não exista no repositório, e a submissão passava batida.
 
 ### Serviços externos
 
@@ -515,7 +532,7 @@ O site é estático, mas as páginas carregam alguns recursos de terceiros no na
 
 | Domínio | Para quê |
 |---|---|
-| `fonts.googleapis.com`, `fonts.gstatic.com` | fontes Inter (texto) e JetBrains Mono (slogan) |
+| `fonts.googleapis.com`, `fonts.gstatic.com` | fontes Inter (texto e slogan) e JetBrains Mono (blocos de código) |
 | `unpkg.com`, `tile.openstreetmap.org` | biblioteca e imagens do mapa de rota da página inicial |
 | `router.project-osrm.org`, `nominatim.openstreetmap.org` | cálculo de rota e busca de endereço |
 | `www.google.com/maps` | mapa institucional embutido na página inicial |
@@ -551,4 +568,8 @@ Decisões em aberto e trabalhos que ainda serão feitos. Ao concluir um item, re
 
 **Disclaimer.** O texto provisório abaixo da hero será substituído pelo definitivo.
 
-**Endereço e nome.** O endereço público e o nome do repositório ainda trazem a marca antiga do projeto. Ao renomear a organização no GitHub, atualizar `site-url` e `repo-url` no `_quarto.yml` e o link do GitHub no rodapé.
+**Nome do projeto.** O endereço público e o nome do repositório ainda trazem a marca antiga. Se a organização for renomeada no GitHub, atualizar `site-url` e `repo-url` no `_quarto.yml` e o link do GitHub no rodapé, que hoje apontam para `conectastat.github.io`.
+
+**Coordenação.** A tabela da seção Coordenação está com `USUARIO` e "Nome do docente" no lugar dos dados reais, e enquanto estiver assim a foto aparece quebrada. É a única tabela do documento mantida à mão: a de contribuidores se atualiza sozinha.
+
+**Arquivos grandes.** Os relatórios enviados são versionados junto com o site, e alguns passam de 10 MB. Funciona, mas engorda o histórico do git para sempre e torna impraticável revisar o conteúdo num pull request. Se o volume crescer, avaliar outro destino para esses arquivos.
