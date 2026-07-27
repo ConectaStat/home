@@ -1,12 +1,12 @@
 ---
-title: "Conexão Estatística entra no ar com novo visual"
-description: "A plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Conexão."
+title: "ConectaStat entra no ar com novo visual"
+description: "A plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Sociedade."
 author: "Departamento de Estatística da UFLA"
 date: "2026-07-06"
 categories: [Notícias]
 ---
 
-O **Conexão Estatística** está no ar com novo visual e nova organização: seções
+O **ConectaStat** está no ar com novo visual e nova organização: seções
 dedicadas à área de Estatística, aos nossos cursos de graduação e
 pós-graduação, à assessoria e consultoria estatística e aos projetos e
 ações do departamento.

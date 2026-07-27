@@ -6,7 +6,7 @@ format:
   html:
     grid:
       margin-width: 250px
-body-classes: cs-banner-ogiva
+body-classes: cs-banner-barras
 page-layout: article
 sidebar: false
 toc: false

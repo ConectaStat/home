@@ -39,7 +39,7 @@
 
 <script>
 // ============================================================================
-//  Laboratório de probabilidade - página "Estatística" do Conexão Estatística
+//  Laboratório de probabilidade - página "Estatística" do ConectaStat
 //  Todos os números vêm de fontes públicas (IBGE, UFLA/SISU); a conta e a
 //  fonte de cada exemplo estão no bloco "Como se calcula".
 // ============================================================================

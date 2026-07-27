@@ -1,5 +1,5 @@
 ---
-pagetitle: "Conexão Estatística | Ciência, Estatística e Conexão"
+pagetitle: "ConectaStat | Ciência, Estatística e Sociedade"
 page-layout: custom
 section-divs: false
 editor: source
@@ -7,7 +7,7 @@ sidebar: false
 search: false
 repo-actions: false
 description: |
-  Conexão Estatística - Ciência, Estatística e Conexão. Departamento de Estatística da UFLA.
+  ConectaStat - Ciência, Estatística e Sociedade. Departamento de Estatística da UFLA.
 image: /images/capa-social.png
 listing:
   - id: noticias
@@ -30,7 +30,7 @@ toc: false
 
 <!-- ============================================================= -->
 <!--  HERO - só a ilustração + o slogan ao lado, em três linhas    -->
-<!--  (Ciência/ Estatística/ Conexão), alternando azul e verde     -->
+<!--  (Ciência| Estatística| & Sociedade), alternando azul e verde -->
 <!-- ============================================================= -->
 ```{=html}
 <div class="hero-banner">
@@ -38,9 +38,9 @@ toc: false
     <div class="hero-grid">
       <div class="hero-text">
         <p class="hero-tagline">
-          <span>Ciência<span class="tag-barra">/</span></span>
-          <span class="tag-verde">Estatística<span class="tag-barra">/</span></span>
-          <span>Conexão</span>
+          <span>Ciência<span class="tag-barra">|</span></span>
+          <span class="tag-verde">Estatística<span class="tag-barra">|</span></span>
+          <span>&amp; Sociedade</span>
         </p>
       </div>
       <div class="hero-media">
@@ -63,28 +63,8 @@ toc: false
 ::: {.content-container}
 ::: {.intro-block}
 
-## O que é o Conexão Estatística?
+Bem-vindo(a) ao **ConectaStat**, um projeto do [Departamento de Estatística](https://des.ufla.br/) da [Universidade Federal de Lavras](ufla.br). Aqui conectamos Ciência, Estatística e Sociedade, tornando o conhecimento científico mais acessível, promovendo o letramento estatístico e aproximando a universidade da comunidade.
 
-O avanço tecnológico e o aumento do acesso a dispositivos eletrônicos por toda
-a população nos trouxeram para a era do maior volume de dados da história.
-Academia, indústria e sociedade buscam, continuamente, ferramentas para lidar
-com grandes coleções de dados, que são geradas quase instantaneamente. Nesse
-cenário, a Estatística, base fundamental da Ciência de Dados, desempenha um
-papel essencial na sociedade moderna. O letramento estatístico, como definido
-por Wallman (1993, p. 1), é "[...] a habilidade para compreender e avaliar
-criticamente resultados estatísticos que permeiam nossas vidas diárias,
-juntamente com a capacidade de reconhecer a contribuição que o pensamento
-estatístico pode trazer para as decisões públicas e privadas, profissionais e
-pessoais". O crescimento exponencial dos dados e a popularização da
-Inteligência Artificial, por um lado, e a grande lacuna no letramento
-estatístico da população, por outro, geram desafios significativos na
-interpretação das informações. A falta de conhecimento estatístico na era
-digital pode resultar em problemas como a disseminação de fake news,
-interpretações equivocadas de gráficos e desconfiança na ciência. Nesse
-contexto, a plataforma **Conexão Estatística** surge como uma iniciativa para promover
-o pensamento crítico e a democratização do conhecimento, aproximando a
-Estatística da sociedade e tornando-a mais acessível e compreensível para
-diferentes públicos.
 
 :::
 :::

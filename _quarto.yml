@@ -24,7 +24,7 @@ project:
 lang: pt
 
 website:
-  title: "Conexão Estatística"
+  title: "ConectaStat"
   # Prévia dos links compartilhados (WhatsApp, LinkedIn, Telegram). Precisa ser
   # PNG ou JPEG: as redes não leem SVG. O fonte editável é o capa-social.svg.
   # A barra inicial é obrigatória: sem ela o caminho é resolvido a partir da
@@ -38,9 +38,10 @@ website:
   navbar:
     toggle-position: right
     background: "#0a3f66"
-    # Sem o nome do site: só o slogan no topo esquerdo, no mesmo desenho da
-    # hero (Ciência/ Estatística/ Conexão empilhados, em Inter semibold)
-    title: '<span class="nav-tagline"><span>Ciência<span class="tag-barra">/</span></span> <span class="tag-verde">Estatística<span class="tag-barra">/</span></span> <span>Conexão</span></span>'
+    # Sem o nome do site: só o slogan no topo esquerdo, com o mesmo texto da
+    # hero (Ciência| Estatística| & Sociedade empilhados). A hero desenha o
+    # slogan em Source Code Pro; aqui ele segue em Inter semibold.
+    title: '<span class="nav-tagline"><span>Ciência<span class="tag-barra">|</span></span> <span class="tag-verde">Estatística<span class="tag-barra">|</span></span> <span>&amp; Sociedade</span></span>'
     collapse-below: lg
     right:
       - text: "Estatística"

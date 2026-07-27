@@ -2,7 +2,7 @@
 
 1. Título das páginas: troca o separador " – " (meia-risca) que o Quarto
    insere no <title> e no og:title/twitter:title por " | ". O separador é
-   montado pelo próprio Quarto ("Página – Conexão Estatística") e não pode
+   montado pelo próprio Quarto ("Página – ConectaStat") e não pode
    ser configurado nos .qmd.
 
 2. Redirecionamentos (aliases): no Windows o Quarto escreve o destino com
@@ -31,7 +31,7 @@ RE_TITLE = re.compile(r"(<title>[^<]*?) – ([^<]*?</title>)")
 RE_META = re.compile(
     r'(<meta[^>]*?(?:og|twitter):title[^>]*?content=")([^"]*?) – ([^"]*?")'
 )
-# "Conexão Estatística | slogan | Conexão Estatística" -> sem a repetição
+# "ConectaStat | slogan | ConectaStat" -> sem a repetição
 # (caso da home, cujo pagetitle já começa com o nome do site)
 RE_DUP = re.compile(r"(<title>)([^<|]+?) \| ([^<]*?) \| \2(</title>)")
 

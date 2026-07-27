@@ -5,19 +5,19 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Conexão Estatística</title>
+<title>ConectaStat</title>
 <link>https://conectastat.github.io/noticias/</link>
 <atom:link href="https://conectastat.github.io/noticias/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://conectastat.github.io/images/capa-social.png</url>
-<title>Conexão Estatística</title>
+<title>ConectaStat</title>
 <link>https://conectastat.github.io/noticias/</link>
 </image>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 06 Jul 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Mon, 06 Jul 2026 03:00:00 GMT</lastBuildDate>
 <item>
-  <title>Conexão Estatística entra no ar com novo visual</title>
+  <title>ConectaStat entra no ar com novo visual</title>
   <dc:creator>Departamento de Estatística da UFLA</dc:creator>
   <link>https://conectastat.github.io/noticias/posts/2026-07-06-conexao-estatistica-no-ar/</link>
   <description><![CDATA[ 
@@ -25,7 +25,7 @@
 
 
 
-<p>O <strong>Conexão Estatística</strong> está no ar com novo visual e nova organização: seções dedicadas à área de Estatística, aos nossos cursos de graduação e pós-graduação, à assessoria e consultoria estatística e aos projetos e ações do departamento.</p>
+<p>O <strong>ConectaStat</strong> está no ar com novo visual e nova organização: seções dedicadas à área de Estatística, aos nossos cursos de graduação e pós-graduação, à assessoria e consultoria estatística e aos projetos e ações do departamento.</p>
 <p>Na página inicial você encontra as últimas notícias, oportunidades (editais internos e de estudo), eventos e a localização do prédio da Estatística no campus da UFLA, com rota direto para o seu GPS.</p>
 
 
@@ -33,7 +33,7 @@
  ]]></description>
   <category>Notícias</category>
   <guid>https://conectastat.github.io/noticias/posts/2026-07-06-conexao-estatistica-no-ar/</guid>
-  <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 06 Jul 2026 03:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>

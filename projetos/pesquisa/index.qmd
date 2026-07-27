@@ -41,7 +41,7 @@ de pesquisa em métodos estatísticos e em aplicações, com destaque para:
 
 Os resultados são publicados em periódicos nacionais e internacionais e
 apresentados em eventos científicos, muitos deles divulgados aqui no
-Conexão Estatística, na seção de [artigos](../../artigos/index.qmd).
+ConectaStat, na seção de [artigos](../../artigos/index.qmd).
 Explore os tópicos abaixo:
 
 ::: {#topicos-pesquisa}

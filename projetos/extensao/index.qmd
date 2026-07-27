@@ -32,7 +32,7 @@ Os projetos de extensão levam a Estatística para além dos muros da
 universidade, promovendo o letramento estatístico e o pensamento crítico na
 sociedade:
 
-- **Conexão Estatística**: esta plataforma de popularização da ciência, com
+- **ConectaStat**: esta plataforma de popularização da ciência, com
   notícias, artigos e eventos abertos à comunidade;
 - **Assessoria e consultoria estatística**: apoio a pesquisadores,
   produtores, empresas e órgãos públicos

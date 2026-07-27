@@ -1,6 +1,6 @@
 ---
 title: "Enviar conteúdo"
-subtitle: "Publique no Conexão Estatística: notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante."
+subtitle: "Publique no ConectaStat: notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante."
 title-block-banner: true
 body-classes: cs-banner-rede
 page-layout: article

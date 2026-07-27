@@ -1,6 +1,6 @@
 # Mapa de textos do site
 
-Inventário de **todo o texto editável** do Conexão Estatística, na ordem em que
+Inventário de **todo o texto editável** do ConectaStat, na ordem em que
 o visitante encontra. Serve para revisão: reescreva o que quiser dentro dos
 blocos citados e devolva — cada bloco indica o arquivo exato onde ele mora.
 
@@ -91,37 +91,12 @@ index.qmd
 
 > Slogan sobre a ilustração:
 >
->   Ciência/
->   Estatística/
+>
 
 
 ### Disclaimer abaixo da hero
 
 > Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.
-
-
-### Seção da home: O que é o Conexão Estatística?
-
-> O avanço tecnológico e o aumento do acesso a dispositivos eletrônicos por toda
-> a população nos trouxeram para a era do maior volume de dados da história.
-> Academia, indústria e sociedade buscam, continuamente, ferramentas para lidar
-> com grandes coleções de dados, que são geradas quase instantaneamente. Nesse
-> cenário, a Estatística, base fundamental da Ciência de Dados, desempenha um
-> papel essencial na sociedade moderna. O letramento estatístico, como definido
-> por Wallman (1993, p. 1), é "[...] a habilidade para compreender e avaliar
-> criticamente resultados estatísticos que permeiam nossas vidas diárias,
-> juntamente com a capacidade de reconhecer a contribuição que o pensamento
-> estatístico pode trazer para as decisões públicas e privadas, profissionais e
-> pessoais". O crescimento exponencial dos dados e a popularização da
-> Inteligência Artificial, por um lado, e a grande lacuna no letramento
-> estatístico da população, por outro, geram desafios significativos na
-> interpretação das informações. A falta de conhecimento estatístico na era
-> digital pode resultar em problemas como a disseminação de fake news,
-> interpretações equivocadas de gráficos e desconfiança na ciência. Nesse
-> contexto, a plataforma **Conexão Estatística** surge como uma iniciativa para promover
-> o pensamento crítico e a democratização do conhecimento, aproximando a
-> Estatística da sociedade e tornando-a mais acessível e compreensível para
-> diferentes públicos.
 
 
 ### Seção da home: Notícias
@@ -563,7 +538,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 >
 > Os resultados são publicados em periódicos nacionais e internacionais e
 > apresentados em eventos científicos, muitos deles divulgados aqui no
-> Conexão Estatística, na seção de [artigos](../../artigos/index.qmd).
+> ConectaStat, na seção de [artigos](../../artigos/index.qmd).
 > Explore os tópicos abaixo:
 
 **Cards de tópico desta página:**
@@ -708,7 +683,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > universidade, promovendo o letramento estatístico e o pensamento crítico na
 > sociedade:
 >
-> - **Conexão Estatística**: esta plataforma de popularização da ciência, com
+> - **ConectaStat**: esta plataforma de popularização da ciência, com
 >   notícias, artigos e eventos abertos à comunidade;
 > - **Assessoria e consultoria estatística**: apoio a pesquisadores,
 >   produtores, empresas e órgãos públicos
@@ -855,7 +830,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 **Título (aparece no banner):** Enviar conteúdo
 
-**Subtítulo:** Publique no Conexão Estatística: notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante.  
+**Subtítulo:** Publique no ConectaStat: notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante.  
 *(hoje oculto no site; fica só no código)*
 
 **Texto da página:**
@@ -886,12 +861,12 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ### Notícias — posts publicados (1)
 
 
-#### Conexão Estatística entra no ar com novo visual
+#### ConectaStat entra no ar com novo visual
 `noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.qmd`
 
-**Resumo (aparece no card):** A plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Conexão.
+**Resumo (aparece no card):** A plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Sociedade.
 
-> O **Conexão Estatística** está no ar com novo visual e nova organização: seções
+> O **ConectaStat** está no ar com novo visual e nova organização: seções
 > dedicadas à área de Estatística, aos nossos cursos de graduação e
 > pós-graduação, à assessoria e consultoria estatística e aos projetos e
 > ações do departamento.

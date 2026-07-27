@@ -1,6 +1,6 @@
-# Ciência/ <br/> Estatística/ <br/> Conexão
+# Ciência| <br/> Estatística| <br/> &amp; Sociedade
 
-Bem-vindo à casa do [Conexão Estatística](https://conectastat.github.io/), um projeto do [Departamento de Estatística da UFLA](https://des.ufla.br/). Este repositório contém todo o código-fonte e o conteúdo do site, uma plataforma que busca a popularização da estatística e da ciência de dados no sul de Minas.
+Bem-vindo à casa do [ConectaStat](https://conectastat.github.io/), um projeto do [Departamento de Estatística da UFLA](https://des.ufla.br/). Este repositório contém todo o código-fonte e o conteúdo do site, uma plataforma que busca a popularização da estatística e da ciência de dados no sul de Minas.
 
 O site é construído com [Quarto](https://quarto.org) e publicado pelo GitHub Pages. Qualquer pessoa da comunidade do DES pode publicar aqui: não é preciso saber programar, e todo o passo a passo está neste documento.
 
@@ -19,7 +19,7 @@ O site é construído com [Quarto](https://quarto.org) e publicado pelo GitHub P
 
 ## Coordenação
 
-O Conexão Estatística é conduzido no Departamento de Estatística da UFLA. A coordenação responde pelo rumo do projeto, pela orientação acadêmica e pela revisão do que é publicado.
+O ConectaStat é conduzido no Departamento de Estatística da UFLA. A coordenação responde pelo rumo do projeto, pela orientação acadêmica e pela revisão do que é publicado.
 
 <table>
   <tbody>

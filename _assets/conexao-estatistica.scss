@@ -1,26 +1,31 @@
 /*-----------------------------------------------------------------------------
-  Conexao Estatistica - tema visual "clean minimalista"
+  ConectaStat - tema visual "clean minimalista"
   Linguagem: tipografia display grande, muito espaço em branco, micro-rótulos
   em caixa alta, linhas finas (hairlines), cartões planos sem sombra, botões
   pílula. Inspiração: UI minimalista de sites de venture capital (Dribbble).
   Cores: azul e verde institucionais da UFLA sobre fundo branco.
-  Tipografia: Inter (fallback Verdana).
+  Tipografia: Inter (fallback Verdana); Source Code Pro só no slogan da hero.
 -----------------------------------------------------------------------------*/
 
 /*-- scss:defaults --*/
 
 // --- Tipografia ---------------------------------------------------------------
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-// Fonte monoespaçada de `código` e blocos de código. O slogan já foi desenhado
-// nela e hoje usa a Inter; se ninguém mais publicar código no site, este import
-// pode sair. Para trocar de família, mude aqui e no import: Courier Prime,
-// Source Code Pro, Fira Code... (Consolas é local, não precisa de import).
+// Fonte monoespaçada de `código` e blocos de código, e só dela: o slogan tem a
+// própria monoespaçada, logo abaixo. Se ninguém mais publicar código no site,
+// este import pode sair. Para trocar de família, mude aqui e no import:
+// Courier Prime, Fira Code... (Consolas é local, não precisa de import).
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+// Fonte do slogan da hero (Ciência| Estatística| & Sociedade), e só dele: uma
+// monoespaçada, que é como o slogan foi desenhado. O resto do site - inclusive
+// o slogan da navbar - continua em Inter.
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
 
 $font-family-sans-serif: "Inter", Verdana, system-ui, -apple-system, "Segoe UI", sans-serif;
 $headings-font-family:   "Inter", Verdana, sans-serif;
 $headings-font-weight:   700;
 $font-mono: "JetBrains Mono", Consolas, "Courier Prime", "Courier New", monospace;
+$font-slogan: "Source Code Pro", Consolas, "Courier New", monospace;
 
 // --- Cores da marca -----------------------------------------------------------
 $cs-blue:       #0d5488;   // azul da paleta própria do projeto (Canva, jul/2026)
@@ -102,8 +107,9 @@ body { -webkit-font-smoothing: antialiased; }
     min-height: 48px;   // mantém a altura original da barra (era a do logo)
   }
 
-  // Slogan no topo esquerdo (o nome do site foi removido): mesmo desenho da
-  // hero - Ciência/ Estatística/ Conexão empilhados, em Inter semibold
+  // Slogan no topo esquerdo (o nome do site foi removido): mesmo texto da
+  // hero - Ciência| Estatística| & Sociedade empilhados -, em Inter semibold
+  // (a monoespaçada do slogan é exclusiva da hero)
   .nav-tagline {
     display: inline-block;
     font-family: $font-family-sans-serif;
@@ -113,7 +119,7 @@ body { -webkit-font-smoothing: antialiased; }
     letter-spacing: normal;
     color: #ffffff;
 
-    > span { display: block; }        // três linhas: Ciência/ Estatística/ Conexão
+    > span { display: block; }        // Ciência| Estatística| & Sociedade
     .tag-verde { color: #7dd3a8; }    // tint do verde UFLA legível sobre o azul escuro
     .tag-barra { color: rgba(255, 255, 255, 0.55); font-weight: 400; }
   }
@@ -161,7 +167,8 @@ body { -webkit-font-smoothing: antialiased; }
 
 // =============================================================================
 //  HERO - só a ilustração, com a tagline ao lado: três linhas empilhadas
-//  (Ciência/ Estatística/ Conexão) em Inter semibold, alternando azul e verde
+//  (Ciência| Estatística| & Sociedade) em Source Code Pro semibold,
+//  alternando azul e verde
 // =============================================================================
 .hero-banner {
   background: #ffffff;
@@ -185,7 +192,8 @@ body { -webkit-font-smoothing: antialiased; }
     .hero-tagline {
       // Peso 600 e entrelinha 1.3, sem aperto de tracking: é assim que o
       // GitHub desenha um título de README, que é a referência do slogan.
-      font-family: $font-family-sans-serif;
+      // A monoespaçada é exclusiva daqui: a navbar segue em Inter.
+      font-family: $font-slogan;
       font-size: clamp(1.6rem, 3vw, 2.5rem);
       font-weight: 600;
       line-height: 1.3;
@@ -193,9 +201,9 @@ body { -webkit-font-smoothing: antialiased; }
       color: $ink;
       margin: 0;
 
-      > span { display: block; }        // três linhas: Ciência/ Estatística/ Conexão
+      > span { display: block; }        // Ciência| Estatística| & Sociedade
       .tag-verde { color: $cs-green; }
-      .tag-barra { color: $muted; font-weight: 400; }   // a "/" de cada caminho
+      .tag-barra { color: $muted; font-weight: 400; }   // a "|" de cada linha
     }
 
     // Entrada do texto sincronizada com a montagem da ilustração

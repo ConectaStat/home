@@ -184,7 +184,7 @@ def bloco_posts(rotulo, pasta):
 L = []
 L.append("""# Mapa de textos do site
 
-Inventário de **todo o texto editável** do Conexão Estatística, na ordem em que
+Inventário de **todo o texto editável** do ConectaStat, na ordem em que
 o visitante encontra. Serve para revisão: reescreva o que quiser dentro dos
 blocos citados e devolva — cada bloco indica o arquivo exato onde ele mora.
 
