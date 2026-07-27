@@ -5,17 +5,17 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Conexão Estatística</title>
+<title>ConectaStat</title>
 <link>https://conectastat.github.io/eventos/</link>
 <atom:link href="https://conectastat.github.io/eventos/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://conectastat.github.io/images/capa-social.png</url>
-<title>Conexão Estatística</title>
+<title>ConectaStat</title>
 <link>https://conectastat.github.io/eventos/</link>
 </image>
-<generator>quarto-1.9.36</generator>
-<lastBuildDate>Thu, 15 Jan 2026 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Thu, 15 Jan 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>XVII Programa de Verão DES-ICET/UFLA 2026</title>
   <dc:creator>Departamento de Estatística da UFLA</dc:creator>
@@ -33,7 +33,7 @@
  ]]></description>
   <category>Eventos</category>
   <guid>https://conectastat.github.io/eventos/posts/2026-01-15-programa-de-verao-2026/</guid>
-  <pubDate>Thu, 15 Jan 2026 03:00:00 GMT</pubDate>
+  <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -53,7 +53,7 @@
  ]]></description>
   <category>Eventos</category>
   <guid>https://conectastat.github.io/eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/</guid>
-  <pubDate>Wed, 05 Nov 2025 03:00:00 GMT</pubDate>
+  <pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -73,7 +73,7 @@
  ]]></description>
   <category>Eventos</category>
   <guid>https://conectastat.github.io/eventos/posts/2025-05-20-v-workshop-data-science/</guid>
-  <pubDate>Tue, 20 May 2025 03:00:00 GMT</pubDate>
+  <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -94,7 +94,7 @@
   <category>Eventos</category>
   <category>Cursos</category>
   <guid>https://conectastat.github.io/eventos/posts/2024-09-01-curso-introducao-software-r/</guid>
-  <pubDate>Sun, 01 Sep 2024 03:00:00 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
   <media:content url="https://conectastat.github.io/images/capa-padrao-azul.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>

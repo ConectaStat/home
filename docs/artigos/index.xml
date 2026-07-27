@@ -5,13 +5,13 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Conexão Estatística</title>
+<title>ConectaStat</title>
 <link>https://conectastat.github.io/artigos/</link>
 <atom:link href="https://conectastat.github.io/artigos/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://conectastat.github.io/images/capa-social.png</url>
-<title>Conexão Estatística</title>
+<title>ConectaStat</title>
 <link>https://conectastat.github.io/artigos/</link>
 </image>
 <generator>quarto-1.10.18</generator>
