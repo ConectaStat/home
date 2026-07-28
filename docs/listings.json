@@ -9,22 +9,6 @@
   },
   {
     "listing": "/projetos/pesquisa/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projetos/extensao/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projetos/extensao/acoes/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projetos/ensino/index.html",
-    "items": []
-  },
-  {
-    "listing": "/oportunidades/index.html",
     "items": [
       "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
       "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
@@ -33,9 +17,34 @@
     ]
   },
   {
-    "listing": "/noticias/index.html",
+    "listing": "/projetos/extensao/index.html",
     "items": [
-      "/noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html"
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
+    ]
+  },
+  {
+    "listing": "/projetos/extensao/acoes/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projetos/ensino/index.html",
+    "items": [
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
+    ]
+  },
+  {
+    "listing": "/oportunidades/index.html",
+    "items": [
+      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
+      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
+      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
     ]
   },
   {
@@ -48,17 +57,8 @@
     ]
   },
   {
-    "listing": "/artigos/index.html",
-    "items": [
-      "/artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
-      "/artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
-      "/artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
-      "/noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
       "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
       "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
       "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",

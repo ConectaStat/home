@@ -1,6 +1,6 @@
 ---
-title: "Eventos"
-subtitle: "Seminários, palestras, minicursos e defesas."
+title: "Cursos e Eventos"
+subtitle: "Cursos, minicursos, seminários, palestras, workshops e defesas."
 title-block-banner: true
 listing:
   id: lista-eventos

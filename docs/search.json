@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "sobre/contato/index.html",
+    "href": "sobre/contato/index.html",
+    "title": "Entre em Contato",
+    "section": "",
+    "text": "Erro de digitação, link quebrado ou informação desatualizada:\nAbrir uma issue no GitHub »"
+  },
+  {
+    "objectID": "sobre/contato/index.html#encontrou-um-erro-no-site",
+    "href": "sobre/contato/index.html#encontrou-um-erro-no-site",
+    "title": "Entre em Contato",
+    "section": "",
+    "text": "Erro de digitação, link quebrado ou informação desatualizada:\nAbrir uma issue no GitHub »"
+  },
+  {
+    "objectID": "sobre/contato/index.html#canais",
+    "href": "sobre/contato/index.html#canais",
+    "title": "Entre em Contato",
+    "section": "Canais",
+    "text": "Canais\n\nSite oficial do departamento: des.ufla.br\nRepositório do projeto: github.com/ConectaStat com código, histórico e discussões abertas.\nUniversidade Federal de Lavras: ufla.br"
+  },
+  {
+    "objectID": "sobre/contato/index.html#onde-estamos",
+    "href": "sobre/contato/index.html#onde-estamos",
+    "title": "Entre em Contato",
+    "section": "Onde estamos",
+    "text": "Onde estamos\nDepartamento de Estatística (DES/ICET/UFLA)\nTrevo Rotatório Professor Edmir Sá Santos, s/n\nCampus Universitário, Lavras/MG\nCEP 37203-202 · Caixa Postal 3037"
+  },
+  {
     "objectID": "projetos/pesquisa/nucleos/st/index.html",
     "href": "projetos/pesquisa/nucleos/st/index.html",
     "title": "ST",
@@ -30,37 +58,51 @@
   {
     "objectID": "projetos/pesquisa/index.html",
     "href": "projetos/pesquisa/index.html",
-    "title": "Projetos de Pesquisa",
+    "title": "Projetos e Núcleos de pesquisa",
     "section": "",
-    "text": "Os docentes e estudantes do Departamento de Estatística desenvolvem projetos de pesquisa em métodos estatísticos e em aplicações, com destaque para:\n\nModelos de regressão não lineares aplicados ao crescimento de seres vivos e a fenômenos agronômicos;\nModelos mistos e experimentação agropecuária;\nEstatística bayesiana e métodos computacionais;\nSéries temporais e modelos para dados de contagem;\nEstatística espacial e geoestatística;\nAprendizado de máquina e ciência de dados.\n\nOs resultados são publicados em periódicos nacionais e internacionais e apresentados em eventos científicos, muitos deles divulgados aqui no ConectaStat, na seção de artigos. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nNLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nIniciação científica e demais chamadas ligadas à pesquisa, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+    "text": "Os docentes e estudantes do Departamento de Estatística desenvolvem projetos de pesquisa em métodos estatísticos e em aplicações, com destaque para:\n\nModelos de regressão não lineares aplicados ao crescimento de seres vivos e a fenômenos agronômicos;\nModelos mistos e experimentação agropecuária;\nEstatística bayesiana e métodos computacionais;\nSéries temporais e modelos para dados de contagem;\nEstatística espacial e geoestatística;\nAprendizado de máquina e ciência de dados.\n\nExplore os tópicos abaixo:\n\n\n\n\n\n\n\n\nNLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/pesquisa/index.html#pesquisa-no-desufla",
     "href": "projetos/pesquisa/index.html#pesquisa-no-desufla",
-    "title": "Projetos de Pesquisa",
+    "title": "Projetos e Núcleos de pesquisa",
     "section": "",
-    "text": "Os docentes e estudantes do Departamento de Estatística desenvolvem projetos de pesquisa em métodos estatísticos e em aplicações, com destaque para:\n\nModelos de regressão não lineares aplicados ao crescimento de seres vivos e a fenômenos agronômicos;\nModelos mistos e experimentação agropecuária;\nEstatística bayesiana e métodos computacionais;\nSéries temporais e modelos para dados de contagem;\nEstatística espacial e geoestatística;\nAprendizado de máquina e ciência de dados.\n\nOs resultados são publicados em periódicos nacionais e internacionais e apresentados em eventos científicos, muitos deles divulgados aqui no ConectaStat, na seção de artigos. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nNLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nIniciação científica e demais chamadas ligadas à pesquisa, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+    "text": "Os docentes e estudantes do Departamento de Estatística desenvolvem projetos de pesquisa em métodos estatísticos e em aplicações, com destaque para:\n\nModelos de regressão não lineares aplicados ao crescimento de seres vivos e a fenômenos agronômicos;\nModelos mistos e experimentação agropecuária;\nEstatística bayesiana e métodos computacionais;\nSéries temporais e modelos para dados de contagem;\nEstatística espacial e geoestatística;\nAprendizado de máquina e ciência de dados.\n\nExplore os tópicos abaixo:\n\n\n\n\n\n\n\n\nNLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "projetos/pesquisa/index.html#editais-de-projetos-de-pesquisa",
+    "href": "projetos/pesquisa/index.html#editais-de-projetos-de-pesquisa",
+    "title": "Projetos e Núcleos de pesquisa",
+    "section": "Editais de Projetos de Pesquisa",
+    "text": "Editais de Projetos de Pesquisa\nIniciação científica e demais chamadas ligadas à pesquisa, da mais recente à mais antiga\n\n\n\n\n\n\n\n\n1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente\n\nVer todos os editais de iniciação e pesquisa »"
   },
   {
     "objectID": "projetos/extensao/index.html",
     "href": "projetos/extensao/index.html",
-    "title": "Projetos de Extensão",
+    "title": "Projetos e Atividades de Extensão",
     "section": "",
-    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConectaStat: esta plataforma de popularização da ciência, com notícias, artigos e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (agenda de eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico.\n\nExplore os tópicos abaixo:\n\n\n\n\n\n\n\n\nCursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nChamadas e editais ligados aos projetos de extensão, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConectaStat: esta plataforma de popularização da ciência, com artigos, editais e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (cursos e eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico.\n\nExplore os tópicos abaixo:\n\n\n\n\n\n\n\n\nCursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/extensao/index.html#extensão-no-desufla",
     "href": "projetos/extensao/index.html#extensão-no-desufla",
-    "title": "Projetos de Extensão",
+    "title": "Projetos e Atividades de Extensão",
     "section": "",
-    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConectaStat: esta plataforma de popularização da ciência, com notícias, artigos e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (agenda de eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico.\n\nExplore os tópicos abaixo:\n\n\n\n\n\n\n\n\nCursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nChamadas e editais ligados aos projetos de extensão, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+    "text": "Os projetos de extensão levam a Estatística para além dos muros da universidade, promovendo o letramento estatístico e o pensamento crítico na sociedade:\n\nConectaStat: esta plataforma de popularização da ciência, com artigos, editais e eventos abertos à comunidade;\nAssessoria e consultoria estatística: apoio a pesquisadores, produtores, empresas e órgãos públicos (saiba mais);\nPalestras e eventos abertos: divulgação científica em escolas e eventos regionais (cursos e eventos);\nCursos para a comunidade: capacitações em análise de dados e software estatístico.\n\nExplore os tópicos abaixo:\n\n\n\n\n\n\n\n\nCursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "projetos/extensao/index.html#editais-de-projetos-de-extensão",
+    "href": "projetos/extensao/index.html#editais-de-projetos-de-extensão",
+    "title": "Projetos e Atividades de Extensão",
+    "section": "Editais de Projetos de Extensão",
+    "text": "Editais de Projetos de Extensão\nChamadas e editais ligados aos projetos de extensão, da mais recente à mais antiga\n\n\n\n\n\n\n\n\n1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente\n\nVer todos os editais de extensão »"
   },
   {
     "objectID": "projetos/extensao/acoes/index.html",
     "href": "projetos/extensao/acoes/index.html",
     "title": "Ações de Extensão",
     "section": "",
-    "text": "Atividades de extensão do Departamento de Estatística: cursos abertos, palestras em escolas, parcerias com instituições e ações de divulgação científica. As primeiras serão publicadas em breve.\n\n  \n     Envie uma ação\n  \n  \n    \n    \n  \n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Atividades de extensão do Departamento de Estatística: cursos abertos, palestras em escolas, parcerias com instituições e ações de divulgação científica. As primeiras serão publicadas em breve.\n\n  \n    \n    \n  \n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-30-inmetro-pbev-2026/index.html",
@@ -93,16 +135,23 @@
   {
     "objectID": "projetos/ensino/index.html",
     "href": "projetos/ensino/index.html",
-    "title": "Projetos de Ensino",
+    "title": "Projetos e materias de ensino",
     "section": "",
-    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nVagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/ensino/index.html#ensino-no-desufla",
     "href": "projetos/ensino/index.html#ensino-no-desufla",
-    "title": "Projetos de Ensino",
+    "title": "Projetos e materias de ensino",
     "section": "",
-    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nVagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+    "text": "Além das disciplinas da graduação e da pós-graduação, o Departamento de Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a permanência dos estudantes: monitorias, docência voluntária, cursos e oficinas, e produção de material didático aberto. Explore os tópicos abaixo:\n\n\n\n\n\n\n\n\nProjetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nAplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.\n\n\nLeia mais\n\n\n\n\n\n\n\n\nApostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.\n\n\nLeia mais\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "projetos/ensino/index.html#editais-de-projetos-de-ensino",
+    "href": "projetos/ensino/index.html#editais-de-projetos-de-ensino",
+    "title": "Projetos e materias de ensino",
+    "section": "Editais de Projetos de Ensino",
+    "text": "Editais de Projetos de Ensino\nVagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga\n\n\n\n\n\n\n\n\n1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente\n\nVer todos os editais »"
   },
   {
     "objectID": "oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
@@ -126,13 +175,6 @@
     "text": "1 de abr. de 2026\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de fev. de 2026\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n15 de fev. de 2026\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de fev. de 2026\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "noticias/index.html",
-    "href": "noticias/index.html",
-    "title": "Notícias",
-    "section": "",
-    "text": "6 de jul. de 2026\n\n\nConectaStat entra no ar com novo visual\n\n\nA plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Sociedade.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
-  },
-  {
     "objectID": "eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
     "href": "eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
     "title": "XVII Programa de Verão DES-ICET/UFLA 2026",
@@ -149,23 +191,23 @@
   {
     "objectID": "eventos/index.html",
     "href": "eventos/index.html",
-    "title": "Eventos",
+    "title": "Cursos e Eventos",
     "section": "",
     "text": "15 de jan. de 2026\n\n\nXVII Programa de Verão DES-ICET/UFLA 2026\n\n\nEdição 2026 do tradicional Programa de Verão do Departamento de Estatística, com disciplinas e atividades de formação.\n\n\nLeia mais\n\n\n\n\n\n\n\n5 de nov. de 2025\n\n\nXVII Encontro Mineiro de Estatística (MGEST) 2025\n\n\nEvento bienal que, desde 1999, reúne profissionais, docentes e estudantes da área de Estatística de Minas Gerais e do Brasil.\n\n\nLeia mais\n\n\n\n\n\n\n\n20 de mai. de 2025\n\n\nV Workshop em Data Science\n\n\nWorkshop voltado à Ciência de Dados, com palestras e atividades sobre métodos estatísticos e aplicações.\n\n\nLeia mais\n\n\n\n\n\n\n\n1 de set. de 2024\n\n\nCurso de Extensão: Introdução ao Software R\n\n\nCurso de extensão de introdução ao R, ambiente livre para análise estatística e visualização de dados.\n\n\nLeia mais\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "enviar.html",
     "href": "enviar.html",
-    "title": "Enviar conteúdo",
+    "title": "Envie seu projeto",
     "section": "",
-    "text": "Preencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n      Onde isso deve ser publicado? *\n      \n        Selecione a seção…\n        Notícia\n        Evento\n        Edital ou oportunidade\n        Artigo ou coluna\n        Software\n        Material didático\n        Ação de extensão\n        Projeto de estudante (Organização e Apresentação de Dados)\n      \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      Para evento, a data em que ele acontece. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Documento para exibir na página\n        *\n      \n      Relatório, apostila, slides, tutorial: o arquivo\n         aparece dentro da página, e não como um link para sair\n         dela. Vai anexar o arquivo em vez de usar link? Deixe\n         em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e o documento, em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create. Qualquer seção aceita um documento, e quando ele vem a página o exibe inteiro, em vez de mostrar só um link. Havendo escolha, prefira .html: ele se integra à página, com índice na lateral, enquanto o .pdf fica dentro de uma moldura e não abre embutido em boa parte dos celulares."
+    "text": "Este formulário publica em Projetos › Ensino › Organização e Apresentação de Dados, a seção dos projetos de análise feitos pelos estudantes da graduação. É o único caminho automatizado do site.\n\n\n\n\n\n\nEditais, eventos, softwares, materiais didáticos e ações de extensão não passam por aqui: são publicados pela equipe do site, a pedido dos docentes e da chefia do departamento. Veja Como Contribuir.\n\n\n\nPreencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      A data que ordena o projeto na listagem. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Documento para exibir na página\n        *\n      \n      Relatório, apostila, slides, tutorial: o arquivo\n         aparece dentro da página, e não como um link para sair\n         dela. Vai anexar o arquivo em vez de usar link? Deixe\n         em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e o relatório, em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create. O relatório aparece inteiro dentro da página do projeto, e não como um link para sair dela. Havendo escolha, prefira .html: ele se integra à página, com índice na lateral, enquanto o .pdf fica dentro de uma moldura e não abre embutido em boa parte dos celulares."
   },
   {
     "objectID": "enviar.html#como-funciona",
     "href": "enviar.html#como-funciona",
-    "title": "Enviar conteúdo",
+    "title": "Envie seu projeto",
     "section": "",
-    "text": "Preencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n      Onde isso deve ser publicado? *\n      \n        Selecione a seção…\n        Notícia\n        Evento\n        Edital ou oportunidade\n        Artigo ou coluna\n        Software\n        Material didático\n        Ação de extensão\n        Projeto de estudante (Organização e Apresentação de Dados)\n      \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      Para evento, a data em que ele acontece. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Documento para exibir na página\n        *\n      \n      Relatório, apostila, slides, tutorial: o arquivo\n         aparece dentro da página, e não como um link para sair\n         dela. Vai anexar o arquivo em vez de usar link? Deixe\n         em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e o documento, em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create. Qualquer seção aceita um documento, e quando ele vem a página o exibe inteiro, em vez de mostrar só um link. Havendo escolha, prefira .html: ele se integra à página, com índice na lateral, enquanto o .pdf fica dentro de uma moldura e não abre embutido em boa parte dos celulares."
+    "text": "Este formulário publica em Projetos › Ensino › Organização e Apresentação de Dados, a seção dos projetos de análise feitos pelos estudantes da graduação. É o único caminho automatizado do site.\n\n\n\n\n\n\nEditais, eventos, softwares, materiais didáticos e ações de extensão não passam por aqui: são publicados pela equipe do site, a pedido dos docentes e da chefia do departamento. Veja Como Contribuir.\n\n\n\nPreencha o formulário abaixo sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: é só revisar, anexar os arquivos e confirmar. Basta estar logado no GitHub (a conta é gratuita).\nA partir daí o robô monta a página sozinho e a equipe do departamento revisa antes de publicar. Você recebe a resposta na própria submissão.\n\n  \n    \n    \n\n    \n      Título *\n      \n    \n\n    \n      Autoria *\n      \n    \n\n    \n      Seu vínculo com o DES/UFLA *\n      \n        Selecione…\n        Discente\n        Docente\n        Técnico administrativo\n        Externo ao DES\n      \n    \n\n    \n      Data\n      \n      A data que ordena o projeto na listagem. Em branco, usamos a de hoje.\n    \n\n    \n      Resumo *\n      \n    \n\n    \n      Texto da publicação *\n      \n    \n\n    \n      Categorias\n      \n    \n\n    \n      Link principal\n      \n    \n\n    \n      Repositório no GitHub\n      \n    \n\n    \n      Documento para exibir na página\n        *\n      \n      Relatório, apostila, slides, tutorial: o arquivo\n         aparece dentro da página, e não como um link para sair\n         dela. Vai anexar o arquivo em vez de usar link? Deixe\n         em branco: o anexo é arrastado na tela do GitHub que vai abrir.\n         HTML deve ir compactado em .zip; PDF pode ir direto.\n    \n  \n\n  \n    \n       Revisar e enviar no GitHub\n    \n    * obrigatório\n  \n  \n\n\n\nOs arquivos são anexados na tela do GitHub que abre: a imagem de capa e o relatório, em .html (compactado em .zip) ou .pdf. Basta arrastar cada um para o campo correspondente antes de clicar em Create. O relatório aparece inteiro dentro da página do projeto, e não como um link para sair dela. Havendo escolha, prefira .html: ele se integra à página, com índice na lateral, enquanto o .pdf fica dentro de uma moldura e não abre embutido em boa parte dos celulares."
   },
   {
     "objectID": "cursos/pos-graduacao/egressos/index.html",
@@ -175,18 +217,25 @@
     "text": "O Painel dos Egressos reúne, em um dashboard interativo, a trajetória dos egressos da graduação e da pós-graduação em Estatística da UFLA: os setores em que atuam, as regiões do país e do exterior para onde foram e a formação continuada que seguiram após o curso.\n\n\n  \n  Painel interativo em construção\n  Em breve: o dashboard com a trajetória dos egressos da graduação e da\n     pós-graduação (setores de atuação, regiões e formação continuada)."
   },
   {
-    "objectID": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
-    "href": "artigos/posts/2020-11-16-palestra-modelos-glarma/index.html",
-    "title": "Modelos da classe GLARMA(p,q): séries temporais de contagem",
+    "objectID": "acoes/lad/index.html",
+    "href": "acoes/lad/index.html",
+    "title": "LAD",
     "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os modelos da classe GLARMA(p,q), uma alternativa para a modelagem de séries temporais de contagem.\nVer no site do DES/UFLA »"
+    "text": "O Laboratório de Análises de Dados (LAD) é uma das ações do Departamento de Estatística da Universidade Federal de Lavras.\nEsta página está em construção. Em breve ficam aqui a apresentação do laboratório, as atividades que ele desenvolve e a forma de solicitar atendimento."
   },
   {
-    "objectID": "artigos/index.html",
-    "href": "artigos/index.html",
-    "title": "Artigos & Colunas",
+    "objectID": "acoes/lad/index.html#o-laboratório",
+    "href": "acoes/lad/index.html#o-laboratório",
+    "title": "LAD",
     "section": "",
-    "text": "Introdução ao crescimento de seres vivos: indivíduo ou população?\n\n\nPalestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n3 de set. de 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelos da classe GLARMA(p,q): séries temporais de contagem\n\n\nPalestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n16 de nov. de 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolinômios de Hermite: definições, propriedades e aplicações\n\n\nPalestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.\n\n\n\nDepartamento de Estatística da UFLA\n\n\n5 de dez. de 2019\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "O Laboratório de Análises de Dados (LAD) é uma das ações do Departamento de Estatística da Universidade Federal de Lavras.\nEsta página está em construção. Em breve ficam aqui a apresentação do laboratório, as atividades que ele desenvolve e a forma de solicitar atendimento."
+  },
+  {
+    "objectID": "acoes/lad/index.html#enquanto-isso",
+    "href": "acoes/lad/index.html#enquanto-isso",
+    "title": "LAD",
+    "section": "Enquanto isso",
+    "text": "Enquanto isso\n\nDemandas de apoio estatístico a pesquisas, projetos e organizações seguem pela página de assessoria e consultoria estatística, que explica como o atendimento funciona;\nPara falar com a equipe do departamento, veja entre em contato."
   },
   {
     "objectID": "acoes/revista-cientifica/index.html",
@@ -208,20 +257,6 @@
     "title": "Revista Científica",
     "section": "Como submeter",
     "text": "Como submeter\nAutores interessados encontram as normas de submissão e o sistema de envio no site oficial do periódico."
-  },
-  {
-    "objectID": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
-    "href": "artigos/posts/2019-12-05-palestra-polinomios-hermite/index.html",
-    "title": "Polinômios de Hermite: definições, propriedades e aplicações",
-    "section": "",
-    "text": "Palestra do Departamento de Estatística da UFLA sobre os polinômios de Hermite, suas definições, propriedades e aplicações na Estatística.\nVer no site do DES/UFLA »"
-  },
-  {
-    "objectID": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
-    "href": "artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.html",
-    "title": "Introdução ao crescimento de seres vivos: indivíduo ou população?",
-    "section": "",
-    "text": "Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre a modelagem do crescimento de seres vivos, abordando as perspectivas do indivíduo e da população.\nVer no site do DES/UFLA »"
   },
   {
     "objectID": "cursos/graduacao/index.html",
@@ -275,35 +310,35 @@
   {
     "objectID": "estatistica/index.html",
     "href": "estatistica/index.html",
-    "title": "Estatística",
+    "title": "A Estatística",
     "section": "",
     "text": "A Estatística é a ciência que desenvolve e aplica métodos para coletar, organizar, analisar e interpretar dados, transformando informação em conhecimento e apoiando decisões em condições de incerteza. Ela é a base fundamental da Ciência de Dados e está presente em praticamente todas as áreas do conhecimento: agricultura, saúde, indústria, finanças, esportes, políticas públicas e inteligência artificial."
   },
   {
     "objectID": "estatistica/index.html#o-que-é-a-estatística",
     "href": "estatistica/index.html#o-que-é-a-estatística",
-    "title": "Estatística",
+    "title": "A Estatística",
     "section": "",
     "text": "A Estatística é a ciência que desenvolve e aplica métodos para coletar, organizar, analisar e interpretar dados, transformando informação em conhecimento e apoiando decisões em condições de incerteza. Ela é a base fundamental da Ciência de Dados e está presente em praticamente todas as áreas do conhecimento: agricultura, saúde, indústria, finanças, esportes, políticas públicas e inteligência artificial."
   },
   {
     "objectID": "estatistica/index.html#onde-atua-o-estatístico",
     "href": "estatistica/index.html#onde-atua-o-estatístico",
-    "title": "Estatística",
+    "title": "A Estatística",
     "section": "Onde atua o estatístico?",
     "text": "Onde atua o estatístico?\nO profissional de Estatística atua em um mercado amplo e em expansão:\n\nCiência de Dados e Inteligência Artificial: modelagem preditiva, aprendizado de máquina e análise de grandes volumes de dados;\nAgronegócio e experimentação: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão;\nSaúde e bioestatística: ensaios clínicos, epidemiologia e vigilância em saúde pública;\nMercado financeiro e seguros: análise de risco, precificação e modelagem atuarial;\nIndústria e qualidade: controle estatístico de processos e confiabilidade;\nPesquisa e academia: desenvolvimento de novos métodos e formação de pessoas.\n\nPesquisas de mercado apontam a carreira de estatístico e de cientista de dados entre as melhores e mais bem remuneradas profissões da era digital, com demanda muito superior à oferta de profissionais qualificados."
   },
   {
     "objectID": "estatistica/index.html#a-estatística-em-um-vídeo",
     "href": "estatistica/index.html#a-estatística-em-um-vídeo",
-    "title": "Estatística",
+    "title": "A Estatística",
     "section": "A Estatística em um vídeo",
     "text": "A Estatística em um vídeo\nAssista à apresentação do professor Júlio sobre a área e a atuação do estatístico:\n\n  \n    \n    Bacharelado em Estatística com ênfase em Ciência de Dados · Prof. Júlio Bueno"
   },
   {
     "objectID": "estatistica/index.html#estude-estatística-na-ufla",
     "href": "estatistica/index.html#estude-estatística-na-ufla",
-    "title": "Estatística",
+    "title": "A Estatística",
     "section": "Estude Estatística na UFLA",
     "text": "Estude Estatística na UFLA\nO Departamento de Estatística da UFLA oferece formação completa na área, da graduação à pós-graduação, além de assessoria e consultoria estatística para a comunidade acadêmica e a sociedade. São dois caminhos com focos complementares:\n\nGraduação: foco em Ciência de Dados\nEmbora seja um Bacharelado em Estatística, o curso de graduação da UFLA tem forte ênfase em Ciência de Dados: além da base sólida em probabilidade e inferência, o estudante aprende programação, bancos de dados e aprendizado de máquina para extrair conhecimento de grandes volumes de dados. É o caminho de quem quer partir de dados reais, chegar a modelos preditivos e ir muito além.\n\n\nPós-graduação: foco em Ciências Agrárias\nO Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEEA) oferece mestrado e doutorado com tradição na interface entre a Estatística e as ciências agrárias: planejamento e análise de experimentos, melhoramento genético e agricultura de precisão. É a formação de quem transforma dados de campo, como as safras de café da região de Lavras, em decisões com rigor científico."
   },
@@ -322,13 +357,6 @@
     "text": "O Encontro Mineiro de Estatística (MGEST) é um evento bienal que, desde 1999, reúne profissionais, docentes e estudantes para a troca de conhecimento e a divulgação de pesquisas na área de Estatística.\nSaiba mais no site do DES/UFLA »"
   },
   {
-    "objectID": "noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
-    "href": "noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.html",
-    "title": "ConectaStat entra no ar com novo visual",
-    "section": "",
-    "text": "O ConectaStat está no ar com novo visual e nova organização: seções dedicadas à área de Estatística, aos nossos cursos de graduação e pós-graduação, à assessoria e consultoria estatística e aos projetos e ações do departamento.\nNa página inicial você encontra as últimas notícias, oportunidades (editais internos e de estudo), eventos e a localização do prédio da Estatística no campus da UFLA, com rota direto para o seu GPS."
-  },
-  {
     "objectID": "oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html",
     "href": "oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html",
     "title": "Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)",
@@ -345,16 +373,16 @@
   {
     "objectID": "projetos/ensino/editais/index.html",
     "href": "projetos/ensino/editais/index.html",
-    "title": "Editais de Projetos de Ensino",
+    "title": "Editais de Ensino e docência",
     "section": "",
-    "text": "Editais e chamadas ligados aos projetos de ensino, do mais recente ao mais antigo.\n\n  \n     Envie um edital\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Editais e chamadas ligados aos projetos de ensino, do mais recente ao mais antigo.\n\n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/ensino/materiais/index.html",
     "href": "projetos/ensino/materiais/index.html",
     "title": "Materiais",
     "section": "",
-    "text": "Materiais didáticos produzidos nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n     Envie um material\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\neda teste\n\n\neda 2\n\n\n\n6 de jul. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Materiais didáticos produzidos nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\neda teste\n\n\neda 2\n\n\n\n6 de jul. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/ensino/organizacao-e-apresentacao-de-dados/index.html",
@@ -382,21 +410,21 @@
     "href": "projetos/ensino/softwares/index.html",
     "title": "Softwares",
     "section": "",
-    "text": "Ferramentas computacionais desenvolvidas nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n     Envie um software\n  \n  \n    \n    \n  \n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Ferramentas computacionais desenvolvidas nos projetos de ensino do departamento. Os primeiros itens serão publicados em breve.\n\n  \n    \n    \n  \n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/extensao/editais/index.html",
     "href": "projetos/extensao/editais/index.html",
     "title": "Editais de Projetos de Extensão",
     "section": "",
-    "text": "Editais e chamadas ligados aos projetos de extensão, do mais recente ao mais antigo.\n\n  \n     Envie um edital\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Editais e chamadas ligados aos projetos de extensão, do mais recente ao mais antigo.\n\n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/pesquisa/editais/index.html",
     "href": "projetos/pesquisa/editais/index.html",
     "title": "Editais de Projetos de Pesquisa",
     "section": "",
-    "text": "Editais e chamadas ligados aos projetos de pesquisa, do mais recente ao mais antigo.\n\n  \n     Envie um edital\n  \n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Editais e chamadas ligados aos projetos de pesquisa, do mais recente ao mais antigo.\n\n  \n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\nEdital: Eleições para Chefe e Subchefe do DES (2026-2030)\n\n\nConvocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.\n\n\n\n1 de abr. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 003/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n20 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 002/2026: Seleção de monitores voluntários\n\n\nProcesso seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.\n\n\n\n15 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)\n\n\nSeleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "projetos/pesquisa/nucleos/gps/index.html",
@@ -439,5 +467,75 @@
     "title": "NLIN",
     "section": "Como participar",
     "text": "Como participar\nO núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as chamadas na seção de oportunidades ou procure a coordenação pelo site do DES."
+  },
+  {
+    "objectID": "sobre/como-contribuir/index.html",
+    "href": "sobre/como-contribuir/index.html",
+    "title": "Como Contribuir",
+    "section": "",
+    "text": "As análises feitas pelos estudantes da graduação têm formulário próprio, e essa é a única seção do site com envio aberto. Não é preciso saber programar nem mexer em Git.\nPreencha o formulário sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: você revisa, anexa o relatório e a capa, e confirma. Basta estar logado no GitHub, e a conta é gratuita. A partir daí a página é montada automaticamente e a equipe revisa antes de publicar.\nAbrir o formulário »"
+  },
+  {
+    "objectID": "sobre/como-contribuir/index.html#envio-aberto-projetos-de-organização-e-apresentação-de-dados",
+    "href": "sobre/como-contribuir/index.html#envio-aberto-projetos-de-organização-e-apresentação-de-dados",
+    "title": "Como Contribuir",
+    "section": "",
+    "text": "As análises feitas pelos estudantes da graduação têm formulário próprio, e essa é a única seção do site com envio aberto. Não é preciso saber programar nem mexer em Git.\nPreencha o formulário sem sair do site. Ao enviar, o GitHub abre em outra aba com a submissão já preenchida: você revisa, anexa o relatório e a capa, e confirma. Basta estar logado no GitHub, e a conta é gratuita. A partir daí a página é montada automaticamente e a equipe revisa antes de publicar.\nAbrir o formulário »"
+  },
+  {
+    "objectID": "sobre/como-contribuir/index.html#as-demais-seções",
+    "href": "sobre/como-contribuir/index.html#as-demais-seções",
+    "title": "Como Contribuir",
+    "section": "As demais seções",
+    "text": "As demais seções\nEditais e oportunidades, cursos e eventos, softwares, materiais didáticos e ações de extensão são publicados pela equipe do ConectaStat, a pedido dos docentes e da chefia do Departamento de Estatística. O mesmo vale para as páginas de texto (núcleos de pesquisa, seções fixas), que não são conteúdo datado.\nOu seja: não há formulário nem fila de submissão para essas seções. Se você é docente, servidor ou representante de um projeto do DES e tem algo a divulgar, fale com a equipe e nós publicamos.\nFalar com a equipe »\n\nO que ajuda a adiantar\nQuando o pedido chega com essas informações, a página sai no mesmo dia:\n\n\n\n\n\n\n\nTítulo\nComo deve aparecer na página e no card\n\n\nAutoria\nNome(s), como devem aparecer\n\n\nData\nA do evento, a do edital ou a da publicação\n\n\nResumo\nDe 1 a 4 frases: é o texto que aparece no card\n\n\nLink oficial\nO edital no site do DES, a inscrição do evento, o repositório do software\n\n\nArquivos\nCapa, apostila, slides ou PDF, quando houver\n\n\n\nO costume do site é não copiar o documento inteiro: um resumo curto e o link para a fonte oficial.\n\n\nOnde cada coisa é publicada\n\n\n\nO que é\nVai parar em\nQuem publica\n\n\n\n\nUma análise feita na graduação\nOrganização e Apresentação de Dados\nquem enviou, pelo formulário\n\n\nUm edital, chamada ou vaga\nOportunidades\na equipe\n\n\nUm evento, curso ou palestra\nCursos e Eventos\na equipe\n\n\nUm programa, pacote ou aplicativo\nSoftwares\na equipe\n\n\nUma apostila, tutorial ou slides\nMateriais\na equipe\n\n\nUma ação de extensão\nAções de Extensão\na equipe"
+  },
+  {
+    "objectID": "sobre/como-contribuir/index.html#achou-um-erro",
+    "href": "sobre/como-contribuir/index.html#achou-um-erro",
+    "title": "Como Contribuir",
+    "section": "Achou um erro?",
+    "text": "Achou um erro?\nErro de digitação, link quebrado ou informação desatualizada em qualquer página: avise, e a correção entra no histórico público do projeto.\nAbrir uma issue no GitHub »\nQuem prefere ir direto ao ponto pode editar o arquivo pelo GitHub e enviar a sugestão. Se ela for aceita, você entra na lista de contribuidores automaticamente."
+  },
+  {
+    "objectID": "sobre/como-contribuir/index.html#como-funciona-o-crédito",
+    "href": "sobre/como-contribuir/index.html#como-funciona-o-crédito",
+    "title": "Como Contribuir",
+    "section": "Como funciona o crédito",
+    "text": "Como funciona o crédito\nToda contribuição aceita entra na lista pública de contribuidores do projeto, não só código. As marcas se acumulam: ninguém perde uma marca antiga ao ganhar outra.\n\n\n\n📊\ncoordenacao\nCoordenação do projeto\n\n\n📈\ncontent\nContribuição\n\n\n💻\ncode\nCódigo\n\n\n\nA marca 📊 é atribuída a quem se identifica como docente, e é ela que ordena a lista: quem coordena aparece no topo.\nVer a lista de contribuidores »\nO projeto segue a especificação all-contributors."
+  },
+  {
+    "objectID": "sobre/quem-somos/index.html",
+    "href": "sobre/quem-somos/index.html",
+    "title": "Quem Somos",
+    "section": "",
+    "text": "O ConectaStat é uma iniciativa do Departamento de Estatística (DES) da Universidade Federal de Lavras que conecta Ciência, Estatística e Sociedade. A proposta é tornar o conhecimento científico mais acessível, promover o letramento estatístico e aproximar a universidade da comunidade.\nEste é um site de projeto vinculado ao DES/UFLA. Não é um site institucional da Universidade: a comunicação oficial do departamento continua em des.ufla.br e a da UFLA, em ufla.br."
+  },
+  {
+    "objectID": "sobre/quem-somos/index.html#o-projeto",
+    "href": "sobre/quem-somos/index.html#o-projeto",
+    "title": "Quem Somos",
+    "section": "",
+    "text": "O ConectaStat é uma iniciativa do Departamento de Estatística (DES) da Universidade Federal de Lavras que conecta Ciência, Estatística e Sociedade. A proposta é tornar o conhecimento científico mais acessível, promover o letramento estatístico e aproximar a universidade da comunidade.\nEste é um site de projeto vinculado ao DES/UFLA. Não é um site institucional da Universidade: a comunicação oficial do departamento continua em des.ufla.br e a da UFLA, em ufla.br."
+  },
+  {
+    "objectID": "sobre/quem-somos/index.html#o-que-você-encontra-aqui",
+    "href": "sobre/quem-somos/index.html#o-que-você-encontra-aqui",
+    "title": "Quem Somos",
+    "section": "O que você encontra aqui",
+    "text": "O que você encontra aqui\n\nEstatística: o que é a área, onde atua o profissional e por que ela está no centro da ciência de dados;\nNossos Cursos: a graduação e a pós-graduação em Estatística da UFLA;\nProjetos: as frentes de ensino, pesquisa e extensão do departamento, com seus editais abertos;\nAções: a revista científica, a assessoria e consultoria estatística e a agenda de cursos e eventos;\nOportunidades: os editais e as chamadas em aberto do departamento."
+  },
+  {
+    "objectID": "sobre/quem-somos/index.html#quem-faz",
+    "href": "sobre/quem-somos/index.html#quem-faz",
+    "title": "Quem Somos",
+    "section": "Quem faz",
+    "text": "Quem faz\nO ConectaStat é feito por docentes, estudantes e servidores do Departamento de Estatística, com a colaboração de quem envia conteúdo pelo site. Toda contribuição aceita entra na lista pública de contribuidores do projeto, seja ela conteúdo publicado, código ou coordenação.\nA lista completa, sempre atualizada, fica no repositório do projeto:\nVer a lista de contribuidores »\nQuer entrar nela? Veja como contribuir."
+  },
+  {
+    "objectID": "sobre/quem-somos/index.html#como-o-site-é-feito",
+    "href": "sobre/quem-somos/index.html#como-o-site-é-feito",
+    "title": "Quem Somos",
+    "section": "Como o site é feito",
+    "text": "Como o site é feito\nO site é aberto e público: o código, os textos e o histórico de cada alteração ficam no repositório no GitHub. Ele é construído com Quarto e publicado no GitHub Pages, o que significa que qualquer pessoa pode acompanhar, revisar e propor melhorias.\nSobre o apoio de ferramentas automatizadas na produção do conteúdo, veja a página de uso de IA."
   }
 ]

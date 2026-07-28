@@ -3,6 +3,12 @@
 // mais antigo; a rotação percorre todos; JS em _includes/listing-cards.html).
 // Atenção: sem indentação e com tags inline (<a>, <span>) abertas e fechadas
 // na mesma linha: o Pandoc reprocessa este HTML como markdown.
+//
+// `item.path` vem com o separador do sistema onde o site foi renderizado: no
+// Windows, "oportunidades\posts\...". O navegador até corrige a barra
+// invertida sozinho, mas o HTML publicado não pode depender disso - nem sair
+// diferente conforme a máquina que rodou o build. Daí o normaliza().
+const normaliza = (p) => p.replace(/\\/g, "/").replace(/\.qmd$/, ".html");
 %>
 <div class="cs-rotator">
 <div class="cs-cards">
@@ -12,7 +18,7 @@
 <% if (item.date) { %><p class="cs-card-date"><%= item.date %></p><% } %>
 <h3 class="cs-card-title"><%= item.title %></h3>
 <% if (item.description) { %><p class="cs-card-desc"><%= item.description %></p><% } %>
-<p class="cs-card-action"><a class="cs-card-btn" href="<%- item.path.replace(/\.qmd$/, '.html') %>">Leia mais</a></p>
+<p class="cs-card-action"><a class="cs-card-btn" href="<%- normaliza(item.path) %>">Leia mais</a></p>
 </div>
 <% } %>
 </div>

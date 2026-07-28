@@ -2,7 +2,7 @@
 
 Inventário de **todo o texto editável** do ConectaStat, na ordem em que
 o visitante encontra. Serve para revisão: reescreva o que quiser dentro dos
-blocos citados e devolva — cada bloco indica o arquivo exato onde ele mora.
+blocos citados e devolva. Cada bloco indica o arquivo exato onde ele mora.
 
 Está tudo aqui: títulos, textos corridos, tabelas e os resumos que aparecem nos
 cards. Ficam de fora apenas os relatórios enviados pelos estudantes, que são
@@ -10,7 +10,7 @@ conteúdo de terceiros e não devem ser reescritos.
 
 **Como devolver correções:** copie o trecho que quiser mudar, reescreva e
 devolva indicando o arquivo (cada bloco traz o caminho logo abaixo do título).
-Não precisa se preocupar com formatação — negrito, links e acentos são
+Não precisa se preocupar com formatação: negrito, links e acentos são
 ajustados na hora de aplicar.
 
 Este documento é gerado a partir dos arquivos do site. Depois de aplicar
@@ -30,14 +30,15 @@ home/
 │   ├── hero ........................ slogan sobre a ilustração
 │   ├── disclaimer .................. logo abaixo da hero
 │   ├── "O que é o Conexão…" ........ texto de apresentação
-│   ├── notícias · oportunidades · eventos ... carrosséis
+│   ├── oportunidades · cursos e eventos ..... carrosséis
 │   └── onde estamos ................ mapa + endereço
 ├── _quarto.yml ───────────────── rodapé e menu ................. §2 e §3
 │
 ├── estatistica/index.qmd ─────── Estatística .................... §4
 ├── assessoria/index.qmd ──────── Assessoria e Consultoria
 ├── acoes/
-│   └── revista-cientifica/index.qmd ── Revista Científica
+│   ├── revista-cientifica/index.qmd ── Revista Científica
+│   └── lad/index.qmd ───────────────── Laboratório de Análises de Dados
 ├── cursos/
 │   ├── graduacao/index.qmd ─────── Graduação
 │   └── pos-graduacao/
@@ -63,10 +64,9 @@ home/
 │       ├── index.qmd ───────────── Projetos de Extensão (+ cards)
 │       └── editais/index.qmd ───── Editais de Extensão
 │
-├── noticias/       ┐
-├── oportunidades/  │  cada uma com:
-├── eventos/        │    index.qmd ── página de arquivo ......... §4
-├── artigos/        ┘    posts/ ───── conteúdo datado ........... §5
+├── oportunidades/  ┐  cada uma com:
+├── eventos/        ┘    index.qmd ── página de arquivo ......... §4
+                         posts/ ───── conteúdo datado ........... §5
 │
 └── enviar.qmd ────────────────── Formulário de envio
 ```
@@ -80,9 +80,8 @@ index.qmd
 ├── hero .................. slogan + ilustração
 ├── disclaimer ............ abaixo da hero
 ├── o projeto ............. texto de apresentação
-├── notícias .............. carrossel
 ├── oportunidades ......... carrossel
-├── eventos ............... carrossel
+├── cursos e eventos ...... carrossel
 └── onde estamos .......... mapa + endereço
 ```
 
@@ -99,17 +98,12 @@ index.qmd
 > Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.
 
 
-### Seção da home: Notícias
-
-> Subtítulo: Manchetes e novidades do Departamento de Estatística
-
-
 ### Seção da home: Oportunidades
 
 > Subtítulo: Editais internos e oportunidades de estudo
 
 
-### Seção da home: Eventos
+### Seção da home: Cursos e Eventos
 
 > Subtítulo: Cursos, workshops e encontros da comunidade
 
@@ -138,13 +132,6 @@ index.qmd
 
 > Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.
 
-**Assinatura institucional (canto direito):**
-
-> DES
-> Departamento de Estatística
->
-> (ao lado da marca da UFLA)
-
 **Ícones:** GitHub, Instagram e LinkedIn (os dois últimos ainda sem link).
 
 
@@ -158,7 +145,7 @@ index.qmd
 ```
 Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
-  Estatística
+  A Estatística
   Nossos Cursos
       └── Graduação
       └── Pós-Graduação
@@ -169,7 +156,13 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
   Ações
       └── Revista Científica
       └── Assessoria e Consultoria Estatística
-      └── Eventos
+      └── Laboratório de Análises de Dados (LAD)
+      └── Cursos e Eventos
+  Sobre o ConectaStat
+      └── Quem Somos
+      └── Uso de IA
+      └── Como Contribuir
+      └── Entre em Contato
 ```
 
 
@@ -181,7 +174,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ### Estatística
 `estatistica/index.qmd`
 
-**Título (aparece no banner):** Estatística
+**Título (aparece no banner):** A Estatística
 
 **Subtítulo:** A ciência de aprender com os dados. E uma das profissões mais promissoras da atualidade.  
 *(hoje oculto no site; fica só no código)*
@@ -426,7 +419,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ### Projetos › Ensino
 `projetos/ensino/index.qmd`
 
-**Título (aparece no banner):** Projetos de Ensino
+**Título (aparece no banner):** Projetos e materias de ensino
 
 **Subtítulo:** Iniciativas que fortalecem a formação em Estatística dentro e fora da sala de aula.  
 *(hoje oculto no site; fica só no código)*
@@ -439,6 +432,13 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a
 > permanência dos estudantes: monitorias, docência voluntária, cursos e
 > oficinas, e produção de material didático aberto. Explore os tópicos abaixo:
+>
+> ## Editais de Projetos de Ensino
+>
+> [Vagas de monitoria, docência voluntária e demais chamadas dos projetos de
+> ensino, da mais recente à mais antiga]{.sec-sub}
+>
+> [Ver todos os editais »](editais/index.qmd){.listing-mais}
 
 **Cards de tópico desta página:**
 
@@ -450,9 +450,6 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 >
 > **Materiais**  
 > Apostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.
->
-> **Editais de Projetos de Ensino**  
-> Vagas de monitoria, docência voluntária e demais chamadas dos projetos de ensino, da mais recente à mais antiga.
 >
 
 
@@ -502,7 +499,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ### Projetos › Ensino › Editais
 `projetos/ensino/editais/index.qmd`
 
-**Título (aparece no banner):** Editais de Projetos de Ensino
+**Título (aparece no banner):** Editais de Ensino e docência
 
 **Subtítulo:** Monitorias, docência voluntária e demais chamadas dos projetos de ensino.  
 *(hoje oculto no site; fica só no código)*
@@ -516,7 +513,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ### Projetos › Pesquisa
 `projetos/pesquisa/index.qmd`
 
-**Título (aparece no banner):** Projetos de Pesquisa
+**Título (aparece no banner):** Projetos e Núcleos de pesquisa
 
 **Subtítulo:** A investigação científica desenvolvida no Departamento de Estatística da UFLA.  
 *(hoje oculto no site; fica só no código)*
@@ -536,18 +533,19 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > - **Estatística espacial e geoestatística**;
 > - **Aprendizado de máquina e ciência de dados**.
 >
-> Os resultados são publicados em periódicos nacionais e internacionais e
-> apresentados em eventos científicos, muitos deles divulgados aqui no
-> ConectaStat, na seção de [artigos](../../artigos/index.qmd).
 > Explore os tópicos abaixo:
+>
+> ## Editais de Projetos de Pesquisa
+>
+> [Iniciação científica e demais chamadas ligadas à pesquisa, da mais recente à
+> mais antiga]{.sec-sub}
+>
+> [Ver todos os editais de iniciação e pesquisa »](editais/index.qmd){.listing-mais}
 
 **Cards de tópico desta página:**
 
 > **Núcleos de Pesquisa**  
 > NLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística.
->
-> **Editais de Projetos de Pesquisa**  
-> Iniciação científica e demais chamadas ligadas à pesquisa, da mais recente à mais antiga.
 >
 
 
@@ -670,7 +668,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ### Projetos › Extensão
 `projetos/extensao/index.qmd`
 
-**Título (aparece no banner):** Projetos de Extensão
+**Título (aparece no banner):** Projetos e Atividades de Extensão
 
 **Subtítulo:** A Estatística a serviço da comunidade: popularização da ciência e letramento estatístico.  
 *(hoje oculto no site; fica só no código)*
@@ -684,24 +682,28 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > sociedade:
 >
 > - **ConectaStat**: esta plataforma de popularização da ciência, com
->   notícias, artigos e eventos abertos à comunidade;
+>   artigos, editais e eventos abertos à comunidade;
 > - **Assessoria e consultoria estatística**: apoio a pesquisadores,
 >   produtores, empresas e órgãos públicos
 >   ([saiba mais](../../assessoria/index.qmd));
 > - **Palestras e eventos abertos**: divulgação científica em escolas e
->   eventos regionais ([agenda de eventos](../../eventos/index.qmd));
+>   eventos regionais ([cursos e eventos](../../eventos/index.qmd));
 > - **Cursos para a comunidade**: capacitações em análise de dados e
 >   software estatístico.
 >
 > Explore os tópicos abaixo:
+>
+> ## Editais de Projetos de Extensão
+>
+> [Chamadas e editais ligados aos projetos de extensão, da mais recente à mais
+> antiga]{.sec-sub}
+>
+> [Ver todos os editais de extensão »](editais/index.qmd){.listing-mais}
 
 **Cards de tópico desta página:**
 
 > **Ações de Extensão**  
 > Cursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade.
->
-> **Editais de Projetos de Extensão**  
-> Chamadas e editais ligados aos projetos de extensão, da mais recente à mais antiga.
 >
 
 
@@ -770,33 +772,50 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 **Texto da página:**
 
-> *(sem texto próprio — a página só exibe a listagem)*
+> *(sem texto próprio: a página só exibe a listagem)*
 
 
-### Ações › Eventos (arquivo)
+### Ações › Laboratório de Análises de Dados (LAD)
+`acoes/lad/index.qmd`
+
+**Título (aparece no banner):** LAD
+
+**Subtítulo:** Laboratório de Análises de Dados do Departamento de Estatística da UFLA.  
+*(hoje oculto no site; fica só no código)*
+
+**Texto da página:**
+
+> ## O Laboratório
+>
+> O **Laboratório de Análises de Dados (LAD)** é uma das ações do
+> [Departamento de Estatística](https://des.ufla.br/) da Universidade Federal
+> de Lavras.
+>
+> Esta página está em construção. Em breve ficam aqui a apresentação do
+> laboratório, as atividades que ele desenvolve e a forma de solicitar
+> atendimento.
+>
+> ## Enquanto isso
+>
+> - Demandas de **apoio estatístico a pesquisas, projetos e organizações** seguem
+>   pela página de [assessoria e consultoria
+>   estatística](../../assessoria/index.qmd), que explica como o atendimento
+>   funciona;
+> - Para falar com a equipe do departamento, veja [entre em
+>   contato](../../sobre/contato/index.qmd).
+
+
+### Ações › Cursos e Eventos (arquivo)
 `eventos/index.qmd`
 
-**Título (aparece no banner):** Eventos
+**Título (aparece no banner):** Cursos e Eventos
 
-**Subtítulo:** Seminários, palestras, minicursos e defesas.  
+**Subtítulo:** Cursos, minicursos, seminários, palestras, workshops e defesas.  
 *(hoje oculto no site; fica só no código)*
 
 **Texto da página:**
 
-> *(sem texto próprio — a página só exibe a listagem)*
-
-
-### Notícias (arquivo)
-`noticias/index.qmd`
-
-**Título (aparece no banner):** Notícias
-
-**Subtítulo:** Manchetes e novidades do Departamento de Estatística.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> *(sem texto próprio — a página só exibe a listagem)*
+> *(sem texto próprio: a página só exibe a listagem)*
 
 
 ### Oportunidades (arquivo)
@@ -809,33 +828,30 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 **Texto da página:**
 
-> *(sem texto próprio — a página só exibe a listagem)*
-
-
-### Artigos & Colunas (arquivo)
-`artigos/index.qmd`
-
-**Título (aparece no banner):** Artigos & Colunas
-
-**Subtítulo:** Textos de divulgação que aproximam a Estatística do público.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> *(sem texto próprio — a página só exibe a listagem)*
+> *(sem texto próprio: a página só exibe a listagem)*
 
 
 ### Enviar conteúdo (formulário do site)
 `enviar.qmd`
 
-**Título (aparece no banner):** Enviar conteúdo
+**Título (aparece no banner):** Envie seu projeto
 
-**Subtítulo:** Publique no ConectaStat: notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante.  
+**Subtítulo:** Publique a sua análise em Organização e Apresentação de Dados.  
 *(hoje oculto no site; fica só no código)*
 
 **Texto da página:**
 
 > ## Como funciona
+>
+> Este formulário publica em **Projetos › Ensino › [Organização e Apresentação de
+> Dados](projetos/ensino/organizacao-e-apresentacao-de-dados/index.qmd)**, a
+> seção dos projetos de análise feitos pelos estudantes da graduação. É o único
+> caminho automatizado do site.
+>
+> Editais, eventos, softwares, materiais didáticos e ações de extensão **não
+> passam por aqui**: são publicados pela equipe do site, a pedido dos docentes e
+> da chefia do departamento. Veja [Como
+> Contribuir](sobre/como-contribuir/index.qmd).
 >
 > Preencha o formulário abaixo **sem sair do site**. Ao enviar, o GitHub abre em
 > outra aba com a submissão **já preenchida**: é só revisar, anexar os arquivos
@@ -845,11 +861,11 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > antes de publicar. Você recebe a resposta na própria submissão.
 >
 > Os **arquivos** são anexados na tela do GitHub que abre: a imagem de capa e o
-> documento, em `.html` (compactado em `.zip`) ou `.pdf`. Basta arrastar cada um
-> para o campo correspondente antes de clicar em *Create*. Qualquer seção aceita
-> um documento, e quando ele vem a página o exibe inteiro, em vez de mostrar só
-> um link. Havendo escolha, prefira `.html`: ele se integra à página, com índice
-> na lateral, enquanto o `.pdf` fica dentro de uma moldura e não abre embutido em
+> relatório, em `.html` (compactado em `.zip`) ou `.pdf`. Basta arrastar cada um
+> para o campo correspondente antes de clicar em *Create*. O relatório aparece
+> **inteiro dentro da página** do projeto, e não como um link para sair dela.
+> Havendo escolha, prefira `.html`: ele se integra à página, com índice na
+> lateral, enquanto o `.pdf` fica dentro de uma moldura e não abre embutido em
 > boa parte dos celulares.
 
 
@@ -858,25 +874,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ## 5. Conteúdo datado (posts já publicados)
 
 
-### Notícias — posts publicados (1)
-
-
-#### ConectaStat entra no ar com novo visual
-`noticias/posts/2026-07-06-conexao-estatistica-no-ar/index.qmd`
-
-**Resumo (aparece no card):** A plataforma de popularização da ciência do Departamento de Estatística da UFLA ganha novo formato: Ciência, Estatística e Sociedade.
-
-> O **ConectaStat** está no ar com novo visual e nova organização: seções
-> dedicadas à área de Estatística, aos nossos cursos de graduação e
-> pós-graduação, à assessoria e consultoria estatística e aos projetos e
-> ações do departamento.
->
-> Na página inicial você encontra as últimas notícias, oportunidades (editais
-> internos e de estudo), eventos e a localização do prédio da Estatística no
-> campus da UFLA, com rota direto para o seu GPS.
-
-
-### Oportunidades — posts publicados (4)
+### Oportunidades: posts publicados (4)
 
 
 #### Edital: Eleições para Chefe e Subchefe do DES (2026-2030)
@@ -923,7 +921,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > [Ler edital no site do DES/UFLA »](https://des.ufla.br/editais/134-edital-n-001-2026-docencia-voluntaria-des-1-sem-2026)
 
 
-### Eventos — posts publicados (4)
+### Cursos e Eventos: posts publicados (4)
 
 
 #### XVII Programa de Verão DES-ICET/UFLA 2026
@@ -969,43 +967,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > [Saiba mais no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/125-curso-de-extensao-introducao-ao-software-r)
 
 
-### Artigos & Colunas — posts publicados (3)
-
-
-#### Introdução ao crescimento de seres vivos: indivíduo ou população?
-`artigos/posts/2021-09-03-palestra-crescimento-seres-vivos/index.qmd`
-
-**Resumo (aparece no card):** Palestra do ciclo do DES/UFLA sobre modelagem do crescimento de seres vivos, no nível do indivíduo e da população.
-
-> Palestra do ciclo de seminários do Departamento de Estatística da UFLA sobre
-> a modelagem do crescimento de seres vivos, abordando as perspectivas do
-> indivíduo e da população.
->
-> [Ver no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/90-palestra-03-09-2021-introducao-ao-crescimento-de-seres-vivos-individuo-ou-populacao)
-
-#### Modelos da classe GLARMA(p,q): séries temporais de contagem
-`artigos/posts/2020-11-16-palestra-modelos-glarma/index.qmd`
-
-**Resumo (aparece no card):** Palestra sobre os modelos GLARMA(p,q) como alternativa para a análise de séries temporais de contagem.
-
-> Palestra do Departamento de Estatística da UFLA sobre os modelos da classe
-> **GLARMA(p,q)**, uma alternativa para a modelagem de séries temporais de
-> contagem.
->
-> [Ver no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/81-palestra-16-11-2020-modelos-da-classe-glarma-p-q-uma-alternativa-para-series-temporais-de-contagem)
-
-#### Polinômios de Hermite: definições, propriedades e aplicações
-`artigos/posts/2019-12-05-palestra-polinomios-hermite/index.qmd`
-
-**Resumo (aparece no card):** Palestra sobre os polinômios de Hermite, suas propriedades e aplicações na Estatística.
-
-> Palestra do Departamento de Estatística da UFLA sobre os **polinômios de
-> Hermite**, suas definições, propriedades e aplicações na Estatística.
->
-> [Ver no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/72-palestra-05-12-2019-polinomios-de-hermite-definicoes-propriedades-e-aplicacoes-na-estatistica)
-
-
-### Organização e Apresentação de Dados — posts publicados (5)
+### Organização e Apresentação de Dados: posts publicados (5)
 
 
 #### Etanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)
@@ -1061,7 +1023,7 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 
 
-### Materiais — posts publicados (1)
+### Materiais: posts publicados (1)
 
 
 #### eda teste

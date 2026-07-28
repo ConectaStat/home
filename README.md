@@ -1,4 +1,4 @@
-# Ciência| <br/> Estatística| <br/> &amp; Sociedade
+# Ciência| <br/> Estatística| <br/> Sociedade
 
 Bem-vindo à casa do [ConectaStat](https://conectastat.github.io/), um projeto do [Departamento de Estatística da UFLA](https://des.ufla.br/). Este repositório contém todo o código-fonte e o conteúdo do site, uma plataforma que busca a popularização da estatística e da ciência de dados no sul de Minas.
 
@@ -33,7 +33,7 @@ O ConectaStat é conduzido no Departamento de Estatística da UFLA. A coordenaç
 
 ## Contribuidores
 
-Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publicadas, código, ideias e correções. A lista não é fechada, e cresce a cada contribuição aceita. O significado de cada marca está em [como funciona o crédito](#como-funciona-o-crédito).
+Aqui entra todo mundo que somou ao projeto, de qualquer forma: conteúdo publicado, código e coordenação. A lista não é fechada, e cresce a cada contribuição aceita. O significado de cada marca está em [como funciona o crédito](#como-funciona-o-crédito).
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -41,12 +41,12 @@ Aqui entra todo mundo que somou ao projeto, de qualquer forma: análises publica
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Leocarletto"><img src="https://avatars.githubusercontent.com/u/290053745?v=4?s=100" width="100px;" alt="Leonardo Carletto"/><br /><sub><b>Leonardo Carletto</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=Leocarletto" title="Código">💻</a> <a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a> <a href="https://github.com/Leocarletto" title="Coordenação do projeto">📊</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Leocarletto"><img src="https://avatars.githubusercontent.com/u/290053745?v=4?s=100" width="100px;" alt="Leonardo Carletto"/><br /><sub><b>Leonardo Carletto</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=Leocarletto" title="Código">💻</a> <a href="https://conectastat.github.io/" title="Contribuição">📈</a> <a href="https://github.com/Leocarletto" title="Coordenação do projeto">📊</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/uaipedro"><img src="https://avatars.githubusercontent.com/u/44395968?v=4?s=100" width="100px;" alt="Pedro Mambelli Fernandes"/><br /><sub><b>Pedro Mambelli Fernandes</b></sub></a><br /><a href="https://github.com/ConectaStat/conectastat.github.io/commits?author=uaipedro" title="Código">💻</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/PedroEu781"><img src="https://avatars.githubusercontent.com/u/153462117?v=4?s=100" width="100px;" alt="Pedro"/><br /><sub><b>Pedro</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Carolinabrito1304"><img src="https://avatars.githubusercontent.com/u/290053524?v=4?s=100" width="100px;" alt="Carolina Brito"/><br /><sub><b>Carolina Brito</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/amacielp73"><img src="https://avatars.githubusercontent.com/u/288349650?v=4?s=100" width="100px;" alt="André Maciel"/><br /><sub><b>André Maciel</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/carlossouza11052007-collab"><img src="https://avatars.githubusercontent.com/u/290053234?v=4?s=100" width="100px;" alt="Carlos Eduardo Silva Sousa"/><br /><sub><b>Carlos Eduardo Silva Sousa</b></sub></a><br /><a href="https://conectastat.github.io/" title="Conteúdo publicado no site">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/PedroEu781"><img src="https://avatars.githubusercontent.com/u/153462117?v=4?s=100" width="100px;" alt="Pedro"/><br /><sub><b>Pedro</b></sub></a><br /><a href="https://conectastat.github.io/" title="Contribuição">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Carolinabrito1304"><img src="https://avatars.githubusercontent.com/u/290053524?v=4?s=100" width="100px;" alt="Carolina Brito"/><br /><sub><b>Carolina Brito</b></sub></a><br /><a href="https://conectastat.github.io/" title="Contribuição">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/amacielp73"><img src="https://avatars.githubusercontent.com/u/288349650?v=4?s=100" width="100px;" alt="André Maciel"/><br /><sub><b>André Maciel</b></sub></a><br /><a href="https://conectastat.github.io/" title="Contribuição">📈</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/carlossouza11052007-collab"><img src="https://avatars.githubusercontent.com/u/290053234?v=4?s=100" width="100px;" alt="Carlos Eduardo Silva Sousa"/><br /><sub><b>Carlos Eduardo Silva Sousa</b></sub></a><br /><a href="https://conectastat.github.io/" title="Contribuição">📈</a></td>
     </tr>
   </tbody>
 </table>
@@ -64,32 +64,28 @@ A lista acima se mantém sozinha. Para incluir alguém, basta comentar em qualqu
 @all-contributors please add @usuario for content
 ```
 
-Troque `content` pelo tipo de contribuição: `coordenacao`, `code`, `bug`, `ideas`, `design` ou `translation`. O robô abre um pull request atualizando a tabela e o arquivo `.all-contributorsrc`.
+Troque `content` pelo tipo de contribuição: `coordenacao`, `content` ou `code`, que são as três marcas do projeto. O robô abre um pull request atualizando a tabela e o arquivo `.all-contributorsrc`.
 
 ## Seja um contribuidor
 
-Quase toda seção do site aceita contribuição de fora, e nenhuma delas exige experiência com Git. O caminho é sempre o mesmo: preencher o [formulário de envio](https://conectastat.github.io/enviar.html) no próprio site.
+Uma seção do site recebe envios de qualquer pessoa; o resto é publicado pela equipe. A versão para quem chega pelo site está em [Como Contribuir](https://conectastat.github.io/sobre/como-contribuir/).
 
-Ao enviar, o GitHub abre com a submissão pronta. Assim que você confirma, o robô monta a página e abre um pedido de publicação para a equipe revisar. Você recebe a resposta na própria submissão.
+**1. Organização e Apresentação de Dados: envio aberto.** Única seção automatizada, e não exige experiência com Git. O estudante preenche o [formulário do site](https://conectastat.github.io/enviar.html) e o GitHub abre com a submissão pronta. Assim que ele confirma, o robô monta a página e abre um pedido de publicação para a equipe revisar. A resposta vai na própria submissão.
 
-| O que você tem | Vai parar em |
-|---|---|
-| Uma notícia ou aviso | [Notícias](https://conectastat.github.io/noticias/) |
-| Um evento, curso ou palestra | [Eventos](https://conectastat.github.io/eventos/) |
-| Um edital ou oportunidade | [Oportunidades](https://conectastat.github.io/oportunidades/) |
-| Um texto de divulgação | [Artigos & Colunas](https://conectastat.github.io/artigos/) |
-| Um programa, pacote ou aplicativo | [Softwares](https://conectastat.github.io/projetos/ensino/softwares/) |
-| Uma apostila, tutorial ou slides | [Materiais](https://conectastat.github.io/projetos/ensino/materiais/) |
-| Uma ação de extensão | [Ações de Extensão](https://conectastat.github.io/projetos/extensao/acoes/) |
-| Uma análise feita na graduação | [Organização e Apresentação de Dados](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/) |
+**2. As demais seções: publicação interna.** Editais e oportunidades, cursos e eventos, softwares, materiais e ações de extensão são publicados **à mão pela equipe do site**, a pedido dos docentes e da chefia do departamento. Núcleos de pesquisa e páginas de texto seguem o mesmo caminho, por não serem conteúdo datado. Não há formulário nem fila de submissão para elas: os modelos de cada área estão em `_templates/areas/`, e o passo a passo, em [Publicar em cada área](#publicar-em-cada-área).
 
-Cada uma dessas páginas tem o próprio botão de envio, que abre o formulário com a seção já escolhida.
+| O que é | Vai parar em | Quem publica |
+|---|---|---|
+| Uma análise feita na graduação | [Organização e Apresentação de Dados](https://conectastat.github.io/projetos/ensino/organizacao-e-apresentacao-de-dados/) | quem enviou, pelo formulário |
+| Um edital, chamada ou vaga | [Oportunidades](https://conectastat.github.io/oportunidades/) | a equipe |
+| Um evento, curso ou palestra | [Cursos e Eventos](https://conectastat.github.io/eventos/) | a equipe |
+| Um programa, pacote ou aplicativo | [Softwares](https://conectastat.github.io/projetos/ensino/softwares/) | a equipe |
+| Uma apostila, tutorial ou slides | [Materiais](https://conectastat.github.io/projetos/ensino/materiais/) | a equipe |
+| Uma ação de extensão | [Ações de Extensão](https://conectastat.github.io/projetos/extensao/acoes/) | a equipe |
 
-O formulário pergunta o seu **vínculo com o DES**, e é isso que define como você aparece na lista de contribuidores.
+No formulário, diga o seu **vínculo com o DES**: é isso que define como você aparece na lista de contribuidores.
 
 **Erro de digitação ou link quebrado?** [Abra uma issue](https://github.com/ConectaStat/conectastat.github.io/issues/new) dizendo em qual página está, ou edite o arquivo direto pelo GitHub e envie a sugestão. Se ela for aceita, você entra na lista automaticamente.
-
-**Núcleos de pesquisa e páginas de texto** não passam pelo formulário, porque não são conteúdo datado. Abra uma issue descrevendo a proposta.
 
 ### Como funciona o crédito
 
@@ -98,12 +94,8 @@ Cada pessoa carrega uma ou mais marcas na lista, e elas se acumulam: ninguém pe
 | | | |
 |---|---|---|
 | 📊 | `coordenacao` | Coordenação do projeto |
-| 📈 | `content` | Conteúdo publicado no site |
+| 📈 | `content` | Contribuição |
 | 💻 | `code` | Código |
-| 🐛 | `bug` | Correção de erro |
-| 💡 | `ideas` | Ideias e sugestões |
-| 🎨 | `design` | Design |
-| 🌍 | `translation` | Tradução |
 
 A marca 📊 é atribuída a quem se identifica como **docente** ao enviar uma contribuição, e é ela que ordena a lista: quem coordena aparece no topo. Um docente que publica um material fica com 📊 📈; um estudante que publica uma análise fica com 📈.
 
@@ -124,12 +116,18 @@ conectastat.github.io/
 │
 ├── estatistica/index.qmd
 ├── assessoria/index.qmd
-├── acoes/revista-cientifica/index.qmd
+├── acoes/
+│   ├── revista-cientifica/index.qmd
+│   └── lad/index.qmd           Laboratório de Análises de Dados
 │
-├── artigos/          ┐
-├── eventos/          │  cada uma com index.qmd (página de arquivo)
-├── noticias/         │  e posts/ (o conteúdo datado)
-├── oportunidades/    ┘
+├── sobre/                      menu "Sobre o ConectaStat"
+│   ├── quem-somos/index.qmd
+│   ├── uso-de-ia/index.qmd
+│   ├── como-contribuir/index.qmd
+│   └── contato/index.qmd
+│
+├── eventos/          ┐  cada uma com index.qmd (página de arquivo)
+├── oportunidades/    ┘  e posts/ (o conteúdo datado)
 │
 ├── cursos/
 │   ├── graduacao/index.qmd
@@ -169,7 +167,7 @@ eventos/
 
 Por isso as listagens são simplesmente `contents: posts`, sem exclusões frágeis do tipo `"!index.qmd"`.
 
-As seções com conteúdo datado (Notícias, Oportunidades, Eventos e Artigos) têm cada uma a sua página de arquivo, além de aparecerem na home. As três primeiras usam o mesmo template de cards dos Projetos, para o mesmo conteúdo ter a mesma aparência em qualquer lugar do site.
+As seções com conteúdo datado (Oportunidades, Cursos e Eventos, e Artigos) têm cada uma a sua página de arquivo, além de aparecerem na home. As duas primeiras usam o mesmo template de cards dos Projetos, para o mesmo conteúdo ter a mesma aparência em qualquer lugar do site.
 
 ### Outros arquivos e pastas
 
@@ -182,8 +180,9 @@ As seções com conteúdo datado (Notícias, Oportunidades, Eventos e Artigos) t
 | `_templates/` | modelos para começar um post novo |
 | `images/topicos/` | capas dos cards de tópico da área de Projetos |
 | `images/capa-padrao.svg` e `.png` | capa dos posts sem imagem própria, fundo branco |
-| `images/capa-padrao-azul.svg` e `.png` | a mesma em fundo azul, para Notícias, Oportunidades e Eventos |
+| `images/capa-padrao-azul.svg` e `.png` | a mesma em fundo azul, para Oportunidades e Cursos e Eventos |
 | `images/capa-social.svg` e `.png` | prévia dos links compartilhados em redes e mensageiros |
+| `images/des-ufla-horiz-negativa.png` | assinatura horizontal negativa do DES (arquivo original da UFLA), usada no rodapé |
 | `scripts/` | automações do build, descritas mais abaixo |
 | `TEXTOS.md` | mapa de todos os textos do site, para revisão editorial |
 | `docs/` | saída do build, gerada automaticamente e nunca editada à mão |
@@ -208,10 +207,8 @@ Nada além disso. Você nunca precisa editar o menu nem cadastrar o conteúdo em
 
 | Quero publicar | Vai em |
 |---|---|
-| Manchete, aviso, novidade do departamento | `noticias/posts/` |
 | Edital, chamada, vaga de monitoria | `oportunidades/posts/` |
 | Evento, curso, workshop, palestra futura | `eventos/posts/` |
-| Texto de divulgação científica, coluna | `artigos/posts/` |
 | Projeto de análise feito por estudante | `projetos/ensino/organizacao-e-apresentacao-de-dados/posts/` |
 | Programa, pacote ou app do departamento | `projetos/ensino/softwares/posts/` |
 | Apostila, tutorial, material didático | `projetos/ensino/materiais/posts/` |
@@ -226,7 +223,7 @@ São duas capas padrão, as duas com o mesmo desenho (histograma com a curva nor
 
 | Capa | Onde vale |
 |---|---|
-| `images/capa-padrao-azul.png` | Notícias, Oportunidades e Eventos |
+| `images/capa-padrao-azul.png` | Oportunidades e Cursos e Eventos |
 | `images/capa-padrao.png` | Artigos, Projetos e todo o resto |
 
 Cada uma está declarada em um `posts/_metadata.yml`, que o Quarto aplica a todos os posts da pasta. A capa passa a pertencer ao post, e não à página: por isso um mesmo edital aparece com a capa azul tanto em Oportunidades quanto nas três páginas de Editais dentro de Projetos, que listam os mesmos arquivos.
@@ -275,25 +272,6 @@ Quem não tem: publique mesmo assim. A cada envio para o repositório, o robô d
 
 ## Publicar em cada área
 
-### Notícias
-
-Arquivo em `noticias/posts/AAAA-MM-DD-assunto/index.qmd`. Aparece na página inicial e na página Notícias.
-
-```yaml
----
-title: "Título da notícia"
-description: "Uma ou duas frases que resumem, é o que aparece no card."
-author: "Departamento de Estatística da UFLA"
-date: "2026-08-12"
-image: "thumbnail.png"
-categories: [Notícias]
----
-
-Escreva aqui o texto da notícia, em parágrafos normais.
-
-[Leia a matéria completa no site do DES/UFLA »](https://des.ufla.br/)
-```
-
 ### Oportunidades (editais)
 
 Arquivo em `oportunidades/posts/AAAA-MM-DD-assunto/index.qmd`. Aparece na página inicial, na página Oportunidades e nas três páginas de editais dentro de Projetos (Ensino, Pesquisa e Extensão).
@@ -336,31 +314,13 @@ Descrição do evento: público, formato, inscrições.
 
 Para minicursos e capacitações, use `categories: [Cursos]`.
 
-### Artigos e Colunas
-
-Arquivo em `artigos/posts/AAAA-MM-DD-assunto/index.qmd`.
-
-```yaml
----
-title: "Título do texto"
-description: "Resumo em uma ou duas frases."
-author: "Nome de quem escreveu"
-date: "2026-08-12"
-categories: [Artigos]
----
-
-O texto em si, em parágrafos.
-```
-
-Os artigos publicados até aqui não têm capa própria: sem a linha `image:`, o site usa a capa padrão. Para divulgação de palestras, use `categories: [Artigos, Palestras]`.
-
 ### Organização e Apresentação de Dados
 
 É por aqui que chega a maior parte das contribuições de fora, e o caminho tem duas pontas: o estudante envia pelo formulário do site, e alguém da equipe publica.
 
 #### O que o estudante faz
 
-Preenche o [formulário de envio](https://conectastat.github.io/enviar.html?area=projeto), escolhendo a seção "Projeto de estudante". Ao enviar, o GitHub abre com a issue pronta: ele revisa, anexa o relatório e confirma. Só precisa estar logado no GitHub, e a conta é gratuita.
+Preenche o [formulário de envio](https://conectastat.github.io/enviar.html). Ao enviar, o GitHub abre com a issue pronta: ele revisa, anexa o relatório e confirma. Só precisa estar logado no GitHub, e a conta é gratuita.
 
 #### O que a equipe faz
 
@@ -473,7 +433,7 @@ Estas mudam com pouca frequência e são editadas direto no arquivo, sem criar p
 
 ```yaml
 aliases:
-  - /noticias/slug-antigo.html
+  - /eventos/slug-antigo.html
 ```
 
 ## Rodar e publicar o site

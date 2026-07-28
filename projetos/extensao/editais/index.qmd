@@ -32,9 +32,6 @@ antigo.
 
 ```{=html}
 <div class="projetos-acoes" id="projetos-acoes">
-  <a class="btn-enviar-projeto" href="../../../enviar.html?area=edital">
-    <i class="bi bi-send"></i> Envie um edital
-  </a>
   <div class="busca-projetos">
     <i class="bi bi-search"></i>
     <input type="search" id="busca-projetos-input"

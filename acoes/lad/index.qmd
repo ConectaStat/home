@@ -1,0 +1,39 @@
+---
+title: "LAD"
+subtitle: "Laboratório de Análises de Dados do Departamento de Estatística da UFLA."
+title-block-banner: true
+body-classes: cs-banner-dispersao
+page-layout: article
+sidebar: false
+toc: false
+---
+
+<!-- ATENÇÃO: a estrutura da página está pronta, mas o conteúdo real do LAD
+     ainda não existe em lugar nenhum do repositório, e nada foi inventado
+     aqui de propósito. Preencha as seções abaixo com:
+       * o que o laboratório faz (atividades, linhas de trabalho, serviços);
+       * quem coordena e quem participa;
+       * quem pode usar e como solicitar;
+       * onde fica e horário de funcionamento;
+       * contato próprio, se houver.
+     Enquanto isso, a página se apresenta como "em construção", no mesmo
+     padrão das seções sem conteúdo publicado (Softwares, Ações de Extensão). -->
+
+## O Laboratório
+
+O **Laboratório de Análises de Dados (LAD)** é uma das ações do
+[Departamento de Estatística](https://des.ufla.br/) da Universidade Federal
+de Lavras.
+
+Esta página está em construção. Em breve ficam aqui a apresentação do
+laboratório, as atividades que ele desenvolve e a forma de solicitar
+atendimento.
+
+## Enquanto isso
+
+- Demandas de **apoio estatístico a pesquisas, projetos e organizações** seguem
+  pela página de [assessoria e consultoria
+  estatística](../../assessoria/index.qmd), que explica como o atendimento
+  funciona;
+- Para falar com a equipe do departamento, veja [entre em
+  contato](../../sobre/contato/index.qmd).

@@ -1,5 +1,5 @@
-name: "📤 Enviar conteúdo para o site"
-description: "Notícia, evento, edital, artigo, software, material, ação de extensão ou projeto de estudante."
+name: "📤 Enviar projeto para o site"
+description: "Projeto de estudante da seção Organização e Apresentação de Dados."
 title: "[Envio] Título aqui"
 labels: ["submissao"]
 body:
@@ -16,12 +16,13 @@ body:
     attributes:
       label: "Onde isso deve ser publicado?"
       description: |
-        Vem preenchido quando você usa o formulário do site. Preenchendo aqui,
-        escreva exatamente uma destas seções: **Notícia**, **Evento**,
-        **Edital ou oportunidade**, **Artigo ou coluna**, **Software**,
-        **Material didático**, **Ação de extensão** ou
-        **Projeto de estudante**.
-      placeholder: "ex.: Notícia"
+        Vem preenchido quando você usa o formulário do site. Este é o único
+        destino automatizado: escreva exatamente
+        **Projeto de estudante (Organização e Apresentação de Dados)**.
+
+        Para as demais seções do site, veja
+        [Como Contribuir](https://conectastat.github.io/sobre/como-contribuir/).
+      placeholder: "Projeto de estudante (Organização e Apresentação de Dados)"
     validations:
       required: true
 

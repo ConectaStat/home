@@ -1,0 +1,30 @@
+---
+title: "Entre em Contato"
+subtitle: "Fale com o ConectaStat e com o Departamento de Estatística da UFLA."
+title-block-banner: true
+body-classes: cs-banner-bolhas
+page-layout: article
+sidebar: false
+toc: false
+---
+## Encontrou um erro no site?
+
+Erro de digitação, link quebrado ou informação desatualizada:
+
+[Abrir uma issue no GitHub »](https://github.com/ConectaStat/conectastat.github.io/issues/new)
+
+## Canais
+
+- **Site oficial do departamento**: [des.ufla.br](https://des.ufla.br/) 
+- **Repositório do projeto**:
+  [github.com/ConectaStat](https://github.com/ConectaStat/conectastat.github.io)
+  com código, histórico e discussões abertas.
+- **Universidade Federal de Lavras**: [ufla.br](https://ufla.br/)
+
+## Onde estamos
+
+**Departamento de Estatística (DES/ICET/UFLA)**
+
+Trevo Rotatório Professor Edmir Sá Santos, s/n\
+Campus Universitário, Lavras/MG\
+CEP 37203-202 · Caixa Postal 3037

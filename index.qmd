@@ -10,11 +10,6 @@ description: |
   ConectaStat - Ciência, Estatística e Sociedade. Departamento de Estatística da UFLA.
 image: /images/capa-social.png
 listing:
-  - id: noticias
-    contents: /noticias/posts
-    sort: "date desc"
-    template: _assets/cards.ejs
-
   - id: oportunidades
     contents: /oportunidades/posts
     sort: "date desc"
@@ -30,7 +25,7 @@ toc: false
 
 <!-- ============================================================= -->
 <!--  HERO - só a ilustração + o slogan ao lado, em três linhas    -->
-<!--  (Ciência| Estatística| & Sociedade), alternando azul e verde -->
+<!--  (Ciência| Estatística| Sociedade), alternando azul e verde   -->
 <!-- ============================================================= -->
 ```{=html}
 <div class="hero-banner">
@@ -40,7 +35,7 @@ toc: false
         <p class="hero-tagline">
           <span>Ciência<span class="tag-barra">|</span></span>
           <span class="tag-verde">Estatística<span class="tag-barra">|</span></span>
-          <span>&amp; Sociedade</span>
+          <span>Sociedade</span>
         </p>
       </div>
       <div class="hero-media">
@@ -63,24 +58,8 @@ toc: false
 ::: {.content-container}
 ::: {.intro-block}
 
-Bem-vindo(a) ao **ConectaStat**, um projeto do [Departamento de Estatística](https://des.ufla.br/) da [Universidade Federal de Lavras](ufla.br). Aqui conectamos Ciência, Estatística e Sociedade, tornando o conhecimento científico mais acessível, promovendo o letramento estatístico e aproximando a universidade da comunidade.
+Bem-vindo(a) ao **ConectaStat**, um projeto do [Departamento de Estatística](https://des.ufla.br/) da [Universidade Federal de Lavras](https://ufla.br/). Aqui conectamos Ciência, Estatística e Sociedade, tornando o conhecimento científico mais acessível, promovendo o letramento estatístico e aproximando a universidade da comunidade.
 
-
-:::
-:::
-
-<!-- ============================================================= -->
-<!--  NOTÍCIAS - manchetes rotativas                               -->
-<!-- ============================================================= -->
-::: {.content-container}
-::: {.listing-block}
-
-## Notícias
-
-[Manchetes e novidades do Departamento de Estatística]{.sec-sub}
-
-::: {#noticias}
-:::
 
 :::
 :::
@@ -102,12 +81,12 @@ Bem-vindo(a) ao **ConectaStat**, um projeto do [Departamento de Estatística](ht
 :::
 
 <!-- ============================================================= -->
-<!--  EVENTOS - manchetes rotativas                                -->
+<!--  CURSOS E EVENTOS - manchetes rotativas                        -->
 <!-- ============================================================= -->
 ::: {.content-container}
 ::: {.listing-block}
 
-## Eventos
+## Cursos e Eventos
 
 [Cursos, workshops e encontros da comunidade]{.sec-sub}
 

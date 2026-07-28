@@ -1,0 +1,94 @@
+---
+title: "Como Contribuir"
+subtitle: "Uma seção do site recebe envios de qualquer pessoa. O resto é publicado pela equipe."
+title-block-banner: true
+body-classes: cs-banner-barras
+page-layout: article
+sidebar: false
+toc: false
+---
+
+## Envio aberto: projetos de Organização e Apresentação de Dados
+
+As análises feitas pelos estudantes da graduação têm **formulário próprio**, e
+essa é a única seção do site com envio aberto. Não é preciso saber programar
+nem mexer em Git.
+
+Preencha o formulário sem sair do site. Ao enviar, o GitHub abre em outra aba
+com a submissão já preenchida: você revisa, anexa o relatório e a capa, e
+confirma. Basta estar logado no GitHub, e a conta é gratuita. A partir daí a
+página é montada automaticamente e a equipe revisa antes de publicar.
+
+[Abrir o formulário »](../../enviar.qmd){.listing-mais}
+
+## As demais seções
+
+Editais e oportunidades, cursos e eventos, softwares, materiais didáticos e
+ações de extensão **são publicados pela equipe do ConectaStat**, a pedido dos
+docentes e da chefia do Departamento de Estatística. O mesmo vale para as
+páginas de texto (núcleos de pesquisa, seções fixas), que não são conteúdo
+datado.
+
+Ou seja: não há formulário nem fila de submissão para essas seções. Se você é
+**docente, servidor ou representante de um projeto do DES** e tem algo a
+divulgar, fale com a equipe e nós publicamos.
+
+[Falar com a equipe »](../contato/index.qmd){.listing-mais}
+
+### O que ajuda a adiantar
+
+Quando o pedido chega com essas informações, a página sai no mesmo dia:
+
+| | |
+|---|---|
+| **Título** | Como deve aparecer na página e no card |
+| **Autoria** | Nome(s), como devem aparecer |
+| **Data** | A do evento, a do edital ou a da publicação |
+| **Resumo** | De 1 a 4 frases: é o texto que aparece no card |
+| **Link oficial** | O edital no site do DES, a inscrição do evento, o repositório do software |
+| **Arquivos** | Capa, apostila, slides ou PDF, quando houver |
+
+O costume do site é não copiar o documento inteiro: um resumo curto e o link
+para a fonte oficial.
+
+### Onde cada coisa é publicada
+
+| O que é | Vai parar em | Quem publica |
+|---|---|---|
+| Uma análise feita na graduação | [Organização e Apresentação de Dados](../../projetos/ensino/organizacao-e-apresentacao-de-dados/index.qmd) | quem enviou, pelo [formulário](../../enviar.qmd) |
+| Um edital, chamada ou vaga | [Oportunidades](../../oportunidades/index.qmd) | a equipe |
+| Um evento, curso ou palestra | [Cursos e Eventos](../../eventos/index.qmd) | a equipe |
+| Um programa, pacote ou aplicativo | [Softwares](../../projetos/ensino/softwares/index.qmd) | a equipe |
+| Uma apostila, tutorial ou slides | [Materiais](../../projetos/ensino/materiais/index.qmd) | a equipe |
+| Uma ação de extensão | [Ações de Extensão](../../projetos/extensao/acoes/index.qmd) | a equipe |
+
+## Achou um erro?
+
+Erro de digitação, link quebrado ou informação desatualizada em qualquer
+página: avise, e a correção entra no histórico público do projeto.
+
+[Abrir uma issue no GitHub »](https://github.com/ConectaStat/conectastat.github.io/issues/new){.listing-mais}
+
+Quem prefere ir direto ao ponto pode editar o arquivo pelo GitHub e enviar a
+sugestão. Se ela for aceita, você entra na lista de contribuidores
+automaticamente.
+
+## Como funciona o crédito
+
+Toda contribuição aceita entra na lista pública de contribuidores do projeto,
+não só código. As marcas se acumulam: ninguém perde uma marca antiga ao ganhar
+outra.
+
+| | | |
+|---|---|---|
+| 📊 | `coordenacao` | Coordenação do projeto |
+| 📈 | `content` | Contribuição |
+| 💻 | `code` | Código |
+
+A marca 📊 é atribuída a quem se identifica como **docente**, e é ela que ordena
+a lista: quem coordena aparece no topo.
+
+[Ver a lista de contribuidores »](https://github.com/ConectaStat/conectastat.github.io#contribuidores)
+
+O projeto segue a especificação
+[all-contributors](https://github.com/all-contributors/all-contributors).

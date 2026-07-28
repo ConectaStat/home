@@ -16,7 +16,7 @@
 // este import pode sair. Para trocar de família, mude aqui e no import:
 // Courier Prime, Fira Code... (Consolas é local, não precisa de import).
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
-// Fonte do slogan da hero (Ciência| Estatística| & Sociedade), e só dele: uma
+// Fonte do slogan da hero (Ciência| Estatística| Sociedade), e só dele: uma
 // monoespaçada, que é como o slogan foi desenhado. O resto do site - inclusive
 // o slogan da navbar - continua em Inter.
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
@@ -108,7 +108,7 @@ body { -webkit-font-smoothing: antialiased; }
   }
 
   // Slogan no topo esquerdo (o nome do site foi removido): mesmo texto da
-  // hero - Ciência| Estatística| & Sociedade empilhados -, em Inter semibold
+  // hero - Ciência| Estatística| Sociedade empilhados -, em Inter semibold
   // (a monoespaçada do slogan é exclusiva da hero)
   .nav-tagline {
     display: inline-block;
@@ -119,7 +119,7 @@ body { -webkit-font-smoothing: antialiased; }
     letter-spacing: normal;
     color: #ffffff;
 
-    > span { display: block; }        // Ciência| Estatística| & Sociedade
+    > span { display: block; }        // Ciência| Estatística| Sociedade
     .tag-verde { color: #7dd3a8; }    // tint do verde UFLA legível sobre o azul escuro
     .tag-barra { color: rgba(255, 255, 255, 0.55); font-weight: 400; }
   }
@@ -167,7 +167,7 @@ body { -webkit-font-smoothing: antialiased; }
 
 // =============================================================================
 //  HERO - só a ilustração, com a tagline ao lado: três linhas empilhadas
-//  (Ciência| Estatística| & Sociedade) em Source Code Pro semibold,
+//  (Ciência| Estatística| Sociedade) em Source Code Pro semibold,
 //  alternando azul e verde
 // =============================================================================
 .hero-banner {
@@ -201,7 +201,7 @@ body { -webkit-font-smoothing: antialiased; }
       color: $ink;
       margin: 0;
 
-      > span { display: block; }        // Ciência| Estatística| & Sociedade
+      > span { display: block; }        // Ciência| Estatística| Sociedade
       .tag-verde { color: $cs-green; }
       .tag-barra { color: $muted; font-weight: 400; }   // a "|" de cada linha
     }
@@ -425,6 +425,31 @@ body { -webkit-font-smoothing: antialiased; }
     color: $muted;
     margin-bottom: 2rem;
   }
+}
+
+// Editais mostrados direto na página da área (Ensino, Pesquisa, Extensão),
+// no mesmo rotator da home. Uma linha fina separa a listagem dos tópicos, e
+// o link discreto ao final leva à página completa (com busca e envio).
+.listing-editais {
+  border-top: 1px solid $hairline;
+  padding-top: clamp(2rem, 4vw, 2.75rem);
+
+  .listing-mais { margin-top: 0.6rem; text-align: center; }
+}
+
+// Link de "siga daqui" ao fim de um bloco: micro-rótulo em caixa alta, na
+// mesma linguagem dos botões dos cards. Vale em qualquer página - abaixo de
+// uma listagem (Projetos) ou como chamada de uma seção (Como Contribuir).
+.listing-mais {
+  display: block;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $cs-blue;
+  text-decoration: none;
+
+  &:hover { color: $cs-green-dark; }
 }
 
 // =============================================================================
@@ -1367,40 +1392,51 @@ body { -webkit-font-smoothing: antialiased; }
   min-height: 90px;
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+  // O padrão do Quarto é `baseline`, que desalinha as três colunas quando uma
+  // delas é uma imagem alta (a assinatura do DES). Centradas, o disclaimer, as
+  // redes e a assinatura ficam na mesma linha visual.
+  align-items: center;
 
   a { color: #ffffff; text-decoration: none; &:hover { color: #9fd8bc; } }
   .bi { font-size: 1.15rem; color: #ffffff; }
 
   .nav-footer-right { text-align: right; }
 
-  // Assinatura institucional conforme o Manual de Identidade Visual da UFLA:
-  // bloco DES + marca à direita (§3.16/§6.5), versão monocromática negativa
-  // sobre fundo escuro (§3.9), largura mínima digital de 100px (§2.9) e área
-  // de proteção de ~2x a altura do texto da marca ao redor (§2.10).
+  // Assinatura institucional: arquivo ORIGINAL da assinatura horizontal do
+  // DES (§6.5 do Manual de Identidade Visual da UFLA), na versão monocromática
+  // negativa (§3.3), porque o fundo do rodapé é o azul escuro. O manual manda
+  // usar sempre o arquivo original: a assinatura não pode ser remontada com
+  // texto de HTML, então a marca UFLA, o traço cinza, a hierarquia ICET > DES
+  // e as distâncias 4x/3x vêm prontas de dentro do PNG.
+  //
+  // Redução máxima (§2.9): em mídia digital a marca UFLA não pode ficar com
+  // menos de 100px de largura. No arquivo, a marca UFLA ocupa 507px dos
+  // 1686px da imagem (30,1%), então a assinatura inteira precisa de pelo
+  // menos ~333px. Os 360px abaixo deixam a marca com ~108px.
+  //
+  // Área de proteção (§2.10): 2x a altura do texto "UNIVERSIDADE FEDERAL DE
+  // LAVRAS", que no arquivo mede 24px - ou seja, 2x ≈ 10px na largura de
+  // 360px. A própria arte já traz ~19px de folga em volta nessa escala, e a
+  // margem abaixo reserva o restante do respiro contra a borda do rodapé.
   .footer-assinatura {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 1.6rem;   // ≥4x: distância mínima entre marcas (§3.16)
   }
-  .footer-des {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    padding-right: 1.6rem;
-    border-right: 1px solid rgba(255, 255, 255, 0.35);
-    line-height: 1.3;
-  }
-  .footer-des-sigla {
-    font-weight: 800;
-    font-size: 1.05rem;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-  }
-  .footer-des-nome {
-    font-size: 0.72rem;
-    color: #d6e4ee;
+  //
+  // LIMITE CONHECIDO: em telas com menos de ~360px de largura a coluna do
+  // rodapé não comporta os 333px, e a marca UFLA cai abaixo dos 100px. O
+  // manual resolve esse caso com a assinatura VERTICAL do DES (§6.6), que
+  // ainda não está no repositório - e ela não pode ser remontada aqui, porque
+  // o manual manda usar o arquivo original. Para fechar essa ponta, baixe a
+  // versão vertical negativa em ufla.br/identidadevisual e troque a imagem
+  // por ela dentro de uma media query de telas estreitas.
+  .footer-assinatura-des {
+    width: 360px;
+    max-width: 100%;
+    height: auto;          // proporção altura x largura preservada (§2.9)
+    display: block;
+    margin: 0.5rem 0;
   }
   .footer-disclaimer {
     display: block;
@@ -1409,12 +1445,6 @@ body { -webkit-font-smoothing: antialiased; }
     font-size: 0.68rem;
     line-height: 1.45;
     color: rgba(255, 255, 255, 0.55);
-  }
-  .footer-ufla-logo {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: 0.9rem 0;
   }
 }
 

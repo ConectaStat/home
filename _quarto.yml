@@ -8,7 +8,7 @@ project:
   render:
     - "**/*.qmd"
   # Antes de cada render completo: gera a capa de qualquer post sem `image:`
-  # (gráfico/mapa mais colorido do relatório, ou "foto" do topo da notícia).
+  # (gráfico/mapa mais colorido do relatório, ou "foto" do topo da página).
   pre-render: scripts/gerar_thumbnails.py
   # Depois de cada render:
   #  1) troca o " – " dos títulos das páginas por " | ";
@@ -28,7 +28,7 @@ website:
   # Prévia dos links compartilhados (WhatsApp, LinkedIn, Telegram). Precisa ser
   # PNG ou JPEG: as redes não leem SVG. O fonte editável é o capa-social.svg.
   # A barra inicial é obrigatória: sem ela o caminho é resolvido a partir da
-  # pasta de cada página e vira /artigos/images/..., que não existe.
+  # pasta de cada página e vira /eventos/images/..., que não existe.
   image: /images/capa-social.png
   favicon: images/ufla_favicon.ico
   open-graph: true
@@ -39,12 +39,12 @@ website:
     toggle-position: right
     background: "#0a3f66"
     # Sem o nome do site: só o slogan no topo esquerdo, com o mesmo texto da
-    # hero (Ciência| Estatística| & Sociedade empilhados). A hero desenha o
+    # hero (Ciência| Estatística| Sociedade empilhados). A hero desenha o
     # slogan em Source Code Pro; aqui ele segue em Inter semibold.
-    title: '<span class="nav-tagline"><span>Ciência<span class="tag-barra">|</span></span> <span class="tag-verde">Estatística<span class="tag-barra">|</span></span> <span>&amp; Sociedade</span></span>'
+    title: '<span class="nav-tagline"><span>Ciência<span class="tag-barra">|</span></span> <span class="tag-verde">Estatística<span class="tag-barra">|</span></span> <span>Sociedade</span></span>'
     collapse-below: lg
     right:
-      - text: "Estatística"
+      - text: "A Estatística"
         href: estatistica/index.qmd
       - text: "Nossos Cursos"
         menu:
@@ -66,8 +66,20 @@ website:
             href: acoes/revista-cientifica/index.qmd
           - text: "Assessoria e Consultoria Estatística"
             href: assessoria/index.qmd
-          - text: "Eventos"
+          - text: "Laboratório de Análises de Dados (LAD)"
+            href: acoes/lad/index.qmd
+          - text: "Cursos e Eventos"
             href: eventos/index.qmd
+      - text: "Sobre o ConectaStat"
+        menu:
+          - text: "Quem Somos"
+            href: sobre/quem-somos/index.qmd
+          - text: "Uso de IA"
+            href: sobre/uso-de-ia/index.qmd
+          - text: "Como Contribuir"
+            href: sobre/como-contribuir/index.qmd
+          - text: "Entre em Contato"
+            href: sobre/contato/index.qmd
   page-navigation: true
 
   back-to-top-navigation: false
@@ -80,14 +92,14 @@ website:
       - href: https://github.com/ConectaStat/conectastat.github.io
         icon: github
         aria-label: GitHub
-      - href: "#"
+      - href: "https://www.instagram.com/estatistica.ufla/"
         icon: instagram
         aria-label: Instagram
       - href: "#"
         icon: linkedin
         aria-label: LinkedIn
     right: |
-      <div class="footer-assinatura"><div class="footer-des"><span class="footer-des-sigla">DES</span><span class="footer-des-nome">Departamento de<br>Estatística</span></div><a href="https://ufla.br/" aria-label="Universidade Federal de Lavras"><img src="/images/ufla-oficial-negativa.png" class="footer-ufla-logo" alt="Universidade Federal de Lavras"></a></div>
+      <div class="footer-assinatura"><a href="https://des.ufla.br/" aria-label="Departamento de Estatística da UFLA"><img src="/images/des-ufla-horiz-negativa.png" class="footer-assinatura-des" alt="DES - Departamento de Estatística | ICET - Instituto de Ciências Exatas e Tecnológicas | Universidade Federal de Lavras"></a></div>
 
 format:
   html:

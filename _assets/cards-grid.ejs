@@ -3,6 +3,8 @@
 // Usado onde todos os itens precisam aparecer de uma vez (tópicos das áreas
 // de Projetos). Atenção: sem indentação e com tags inline abertas e fechadas
 // na mesma linha, porque o Pandoc reprocessa este HTML como markdown.
+// Sobre o normaliza(), veja o comentário do cards.ejs.
+const normaliza = (p) => p.replace(/\\/g, "/").replace(/\.qmd$/, ".html");
 %>
 <div class="cs-cards cs-cards-grid">
 <% for (const item of items) { %>
@@ -11,7 +13,7 @@
 <% if (item.date) { %><p class="cs-card-date"><%= item.date %></p><% } %>
 <h3 class="cs-card-title"><%= item.title %></h3>
 <% if (item.description) { %><p class="cs-card-desc"><%= item.description %></p><% } %>
-<p class="cs-card-action"><a class="cs-card-btn" href="<%- item.path.replace(/\.qmd$/, '.html') %>">Leia mais</a></p>
+<p class="cs-card-action"><a class="cs-card-btn" href="<%- normaliza(item.path) %>">Leia mais</a></p>
 </div>
 <% } %>
 </div>

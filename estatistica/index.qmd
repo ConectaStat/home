@@ -1,5 +1,5 @@
 ---
-title: "Estatística"
+title: "A Estatística"
 subtitle: "A ciência de aprender com os dados. E uma das profissões mais promissoras da atualidade."
 title-block-banner: true
 page-layout: article

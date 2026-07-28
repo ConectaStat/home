@@ -1,0 +1,61 @@
+---
+title: "Quem Somos"
+subtitle: "O ConectaStat é o projeto de popularização da ciência do Departamento de Estatística da UFLA."
+title-block-banner: true
+body-classes: cs-banner-rede
+page-layout: article
+sidebar: false
+toc: false
+---
+
+## O projeto
+
+O **ConectaStat** é uma iniciativa do [Departamento de
+Estatística](https://des.ufla.br/) (DES) da [Universidade Federal de
+Lavras](https://ufla.br/) que conecta **Ciência, Estatística e Sociedade**.
+A proposta é tornar o conhecimento científico mais acessível, promover o
+letramento estatístico e aproximar a universidade da comunidade.
+
+Este é um site de projeto vinculado ao DES/UFLA. **Não é um site institucional
+da Universidade**: a comunicação oficial do departamento continua em
+[des.ufla.br](https://des.ufla.br/) e a da UFLA, em
+[ufla.br](https://ufla.br/).
+
+## O que você encontra aqui
+
+- **[Estatística](../../estatistica/index.qmd)**: o que é a área, onde atua o
+  profissional e por que ela está no centro da ciência de dados;
+- **[Nossos Cursos](../../cursos/graduacao/index.qmd)**: a graduação e a
+  pós-graduação em Estatística da UFLA;
+- **[Projetos](../../projetos/ensino/index.qmd)**: as frentes de ensino,
+  pesquisa e extensão do departamento, com seus editais abertos;
+- **[Ações](../../acoes/revista-cientifica/index.qmd)**: a revista científica,
+  a assessoria e consultoria estatística e a agenda de
+  [cursos e eventos](../../eventos/index.qmd);
+- **[Oportunidades](../../oportunidades/index.qmd)**: os editais e as chamadas
+  em aberto do departamento.
+
+## Quem faz
+
+O ConectaStat é feito por docentes, estudantes e servidores do Departamento de
+Estatística, com a colaboração de quem envia conteúdo pelo site. Toda
+contribuição aceita entra na lista pública de contribuidores do projeto, seja
+ela conteúdo publicado, código ou coordenação.
+
+A lista completa, sempre atualizada, fica no repositório do projeto:
+
+[Ver a lista de contribuidores »](https://github.com/ConectaStat/conectastat.github.io#contribuidores)
+
+Quer entrar nela? Veja [como contribuir](../como-contribuir/index.qmd).
+
+## Como o site é feito
+
+O site é **aberto e público**: o código, os textos e o histórico de cada
+alteração ficam no
+[repositório no GitHub](https://github.com/ConectaStat/conectastat.github.io).
+Ele é construído com [Quarto](https://quarto.org/) e publicado no GitHub
+Pages, o que significa que qualquer pessoa pode acompanhar, revisar e propor
+melhorias.
+
+Sobre o apoio de ferramentas automatizadas na produção do conteúdo, veja a
+página de [uso de IA](../uso-de-ia/index.qmd).

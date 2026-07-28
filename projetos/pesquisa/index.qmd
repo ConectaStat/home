@@ -1,29 +1,35 @@
 ---
-title: "Projetos de Pesquisa"
+title: "Projetos e Núcleos de pesquisa"
 subtitle: "A investigação científica desenvolvida no Departamento de Estatística da UFLA."
 title-block-banner: true
 body-classes: cs-banner-densidades
 page-layout: article
 sidebar: false
 toc: false
-# Cada item abaixo é um TÓPICO de pesquisa, exibido como card de manchete
-# (mesmo visual dos editais). Para criar um novo tópico, adicione um item
-# ANTES do de Editais - os editais ficam sempre por último - e, se ele
-# tiver página própria, crie a pasta projetos/pesquisa/<topico>/index.qmd
-# (use nucleos/ como modelo).
+# Duas listagens nesta página:
+#  1) `topicos-pesquisa`: cada item é um TÓPICO de pesquisa, exibido como card
+#     de manchete. Para criar um novo tópico, adicione um item aqui e, se ele
+#     tiver página própria, crie a pasta projetos/pesquisa/<topico>/index.qmd
+#     (use nucleos/ como modelo).
+#  2) `editais-pesquisa`: os editais em si, exibidos direto na página (mesmo
+#     rotator de cards da home), sem passar por um card intermediário. A
+#     página projetos/pesquisa/editais/ continua existindo, com busca e com o
+#     botão de envio, e é linkada logo abaixo da listagem.
 listing:
-  id: topicos-pesquisa
-  template: ../../_assets/cards-grid.ejs
-  sort: false
-  contents:
-    - title: "Núcleos de Pesquisa"
-      description: "NLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística."
-      path: nucleos/index.html
-      image: ../../images/topicos/dendro.svg
-    - title: "Editais de Projetos de Pesquisa"
-      description: "Iniciação científica e demais chamadas ligadas à pesquisa, da mais recente à mais antiga."
-      path: editais/index.html
-      image: ../../images/topicos/densidades.svg
+  - id: topicos-pesquisa
+    template: ../../_assets/cards-grid.ejs
+    sort: false
+    contents:
+      - title: "Núcleos de Pesquisa"
+        description: "NLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística."
+        path: nucleos/index.html
+        image: ../../images/topicos/dendro.svg
+
+  - id: editais-pesquisa
+    template: ../../_assets/cards.ejs
+    sort: "date desc"
+    contents:
+      - "../../oportunidades/posts/*/index.qmd"
 ---
 
 ## Pesquisa no DES/UFLA
@@ -39,10 +45,21 @@ de pesquisa em métodos estatísticos e em aplicações, com destaque para:
 - **Estatística espacial e geoestatística**;
 - **Aprendizado de máquina e ciência de dados**.
 
-Os resultados são publicados em periódicos nacionais e internacionais e
-apresentados em eventos científicos, muitos deles divulgados aqui no
-ConectaStat, na seção de [artigos](../../artigos/index.qmd).
 Explore os tópicos abaixo:
 
 ::: {#topicos-pesquisa}
+:::
+
+::: {.listing-block .listing-editais}
+
+## Editais de Projetos de Pesquisa
+
+[Iniciação científica e demais chamadas ligadas à pesquisa, da mais recente à
+mais antiga]{.sec-sub}
+
+::: {#editais-pesquisa}
+:::
+
+[Ver todos os editais de iniciação e pesquisa »](editais/index.qmd){.listing-mais}
+
 :::

@@ -25,9 +25,9 @@ declarada como `image-placeholder:` no cabeçalho de cada listagem.
 Uso:
     python scripts/gerar_thumbnails.py                  # todos os posts sem capa
     python scripts/gerar_thumbnails.py --force          # regenera tudo
-    python scripts/gerar_thumbnails.py vigitel-2019-2023 2026-07-06-conexao-estatistica-no-ar
+    python scripts/gerar_thumbnails.py vigitel-2019-2023 2026-06-22-populacao-e-pib
 
-Automático: este script está registrado como `pre-render` no _quarto.yml —
+Automático: este script está registrado como `pre-render` no _quarto.yml, e
 a cada `quarto render` (completo) ele roda sozinho e gera a capa de qualquer
 post que ainda não tenha `image:`. Nesse modo ele nunca aborta o render do
 site: se algo der errado, apenas avisa e o post fica para a próxima.
@@ -67,10 +67,10 @@ if not SITE.is_absolute():
 # Seções do site que ganham capa automática (os posts ficam em <pasta>/posts/)
 #
 # Só a área de análises: ali a capa sai de um gráfico de verdade, feito pelo
-# estudante, e vale mais que qualquer desenho genérico. Notícias, Oportunidades
+# estudante, e vale mais que qualquer desenho genérico. Oportunidades e Cursos
 # e Eventos saíram daqui: para elas o "melhor visual" era o retrato do próprio
 # texto da página, com o título repetido dentro da imagem e meio quadro em
-# branco. Essas três usam a capa padrão azul (images/capa-padrao-azul.svg),
+# branco. Essas duas usam a capa padrão azul (images/capa-padrao-azul.svg),
 # declarada como image-placeholder nas listagens.
 SECOES = [
     {"pasta": "projetos/ensino/organizacao-e-apresentacao-de-dados", "modo": "relatorio"},
@@ -90,9 +90,9 @@ SELETORES_VISUAIS = [
 
 
 def renderiza_pagina_nova(post: Path) -> bool:
-    """Renderiza só o post recém-criado, para a 'foto da notícia' ter de onde
+    """Renderiza só o post recém-criado, para a 'foto da página' ter de onde
     sair no primeiro render. Renders parciais não disparam os scripts de
-    projeto do Quarto, então não há recursão — e CS_THUMBS_NESTED é o cinto
+    projeto do Quarto, então não há recursão, e CS_THUMBS_NESTED é o cinto
     de segurança caso esse comportamento mude."""
     rel = post.relative_to(RAIZ).as_posix()
     env = dict(os.environ, CS_THUMBS_NESTED="1")
@@ -221,10 +221,10 @@ def capa_relatorio(driver, relatorio: Path) -> Image.Image | None:
 
 
 def capa_pagina(driver, pagina: Path) -> Image.Image | None:
-    """Modo 'pagina': figura colorida do corpo ou foto do topo da notícia."""
+    """Modo 'pagina': figura colorida do corpo ou foto do topo da página."""
     driver.get(pagina.resolve().as_uri())
     espera_carregar(driver)
-    # Esconde a moldura do site: a capa é a notícia, não o navbar/rodapé
+    # Esconde a moldura do site: a capa é a página, não o navbar/rodapé
     driver.execute_script("""
         for (const sel of ['.navbar', '.nav-footer', '#quarto-back-to-top',
                            '.quarto-title-tools', '#quarto-header']) {
@@ -238,7 +238,7 @@ def capa_pagina(driver, pagina: Path) -> Image.Image | None:
     if im is not None:
         return im
 
-    # Sem figura colorida: "foto da notícia" — título + primeiras linhas.
+    # Sem figura colorida: "foto da página", com título + primeiras linhas.
     # Viewport no tamanho exato da capa (16:9) para o texto preencher o quadro;
     # via CDP para não sofrer com o scaling de DPI do Windows.
     driver.execute_cdp_cmd("Emulation.setDeviceMetricsOverride", {
@@ -289,18 +289,18 @@ def main() -> int:
     args = ap.parse_args([] if modo_auto else None)
 
     if not DEPS_OK:
-        print(f"[!!] capas automáticas indisponíveis ({ERRO_DEPS}) — "
-              f"instale com: pip install selenium pillow")
+        print(f"[!!] capas automáticas indisponíveis ({ERRO_DEPS}). "
+              f"Instale com: pip install selenium pillow")
         return 0 if modo_auto else 1
 
     if modo_auto:
-        print("— Capas automáticas: verificando posts sem thumbnail —")
+        print("[Capas automáticas] verificando posts sem thumbnail")
 
     try:
         return gera_capas(args, modo_auto)
     except Exception as e:
         if modo_auto:
-            print(f"[!!] gerador de capas falhou ({e}) — o render do site segue")
+            print(f"[!!] gerador de capas falhou ({e}), e o render do site segue")
             return 0
         raise
 
@@ -333,7 +333,7 @@ def gera_capas(args, modo_auto: bool) -> int:
                 origem = acha_relatorio(texto, bundle)
                 if origem is None:
                     print(f"[!!] {nome}: relatório HTML não encontrado em "
-                          f"{bundle.name}/relatorios/ — envie uma thumbnail manualmente")
+                          f"{bundle.name}/relatorios/. Envie uma thumbnail manualmente")
                     continue
             else:
                 origem = SITE / secao["pasta"] / "posts" / nome / "index.html"
@@ -344,7 +344,7 @@ def gera_capas(args, modo_auto: bool) -> int:
                     renderiza_pagina_nova(post)
                 if not origem.exists():
                     print(f"[!!] {nome}: página não encontrada em "
-                          f"{SITE.name}/ — rode `quarto render` antes deste script")
+                          f"{SITE.name}/. Rode `quarto render` antes deste script")
                     continue
 
             if driver is None:
@@ -357,8 +357,8 @@ def gera_capas(args, modo_auto: bool) -> int:
             else:
                 im = capa_pagina(driver, origem)
             if im is None:
-                print(f"[!!] {nome}: nenhum visual aproveitável — "
-                      f"envie uma thumbnail manualmente")
+                print(f"[!!] {nome}: nenhum visual aproveitável. "
+                      f"Envie uma thumbnail manualmente")
                 continue
 
             destino = bundle / "thumbnail.png"

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img"
-     aria-label="Conexão Estatística: histograma com a curva normal ajustada">
+     aria-label="ConectaStat: histograma com a curva normal ajustada">
   <!-- Imagem de compartilhamento do site (campo `image:` do _quarto.yml): é o
        que aparece na prévia quando alguém cola um endereço do site no WhatsApp,
        no LinkedIn ou no Telegram. Mesmo desenho da capa-padrao.svg, em negativo
@@ -28,8 +28,8 @@
 
   <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="40"
      font-weight="800" letter-spacing="-1.4">
-    <text x="120" y="114" fill="#ffffff">Ciência<tspan fill="#ffffff" fill-opacity=".55">/</tspan></text>
-    <text x="120" y="157" fill="#1a8a4c">Estatística<tspan fill="#ffffff" fill-opacity=".55">/</tspan></text>
-    <text x="120" y="200" fill="#ffffff">Conexão</text>
+    <text x="120" y="114" fill="#ffffff">Ciência<tspan fill="#ffffff" fill-opacity=".55">|</tspan></text>
+    <text x="120" y="157" fill="#1a8a4c">Estatística<tspan fill="#ffffff" fill-opacity=".55">|</tspan></text>
+    <text x="120" y="200" fill="#ffffff">Sociedade</text>
   </g>
 </svg>

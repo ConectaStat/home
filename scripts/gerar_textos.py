@@ -45,7 +45,7 @@ def limpa_corpo(corpo: str) -> str:
 
 def citacao(texto: str) -> str:
     if not texto.strip():
-        return "> *(sem texto próprio — a página só exibe a listagem)*"
+        return "> *(sem texto próprio: a página só exibe a listagem)*"
     return "\n".join("> " + l if l.strip() else ">" for l in texto.split("\n"))
 
 # ---------------------------------------------------------------- home
@@ -131,10 +131,9 @@ ORDEM = [
     ("Projetos › Extensão › Editais", "projetos/extensao/editais/index.qmd", []),
     ("Ações › Revista Científica", "acoes/revista-cientifica/index.qmd", []),
     ("Ações › Assessoria e Consultoria Estatística", "assessoria/index.qmd", []),
-    ("Ações › Eventos (arquivo)", "eventos/index.qmd", []),
-    ("Notícias (arquivo)", "noticias/index.qmd", []),
+    ("Ações › Laboratório de Análises de Dados (LAD)", "acoes/lad/index.qmd", []),
+    ("Ações › Cursos e Eventos (arquivo)", "eventos/index.qmd", []),
     ("Oportunidades (arquivo)", "oportunidades/index.qmd", []),
-    ("Artigos & Colunas (arquivo)", "artigos/index.qmd", []),
     ("Enviar conteúdo (formulário do site)", "enviar.qmd", []),
 ]
 
@@ -150,7 +149,7 @@ def bloco_pagina(rotulo, rel, ids):
     fm, corpo = separa(le(p))
     out = [f"\n### {rotulo}", f"`{rel}`", ""]
     t, s, d = campo(fm, "title"), campo(fm, "subtitle"), campo(fm, "description")
-    out.append(f"**Título (aparece no banner):** {t}" if t else "**Título:** —")
+    out.append(f"**Título (aparece no banner):** {t}" if t else "**Título:** (sem título)")
     if s:
         out.append(f"\n**Subtítulo:** {s}  \n*(hoje oculto no site; fica só no código)*")
     if d:
@@ -170,7 +169,7 @@ def bloco_posts(rotulo, pasta):
     posts = sorted(base.glob("*/index.qmd"), reverse=True)
     if not posts:
         return ""
-    out = [f"\n### {rotulo} — posts publicados ({len(posts)})\n"]
+    out = [f"\n### {rotulo}: posts publicados ({len(posts)})\n"]
     for p in posts:
         fm, corpo = separa(le(p))
         out.append(f"\n#### {campo(fm,'title')}")
@@ -186,7 +185,7 @@ L.append("""# Mapa de textos do site
 
 Inventário de **todo o texto editável** do ConectaStat, na ordem em que
 o visitante encontra. Serve para revisão: reescreva o que quiser dentro dos
-blocos citados e devolva — cada bloco indica o arquivo exato onde ele mora.
+blocos citados e devolva. Cada bloco indica o arquivo exato onde ele mora.
 
 Está tudo aqui: títulos, textos corridos, tabelas e os resumos que aparecem nos
 cards. Ficam de fora apenas os relatórios enviados pelos estudantes, que são
@@ -194,7 +193,7 @@ conteúdo de terceiros e não devem ser reescritos.
 
 **Como devolver correções:** copie o trecho que quiser mudar, reescreva e
 devolva indicando o arquivo (cada bloco traz o caminho logo abaixo do título).
-Não precisa se preocupar com formatação — negrito, links e acentos são
+Não precisa se preocupar com formatação: negrito, links e acentos são
 ajustados na hora de aplicar.
 
 Este documento é gerado a partir dos arquivos do site. Depois de aplicar
@@ -214,14 +213,15 @@ home/
 │   ├── hero ........................ slogan sobre a ilustração
 │   ├── disclaimer .................. logo abaixo da hero
 │   ├── "O que é o Conexão…" ........ texto de apresentação
-│   ├── notícias · oportunidades · eventos ... carrosséis
+│   ├── oportunidades · cursos e eventos ..... carrosséis
 │   └── onde estamos ................ mapa + endereço
 ├── _quarto.yml ───────────────── rodapé e menu ................. §2 e §3
 │
 ├── estatistica/index.qmd ─────── Estatística .................... §4
 ├── assessoria/index.qmd ──────── Assessoria e Consultoria
 ├── acoes/
-│   └── revista-cientifica/index.qmd ── Revista Científica
+│   ├── revista-cientifica/index.qmd ── Revista Científica
+│   └── lad/index.qmd ───────────────── Laboratório de Análises de Dados
 ├── cursos/
 │   ├── graduacao/index.qmd ─────── Graduação
 │   └── pos-graduacao/
@@ -247,10 +247,9 @@ home/
 │       ├── index.qmd ───────────── Projetos de Extensão (+ cards)
 │       └── editais/index.qmd ───── Editais de Extensão
 │
-├── noticias/       ┐
-├── oportunidades/  │  cada uma com:
-├── eventos/        │    index.qmd ── página de arquivo ......... §4
-├── artigos/        ┘    posts/ ───── conteúdo datado ........... §5
+├── oportunidades/  ┐  cada uma com:
+├── eventos/        ┘    index.qmd ── página de arquivo ......... §4
+                         posts/ ───── conteúdo datado ........... §5
 │
 └── enviar.qmd ────────────────── Formulário de envio
 ```
@@ -263,9 +262,8 @@ L.append("## 1. Página inicial\n")
 L.append("```\nindex.qmd\n├── hero .................. slogan + ilustração\n"
          "├── disclaimer ............ abaixo da hero\n"
          "├── o projeto ............. texto de apresentação\n"
-         "├── notícias .............. carrossel\n"
          "├── oportunidades ......... carrossel\n"
-         "├── eventos ............... carrossel\n"
+         "├── cursos e eventos ...... carrossel\n"
          "└── onde estamos .......... mapa + endereço\n```\n")
 for titulo, texto in blocos_home():
     L.append(f"\n### {titulo}\n")
@@ -301,10 +299,8 @@ for rotulo, rel, ids in ORDEM:
 # ---- posts
 L.append("\n---\n\n## 5. Conteúdo datado (posts já publicados)\n")
 for rotulo, pasta in [
-    ("Notícias", "noticias/posts"),
     ("Oportunidades", "oportunidades/posts"),
-    ("Eventos", "eventos/posts"),
-    ("Artigos & Colunas", "artigos/posts"),
+    ("Cursos e Eventos", "eventos/posts"),
     ("Organização e Apresentação de Dados", "projetos/ensino/organizacao-e-apresentacao-de-dados/posts"),
     ("Softwares", "projetos/ensino/softwares/posts"),
     ("Materiais", "projetos/ensino/materiais/posts"),

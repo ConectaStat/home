@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img"
-     aria-label="Conexão Estatística: histograma com a curva normal ajustada">
+     aria-label="ConectaStat: histograma com a curva normal ajustada">
   <!-- Capa padrão dos posts sem imagem própria (image-placeholder das listagens).
        Mesma linguagem dos 17 gráficos dos banners (mapa $cs-banners no SCSS):
        linha fina, $cs-blue #0d5488 nos dados e no eixo, $cs-green #1a8a4c só no
@@ -28,8 +28,8 @@
        que é o mesmo desenho. -->
   <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="40"
      font-weight="800" letter-spacing="-1.4">
-    <text x="120" y="122" fill="#0d5488">Ciência<tspan fill="#64707c">/</tspan></text>
-    <text x="120" y="168" fill="#1a8a4c">Estatística<tspan fill="#64707c">/</tspan></text>
-    <text x="120" y="214" fill="#0d5488">Conexão</text>
+    <text x="120" y="122" fill="#0d5488">Ciência<tspan fill="#64707c">|</tspan></text>
+    <text x="120" y="168" fill="#1a8a4c">Estatística<tspan fill="#64707c">|</tspan></text>
+    <text x="120" y="214" fill="#0d5488">Sociedade</text>
   </g>
 </svg>

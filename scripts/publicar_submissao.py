@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Transforma uma submissao do formulario "Enviar conteudo para o site" na
-pasta do post, na area escolhida por quem enviou.
+"""Transforma uma submissao do formulario "Envie seu projeto" na pasta do post.
 
-Le a issue gerada por .github/ISSUE_TEMPLATE/submissao.yml, descobre a area
+Le a issue gerada por .github/ISSUE_TEMPLATE/submissao.yml, confere a area
 pelo campo "Onde isso deve ser publicado?", preenche o modelo correspondente
 de _templates/areas/ e escreve:
 
@@ -13,8 +12,9 @@ de _templates/areas/ e escreve:
         ├── relatorio.html
         └── apresentacao.html
 
-O documento vale para qualquer area: quando existe, a pagina o exibe embutido
-em vez de so apontar um link. Em projeto de estudante ele e obrigatorio.
+Hoje a unica area com submissao aberta e Organizacao e Apresentacao de Dados
+(ver AREAS, abaixo), e nela o relatorio e obrigatorio: a pagina o exibe
+embutido, em vez de so apontar um link.
 
 Nos modelos, {{campo}} e substituido pelo valor e os trechos entre
 <!--se:campo--> e <!--/se--> somem quando o campo vem vazio.
@@ -39,14 +39,12 @@ RAIZ = Path(__file__).resolve().parents[1]
 MODELOS = RAIZ / "_templates" / "areas"
 
 # area escolhida no formulario -> pasta de destino, modelo e categorias fixas
+#
+# So Organizacao e Apresentacao de Dados passa pelo robo: e a unica secao com
+# submissao aberta ao publico. As demais sao publicadas a mao pela equipe, com
+# os modelos de _templates/areas/ - o caminho esta em sobre/como-contribuir/
+# e na secao "Publicar em cada area" do README.
 AREAS = {
-    "notícia": ("noticias/posts", "noticia.qmd", ["Notícias"]),
-    "evento": ("eventos/posts", "evento.qmd", ["Eventos"]),
-    "edital": ("oportunidades/posts", "edital.qmd", ["Oportunidades", "Editais"]),
-    "artigo": ("artigos/posts", "artigo.qmd", ["Artigos"]),
-    "software": ("projetos/ensino/softwares/posts", "software.qmd", ["Softwares"]),
-    "material": ("projetos/ensino/materiais/posts", "material.qmd", ["Materiais"]),
-    "extensão": ("projetos/extensao/acoes/posts", "extensao.qmd", ["Extensão"]),
     "projeto de estudante": ("projetos/ensino/organizacao-e-apresentacao-de-dados/posts",
                              "projeto-estudante.qmd", ["Análise de dados"]),
 }
@@ -174,7 +172,9 @@ def main() -> int:
 
     nome_area, destino = descobre_area(campo(blocos, "onde isso deve"))
     if not destino:
-        print("[!!] não reconheci a área escolhida no formulário")
+        print("[!!] área não automatizada: o robô só publica em Organização e "
+              "Apresentação de Dados. As demais seções são publicadas à mão "
+              "pela equipe (ver sobre/como-contribuir/).")
         return 1
     pasta_area, modelo, cats_fixas = destino
 

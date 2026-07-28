@@ -34,9 +34,6 @@ científica. As primeiras serão publicadas em breve.
 
 ```{=html}
 <div class="projetos-acoes" id="projetos-acoes">
-  <a class="btn-enviar-projeto" href="../../../enviar.html?area=extensao">
-    <i class="bi bi-send"></i> Envie uma ação
-  </a>
   <div class="busca-projetos">
     <i class="bi bi-search"></i>
     <input type="search" id="busca-projetos-input"

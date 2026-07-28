@@ -1,5 +1,5 @@
 ---
-title: "Editais de Projetos de Ensino"
+title: "Editais de Ensino e docência"
 subtitle: "Monitorias, docência voluntária e demais chamadas dos projetos de ensino."
 title-block-banner: true
 format:
@@ -32,9 +32,6 @@ antigo.
 
 ```{=html}
 <div class="projetos-acoes" id="projetos-acoes">
-  <a class="btn-enviar-projeto" href="../../../enviar.html?area=edital">
-    <i class="bi bi-send"></i> Envie um edital
-  </a>
   <div class="busca-projetos">
     <i class="bi bi-search"></i>
     <input type="search" id="busca-projetos-input"
