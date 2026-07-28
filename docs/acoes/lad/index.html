@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-75db3a99592b230e663ab3cd7cce973e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-983e88c86f29a8f9597c4da0083460a3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -246,711 +249,358 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script>
-
 // ============================================================
-
 //  Cards de listagem: datas em português + rotação automática
-
 //  (passa por todos os itens, com pausa longa para leitura)
-
 // ============================================================
-
 document.addEventListener("DOMContentLoaded", function () {
-
   // Datas pt-BR
-
   document.querySelectorAll(".cs-card-date").forEach(function (el) {
-
     var d = new Date(el.textContent.trim());
-
     if (!isNaN(d)) {
-
       el.textContent = d.toLocaleDateString("pt-BR",
-
         { day: "numeric", month: "long", year: "numeric" });
-
     }
-
   });
-
-
 
   // Rotação automática dos cards
-
   var ESPERA = 9000;   // 9 s por posição - tempo para ver e ler
 
-
-
   document.querySelectorAll(".cs-rotator").forEach(function (rot) {
-
     var track = rot.querySelector(".cs-cards");
-
     if (!track) return;
-
     var cards = track.children;
-
     var total = cards.length;
-
     var idx = 0, timer = null;
 
-
-
     function porVista() {
-
       if (!cards.length) return 1;
-
       var gap = parseFloat(getComputedStyle(track).gap) || 0;
-
       var cw = cards[0].getBoundingClientRect().width + gap;
-
       return Math.max(1, Math.round((rot.clientWidth + gap) / cw));
-
     }
-
     function maxIdx() { return Math.max(0, total - porVista()); }
 
-
-
     var dots = document.createElement("div");
-
     dots.className = "cs-rotator-dots";
-
     rot.appendChild(dots);
 
-
-
     function desenhaDots() {
-
       dots.innerHTML = "";
-
       var m = maxIdx();
-
       if (m === 0) return;
-
       for (var i = 0; i <= m; i++) {
-
         (function (i) {
-
           var b = document.createElement("button");
-
           b.type = "button";
-
           b.setAttribute("aria-label", "Ir para o conjunto " + (i + 1));
-
           if (i === idx) b.className = "ativo";
-
           b.addEventListener("click", function () { vaiPara(i); reinicia(); });
-
           dots.appendChild(b);
-
         })(i);
-
       }
-
     }
-
-
 
     function vaiPara(i) {
-
       var m = maxIdx();
-
       idx = i > m ? 0 : (i < 0 ? m : i);
-
       var gap = parseFloat(getComputedStyle(track).gap) || 0;
-
       var w = cards.length ? cards[0].getBoundingClientRect().width + gap : 0;
-
       track.style.transform = "translateX(-" + (idx * w) + "px)";
-
       desenhaDots();
-
     }
-
-
 
     function reinicia() {
-
       clearInterval(timer);
-
       if (maxIdx() > 0) {
-
         timer = setInterval(function () { vaiPara(idx + 1); }, ESPERA);
-
       }
-
     }
-
-
 
     rot.addEventListener("mouseenter", function () { clearInterval(timer); });
-
     rot.addEventListener("mouseleave", reinicia);
-
     window.addEventListener("resize", function () {
-
       vaiPara(Math.min(idx, maxIdx()));
-
       reinicia();
-
     });
-
-
 
     vaiPara(0);
-
     reinicia();
-
   });
 
-
-
   // ============================================================
-
   //  Botões "revelar": mostram um bloco na própria página,
-
   //  sem redirecionar (ex.: editais na página de Ensino)
-
   // ============================================================
-
   document.querySelectorAll(".btn-revelar[data-revela]").forEach(function (btn) {
-
     var alvo = document.getElementById(btn.getAttribute("data-revela"));
-
     if (!alvo) return;
-
     btn.addEventListener("click", function () {
-
       var aberto = alvo.classList.toggle("aberto");
-
       btn.classList.toggle("aberto", aberto);
-
       btn.setAttribute("aria-expanded", aberto ? "true" : "false");
-
       if (aberto) {
-
         // o rotator dentro do bloco recalcula as larguras ao abrir
-
         window.dispatchEvent(new Event("resize"));
-
         setTimeout(function () {
-
           alvo.scrollIntoView({ behavior: "smooth", block: "nearest" });
-
         }, 180);
-
       }
-
     });
-
   });
 
-
-
   // ============================================================
-
   //  Projetos dos Estudantes: o botão "envie seu projeto" e a
-
   //  busca vivem na margem direita da listagem (em telas largas)
-
   // ============================================================
-
   var acoes = document.getElementById("projetos-acoes");
-
   if (acoes) {
-
     var margemLista = document.getElementById("quarto-margin-sidebar");
-
     if (margemLista && window.matchMedia("(min-width: 992px)").matches) {
-
       margemLista.insertBefore(acoes, margemLista.firstChild);
-
     }
-
     var campoBusca = acoes.querySelector("input");
-
     if (campoBusca) {
-
       campoBusca.addEventListener("input", function () {
-
         var lists = window["quarto-listings"] || {};
-
         Object.keys(lists).forEach(function (k) {
-
           lists[k].search(campoBusca.value.trim());
-
         });
-
       });
-
     }
-
   }
 
-
-
   // ============================================================
-
   //  Relatório nativo: o relatório do projeto flui como parte
-
   //  da página - sem moldura, com altura automática, sem o
-
   //  título interno duplicado e com índice "Nesta página"
-
   //  construído na margem a partir das seções do relatório
-
   // ============================================================
-
   // Só documentos HTML entram aqui. PDF é desenhado pelo visualizador do
-
   // navegador: não dá para ler o conteúdo nem medir a altura real, e tentar
-
   // encolhia a moldura para uns 450px. PDF fica com a altura fixa do CSS.
-
   document.querySelectorAll(".report-nativo:not(.report-pdf) iframe").forEach(function (fr) {
-
     var pronto = false;
 
-
-
     function textoLimpo(h) {
-
       var c = h.cloneNode(true);
-
       c.querySelectorAll("a.anchorjs-link, .header-anchor, .header-section-number + a")
-
         .forEach(function (el) { el.remove(); });
-
       return c.textContent.replace(/\s+/g, " ").trim();
-
     }
-
-
 
     function montar() {
-
       var doc = fr.contentDocument;
-
       if (pronto || !doc || !doc.body || !doc.head) return;
-
       if (doc.location && doc.location.href === "about:blank") return;
-
       pronto = true;
 
-
-
       // título, autor e índice internos saem - a página já mostra os seus
-
       var st = doc.createElement("style");
-
       st.textContent =
-
         "#title-block-header, .quarto-title-block, #quarto-margin-sidebar," +
-
         " #TOC, nav[role='doc-toc'], #quarto-back-to-top { display: none !important; }" +
-
         " html, body { background: transparent !important; overflow: hidden !important; }" +
-
         " body, main.content, #quarto-document-content" +
-
         " { padding-top: 0 !important; margin-top: 0 !important; }";
-
       doc.head.appendChild(st);
 
-
-
       // altura automática: o relatório rola junto com a página
-
       function ajusta() {
-
         var d = fr.contentDocument;
-
         if (!d || !d.documentElement) return;
-
         var h = Math.max(d.documentElement.scrollHeight,
-
                          d.body ? d.body.scrollHeight : 0);
-
         if (h > 40) fr.style.height = h + "px";
-
       }
-
       ajusta();
-
       [400, 1200, 3000, 6000].forEach(function (ms) { setTimeout(ajusta, ms); });
-
       if (window.ResizeObserver) new ResizeObserver(ajusta).observe(doc.body);
-
       window.addEventListener("resize", ajusta);
 
-
-
       // índice "Nesta página" na margem, a partir das seções do relatório
-
       var margem = document.getElementById("quarto-margin-sidebar");
-
       if (!margem || document.querySelector(".projeto-toc")) return;
-
       var raiz = doc.querySelector("main") || doc.body;
-
       var hs = Array.prototype.slice.call(raiz.querySelectorAll("h1, h2"))
-
         .filter(function (h) {
-
           return !h.closest("#title-block-header") && textoLimpo(h);
-
         });
-
       if (!hs.length) return;
 
-
-
       function topoDe(h) {
-
         return fr.getBoundingClientRect().top + window.scrollY +
-
                h.getBoundingClientRect().top;
-
       }
-
-
 
       var nav = document.createElement("nav");
-
       nav.className = "projeto-toc";
-
       nav.setAttribute("aria-label", "Índice do relatório");
-
       var tit = document.createElement("p");
-
       tit.className = "projeto-toc-titulo";
-
       tit.textContent = "Nesta página";
-
       nav.appendChild(tit);
 
-
-
       var ul = document.createElement("ul");
-
       var itens = [];
-
       hs.forEach(function (h) {
-
         var li = document.createElement("li");
-
         if (h.tagName === "H2") li.className = "nivel-2";
-
         var a = document.createElement("a");
-
         a.href = "#";
-
         a.textContent = textoLimpo(h);
-
         a.addEventListener("click", function (ev) {
-
           ev.preventDefault();
-
           window.scrollTo({ top: topoDe(h) - 90, behavior: "smooth" });
-
         });
-
         li.appendChild(a);
-
         ul.appendChild(li);
-
         itens.push({ a: a, h: h });
-
       });
-
       nav.appendChild(ul);
-
       margem.appendChild(nav);
 
-
-
       // destaca a seção visível durante a rolagem
-
       var marcando = false;
-
       function marca() {
-
         marcando = false;
-
         var y = window.scrollY + 130;
-
         var atual = null;
-
         for (var i = 0; i < itens.length; i++) {
-
           if (topoDe(itens[i].h) <= y) atual = itens[i].a;
-
         }
-
         itens.forEach(function (it) {
-
           it.a.classList.toggle("ativo", it.a === atual);
-
         });
-
       }
-
       window.addEventListener("scroll", function () {
-
         if (!marcando) { marcando = true; requestAnimationFrame(marca); }
-
       }, { passive: true });
-
       marca();
-
     }
-
-
 
     fr.addEventListener("load", montar);
-
     try {
-
       if (fr.contentDocument && fr.contentDocument.readyState === "complete") {
-
         montar();
-
       }
-
     } catch (e) { /* cross-origin: ignora */ }
-
   });
 
-
-
   // ============================================================
-
   //  Navbar: itens de dropdown com "›" viram subitens recolhidos
-
   //  sob o item anterior (ex.: NLIN/GPS/ST sob Núcleos de Estudo)
-
   // ============================================================
-
   document.querySelectorAll(".navbar .dropdown-menu").forEach(function (menu) {
-
     var grupos = [];
-
     var atual = null;
-
     Array.prototype.forEach.call(menu.querySelectorAll("li"), function (li) {
-
       var a = li.querySelector("a.dropdown-item");
-
       if (!a) return;
-
       if (/^[›-]/.test(a.textContent.trim())) {
-
         if (atual) atual.subs.push(li);
-
       } else {
-
         atual = { pai: li, subs: [] };
-
         grupos.push(atual);
-
       }
-
     });
-
-
 
     grupos.filter(function (g) { return g.subs.length; }).forEach(function (g) {
-
       var paiLink = g.pai.querySelector("a.dropdown-item");
 
-
-
       // subitens: sem o marcador e escondidos até o clique
-
       g.subs.forEach(function (li) {
-
         li.classList.add("nav-subitem");
-
         var rotulo = li.querySelector(".dropdown-text") || li.querySelector("a");
-
         rotulo.textContent = rotulo.textContent.replace(/^\s*[›-]\s*/, "");
-
       });
-
-
 
       // o texto do pai continua navegando para a própria página;
-
       // a setinha ao lado é quem abre/fecha o grupo de subitens
-
       paiLink.classList.add("nav-tem-sub");
-
       var seta = document.createElement("span");
-
       seta.className = "nav-sub-toggle";
-
       seta.setAttribute("role", "button");
-
       seta.setAttribute("tabindex", "0");
-
       seta.setAttribute("aria-expanded", "false");
-
       seta.setAttribute("aria-label", "Mostrar subitens");
-
       paiLink.appendChild(seta);
 
-
-
       function alterna(ev) {
-
         ev.preventDefault();
-
         ev.stopPropagation();          // não navega e o dropdown continua aberto
-
         var abre = !g.pai.classList.contains("aberto");
-
         g.pai.classList.toggle("aberto", abre);
-
         seta.setAttribute("aria-expanded", abre ? "true" : "false");
-
         g.subs.forEach(function (li) { li.classList.toggle("aberto", abre); });
-
       }
-
       seta.addEventListener("click", alterna);
-
       seta.addEventListener("keydown", function (ev) {
-
         if (ev.key === "Enter" || ev.key === " ") alterna(ev);
-
       });
-
     });
-
   });
-
 });
-
 </script>
-
 <script>
-
 // ============================================================
-
 //  Transições de página, camada 3: os blocos de conteúdo
-
 //  surgem suavemente conforme entram na tela (estilos em
-
 //  _assets/conexao-estatistica.scss, seção "TRANSIÇÕES DE PÁGINA").
-
 //  Sem JS ou com "reduzir movimento" ativo, nada é escondido.
-
 // ============================================================
-
 (function () {
-
   var reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
   if (reduz || !("IntersectionObserver" in window)) return;
 
-
-
   // Só com esta classe o CSS esconde os blocos antes da revelação
-
   document.documentElement.classList.add("cs-js");
 
-
-
   document.addEventListener("DOMContentLoaded", function () {
-
     var alvos = [];
 
-
-
     if (document.querySelector(".hero-banner")) {
-
       // Home: os grandes blocos de seção (o hero já tem a própria montagem)
-
       document.querySelectorAll(".intro-block, .listing-block, .map-block")
-
         .forEach(function (el) { alvos.push(el); });
-
     } else {
-
       // Páginas internas: cada bloco de primeiro nível do documento
-
       var corpo = document.getElementById("quarto-document-content");
-
       if (corpo) {
-
         Array.prototype.forEach.call(corpo.children, function (el) {
-
           if (el.matches("script, style, #title-block-header, .quarto-listing")) return;
-
           alvos.push(el);
-
         });
-
         // Listagens (notícias, eventos...): cartão por cartão, em cascata
-
         corpo.querySelectorAll(".quarto-listing .quarto-grid-item")
-
           .forEach(function (el) { alvos.push(el); });
-
       }
-
     }
 
-
-
     if (!alvos.length) return;
-
     alvos.forEach(function (el) { el.classList.add("cs-reveal"); });
 
-
-
     // Blocos que entram juntos na tela revelam em cascata curta
-
     var io = new IntersectionObserver(function (entradas) {
-
       var atraso = 0;
-
       entradas.forEach(function (entrada) {
-
         if (!entrada.isIntersecting) return;
-
         var el = entrada.target;
-
         io.unobserve(el);
-
         el.style.transitionDelay = Math.min(atraso, 420) + "ms";
-
         atraso += 70;
-
         el.classList.add("cs-visivel");
-
         el.addEventListener("transitionend", function fim() {
-
           el.style.transitionDelay = "";
-
           el.removeEventListener("transitionend", fim);
-
         });
-
       });
-
     }, { rootMargin: "0px 0px -8% 0px", threshold: 0 });
 
-
-
     alvos.forEach(function (el) { io.observe(el); });
-
   });
-
 })();
-
 </script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
