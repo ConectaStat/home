@@ -1,0 +1,52 @@
+---
+title: "Nossos Livros"
+subtitle: "Livros publicados pela Editora UFLA e escritos por docentes do Departamento de Estatística."
+title-block-banner: true
+page-layout: article
+sidebar: false
+toc: false
+listing:
+  - id: livros
+    template: ../../_assets/cards-livros.ejs
+    sort: false
+    contents:
+      - title: "Análise de Dados Espaciais com Aplicações em R"
+        author: "João Domingos Scalon (DES/UFLA)"
+        description: "Finalista do Prêmio Jabuti Acadêmico 2025, apresenta métodos de estatística espacial e sua aplicação no R, servindo de texto introdutório para pesquisadores de estatística, geografia, epidemiologia e ciências ambientais."
+        image: ../../images/livros/analise-dados-espaciais.png
+        path: "https://www.editoraufla.com.br/product-page/an%C3%A1lise-de-dados-espaciais-com-aplica%C3%A7%C3%B5es-em-r"
+      - title: "Estatística Computacional em Java"
+        author: "Daniel Furtado Ferreira (DES/UFLA)"
+        description: "Aborda os fundamentos da estatística computacional, área cada vez mais central na pesquisa em estatística, com foco em estudantes de pós-graduação."
+        image: ../../images/livros/estatistica-computacional.jpg
+        path: "https://www.editoraufla.com.br/product-page/estat%C3%ADstica-computacional"
+      - title: "Estatística Básica - 2ª Edição"
+        author: "Daniel Furtado Ferreira (DES/UFLA)"
+        description: "Guia de estatística básica voltado a cientistas da área biológica, usado também como livro-texto em disciplinas introdutórias de estatística."
+        image: ../../images/livros/estatistica-basica.jpg
+        path: "https://www.editoraufla.com.br/product-page/estat%C3%ADstica-b%C3%A1sica-2%C2%AA-edi%C3%A7%C3%A3o"
+        amazon: "https://www.amazon.com.br/dp/8587692712"
+      - title: "A Estatística que Salvou o Recanto dos Dinossauros"
+        author: "Marcelo Angelo Cirillo (DES/UFLA), ilustrações de Fabrício Vigilato Cirillo"
+        description: "Livro infantil ilustrado que usa uma história de dinossauros para aproximar crianças do pensamento estatístico."
+        image: ../../images/livros/recanto-dos-dinossauros.jpg
+        path: "https://www.editoraufla.com.br/product-page/a-estat%C3%ADstica-que-salvou-o-recanto-dos-dinossauros"
+      - title: "Estatística Multivariada - 3ª Edição"
+        author: "Daniel Furtado Ferreira (DES/UFLA)"
+        description: "Reúne técnicas e métodos de estatística multivariada com foco didático, preenchendo uma lacuna na literatura brasileira da área. Recomendado para cursos de graduação e pós-graduação."
+        image: ../../images/livros/estatistica-multivariada.jpg
+        path: "https://www.editoraufla.com.br/product-page/estat%C3%ADstica-multivariada-3%C2%AA-edi%C3%A7%C3%A3o"
+      - title: "Fundamentos de Probabilidade"
+        author: "Daniel Furtado Ferreira (DES/UFLA)"
+        description: "Cobre os conceitos fundamentais da probabilidade univariada e multivariada, com definições, teoremas e demonstrações em estrutura rigorosa, equivalente a um curso completo de um semestre."
+        image: ../../images/livros/fundamentos-probabilidade.png
+        path: "https://www.editoraufla.com.br/product-page/fundamentos-de-probabilidade"
+        amazon: "https://www.amazon.com.br/dp/6586561078"
+---
+
+Livros de Estatística publicados pela **Editora UFLA** e escritos por docentes do Departamento de Estatística, da introdução ao tema até tópicos avançados, incluindo uma obra de divulgação científica para o público infantil.
+
+::: {#livros}
+:::
+
+[Ver todos os títulos na Editora UFLA »](https://www.editoraufla.com.br/){target="_blank"}

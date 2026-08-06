@@ -1,0 +1,31 @@
+<%
+// Variante de cards.ejs que só mostra os itens cuja lista de `categories`
+// contém `templateParams.categoria` - usada nas prévias de editais por área
+// (Ensino, Pesquisa, Extensão) nas páginas de visão geral: as três
+// compartilham o mesmo `contents: oportunidades/posts/*`, mas cada uma só
+// deve mostrar os editais daquela área. Ver cards-grid-filtrado.ejs para a
+// versão em grade, usada nas páginas .../editais/ com todos os itens de
+// uma vez.
+// Atenção: sem indentação e com tags inline abertas e fechadas na mesma
+// linha, porque o Pandoc reprocessa este HTML como markdown.
+const normaliza = (p) => p.replace(/\\/g, "/").replace(/\.qmd$/, ".html");
+const alvo = templateParams.categoria;
+const filtrados = items.filter((item) => (item.categories || []).includes(alvo));
+%>
+<% if (filtrados.length) { %>
+<div class="cs-rotator">
+<div class="cs-cards">
+<% for (const item of filtrados) { %>
+<div class="cs-card">
+<% if (item.image) { %><div class="cs-card-thumb"><img src="<%- item.image %>" alt="" loading="lazy"/></div><% } %>
+<% if (item.date) { %><p class="cs-card-date"><%= item.date %></p><% } %>
+<h3 class="cs-card-title"><%= item.title %></h3>
+<% if (item.description) { %><p class="cs-card-desc"><%= item.description %></p><% } %>
+<p class="cs-card-action"><a class="cs-card-btn" href="<%- normaliza(item.path) %>">Leia mais</a></p>
+</div>
+<% } %>
+</div>
+</div>
+<% } else { %>
+<p class="cs-listing-empty">Nenhum edital desta área no momento.</p>
+<% } %>

@@ -6,7 +6,7 @@ listing:
   id: lista-eventos
   contents: posts
   sort: "date desc"
-  template: ../_assets/cards.ejs
+  template: ../_assets/cards-cursos-eventos.ejs
   feed: true
 ---
 

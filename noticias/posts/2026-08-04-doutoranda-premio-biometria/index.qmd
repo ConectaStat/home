@@ -1,0 +1,14 @@
+---
+title: "Doutoranda da UFLA recebe prêmio internacional de biometria e estatística"
+description: "Viviane Costa Silva, doutoranda do PPGEE/UFLA, recebeu o IBS Travel Award da International Biometric Society na 33ª International Biometric Conference, em Seul, na Coreia do Sul."
+author: "Departamento de Estatística da UFLA"
+date: "2026-08-04"
+image: "thumbnail.jpg"
+categories: [Notícias]
+---
+
+Viviane Costa Silva, doutoranda do Programa de Pós-Graduação em Estatística e Experimentação Agropecuária (PPGEE) da UFLA, recebeu o **IBS Travel Award**, prêmio concedido pela International Biometric Society durante a 33ª International Biometric Conference (IBC), realizada de 12 a 16 de julho de 2026 em Seul, na Coreia do Sul, com 996 participantes de 44 países.
+
+A pesquisa premiada, "GARMA modelling for count time series: incidence of dengue in Lavras, Brazil", é o capítulo de abertura de sua tese de doutorado, orientada pelo professor Luiz Ricardo Nakamura e coorientada pelo professor Luiz Otávio de Oliveira Pala.
+
+[Leia a notícia completa no site da UFLA »](https://ufla.br/noticias/internacionalizacao/18735-doutoranda-da-ufla-recebe-premio-internacional-de-biometria-e-estatistica)

@@ -1,0 +1,69 @@
+---
+title: "Projetos e Núcleos de pesquisa"
+subtitle: "A investigação científica desenvolvida no Departamento de Estatística da UFLA."
+title-block-banner: true
+body-classes: cs-banner-densidades
+page-layout: article
+sidebar: false
+toc: false
+# Duas listagens nesta página:
+#  1) `topicos-pesquisa`: cada item é um TÓPICO de pesquisa, exibido como card
+#     de manchete. Para criar um novo tópico, adicione um item aqui e, se ele
+#     tiver página própria, crie a pasta projetos/pesquisa/<topico>/index.qmd
+#     (use nucleos/ como modelo).
+#  2) `editais-pesquisa`: os editais em si, exibidos direto na página (mesmo
+#     rotator de cards da home), sem passar por um card intermediário. Só
+#     entram os posts de oportunidades/ com "Pesquisa" em categories - por
+#     isso o template-params abaixo, em vez do cards.ejs comum. A página
+#     projetos/pesquisa/editais/ continua existindo, com busca e com o botão
+#     de envio, e é linkada logo abaixo da listagem.
+listing:
+  - id: topicos-pesquisa
+    template: ../../_assets/cards-grid.ejs
+    sort: false
+    contents:
+      - title: "Núcleos de Pesquisa"
+        description: "NLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística."
+        path: nucleos/index.html
+        image: ../../images/topicos/dendro.svg
+
+  - id: editais-pesquisa
+    template: ../../_assets/cards-filtrado.ejs
+    template-params:
+      categoria: "Pesquisa"
+    sort: "date desc"
+    contents:
+      - "../../oportunidades/posts/*/index.qmd"
+---
+
+## Pesquisa no DES/UFLA
+
+Os docentes e estudantes do Departamento de Estatística desenvolvem projetos
+de pesquisa em métodos estatísticos e em aplicações, com destaque para:
+
+- **Modelos de regressão não lineares** aplicados ao crescimento de seres
+  vivos e a fenômenos agronômicos;
+- **Modelos mistos e experimentação agropecuária**;
+- **Estatística bayesiana e métodos computacionais**;
+- **Séries temporais** e modelos para dados de contagem;
+- **Estatística espacial e geoestatística**;
+- **Aprendizado de máquina e ciência de dados**.
+
+Explore os tópicos abaixo:
+
+::: {#topicos-pesquisa}
+:::
+
+::: {.listing-block .listing-editais}
+
+## Editais de Projetos de Pesquisa
+
+[Iniciação científica e demais chamadas ligadas à pesquisa, da mais recente à
+mais antiga]{.sec-sub}
+
+::: {#editais-pesquisa}
+:::
+
+[Ver todos os editais de iniciação e pesquisa »](editais/index.qmd){.listing-mais}
+
+:::

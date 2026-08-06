@@ -10,6 +10,11 @@ description: |
   ConectaStat - Ciência, Estatística e Sociedade. Departamento de Estatística da UFLA.
 image: /images/capa-social.png
 listing:
+  - id: noticias
+    contents: /noticias/posts
+    sort: "date desc"
+    template: _assets/cards.ejs
+
   - id: oportunidades
     contents: /oportunidades/posts
     sort: "date desc"
@@ -60,6 +65,22 @@ toc: false
 
 Bem-vindo(a) ao **ConectaStat**, um projeto do [Departamento de Estatística](https://des.ufla.br/) da [Universidade Federal de Lavras](https://ufla.br/). Aqui conectamos Ciência, Estatística e Sociedade, tornando o conhecimento científico mais acessível, promovendo o letramento estatístico e aproximando a universidade da comunidade.
 
+
+:::
+:::
+
+<!-- ============================================================= -->
+<!--  NOTÍCIAS - destaques da Estatística fora do ConectaStat      -->
+<!-- ============================================================= -->
+::: {.content-container}
+::: {.listing-block}
+
+## Notícias
+
+[Destaques da Estatística na UFLA e no mundo]{.sec-sub}
+
+::: {#noticias}
+:::
 
 :::
 :::

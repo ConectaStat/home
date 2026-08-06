@@ -98,6 +98,11 @@ index.qmd
 > Site de projeto vinculado ao Departamento de Estatística da UFLA. Este não é um site institucional da Universidade.
 
 
+### Seção da home: Notícias
+
+> Subtítulo: Destaques da Estatística na UFLA e no mundo
+
+
 ### Seção da home: Oportunidades
 
 > Subtítulo: Editais internos e oportunidades de estudo
@@ -149,12 +154,13 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
   Nossos Cursos
       └── Graduação
       └── Pós-Graduação
-  Projetos
+  O Que Fazemos
       └── Pesquisa
       └── Ensino
       └── Extensão
   Ações
       └── Revista Científica
+      └── Nossos Livros
       └── Assessoria e Consultoria Estatística
       └── Laboratório de Análises de Dados (LAD)
       └── Cursos e Eventos
@@ -358,23 +364,37 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 **Texto da página:**
 
-> O Departamento de Estatística da UFLA abriga o **Programa de Pós-Graduação em
-> Estatística e Experimentação Agropecuária (PPGEEA)**, com cursos de
+> O UFLA abriga diversos [Programas de Pós-Graduação](https://prpg.ufla.br/mostrapg/pt-br/ultimas-noticias/82-programas-de-pos-graduacao), Mas o que trateremos aqui com maior afinidade sera o 
+> **Estatística e Experimentação Agropecuária (PPGEEA)**, com cursos de
 > **mestrado** e **doutorado**, formando pesquisadores e docentes com sólida
 > base teórica e forte vocação aplicada.
 >
-> O programa tem tradição na interface entre a Estatística e as ciências
-> agrárias, e vem ampliando sua atuação para a ciência de dados, a modelagem
-> computacional e as aplicações em saúde, indústria e meio ambiente.
+> ## Estatística e Experimentação Agropecuária
 >
-> ## Áreas de concentração e linhas de pesquisa
+> O Programa de Pós-Graduação em Estatística e Experimentação Agropecuária concentra suas atividades no estudo e desenvolvimento de métodos estatísticos modernos para a análise de dados nas diversas áreas do conhecimento, mas com especial atenção à Estatística e Experimentação Agropecuária. O objetivo principal do programa é formar recursos humanos e garantir sua qualificação, aprimorando seus conhecimentos em Estatística e Experimentação para o exercício de atividades de docência e de pesquisa em instituições de ensino, pesquisa e em empresas, públicas ou privadas. As linhas de pesquisa são: Estatística Experimental e Aplicada, Teoria Matemática e Métodos Estatísticos, Análise Multivariada e Estatística Espacial, sendo que estas envolvem:
 >
-> - **Métodos estatísticos**: inferência, modelos lineares e não lineares,
->   modelos mistos e estatística bayesiana;
-> - **Experimentação agropecuária**: planejamento e análise de experimentos,
->   melhoramento genético e agricultura de precisão;
-> - **Modelagem e computação**: estatística computacional, séries temporais,
->   estatística espacial e aprendizado de máquina.
+> - **Estatística Experimental:** planejamento de experimentos, análise de dados oriundos de estudos agropecuários e interpretação dos resultados obtidos;
+>
+> - **Análise de regressão e séries temporais:** estimação e predição de modelos lineares e não lineares e análise de dados cronológicos;
+>
+> - **Teoria e métodos estatísticos:** estudos de dinâmica de populações, inferência bayesiana e modelagem estatística e métodos de comparações múltiplas;
+>
+> - **Estatística genética e genômica:** ênfase na avaliação genética, em métodos de predição de valores genéticos e em inferências sobre parâmetros genéticos;
+>
+> - **Métodos multivariados:** proposição e avaliação de testes e análise de estabilidade de cultivares;
+>
+> - **Métodos computacionais:** uso de métodos computacionais intensivos e técnicas de data science na aplicação e desenvolvimento de métodos estatísticos;
+>
+> - **Estatística espacial:** análise de dados correlacionados espacialmente e espaço-temporalmente, em estudos de geoestatística, processos pontuais e análise de dados de áreas.
+>
+> ## Ingresso
+>
+>  - O processo seletivo ocorre anualmente, com início do curso no primeiro semestre de cada ano. Eventualmente, também são realizados processos seletivos para o segundo semestre.
+>
+> ## O Programa
+>
+>  - O programa é financiado com recursos do Programa de Apoio à Pós-Graduação (PROAP) da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), além do financiamento da maioria dos discentes, por meio de bolsas de estudos concedidas pela CAPES, Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG).              
+>
 >
 > ## Disciplinas
 >
@@ -391,7 +411,11 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > | Séries Temporais | Modelagem e previsão de dados temporais |
 >
 > A relação completa de disciplinas, docentes e projetos está no
-> [site do DES/UFLA](https://des.ufla.br/).
+> [site do PRPG/UFLA](https://prpg.ufla.br/mostrapg/en/ppgs/icet-ufla/statistics-and-agricultural-experimentation-master-s-and-doctorate).
+>
+> ## A Estatística e Experimentação Agropecuária em um vídeo
+>
+> Assista à apresentação do professor Luiz Ricardo Nakamura sobre o curso.
 >
 > ## Painel dos Egressos
 >
@@ -417,323 +441,73 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 
 ### Projetos › Ensino
-`projetos/ensino/index.qmd`
 
-**Título (aparece no banner):** Projetos e materias de ensino
-
-**Subtítulo:** Iniciativas que fortalecem a formação em Estatística dentro e fora da sala de aula.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> ## Ensino no DES/UFLA
->
-> Além das disciplinas da graduação e da pós-graduação, o Departamento de
-> Estatística desenvolve projetos de ensino que apoiam a aprendizagem e a
-> permanência dos estudantes: monitorias, docência voluntária, cursos e
-> oficinas, e produção de material didático aberto. Explore os tópicos abaixo:
->
-> ## Editais de Projetos de Ensino
->
-> [Vagas de monitoria, docência voluntária e demais chamadas dos projetos de
-> ensino, da mais recente à mais antiga]{.sec-sub}
->
-> [Ver todos os editais »](editais/index.qmd){.listing-mais}
-
-**Cards de tópico desta página:**
-
-> **Organização e Apresentação de Dados**  
-> Projetos de análise de dados feitos pelos estudantes de primeiro período da graduação, do dado bruto ao relatório final.
->
-> **Softwares**  
-> Aplicativos, pacotes e ferramentas computacionais desenvolvidos como apoio ao ensino de Estatística.
->
-> **Materiais**  
-> Apostilas, tutoriais e recursos didáticos abertos produzidos pelo departamento.
->
+*(arquivo não encontrado: projetos/ensino/index.qmd)*
 
 
 ### Projetos › Ensino › Organização e Apresentação de Dados
-`projetos/ensino/organizacao-e-apresentacao-de-dados/index.qmd`
 
-**Título (aparece no banner):** Organização e Apresentação de Dados
-
-**Subtítulo:** Análises e projetos desenvolvidos pelos estudantes de Estatística da UFLA desde o primeiro período.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Cada card abaixo é um projeto publicado: análises de dados reais feitas
-> pelos nossos estudantes, do dado bruto ao relatório final. Explore os
-> trabalhos e, quando estiver pronto, envie o seu.
+*(arquivo não encontrado: projetos/ensino/organizacao-e-apresentacao-de-dados/index.qmd)*
 
 
 ### Projetos › Ensino › Softwares
-`projetos/ensino/softwares/index.qmd`
 
-**Título (aparece no banner):** Softwares
-
-**Subtítulo:** Aplicativos, pacotes e ferramentas computacionais de apoio ao ensino de Estatística.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Ferramentas computacionais desenvolvidas nos projetos de ensino do
-> departamento. Os primeiros itens serão publicados em breve.
+*(arquivo não encontrado: projetos/ensino/softwares/index.qmd)*
 
 
 ### Projetos › Ensino › Materiais
-`projetos/ensino/materiais/index.qmd`
 
-**Título (aparece no banner):** Materiais
-
-**Subtítulo:** Apostilas, tutoriais e recursos didáticos abertos de apoio às disciplinas.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Materiais didáticos produzidos nos projetos de ensino do departamento.
-> Os primeiros itens serão publicados em breve.
+*(arquivo não encontrado: projetos/ensino/materiais/index.qmd)*
 
 
 ### Projetos › Ensino › Editais
-`projetos/ensino/editais/index.qmd`
 
-**Título (aparece no banner):** Editais de Ensino e docência
-
-**Subtítulo:** Monitorias, docência voluntária e demais chamadas dos projetos de ensino.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Editais e chamadas ligados aos projetos de ensino, do mais recente ao mais
-> antigo.
+*(arquivo não encontrado: projetos/ensino/editais/index.qmd)*
 
 
 ### Projetos › Pesquisa
-`projetos/pesquisa/index.qmd`
 
-**Título (aparece no banner):** Projetos e Núcleos de pesquisa
-
-**Subtítulo:** A investigação científica desenvolvida no Departamento de Estatística da UFLA.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> ## Pesquisa no DES/UFLA
->
-> Os docentes e estudantes do Departamento de Estatística desenvolvem projetos
-> de pesquisa em métodos estatísticos e em aplicações, com destaque para:
->
-> - **Modelos de regressão não lineares** aplicados ao crescimento de seres
->   vivos e a fenômenos agronômicos;
-> - **Modelos mistos e experimentação agropecuária**;
-> - **Estatística bayesiana e métodos computacionais**;
-> - **Séries temporais** e modelos para dados de contagem;
-> - **Estatística espacial e geoestatística**;
-> - **Aprendizado de máquina e ciência de dados**.
->
-> Explore os tópicos abaixo:
->
-> ## Editais de Projetos de Pesquisa
->
-> [Iniciação científica e demais chamadas ligadas à pesquisa, da mais recente à
-> mais antiga]{.sec-sub}
->
-> [Ver todos os editais de iniciação e pesquisa »](editais/index.qmd){.listing-mais}
-
-**Cards de tópico desta página:**
-
-> **Núcleos de Pesquisa**  
-> NLIN, GPS e ST: os núcleos que reúnem docentes, pós-graduandos e graduandos em torno de temas da Estatística.
->
+*(arquivo não encontrado: projetos/pesquisa/index.qmd)*
 
 
 ### Projetos › Pesquisa › Núcleos de Pesquisa
-`projetos/pesquisa/nucleos/index.qmd`
 
-**Título (aparece no banner):** Núcleos de Pesquisa
-
-**Subtítulo:** NLIN, GPS e ST: grupos que reúnem estudantes e docentes em torno de temas da Estatística.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Os núcleos de pesquisa do Departamento de Estatística da UFLA reúnem
-> graduandos, pós-graduandos e docentes em encontros periódicos de estudo,
-> pesquisa e divulgação científica. Escolha um núcleo para conhecer:
+*(arquivo não encontrado: projetos/pesquisa/nucleos/index.qmd)*
 
 
 ### Projetos › Pesquisa › Núcleos › NLIN
-`projetos/pesquisa/nucleos/nlin/index.qmd`
 
-**Título (aparece no banner):** NLIN
-
-**Subtítulo:** Núcleo de Estudos em Regressão Não Linear Aplicada.  
-*(hoje oculto no site; fica só no código)*
-
-**Descrição (para buscadores/compartilhamento):** Núcleo de Estudos em Regressão Não Linear Aplicada: modelos de crescimento e aplicações em agronomia e biologia.
-
-**Texto da página:**
-
-> O **NLIN** reúne estudantes e docentes interessados em **modelos de
-> regressão não lineares** e suas aplicações, do crescimento de seres vivos
-> à agronomia, passando por curvas de produção e fenômenos biológicos.
->
-> ## O que fazemos
->
-> - Encontros periódicos de estudo e discussão de artigos;
-> - Desenvolvimento de projetos de pesquisa e iniciação científica;
-> - Oficinas de ajuste de modelos não lineares no software R.
->
-> ## Como participar
->
-> O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
-> chamadas na seção de [oportunidades](../../../../index.qmd#oportunidades) ou
-> procure a coordenação pelo [site do DES](https://des.ufla.br/).
+*(arquivo não encontrado: projetos/pesquisa/nucleos/nlin/index.qmd)*
 
 
 ### Projetos › Pesquisa › Núcleos › GPS
-`projetos/pesquisa/nucleos/gps/index.qmd`
 
-**Título (aparece no banner):** GPS
-
-**Subtítulo:** Núcleo de Estudos em Geoestatística e Processos Espaciais.  
-*(hoje oculto no site; fica só no código)*
-
-**Descrição (para buscadores/compartilhamento):** Núcleo de Estudos em Geoestatística e Processos Espaciais: estatística espacial aplicada à agricultura, ao ambiente e à saúde.
-
-**Texto da página:**
-
-> O **GPS** dedica-se à **estatística espacial**: geoestatística, processos
-> pontuais e dados de área, com aplicações em agricultura de precisão, meio
-> ambiente, epidemiologia e planejamento urbano.
->
-> ## O que fazemos
->
-> - Encontros de estudo sobre métodos de estatística espacial;
-> - Análises aplicadas com dados georreferenciados;
-> - Colaborações com grupos de pesquisa em agricultura de precisão.
->
-> ## Como participar
->
-> O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
-> chamadas na seção de [oportunidades](../../../../index.qmd#oportunidades) ou
-> procure a coordenação pelo [site do DES](https://des.ufla.br/).
+*(arquivo não encontrado: projetos/pesquisa/nucleos/gps/index.qmd)*
 
 
 ### Projetos › Pesquisa › Núcleos › ST
-`projetos/pesquisa/nucleos/st/index.qmd`
 
-**Título (aparece no banner):** ST
-
-**Subtítulo:** Núcleo de Estudos em Séries Temporais.  
-*(hoje oculto no site; fica só no código)*
-
-**Descrição (para buscadores/compartilhamento):** Núcleo de Estudos em Séries Temporais: modelagem e previsão de dados ao longo do tempo.
-
-**Texto da página:**
-
-> O **ST** estuda a **modelagem e a previsão de dados ao longo do tempo**:
-> modelos ARIMA e GARCH, modelos para dados de contagem (como os GLARMA),
-> séries ambientais, econômicas e epidemiológicas.
->
-> ## O que fazemos
->
-> - Encontros de estudo e discussão de artigos sobre séries temporais;
-> - Projetos aplicados de previsão e monitoramento;
-> - Oficinas de análise de séries temporais no software R.
->
-> ## Como participar
->
-> O núcleo é aberto a estudantes de todos os cursos da UFLA. Acompanhe as
-> chamadas na seção de [oportunidades](../../../../index.qmd#oportunidades) ou
-> procure a coordenação pelo [site do DES](https://des.ufla.br/).
+*(arquivo não encontrado: projetos/pesquisa/nucleos/st/index.qmd)*
 
 
 ### Projetos › Pesquisa › Editais
-`projetos/pesquisa/editais/index.qmd`
 
-**Título (aparece no banner):** Editais de Projetos de Pesquisa
-
-**Subtítulo:** Iniciação científica e demais chamadas ligadas à pesquisa.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Editais e chamadas ligados aos projetos de pesquisa, do mais recente ao mais
-> antigo.
+*(arquivo não encontrado: projetos/pesquisa/editais/index.qmd)*
 
 
 ### Projetos › Extensão
-`projetos/extensao/index.qmd`
 
-**Título (aparece no banner):** Projetos e Atividades de Extensão
-
-**Subtítulo:** A Estatística a serviço da comunidade: popularização da ciência e letramento estatístico.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> ## Extensão no DES/UFLA
->
-> Os projetos de extensão levam a Estatística para além dos muros da
-> universidade, promovendo o letramento estatístico e o pensamento crítico na
-> sociedade:
->
-> - **ConectaStat**: esta plataforma de popularização da ciência, com
->   artigos, editais e eventos abertos à comunidade;
-> - **Assessoria e consultoria estatística**: apoio a pesquisadores,
->   produtores, empresas e órgãos públicos
->   ([saiba mais](../../assessoria/index.qmd));
-> - **Palestras e eventos abertos**: divulgação científica em escolas e
->   eventos regionais ([cursos e eventos](../../eventos/index.qmd));
-> - **Cursos para a comunidade**: capacitações em análise de dados e
->   software estatístico.
->
-> Explore os tópicos abaixo:
->
-> ## Editais de Projetos de Extensão
->
-> [Chamadas e editais ligados aos projetos de extensão, da mais recente à mais
-> antiga]{.sec-sub}
->
-> [Ver todos os editais de extensão »](editais/index.qmd){.listing-mais}
-
-**Cards de tópico desta página:**
-
-> **Ações de Extensão**  
-> Cursos abertos, palestras, parcerias e atividades de divulgação científica levadas à comunidade.
->
+*(arquivo não encontrado: projetos/extensao/index.qmd)*
 
 
 ### Projetos › Extensão › Ações de Extensão
-`projetos/extensao/acoes/index.qmd`
 
-**Título (aparece no banner):** Ações de Extensão
-
-**Subtítulo:** Cursos, palestras, parcerias e atividades levadas à comunidade.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Atividades de extensão do Departamento de Estatística: cursos abertos,
-> palestras em escolas, parcerias com instituições e ações de divulgação
-> científica. As primeiras serão publicadas em breve.
+*(arquivo não encontrado: projetos/extensao/acoes/index.qmd)*
 
 
 ### Projetos › Extensão › Editais
-`projetos/extensao/editais/index.qmd`
 
-**Título (aparece no banner):** Editais de Projetos de Extensão
-
-**Subtítulo:** Chamadas e editais ligados aos projetos de extensão.  
-*(hoje oculto no site; fica só no código)*
-
-**Texto da página:**
-
-> Editais e chamadas ligados aos projetos de extensão, do mais recente ao mais
-> antigo.
+*(arquivo não encontrado: projetos/extensao/editais/index.qmd)*
 
 
 ### Ações › Revista Científica
@@ -746,23 +520,27 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 
 **Texto da página:**
 
-> ## Brazilian Journal of Biometrics
+> ## Sobre a revista
 >
-> O **Brazilian Journal of Biometrics (BJB)** é um periódico científico de
-> acesso aberto que publica artigos originais sobre métodos estatísticos e
-> suas aplicações em biometria, agricultura, biologia, saúde e áreas afins.
+> O Departamento de Estatística da UFLA é responsável pela publicação da
+> **Brazilian Journal of Biometrics (BJB)**, revista oficial da [Região
+> Brasileira da Sociedade Internacional de Biometria
+> (RBras)](https://rbras.org.br/){target="_blank"}.
 >
-> - **Acesso aberto**: todos os artigos disponíveis gratuitamente;
-> - **Revisão por pares**: avaliação criteriosa por especialistas;
-> - **Escopo**: estatística aplicada, experimentação, modelagem e métodos
->   quantitativos nas ciências da vida.
+> O objetivo geral da BJB é publicar artigos de pesquisa originais que
+> explorem, promovam e ampliem métodos de ciência de dados, estatística e
+> matemática aplicados às ciências biológicas.
 >
-> [Conhecer a revista](https://www.biometria.ufla.br/index.php/BBJ){target="_blank"}
+> [Conhecer a revista](https://biometria.ufla.br/index.php/BBJ){target="_blank"}
 >
 > ## Como submeter
 >
-> Autores interessados encontram as normas de submissão e o sistema de envio
-> no [site oficial do periódico](https://www.biometria.ufla.br/index.php/BBJ){target="_blank"}.
+> A BJB não cobra taxa de submissão nem de publicação.
+>
+> - **Templates**: os modelos em Word e LaTeX estão disponíveis no [site da
+>   revista](https://biometria.ufla.br/index.php/BBJ){target="_blank"};
+> - **Submissão**: o envio de artigos é feito pelo [sistema de submissão da
+>   BJB](https://biometria.ufla.br/index.php/BBJ/login?source=%2Findex.php%2FBBJ%2Fsubmission){target="_blank"}.
 
 
 ### Ações › Assessoria e Consultoria Estatística
@@ -874,51 +652,71 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 ## 5. Conteúdo datado (posts já publicados)
 
 
-### Oportunidades: posts publicados (4)
+### Oportunidades: posts publicados (7)
 
 
-#### Edital: Eleições para Chefe e Subchefe do DES (2026-2030)
-`oportunidades/posts/2026-04-01-edital-eleicoes-des/index.qmd`
+#### Edital Nº 006/2026 - Docência Voluntária - DES 2ºsem/2026
+`oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.qmd`
 
-**Resumo (aparece no card):** Convocação do processo eleitoral para os cargos de Chefe e Subchefe do Departamento de Estatística do ICET/UFLA.
+**Resumo (aparece no card):** O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a docência voluntária no Componente Curricular listado no quadro a seguir.
 
-> A Chefia do Departamento de Estatística (DES) do Instituto de Ciências Exatas
-> e Tecnológicas (ICET) da UFLA convoca a comunidade para o processo de eleição
-> de Chefe e Subchefe do departamento, referente ao período 2026-2030.
+> O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a docência voluntária no Componente Curricular listado no quadro a seguir.
 >
-> Consulte o edital completo, prazos e procedimentos na página oficial do DES:
+> [Ler o edital completo »](https://des.ufla.br/editais/141-edital-n-006-2026-docencia-voluntaria-des-2-sem-2026)
+
+#### Edital Nº 005/2026 - Seleção de monitores remunerados para o 2º semestre de 2026
+`oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.qmd`
+
+**Resumo (aparece no card):** O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria remunerada nos Componentes Curriculares listados no quadro a seguir.
+
+> O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria remunerada nos Componentes Curriculares listados no quadro a seguir.
 >
-> [Ler edital no site do DES/UFLA »](https://des.ufla.br/editais/138-edital-eleicoes-chefe-e-subchefe-do-des)
+> [Ler o edital completo »](https://des.ufla.br/editais/139-edital-n-005-2026-selecao-de-monitores-remunerados-para-2-2026)
 
-#### Edital Nº 003/2026: Seleção de monitores voluntários
-`oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.qmd`
+#### Edital - Convocação de eleições para chefe e subchefe do DES (2026-2030)
+`oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.qmd`
 
-**Resumo (aparece no card):** Processo seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.
+**Resumo (aparece no card):** O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras, torna público o Edital de convocação para eleição de chefe e subchefe do DES (Quadriênio 2026-2030)
 
-> O Departamento de Estatística da UFLA abre processo seletivo para monitores
-> voluntários, conforme o Edital Nº 003/2026.
+> O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras, torna público o Edital de convocação para eleição de chefe e subchefe do DES (Quadriênio 2026-2030)
 >
-> [Ler edital no site do DES/UFLA »](https://des.ufla.br/editais/137-edital-n-003-2026-selecao-de-monitores-voluntarios-para-2026)
+> [Ler o edital completo »](https://des.ufla.br/editais/138-edital-eleicoes-chefe-e-subchefe-do-des)
 
-#### Edital Nº 002/2026: Seleção de monitores voluntários
-`oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.qmd`
+#### Edital Nº 003/2026 - Seleção de monitores voluntários para 2026
+`oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.qmd`
 
-**Resumo (aparece no card):** Processo seletivo para monitores voluntários das disciplinas do Departamento de Estatística em 2026.
+**Resumo (aparece no card):** O Chefe em exercício do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria voluntária nos Componentes Curriculares listados no quadro a seguir.
 
-> O Departamento de Estatística da UFLA abre processo seletivo para monitores
-> voluntários, conforme o Edital Nº 002/2026.
+> O Chefe em exercício do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria voluntária nos Componentes Curriculares listados no quadro a seguir.
 >
-> [Ler edital no site do DES/UFLA »](https://des.ufla.br/editais/136-edital-n-002-2026-selecao-de-monitores-voluntarios-para-2026)
+> [Ler o edital completo »](https://des.ufla.br/editais/137-edital-n-003-2026-selecao-de-monitores-voluntarios-para-2026)
 
-#### Edital Nº 001/2026: Docência Voluntária (DES, 1º sem/2026)
-`oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.qmd`
+#### Edital Nº 002/2026 - Seleção de monitores voluntários para 2026
+`oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.qmd`
 
-**Resumo (aparece no card):** Seleção para atuação em regime de docência voluntária no Departamento de Estatística no 1º semestre de 2026.
+**Resumo (aparece no card):** O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria voluntária nos Componentes Curriculares listados no quadro a seguir.
 
-> O Departamento de Estatística da UFLA divulga o Edital Nº 001/2026 para
-> seleção de docência voluntária no 1º semestre de 2026.
+> O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria voluntária nos Componentes Curriculares listados no quadro a seguir.
 >
-> [Ler edital no site do DES/UFLA »](https://des.ufla.br/editais/134-edital-n-001-2026-docencia-voluntaria-des-1-sem-2026)
+> [Ler o edital completo »](https://des.ufla.br/editais/136-edital-n-002-2026-selecao-de-monitores-voluntarios-para-2026)
+
+#### Edital Nº 001/2026 - Docência Voluntária - DES 1ºsem/2026
+`oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.qmd`
+
+**Resumo (aparece no card):** O Chefe em exercício do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a docência voluntária no Componente Curricular listado no quadro a seguir.
+
+> O Chefe em exercício do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a docência voluntária no Componente Curricular listado no quadro a seguir.
+>
+> [Ler o edital completo »](https://des.ufla.br/editais/134-edital-n-001-2026-docencia-voluntaria-des-1-sem-2026)
+
+#### Edital Nº 003/2025 - Seleção de monitores remunerados para 2026
+`oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.qmd`
+
+**Resumo (aparece no card):** O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria remunerada nos Componentes Curriculares listados no quadro a seguir.
+
+> O Chefe do Departamento de Estatística do Instituto de Ciências Exatas e Tecnológicas da Universidade Federal de Lavras torna pública a abertura das inscrições para a monitoria remunerada nos Componentes Curriculares listados no quadro a seguir.
+>
+> [Ler o edital completo »](https://des.ufla.br/editais/133-edital-n-003-2025-selecao-de-monitores-remunerados-para-2026)
 
 
 ### Cursos e Eventos: posts publicados (4)
@@ -967,70 +765,6 @@ Ciência/ Estatística/ Conexão   ← slogan à esquerda (leva à home)
 > [Saiba mais no site do DES/UFLA »](https://des.ufla.br/cursos-e-palestras/125-curso-de-extensao-introducao-ao-software-r)
 
 
-### Organização e Apresentação de Dados: posts publicados (5)
 
-
-#### Etanol × combustíveis fósseis: emissões veiculares no PBEV 2026 (INMETRO)
-`projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-30-inmetro-pbev-2026/index.qmd`
-
-**Resumo (aparece no card):** EDA sobre as consequências ambientais das emissões de automóveis a combustão no Brasil, comparando a eficiência e o impacto do etanol frente aos combustíveis fósseis.
-
-> Análise Exploratória de Dados com base no **Programa Brasileiro de Etiquetagem
-> Veicular (PBEV 2026)**, mantido pelo INMETRO. O projeto investiga o impacto
-> ambiental dos veículos a etanol frente às alternativas a gasolina e diesel:
-> emissões de CO₂ (g/km), eficiência de consumo (km/l) e a quantidade de CO₂
-> potencialmente evitada por ano em cada categoria de veículo, evidenciando a
-> vantagem ecológica do ciclo fechado de carbono do etanol.
-
-#### Crescimento populacional e PIB pelo mundo (2010-2025)
-`projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-22-populacao-e-pib/index.qmd`
-
-**Resumo (aparece no card):** EDA em R sobre o crescimento da população e o PIB de diversos países em intervalos de 5 anos, com relatório e apresentação em Quarto.
-
-> Análise exploratória do **crescimento populacional e do PIB** de vários países
-> em intervalos de cinco anos, de 2010 a 2025. Desenvolvido em **R**, o projeto
-> serve como introdução à linguagem e como modelo para análises futuras, com
-> relatório detalhado e apresentação em HTML gerados a partir de arquivos Quarto.
-
-#### Vigilância de fatores de risco: microdados do Vigitel (2019 × 2023)
-`projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-15-vigitel-2019-2023/index.qmd`
-
-**Resumo (aparece no card):** Análise exploratória dos microdados do Vigitel (Ministério da Saúde), comparando os anos de 2019 e 2023.
-
-> Projeto da disciplina **Organização e Apresentação de Dados** com microdados do
-> **Vigitel** (Vigilância de Fatores de Risco e Proteção para Doenças Crônicas
-> por Inquérito Telefônico), do Ministério da Saúde. A análise exploratória
-> compara os anos de **2019 e 2023**, com documentos de análise em R/Quarto e
-> relatório final em HTML.
-
-#### World Economic Outlook: panorama econômico mundial
-`projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-05-20-world-economic-outlook/index.qmd`
-
-**Resumo (aparece no card):** EDA com dados do World Economic Outlook (FMI), com apresentação e relatório final em HTML.
-
-> Análise exploratória construída sobre dados do **World Economic Outlook**,
-> com apresentação e relatório final publicados em HTML.
-
-#### Portal da Transparência da AGU: gastos do Ministério da Educação
-`projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-04-14-transparencia-agu/index.qmd`
-
-**Resumo (aparece no card):** EDA com dados do Portal da Transparência da Advocacia-Geral da União, em um recorte de 681 observações do Ministério da Educação.
-
-> Análise exploratória de dados extraídos do **Portal da Transparência da
-> Advocacia-Geral da União (AGU)**. Do conjunto original com 65.535 observações
-> e 12 variáveis, o recorte analisado reúne **681 observações do Ministério da
-> Educação**, com relatório publicado em HTML.
-
-
-
-### Materiais: posts publicados (1)
-
-
-#### eda teste
-`projetos/ensino/materiais/posts/2026-07-06-eda-teste/index.qmd`
-
-**Resumo (aparece no card):** eda 2
-
-> eda 1111
 
 

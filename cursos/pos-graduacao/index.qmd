@@ -8,23 +8,37 @@ sidebar: false
 toc: false
 ---
 
-O Departamento de Estatística da UFLA abriga o **Programa de Pós-Graduação em
-Estatística e Experimentação Agropecuária (PPGEEA)**, com cursos de
+O UFLA abriga diversos [Programas de Pós-Graduação](https://prpg.ufla.br/mostrapg/pt-br/ultimas-noticias/82-programas-de-pos-graduacao), Mas o que trateremos aqui com maior afinidade sera o 
+**Estatística e Experimentação Agropecuária (PPGEEA)**, com cursos de
 **mestrado** e **doutorado**, formando pesquisadores e docentes com sólida
 base teórica e forte vocação aplicada.
 
-O programa tem tradição na interface entre a Estatística e as ciências
-agrárias, e vem ampliando sua atuação para a ciência de dados, a modelagem
-computacional e as aplicações em saúde, indústria e meio ambiente.
+## Estatística e Experimentação Agropecuária
 
-## Áreas de concentração e linhas de pesquisa
+O Programa de Pós-Graduação em Estatística e Experimentação Agropecuária concentra suas atividades no estudo e desenvolvimento de métodos estatísticos modernos para a análise de dados nas diversas áreas do conhecimento, mas com especial atenção à Estatística e Experimentação Agropecuária. O objetivo principal do programa é formar recursos humanos e garantir sua qualificação, aprimorando seus conhecimentos em Estatística e Experimentação para o exercício de atividades de docência e de pesquisa em instituições de ensino, pesquisa e em empresas, públicas ou privadas. As linhas de pesquisa são: Estatística Experimental e Aplicada, Teoria Matemática e Métodos Estatísticos, Análise Multivariada e Estatística Espacial, sendo que estas envolvem:
 
-- **Métodos estatísticos**: inferência, modelos lineares e não lineares,
-  modelos mistos e estatística bayesiana;
-- **Experimentação agropecuária**: planejamento e análise de experimentos,
-  melhoramento genético e agricultura de precisão;
-- **Modelagem e computação**: estatística computacional, séries temporais,
-  estatística espacial e aprendizado de máquina.
+- **Estatística Experimental:** planejamento de experimentos, análise de dados oriundos de estudos agropecuários e interpretação dos resultados obtidos;
+
+- **Análise de regressão e séries temporais:** estimação e predição de modelos lineares e não lineares e análise de dados cronológicos;
+
+- **Teoria e métodos estatísticos:** estudos de dinâmica de populações, inferência bayesiana e modelagem estatística e métodos de comparações múltiplas;
+
+- **Estatística genética e genômica:** ênfase na avaliação genética, em métodos de predição de valores genéticos e em inferências sobre parâmetros genéticos;
+
+- **Métodos multivariados:** proposição e avaliação de testes e análise de estabilidade de cultivares;
+
+- **Métodos computacionais:** uso de métodos computacionais intensivos e técnicas de data science na aplicação e desenvolvimento de métodos estatísticos;
+
+- **Estatística espacial:** análise de dados correlacionados espacialmente e espaço-temporalmente, em estudos de geoestatística, processos pontuais e análise de dados de áreas.
+
+## Ingresso
+
+ - O processo seletivo ocorre anualmente, com início do curso no primeiro semestre de cada ano. Eventualmente, também são realizados processos seletivos para o segundo semestre.
+
+## O Programa
+
+ - O programa é financiado com recursos do Programa de Apoio à Pós-Graduação (PROAP) da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), além do financiamento da maioria dos discentes, por meio de bolsas de estudos concedidas pela CAPES, Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG).              
+           
 
 ## Disciplinas
 
@@ -43,7 +57,37 @@ Entre as disciplinas oferecidas regularmente estão:
 : {tbl-colwidths="[40,60]"}
 
 A relação completa de disciplinas, docentes e projetos está no
-[site do DES/UFLA](https://des.ufla.br/).
+[site do PRPG/UFLA](https://prpg.ufla.br/mostrapg/en/ppgs/icet-ufla/statistics-and-agricultural-experimentation-master-s-and-doctorate).
+
+## A Estatística e Experimentação Agropecuária em um vídeo
+
+Assista à apresentação do professor Luiz Ricardo Nakamura sobre o curso.
+
+```{=html}
+<div class="video-wrapper">
+  <button class="yt-facade" id="yt-nakamura" type="button"
+          aria-label="Reproduzir o vídeo: Estatística e Experimentação Agropecuária (Mestrado e Doutorado)"
+          style="background-image:url('https://i.ytimg.com/vi/1LJupjoWw8o/hqdefault.jpg')">
+    <span class="yt-facade-play" aria-hidden="true"></span>
+    <span class="yt-facade-rotulo">Estatística e Experimentação Agropecuária (Mestrado e Doutorado) · Prof. Luiz Ricardo Nakamura</span>
+  </button>
+</div>
+<script>
+(function () {
+  var botao = document.getElementById("yt-nakamura");
+  if (!botao) return;
+  botao.addEventListener("click", function () {
+    var ifr = document.createElement("iframe");
+    ifr.setAttribute("src", "https://www.youtube-nocookie.com/embed/1LJupjoWw8o?autoplay=1&rel=0&cc_load_policy=1&cc_lang_pref=pt&hl=pt");
+    ifr.setAttribute("title", "Estatística e Experimentação Agropecuária (Mestrado e Doutorado) - Prof. Luiz Ricardo Nakamura");
+    ifr.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    ifr.setAttribute("allowfullscreen", "");
+    ifr.setAttribute("loading", "lazy");
+    botao.replaceWith(ifr);
+  });
+})();
+</script>
+```
 
 ## Painel dos Egressos
 

@@ -52,18 +52,20 @@ website:
             href: cursos/graduacao/index.qmd
           - text: "Pós-Graduação"
             href: cursos/pos-graduacao/index.qmd
-      - text: "Projetos"
+      - text: "O Que Fazemos"
         menu:
           - text: "Pesquisa"
-            href: projetos/pesquisa/index.qmd
+            href: O_que_fazemos/pesquisa/index.qmd
           - text: "Ensino"
-            href: projetos/ensino/index.qmd
+            href: O_que_fazemos/ensino/index.qmd
           - text: "Extensão"
-            href: projetos/extensao/index.qmd
+            href: O_que_fazemos/extensao/index.qmd
       - text: "Ações"
         menu:
           - text: "Revista Científica"
             href: acoes/revista-cientifica/index.qmd
+          - text: "Nossos Livros"
+            href: acoes/livros/index.qmd
           - text: "Assessoria e Consultoria Estatística"
             href: assessoria/index.qmd
           - text: "Laboratório de Análises de Dados (LAD)"

@@ -1,0 +1,40 @@
+---
+title: "Editais de Projetos de Extensão"
+subtitle: "Chamadas e editais ligados aos projetos de extensão."
+title-block-banner: true
+format:
+  html:
+    grid:
+      margin-width: 250px
+body-classes: cs-banner-bolhas
+page-layout: article
+sidebar: false
+toc: false
+listing:
+  id: listagem-editais
+  template: ../../../_assets/cards-grid-filtrado.ejs
+  template-params:
+    categoria: "Extensão"
+  contents:
+    - "../../../oportunidades/posts/*/index.qmd"
+  sort: "date desc"
+---
+
+<!-- TODO (ver README.md): imagem/selo "aberto" vs. "encerrado" nos cards. -->
+
+Editais e chamadas ligados aos projetos de extensão, do mais recente ao mais
+antigo.
+
+```{=html}
+<div class="projetos-acoes" id="projetos-acoes">
+  <div class="busca-projetos">
+    <i class="bi bi-search"></i>
+    <input type="search" id="busca-projetos-input"
+           placeholder="Pesquisar editais..."
+           aria-label="Pesquisar por título, autor, tema ou fonte" />
+  </div>
+</div>
+```
+
+::: {#listagem-editais}
+:::

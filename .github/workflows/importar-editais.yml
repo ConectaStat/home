@@ -1,0 +1,72 @@
+name: Importar editais do DES/UFLA
+
+# Roda toda segunda de manhã (e sob demanda) e busca editais novos em
+# des.ufla.br/editais. Quando acha algum que ainda não está no site, abre
+# um pull request com o(s) post(s) prontos - a mesma revisão humana antes de
+# publicar que as submissões pelo formulário já têm (ver
+# receber-submissao.yml): nada vai ao ar sem alguém da equipe mesclar.
+#
+# Sem edital novo, não abre PR nenhum - silêncio é o resultado normal na
+# maioria das semanas.
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # segundas, 9h UTC (6h em Lavras)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixa o repositório
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Configura a identidade do robô
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Busca editais novos
+        id: busca
+        run: python3 scripts/importar_editais.py
+
+      - name: Abre o pedido de publicação
+        if: steps.busca.outputs.importados != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          QTD: ${{ steps.busca.outputs.importados }}
+          LISTA: ${{ steps.busca.outputs.lista }}
+        run: |
+          data=$(date +%Y-%m-%d)
+          branch="editais/$data"
+          git checkout -b "$branch"
+          git add oportunidades/posts
+          git commit -m "Importa $QTD edital(is) do site do DES/UFLA"
+          git push -u origin "$branch"
+
+          corpo=$(printf '%s\n' \
+            "O robô encontrou $QTD edital(is) novo(s) em des.ufla.br/editais e montou a página de cada um." \
+            "" \
+            "**Confira antes de mesclar:**" \
+            "- a área (Ensino/Pesquisa/Extensão) ficou certa - editais sem nenhuma continuam valendo, só não aparecem nas páginas de área;" \
+            "- o resumo (primeiro parágrafo do edital) ficou compreensível fora de contexto;" \
+            "- a data bate com a de publicação no site do DES." \
+            "" \
+            "**Importados nesta leva:**" \
+            "$(echo "$LISTA" | tr ';' '\n' | sed 's/^ *//; s/^/- /')" \
+            "" \
+            "---" \
+            "" \
+            "**Mesclar** publica no site. **Fechar** descarta esta leva - o robô tenta de novo na próxima segunda." )
+
+          gh pr create \
+            --base master \
+            --head "$branch" \
+            --title "Importa $QTD edital(is) do DES/UFLA ($data)" \
+            --body "$corpo"

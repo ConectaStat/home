@@ -1,0 +1,26 @@
+<%
+// Variante de cards-grid.ejs para "Nossos Livros" (acoes/livros): a capa do
+// livro usa .cs-card-thumb-livro (imagem inteira, sem recorte 16:9 - ver
+// conexao-estatistica.scss), o autor aparece no lugar da data, e cada card
+// tem dois botões de compra (Editora UFLA sempre; Amazon quando `amazon` vier
+// preenchido no item, senão um botão desativado de "em breve"). Por isso a
+// classe cs-cards-livros: com dois links por card, o truque de esticar
+// .cs-card-btn sobre o card inteiro não serve mais (ver scss).
+// Atenção: sem indentação e com tags inline abertas e fechadas na mesma
+// linha, porque o Pandoc reprocessa este HTML como markdown.
+const normaliza = (p) => p.replace(/\\/g, "/").replace(/\.qmd$/, ".html");
+%>
+<div class="cs-cards cs-cards-grid cs-cards-livros">
+<% for (const item of items) { %>
+<div class="cs-card">
+<% if (item.image) { %><div class="cs-card-thumb-livro"><img src="<%- item.image %>" alt="" loading="lazy"/></div><% } %>
+<% if (item.author) { %><p class="cs-card-date"><%= item.author %></p><% } %>
+<h3 class="cs-card-title"><%= item.title %></h3>
+<% if (item.description) { %><p class="cs-card-desc"><%= item.description %></p><% } %>
+<p class="cs-card-action cs-card-action-livro">
+<a class="cs-card-btn" href="<%- normaliza(item.path) %>" target="_blank" rel="noopener">Comprar na Editora UFLA</a>
+<% if (item.amazon) { %><a class="cs-card-btn" href="<%- item.amazon %>" target="_blank" rel="noopener">Comprar na Amazon</a><% } else { %><span class="cs-card-btn cs-card-btn-disabled">Em breve na Amazon</span><% } %>
+</p>
+</div>
+<% } %>
+</div>

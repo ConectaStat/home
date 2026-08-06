@@ -6,24 +6,35 @@ body-classes: cs-banner-forest
 page-layout: article
 sidebar: false
 toc: false
+image: /images/logos/bjb-logo-quadrado.jpg
 ---
 
-## Brazilian Journal of Biometrics
+## Sobre a revista
 
-O **Brazilian Journal of Biometrics (BJB)** é um periódico científico de
-acesso aberto que publica artigos originais sobre métodos estatísticos e
-suas aplicações em biometria, agricultura, biologia, saúde e áreas afins.
+O Departamento de Estatística da UFLA é responsável pela publicação da
+**Brazilian Journal of Biometrics (BJB)**, revista oficial da [Região
+Brasileira da Sociedade Internacional de Biometria
+(RBras)](https://rbras.org.br/){target="_blank"}.
 
-- **Acesso aberto**: todos os artigos disponíveis gratuitamente;
-- **Revisão por pares**: avaliação criteriosa por especialistas;
-- **Escopo**: estatística aplicada, experimentação, modelagem e métodos
-  quantitativos nas ciências da vida.
+O objetivo geral da BJB é publicar artigos de pesquisa originais que
+explorem, promovam e ampliem métodos de ciência de dados, estatística e
+matemática aplicados às ciências biológicas.
+
+::::: {.cs-revista-capa}
+```{=html}
+<img src="/images/logos/bjb-poster.jpg" alt="Capa do Brazilian Journal of Biometrics, com os logos da UFLA e da RBras" class="cs-poster-revista">
+```
 
 ::: {.button}
-[Conhecer a revista](https://www.biometria.ufla.br/index.php/BBJ){target="_blank"}
+[Conhecer a revista](https://biometria.ufla.br/index.php/BBJ){target="_blank"}
 :::
+:::::
 
 ## Como submeter
 
-Autores interessados encontram as normas de submissão e o sistema de envio
-no [site oficial do periódico](https://www.biometria.ufla.br/index.php/BBJ){target="_blank"}.
+A BJB não cobra taxa de submissão nem de publicação.
+
+- **Templates**: os modelos em Word e LaTeX estão disponíveis no [site da
+  revista](https://biometria.ufla.br/index.php/BBJ){target="_blank"};
+- **Submissão**: o envio de artigos é feito pelo [sistema de submissão da
+  BJB](https://biometria.ufla.br/index.php/BBJ/login?source=%2Findex.php%2FBBJ%2Fsubmission){target="_blank"}.

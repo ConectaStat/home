@@ -1,0 +1,16 @@
+---
+title: "Prêmio Jabuti Acadêmico 2025: livro de professor do DES é finalista"
+description: "Análise de Dados Espaciais com Aplicações em R, de João Domingos Scalon (DES/UFLA), está entre os finalistas do Prêmio Jabuti Acadêmico 2025 na categoria Matemática, Probabilidade e Estatística."
+author: "Departamento de Estatística da UFLA"
+date: "2025-07-22"
+image: "/images/livros/analise-dados-espaciais.png"
+categories: [Notícias]
+---
+
+O livro **Análise de Dados Espaciais com Aplicações em R**, do professor João Domingos Scalon, do Departamento de Estatística da UFLA, é um dos finalistas do Prêmio Jabuti Acadêmico 2025, na categoria Matemática, Probabilidade e Estatística. Publicada pela Editora UFLA, a obra apresenta métodos de estatística espacial e sua implementação no R, servindo como texto introdutório para pesquisadores de estatística, geografia, epidemiologia e ciências ambientais.
+
+A UFLA também levou outro título à lista de finalistas, *Aplicações da genética quantitativa no melhoramento de plantas autógamas*, na categoria Ciências Agrárias e Ciências Ambientais. Os vencedores recebem R$ 5 mil e o troféu Jabuti, em cerimônia prevista para 5 de agosto de 2025.
+
+[Conheça o livro na página Nossos Livros »](../../../acoes/livros/index.qmd)
+
+[Leia a notícia completa no site da UFLA »](https://ufla.br/noticias/institucional/17803-premio-jabuti-academico-2025-dois-livros-publicados-pela-editora-ufla-sao-finalistas)
