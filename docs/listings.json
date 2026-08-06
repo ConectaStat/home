@@ -1,65 +1,5 @@
 [
   {
-    "listing": "/projetos/pesquisa/nucleos/index.html",
-    "items": [
-      "/projetos/pesquisa/nucleos/nlin/index.html",
-      "/projetos/pesquisa/nucleos/gps/index.html",
-      "/projetos/pesquisa/nucleos/st/index.html"
-    ]
-  },
-  {
-    "listing": "/projetos/pesquisa/index.html",
-    "items": [
-      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
-    ]
-  },
-  {
-    "listing": "/projetos/extensao/index.html",
-    "items": [
-      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
-    ]
-  },
-  {
-    "listing": "/projetos/extensao/acoes/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projetos/ensino/index.html",
-    "items": [
-      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
-    ]
-  },
-  {
-    "listing": "/oportunidades/index.html",
-    "items": [
-      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
-      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
-      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
-      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
-      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
-    ]
-  },
-  {
-    "listing": "/eventos/index.html",
-    "items": [
-      "/eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
-      "/eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
-      "/eventos/posts/2025-05-20-v-workshop-data-science/index.html",
-      "/eventos/posts/2024-09-01-curso-introducao-software-r/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/noticias/posts/2026-08-04-doutoranda-premio-biometria/index.html",
@@ -78,54 +18,83 @@
     ]
   },
   {
-    "listing": "/projetos/ensino/editais/index.html",
+    "listing": "/O_que_fazemos/pesquisa/editais/index.html",
     "items": [
-      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
+      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
+      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
+      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
+      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
+      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
     ]
   },
   {
-    "listing": "/projetos/ensino/materiais/index.html",
+    "listing": "/O_que_fazemos/extensao/editais/index.html",
     "items": [
-      "/projetos/ensino/materiais/posts/2026-07-06-eda-teste/index.html"
+      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
+      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
+      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
+      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
+      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
     ]
   },
   {
-    "listing": "/projetos/ensino/organizacao-e-apresentacao-de-dados/index.html",
-    "items": [
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-30-inmetro-pbev-2026/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-22-populacao-e-pib/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-06-15-vigitel-2019-2023/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-05-20-world-economic-outlook/index.html",
-      "/projetos/ensino/organizacao-e-apresentacao-de-dados/posts/2026-04-14-transparencia-agu/index.html"
-    ]
-  },
-  {
-    "listing": "/projetos/ensino/softwares/index.html",
+    "listing": "/O_que_fazemos/ensino/softwares/index.html",
     "items": []
   },
   {
-    "listing": "/projetos/extensao/editais/index.html",
-    "items": [
-      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
-    ]
+    "listing": "/O_que_fazemos/ensino/materiais/index.html",
+    "items": []
   },
   {
-    "listing": "/projetos/pesquisa/editais/index.html",
+    "listing": "/O_que_fazemos/ensino/editais/index.html",
     "items": [
-      "/oportunidades/posts/2026-04-01-edital-eleicoes-des/index.html",
-      "/oportunidades/posts/2026-02-20-edital-003-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-15-edital-002-monitores-voluntarios/index.html",
-      "/oportunidades/posts/2026-02-01-edital-001-docencia-voluntaria/index.html"
+      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
+      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
+      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
+      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
+      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
     ]
   },
   {
     "listing": "/O_que_fazemos/ensino/index.html",
+    "items": [
+      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
+      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
+      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
+      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
+      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
+    ]
+  },
+  {
+    "listing": "/O_que_fazemos/ensino/organizacao-e-apresentacao-de-dados/index.html",
+    "items": []
+  },
+  {
+    "listing": "/O_que_fazemos/extensao/acoes/index.html",
+    "items": []
+  },
+  {
+    "listing": "/O_que_fazemos/extensao/index.html",
+    "items": [
+      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
+      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
+      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
+      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
+      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
+    ]
+  },
+  {
+    "listing": "/O_que_fazemos/pesquisa/index.html",
     "items": [
       "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
       "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
@@ -145,83 +114,28 @@
     ]
   },
   {
-    "listing": "/O_que_fazemos/pesquisa/index.html",
-    "items": [
-      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
-      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
-      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
-      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
-      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
-    ]
-  },
-  {
-    "listing": "/O_que_fazemos/extensao/index.html",
-    "items": [
-      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
-      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
-      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
-      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
-      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
-    ]
-  },
-  {
-    "listing": "/O_que_fazemos/extensao/acoes/index.html",
-    "items": []
-  },
-  {
-    "listing": "/O_que_fazemos/ensino/editais/index.html",
-    "items": [
-      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
-      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
-      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
-      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
-      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
-    ]
-  },
-  {
-    "listing": "/O_que_fazemos/ensino/materiais/index.html",
-    "items": []
-  },
-  {
-    "listing": "/O_que_fazemos/ensino/organizacao-e-apresentacao-de-dados/index.html",
-    "items": []
-  },
-  {
-    "listing": "/O_que_fazemos/ensino/softwares/index.html",
-    "items": []
-  },
-  {
-    "listing": "/O_que_fazemos/extensao/editais/index.html",
-    "items": [
-      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
-      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
-      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
-      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
-      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
-    ]
-  },
-  {
-    "listing": "/O_que_fazemos/pesquisa/editais/index.html",
-    "items": [
-      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
-      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
-      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
-      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
-      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
-      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
-    ]
-  },
-  {
     "listing": "/acoes/livros/index.html",
     "items": []
+  },
+  {
+    "listing": "/eventos/index.html",
+    "items": [
+      "/eventos/posts/2026-01-15-programa-de-verao-2026/index.html",
+      "/eventos/posts/2025-11-05-xvii-encontro-mineiro-estatistica/index.html",
+      "/eventos/posts/2025-05-20-v-workshop-data-science/index.html",
+      "/eventos/posts/2024-09-01-curso-introducao-software-r/index.html"
+    ]
+  },
+  {
+    "listing": "/oportunidades/index.html",
+    "items": [
+      "/oportunidades/posts/2026-07-27-edital-no-006-2026-docencia-voluntaria-des-2osem-2026/index.html",
+      "/oportunidades/posts/2026-07-13-edital-no-005-2026-selecao-de-monitores-remunerados-para-o-2o-semestre/index.html",
+      "/oportunidades/posts/2026-05-22-edital-convocacao-de-eleicoes-para-chefe-e-subchefe-do-des-2026-2030/index.html",
+      "/oportunidades/posts/2026-05-06-edital-no-003-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-03-18-edital-no-002-2026-selecao-de-monitores-voluntarios-para-2026/index.html",
+      "/oportunidades/posts/2026-01-12-edital-no-001-2026-docencia-voluntaria-des-1osem-2026/index.html",
+      "/oportunidades/posts/2025-11-27-edital-no-003-2025-selecao-de-monitores-remunerados-para-2026/index.html"
+    ]
   }
 ]
